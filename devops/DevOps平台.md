@@ -79,11 +79,8 @@ DevOps（Development和Operations的组合词）是一种重视“软件开发�
 上面的过程也仍然没有没住DevOps的流程，人工干预的东西依旧很多，由于上级急需产出，所以只能将就着继续下去。我们将构建、部署每个当做一个小块，一个CICD的过程可以选择构建、部署，花了很大的精力，完成了串行化的别样的CICD。
 以下图为例，整个流程的底层为：paas平台-jenkins-kakfa-管理平台（选择cicd的下一步）-kafka-cicd组件调用管理平台触发构建-jenkins-kafka-管理平台（选择cicd的下一步）-kafka-cicd组件调用管理平台触发部署。
 
-<div align="center">
-
 ![](https://upyuncdn.wenzhihuai.com/201908111044201770944400.png)
 
-</div>
 
 目前实现了串行化的CICD构建部署，之后考虑实现多个CICD并行，并且一个CICD能够调用另一个CICD，实际运行中，出现了一大堆问题。由于经过的组件太多，一次cicd的运行报错，却很难排查到问题出现的原因，业务方的投诉也开始慢慢多了起来，只能说劝导他们不要用这个功能。
 
@@ -96,11 +93,7 @@ DevOps（Development和Operations的组合词）是一种重视“软件开发�
 **分布式构建jenkins x**
 首先要解决的是多个构建同时运行的问题，很久之前就调研过jenkins x，它必须要使用在kubernetes上，由于当时官方文档不全，而且我们的DevOps项目处于初始期，所有没有使用。jenkins的master slave结构就不多说了。jenkins x应该说是个全家桶，包含了helm仓库、nexus仓库、docker registry等，代码是[jenkins-x-image](https://github.com/jenkins-x/jenkins-x-image)。
 
-<div align="center">
-
 ![](http://image.wenzhihuai.com/images/201908170612301464716259.png)
-
-</div>
 
 
 **serverless jenkins**
@@ -114,11 +107,7 @@ DevOps（Development和Operations的组合词）是一种重视“软件开发�
 **微软Pipeline**
 微软也是提供了DevOps解决方案的，也是提供了yaml格式的写法，即：在右边填写完之后会转化成yaml。如果想把DevOps打造成一款产品，这样的设计显然不是最好的。
 
-<div align="center">
-
-![](http://image.wenzhihuai.com/images/201908100346011648784131.png)
-
-</div>
+<div align="center">![](http://image.wenzhihuai.com/images/201908100346011648784131.png)</div>
 
 **谷歌tekton**
 kubernetes的官方cicd，目前已用于kubernetes的release发版过程，目前也仅仅是与GitHub相结合，gitlab无法使用，全过程可使用yaml文件来创建，跑起来就是类似kubernetes的job一样，用完即销毁，可惜目前比较新，依旧处于alpha版本，无法用于生产。有兴趣可以参考下：[Knative 初体验：CICD 极速入门
