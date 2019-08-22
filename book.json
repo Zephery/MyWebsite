@@ -1,0 +1,16 @@
+{
+    "plugins": [
+        "-lunr",
+        "-search",
+        "search-plus",
+        "disqus"
+    ],
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": true
+        },
+        "disqus": {
+            "shortName": "crifan"
+        }
+    }
+}
