@@ -1,14 +1,8 @@
 {
     "plugins": [
-        "-lunr",
-        "-search",
-        "search-plus",
         "disqus"
     ],
     "pluginsConfig": {
-        "theme-default": {
-            "showLevel": true
-        },
         "disqus": {
             "shortName": "gitbook.wenzhihuai.com"
         }
