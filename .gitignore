@@ -1,0 +1,11 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.idea/$PRODUCT_WORKSPACE_FILE$
+.idea/.gitignore
+.idea/book.iml
+.idea/codeStyles/
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+"\344\272\221\345\216\237\347\224\237/"
