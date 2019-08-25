@@ -89,6 +89,9 @@ DevOps（Development和Operations的组合词）是一种重视“软件开发�
 ## 三、调研期
 由于之前的CICD问题太多，特别是经过的组件太多了，导致出现问题的时候无法正常排查，为了能够更加稳定可靠，还是决定了要更换一下底层。
 我们重新审视了下pipeline，觉得这才是正确的做法，可惜不知道如果做成一个产品样子的东西，用户方Dockerfile都不怎么会写，你让他写一个Jenkinsfile？不合理！在此之外，我们看到了serverless jenkins、谷歌的tekton。
+**GitLab-CICD**
+Gitlab中自带了cicd的工具，需要配置一下runner，然后配置一下.gitlab-ci.yml写一下程序的cicd过程即可，构建镜像的时候我们使用的是kaniko，整个gitlab的cicd在我们公司小项目中大范围使用，但是学习成本过高，尤其是引入了kaniko之后，还是寻找一个产品化的CICD方案。
+
 
 **分布式构建jenkins x**
 首先要解决的是多个构建同时运行的问题，很久之前就调研过jenkins x，它必须要使用在kubernetes上，由于当时官方文档不全，而且我们的DevOps项目处于初始期，所有没有使用。jenkins的master slave结构就不多说了。jenkins x应该说是个全家桶，包含了helm仓库、nexus仓库、docker registry等，代码是[jenkins-x-image](https://github.com/jenkins-x/jenkins-x-image)。
@@ -119,7 +122,7 @@ kubernetes的官方cicd，目前已用于kubernetes的release发版过程，目�
 在调研DockOne以及各个产商的DevOps产品时，发现，真的只有云效才是真正比较完美的DevOps产品，用户不需要知道pipeline的语法，也不需要掌握kubernetes的相关知识，甚至不用写yaml文件，对于开发、测试来说简直就是神一样的存在了。云效对小公司（创业公司）免费，但是有一定的量之后，就要开始收费了。在调研了一番云效的东西之后，发现云效也是基于jenkins x改造的，不过阿里毕竟人多，虽然能约莫看出是pipeline的语法，但是阿里彻底改造成了能够使用yaml来与后台交互。
 
 ### 4.1 Java代码扫描
-云效的代码扫描是用了PMD跟自己的p3c结合起来的。
+PMD是一款可拓展的静态代码分析器它不仅可以对代码分析器，它不仅可以对代码风格进行检查，还可以检查设计、多线程、性能等方面的问题。
 
 
 <div align="center">
@@ -153,6 +156,7 @@ stage('并行任务一') {
 
 
 ### 4.2 Java单元测试
+Java的单元测试一般用的是Junit，一样，使用的是mvn，只要执行一下mvn test命令即可
 ```text
 stage('并行任务二') {
     agent {
@@ -168,8 +172,7 @@ stage('并行任务二') {
         stage('test') {
             steps{
                 container('maven') {
-                    echo "3.Build Docker Image Stage"
-                    sh "mvn -v"
+                    sh "mvn test"
                 }
             }
         }
@@ -179,6 +182,7 @@ stage('并行任务二') {
 
 
 ### 4.3 Java构建并上传镜像
+镜像的构建比较想使用kaniko，尝试找了不少方法，到最后还是只能使用dind(docker in docker)，挂载宿主机的docker来进行构建，如果能有其他方案，希望能
 
 ```text
 stages('java构建镜像') {
