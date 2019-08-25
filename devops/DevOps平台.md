@@ -118,8 +118,9 @@ kubernetes的官方cicd，目前已用于kubernetes的release发版过程，目�
 
 
 
-## 四、阿里云云效
-在调研DockOne以及各个产商的DevOps产品时，发现，真的只有云效才是真正比较完美的DevOps产品，用户不需要知道pipeline的语法，也不需要掌握kubernetes的相关知识，甚至不用写yaml文件，对于开发、测试来说简直就是神一样的存在了。云效对小公司（创业公司）免费，但是有一定的量之后，就要开始收费了。在调研了一番云效的东西之后，发现云效也是基于jenkins x改造的，不过阿里毕竟人多，虽然能约莫看出是pipeline的语法，但是阿里彻底改造成了能够使用yaml来与后台交互。
+## 四、产品化后的DevOps平台
+在调研DockOne以及各个产商的DevOps产品时，发现，真的只有阿里云的云效才是真正比较完美的DevOps产品，用户不需要知道pipeline的语法，也不需要掌握kubernetes的相关知识，甚至不用写yaml文件，对于开发、测试来说简直就是神一样的存在了。云效对小公司（创业公司）免费，但是有一定的量之后，就要开始收费了。在调研了一番云效的东西之后，发现云效也是基于jenkins x改造的，不过阿里毕竟人多，虽然能约莫看出是pipeline的语法，但是阿里彻底改造成了能够使用yaml来与后台交互。
+下面是以阿里云的云效界面以及配合jenkins的pipeline语法来讲解：
 
 ### 4.1 Java代码扫描
 PMD是一款可拓展的静态代码分析器它不仅可以对代码分析器，它不仅可以对代码风格进行检查，还可以检查设计、多线程、性能等方面的问题。
@@ -182,10 +183,14 @@ stage('并行任务二') {
 
 
 ### 4.3 Java构建并上传镜像
-镜像的构建比较想使用kaniko，尝试找了不少方法，到最后还是只能使用dind(docker in docker)，挂载宿主机的docker来进行构建，如果能有其他方案，希望能
+镜像的构建比较想使用kaniko，尝试找了不少方法，到最后还是只能使用dind(docker in docker)，挂载宿主机的docker来进行构建，如果能有其他方案，希望能提醒下。
+>>为什么不推荐dind：挂载了宿主机的docker，就可以使用docker ps查看正在运行的容器，也就意味着可以使用docker stop、docker rm来控制宿主机的容器，虽然kubernetes会重新调度起来，但是这一段的重启时间极大的影响业务。
 
 ```text
 stages('java构建镜像') {
+    agent {
+        label "jenkins-maven"
+    }
     stage('Clone') {
         steps{
             echo "1.Clone Stage"
@@ -209,7 +214,7 @@ stages('java构建镜像') {
 ```
 
 ### 4.4 部署到阿里云k8s
-CD过程有点困难，云效
+CD过程有点困难，由于我们的kubernetes平台是图形化的，类似于阿里云，用户根本不需要自己写deployment，只需要在图形化界面做一下操作即可部署。对于CD过程来说，如果应用存在的话，就可以直接替换掉镜像版本即可，如果没有应用，就提供个简单的界面让用户新建应用。
 
 
 
@@ -353,10 +358,11 @@ jenkins blue ocean步骤日志：
 
 
 
-没有的功能
+## 五、没有的功能
 
-Gitlab触发
+### 5.1 Gitlab触发
+pipeline中除了有对于时间的trigger，还支持了gitlab的触发，
 
-与jira结合
+### 5.2 与jira结合
 
 
