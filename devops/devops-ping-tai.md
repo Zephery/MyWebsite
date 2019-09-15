@@ -369,3 +369,10 @@ pipeline中除了有对于时间的trigger，还支持了gitlab的触发，需�
 DevOps最难的可能都不是以上这些，关键是让用户接受，容器云最初推行时，公司原本传统的很多发版方式都需要进行改变，有些业务方不愿意改，或者有些代码把持久化的东西存到了代码中而不是分布式存储里，甚至有些用户方都不愿意维护老代码，看都不想看然后想上容器，一个公司在做技术架构的时候，过于混乱到最后填坑要么需要耗费太多精力甚至大换血。  
 
 最后，DevOps是云原生的必经之路！！！
+
+
+
+文章同步：
+博客园：https://www.cnblogs.com/w1570631036/p/11524673.html
+个人网站：http://www.wenzhihuai.com/getblogdetail.html?blogid=663
+gitbook：https://gitbook.wenzhihuai.com/devops/devops-ping-tai
