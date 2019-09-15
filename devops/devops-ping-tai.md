@@ -96,7 +96,7 @@ DevOps定义（来自维基百科）： DevOps（Development和Operations的组�
 
 **微软Pipeline** 微软也是提供了DevOps解决方案的，也是提供了yaml格式的写法，即：在右边填写完之后会转化成yaml。如果想把DevOps打造成一款产品，这样的设计显然不是最好的。
 
-!\[\]\(http://image.wenzhihuai.com/images/201908100346011648784131.png\)
+![](http://image.wenzhihuai.com/images/201908100346011648784131.png)
 
 **谷歌tekton** kubernetes的官方cicd，目前已用于kubernetes的release发版过程，目前也仅仅是与GitHub相结合，gitlab无法使用，全过程可使用yaml文件来创建，跑起来就是类似kubernetes的job一样，用完即销毁，可惜目前比较新，依旧处于alpha版本，无法用于生产。有兴趣可以参考下：[Knative 初体验：CICD 极速入门 ](https://www.jianshu.com/p/8871b7ea7d6e)
 
@@ -108,7 +108,7 @@ DevOps定义（来自维基百科）： DevOps（Development和Operations的组�
 
 PMD是一款可拓展的静态代码分析器它不仅可以对代码分析器，它不仅可以对代码风格进行检查，还可以检查设计、多线程、性能等方面的问题。
 
- !\[\]\(http://image.wenzhihuai.com/images/201908100429061448084424.png\)
+ ![](http://image.wenzhihuai.com/images/201908100429061448084424.png)
 
 ```text
 stage('并行任务一') {
@@ -118,7 +118,7 @@ stage('并行任务一') {
     stages('Java代码扫描') {
         stage('Clone') {
             steps{
-                git branch: 'master', credentialsId: 'c7296498-51ad-449f-bb21-87d9c1929070', url: "http://gitlab.egomsl.com/hqcloud/epaas-ui.git"
+                git branch: 'master', credentialsId: 'xxxx', url: "xxx"
             }
         }
         stage('check') {
@@ -145,7 +145,7 @@ stage('并行任务二') {
         stage('Clone') {
             steps{
                 echo "1.Clone Stage"
-                git branch: 'master', credentialsId: 'c7296498-51ad-449f-bb21-87d9c1929070', url: "http://gitlab.egomsl.com/hqcloud/epaas-ui.git"
+                git branch: 'master', credentialsId: 'xxxxx', url: "xxxxxx"
             }
         }
         stage('test') {
@@ -161,7 +161,7 @@ stage('并行任务二') {
 
 ### 4.3 Java构建并上传镜像
 
-镜像的构建比较想使用kaniko，尝试找了不少方法，到最后还是只能使用dind\(docker in docker\)，挂载宿主机的docker来进行构建，如果能有其他方案，希望能提醒下。
+镜像的构建比较想使用kaniko，尝试找了不少方法，到最后还是只能使用dind(docker in docker)，挂载宿主机的docker来进行构建，如果能有其他方案，希望能提醒下。
 
 > > 为什么不推荐dind：挂载了宿主机的docker，就可以使用docker ps查看正在运行的容器，也就意味着可以使用docker stop、docker rm来控制宿主机的容器，虽然kubernetes会重新调度起来，但是这一段的重启时间极大的影响业务。
 
@@ -173,7 +173,7 @@ stages('java构建镜像') {
     stage('Clone') {
         steps{
             echo "1.Clone Stage"
-            git branch: 'master', credentialsId: 'c7296498-51ad-449f-bb21-87d9c1929070', url: "http://gitlab.egomsl.com/hqcloud/epaas.git"
+            git branch: 'master', credentialsId: 'xxxxx', url: "xxxxxx"
             script {
                 build_tag = sh(returnStdout: true, script: 'git rev-parse --short HEAD').trim()
             }
@@ -184,8 +184,8 @@ stages('java构建镜像') {
             container('maven') {
                 echo "3.Build Docker Image Stage"
                 sh "mvn clean install -Dmaven.test.skip=true"
-                sh "docker build -f epaas-portal/Dockerfile -t hub.gcloud.lab/rongqiyun/epaas:${build_tag} ."
-                sh "docker push hub.gcloud.lab/rongqiyun/epaas:${build_tag}"
+                sh "docker build -f xxx/Dockerfile -t xxxxxx:${build_tag} ."
+                sh "docker push xxxxxx:${build_tag}"
             }
         }
     }
@@ -198,7 +198,7 @@ CD过程有点困难，由于我们的kubernetes平台是图形化的，类似�
 
 ### 4.5 整体流程
 
- !\[\]\(https://upyuncdn.wenzhihuai.com/201908100428501805517052.png\)
+ ![](https://upyuncdn.wenzhihuai.com/201908100428501805517052.png)
 
 pipeline：
 
@@ -217,7 +217,7 @@ pipeline {
                     stages('Java代码扫描') {
                         stage('Clone') {
                             steps{
-                                git branch: 'master', credentialsId: 'c7296498-51ad-449f-bb21-87d9c1929070', url: "http://gitlab.egomsl.com/hqcloud/epaas-ui.git"
+                                git branch: 'master', credentialsId: 'xxxxxxx', url: "xxxxxxx"
                             }
                         }
                         stage('check') {
@@ -237,7 +237,7 @@ pipeline {
                         stage('Clone') {
                             steps{
                                 echo "1.Clone Stage"
-                                git branch: 'master', credentialsId: 'c7296498-51ad-449f-bb21-87d9c1929070', url: "http://gitlab.egomsl.com/hqcloud/epaas-ui.git"
+                                git branch: 'master', credentialsId: 'xxxxxxx', url: "xxxxxxx"
                             }
                         }
                         stage('test') {
@@ -258,7 +258,7 @@ pipeline {
                         stage('Clone') {
                             steps{
                                 echo "1.Clone Stage"
-                                git branch: 'master', credentialsId: 'c7296498-51ad-449f-bb21-87d9c1929070', url: "http://gitlab.egomsl.com/hqcloud/epaas.git"
+                                git branch: 'master', credentialsId: 'xxxxxxx', url: "xxxxxxx"
                                 script {
                                     build_tag = sh(returnStdout: true, script: 'git rev-parse --short HEAD').trim()
                                 }
@@ -282,7 +282,35 @@ pipeline {
             stages('部署到容器云') {
                 stage('check') {
                     steps{
-                        echo "hello world"
+                        container('maven') {
+                            script{
+                                if (deploy_app == "true"){
+                                    def tmp = sh (
+                                        returnStdout: true,
+                                        script: "kubectl get deployment -n ${namespace} | grep ${JOB_NAME} | awk '{print \$1}'"
+                                    )
+                                    //如果是第一次，则使用helm模板创建，创建完后需要去epaas修改pod的配置
+                                    if(tmp.equals('')){
+                                        sh "helm init --client-only"
+                                        sh """helm repo add mychartmuseum http://xxxxxx \
+                                                           --username myuser \
+                                                           --password=mypass"""
+                                        sh """helm install --set name=${JOB_NAME} \
+                                                           --set namespace=${namespace} \
+                                                           --set deployment.image=${image} \
+                                                           --set deployment.imagePullSecrets=${harborProject} \
+                                                           --name ${namespace}-${JOB_NAME} \
+                                                           mychartmuseum/soa-template"""
+                                    }else{
+                                        println "已经存在，替换镜像"
+                                        //epaas中一个pod的容器名称需要带上"-0"来区分
+                                        sh "kubectl set image deployment/${JOB_NAME} ${JOB_NAME}-0=${image} -n ${namespace}"
+                                    }
+                                }else{
+                                    println "用户选择不部署代码"
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -293,21 +321,21 @@ pipeline {
 
 在jenkins x中查看：
 
- !\[\]\(https://upyuncdn.wenzhihuai.com/20190810043129475121819.png\)
+ ![](https://upyuncdn.wenzhihuai.com/20190810043129475121819.png)
 
 ### 4.4 日志
 
 jenkins blue ocean步骤日志：
 
- !\[\]\(https://upyuncdn.wenzhihuai.com/201908100431461365428934.png\)
+ ![](https://upyuncdn.wenzhihuai.com/201908100431461365428934.png)
 
 云效中的日志：
 
- !\[\]\(http://image.wenzhihuai.com/images/2019081004491578636427.png\)
+ ![](http://image.wenzhihuai.com/images/2019081004491578636427.png)
 
 ### 4.5 定时触发
 
- !\[\]\(http://image.wenzhihuai.com/images/201908100524291184838290.png\)
+ ![](http://image.wenzhihuai.com/images/201908100524291184838290.png)
 
 ```text
     triggers {
