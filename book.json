@@ -1,6 +1,7 @@
 {
     "plugins": [
-        "disqus"
+        "disqus",
+        "back-to-top-button"
     ],
     "pluginsConfig": {
         "disqus": {
