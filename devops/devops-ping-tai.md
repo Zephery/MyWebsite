@@ -106,27 +106,20 @@ DevOps定义（来自维基百科）： DevOps（Development和Operations的组�
 
 ### 4.1 Java代码扫描
 
-PMD是一款可拓展的静态代码分析器它不仅可以对代码分析器，它不仅可以对代码风格进行检查，还可以检查设计、多线程、性能等方面的问题。
+PMD是一款可拓展的静态代码分析器它不仅可以对代码分析器，它不仅可以对代码风格进行检查，还可以检查设计、多线程、性能等方面的问题。阿里云的是简单的集成了一下而已，对于我们来说，底层使用了sonar来接入，所有的代码扫描结果都接入了sonar。
 
- ![](http://image.wenzhihuai.com/images/201908100429061448084424.png)
+![](http://image.wenzhihuai.com/images/201908100429061448084424.png)
 
 ```text
-stage('并行任务一') {
-    agent {
-        label "jenkins-maven"
+stage('Clone') {
+    steps{
+        git branch: 'master', credentialsId: 'xxxx', url: "xxx"
     }
-    stages('Java代码扫描') {
-        stage('Clone') {
-            steps{
-                git branch: 'master', credentialsId: 'xxxx', url: "xxx"
-            }
-        }
-        stage('check') {
-            steps{
-                container('maven') {
-                    echo "mvn pmd:pmd"
-                }
-            }
+}
+stage('check') {
+    steps{
+        container('maven') {
+            echo "mvn pmd:pmd"
         }
     }
 }
@@ -134,26 +127,23 @@ stage('并行任务一') {
 
 ### 4.2 Java单元测试
 
-Java的单元测试一般用的是Junit，一样，使用的是mvn，只要执行一下mvn test命令即可
+Java的单元测试一般用的是Junit，在阿里云中，使用了surefire插件，用来在maven构建生命周期的test phase执行一个应用的单元测试。它会产生两种不同形式的测试结果报告。我这里就简单的过一下，使用"mvn test"命令来代替。
+
+![](http://image.wenzhihuai.com/images/20190915082632234251996.png)
+
 
 ```text
-stage('并行任务二') {
-    agent {
-        label "jenkins-maven"
+
+stage('Clone') {
+    steps{
+        echo "1.Clone Stage"
+        git branch: 'master', credentialsId: 'xxxxx', url: "xxxxxx"
     }
-    stages('Java单元测试') {
-        stage('Clone') {
-            steps{
-                echo "1.Clone Stage"
-                git branch: 'master', credentialsId: 'xxxxx', url: "xxxxxx"
-            }
-        }
-        stage('test') {
-            steps{
-                container('maven') {
-                    sh "mvn test"
-                }
-            }
+}
+stage('test') {
+    steps{
+        container('maven') {
+            sh "mvn test"
         }
     }
 }
@@ -161,42 +151,64 @@ stage('并行任务二') {
 
 ### 4.3 Java构建并上传镜像
 
-镜像的构建比较想使用kaniko，尝试找了不少方法，到最后还是只能使用dind(docker in docker)，挂载宿主机的docker来进行构建，如果能有其他方案，希望能提醒下。
+镜像的构建比较想使用kaniko，尝试找了不少方法，到最后还是只能使用dind(docker in docker)，挂载宿主机的docker来进行构建，如果能有其他方案，希望能提醒下。目前jenkins x使用的是dind，挂载的时候需要配置一下config.json，然后挂载到容器的/root/.docker目录，才能在容器中使用docker。
 
 > > 为什么不推荐dind：挂载了宿主机的docker，就可以使用docker ps查看正在运行的容器，也就意味着可以使用docker stop、docker rm来控制宿主机的容器，虽然kubernetes会重新调度起来，但是这一段的重启时间极大的影响业务。
 
 ```text
-stages('java构建镜像') {
-    agent {
-        label "jenkins-maven"
-    }
-    stage('Clone') {
-        steps{
-            echo "1.Clone Stage"
-            git branch: 'master', credentialsId: 'xxxxx', url: "xxxxxx"
-            script {
-                build_tag = sh(returnStdout: true, script: 'git rev-parse --short HEAD').trim()
-            }
-        }
-    }
-    stage('Build') {
-        steps{
-            container('maven') {
-                echo "3.Build Docker Image Stage"
-                sh "mvn clean install -Dmaven.test.skip=true"
-                sh "docker build -f xxx/Dockerfile -t xxxxxx:${build_tag} ."
-                sh "docker push xxxxxx:${build_tag}"
-            }
+
+stage('下载代码') {
+    steps{
+        echo "1.Clone Stage"
+        git branch: 'master', credentialsId: 'xxxxx', url: "xxxxxx"
+        script {
+            build_tag = sh(returnStdout: true, script: 'git rev-parse --short HEAD').trim()
         }
     }
 }
+stage('打包并构建镜像') {
+    steps{
+        container('maven') {
+            echo "3.Build Docker Image Stage"
+            sh "mvn clean install -Dmaven.test.skip=true"
+            sh "docker build -f xxx/Dockerfile -t xxxxxx:${build_tag} ."
+            sh "docker push xxxxxx:${build_tag}"
+        }
+    }
+}
+
 ```
 
 ### 4.4 部署到阿里云k8s
 
-CD过程有点困难，由于我们的kubernetes平台是图形化的，类似于阿里云，用户根本不需要自己写deployment，只需要在图形化界面做一下操作即可部署。对于CD过程来说，如果应用存在的话，就可以直接替换掉镜像版本即可，如果没有应用，就提供个简单的界面让用户新建应用。
+CD过程有点困难，由于我们的kubernetes平台是图形化的，类似于阿里云，用户根本不需要自己写deployment，只需要在图形化界面做一下操作即可部署。对于CD过程来说，如果应用存在的话，就可以直接替换掉镜像版本即可，如果没有应用，就提供个简单的界面让用户新建应用。当然，在容器最初推行的时候，对于用户来说，一下子需要接受docker、kubernetes、helm等概念是十分困难的，不能一个一个帮他们写deployment这些yaml文件，只能用helm创建一个通用的spring boot或者其他的模板，然后让业务方修改自己的配置，每次构建的时候只需要替换镜像即可。
+```text
+def tmp = sh (
+    returnStdout: true,
+    script: "kubectl get deployment -n ${namespace} | grep ${JOB_NAME} | awk '{print \$1}'"
+)
+//如果是第一次，则使用helm模板创建，创建完后需要去epaas修改pod的配置
+if(tmp.equals('')){
+    sh "helm init --client-only"
+    sh """helm repo add mychartmuseum http://xxxxxx \
+                       --username myuser \
+                       --password=mypass"""
+    sh """helm install --set name=${JOB_NAME} \
+                       --set namespace=${namespace} \
+                       --set deployment.image=${image} \
+                       --set deployment.imagePullSecrets=${harborProject} \
+                       --name ${namespace}-${JOB_NAME} \
+                       mychartmuseum/soa-template"""
+}else{
+    println "已经存在，替换镜像"
+    //epaas中一个pod的容器名称需要带上"-0"来区分
+    sh "kubectl set image deployment/${JOB_NAME} ${JOB_NAME}-0=${image} -n ${namespace}"
+}
+
+```
 
 ### 4.5 整体流程
+代码扫描，单元测试，构建镜像三个并行运行，等三个完成之后，在进行部署
 
  ![](https://upyuncdn.wenzhihuai.com/201908100428501805517052.png)
 
@@ -347,7 +359,5 @@ jenkins blue ocean步骤日志：
 
 ### 5.1 Gitlab触发
 
-pipeline中除了有对于时间的trigger，还支持了gitlab的触发，
-
-### 5.2 与jira结合
+pipeline中除了有对于时间的trigger，还支持了gitlab的触发，需要各种配置，不过如果真的对于gitlab的cicd有要求，直接使用gitlab-ci会更好，我们同时也对gitlab进行了runner的配置来支持gitlab的cicd。
 
