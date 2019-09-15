@@ -1,6 +1,6 @@
 # Table of contents
 
-* [MyWebsite](README.md)
+* [目录](README.md)
 * [一、Java](java.md)
 * [二、个人网站](ge-ren-wang-zhan.md)
 * [三、DevOps](devops/README.md)
