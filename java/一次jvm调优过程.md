@@ -1,5 +1,3 @@
-jvm调优实战
-
 前端时间把公司的一个分布式定时调度的系统弄上了容器云，部署在kubernetes，在容器运行的动不动就出现问题，特别容易jvm溢出，导致程序不可用，终端无法进入，日志一直在刷错误，kubernetes也没有将该容器自动重启。业务方基本每天都在反馈task不稳定，后续就协助接手看了下，先主要讲下该程序的架构吧。
 该程序task主要分为三个模块：
 console进行一些cron的配置（表达式、任务名称、任务组等）；
@@ -105,7 +103,7 @@ pprof --text /usr/bin/java java_58.0001.heap
 ## 总结
 定时调度这个系统当时并没有考虑到公司的系统会用的这么多，设计的时候也仅仅是为了实现上千的量，没想到到最后变成了一天的调度都有几百万次。最初那批开发也就使用了大量的本地缓存map来临时存储数据，然后面向简历编程各种用netty自己实现了通信的方式，一堆坑都留给了后人。目前也算是解决掉了一个由于线程过多导致系统不可用的情况而已，但是由于存在大量的map，系统还是得偶尔重启一下比较好。
 
-参考：
+参考：  
 1.[记一次线上内存泄漏问题的排查过程](https://www.cnblogs.com/testfan2019/p/11151008.html)  
-2.[Java堆外内存增长问题排查Case](https://coldwalker.com/2018/08//troubleshooter_native_memory_increase/)
-3.[Troubleshooting Native Memory Leaks in Java Applications](https://static.rainfocus.com/oracle/oow18/sess/1524505564465001W0mS/PF/Troubleshooting_native_memory_leaks_1540301908390001k6DR.pdf)
+2.[Java堆外内存增长问题排查Case](https://coldwalker.com/2018/08//troubleshooter_native_memory_increase/)  
+3.[Troubleshooting Native Memory Leaks in Java Applications](https://static.rainfocus.com/oracle/oow18/sess/1524505564465001W0mS/PF/Troubleshooting_native_memory_leaks_1540301908390001k6DR.pdf)  
