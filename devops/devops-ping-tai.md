@@ -372,7 +372,7 @@ DevOps最难的可能都不是以上这些，关键是让用户接受，容器�
 
 
 
-文章同步：
+文章同步：  
 博客园：https://www.cnblogs.com/w1570631036/p/11524673.html  
 个人网站：http://www.wenzhihuai.com/getblogdetail.html?blogid=663  
 gitbook：https://gitbook.wenzhihuai.com/devops/devops-ping-tai
