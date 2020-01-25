@@ -6,23 +6,20 @@ stratum+tcp://get.bi-chi.com:3333 -u 47EAoaBc5TWDZKVaAYvQ7Y4ZfoJMFathAR882gabJ43
 使用top查看：  
 ![](http://image.wenzhihuai.com/images/20170923033252.png)
 
-<div align="center">
 
 ![](http://image.wenzhihuai.com/images/20170923034427.png)
 
-</div>
-
-<div align="center">
 
 ![](http://image.wenzhihuai.com/images/20170923040503.png)
 
-</div>
 
 启动iptables,参考[http://www.setphp.com/981.html](http://www.setphp.com/981.html)
 [http://www.setphp.com/981.html](http://www.setphp.com/981.html)
 
+```bash
 iptables -A INPUT -s xmr.crypto-pool.fr -j DROP
 iptables -A OUTPUT -d xmr.crypto-pool.fr -j DROP
+```
 
 
 # 2017-10-02 再次遭到挖矿攻击
@@ -32,17 +29,13 @@ iptables -A OUTPUT -d xmr.crypto-pool.fr -j DROP
 
 # 2017-12-03
 
-<div align="center">
 
 ![](http://image.wenzhihuai.com/images/20171203010136.png)
 
-</div>
 
 # 2017-12-05 wipefs
-<div align="center">
 
 ![](http://image.wenzhihuai.com/images/20171205091617.png)
 
-</div>
 
 
