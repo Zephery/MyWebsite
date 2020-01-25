@@ -76,6 +76,7 @@ JVM提供了大量命令行参数，打印信息，供调试使用。主要有�
 输出形式：Total time for which application threads were stopped: 0.0468229 seconds
 -XX:PrintHeapAtGC:打印GC前后的详细堆栈信息
 输出形式：
+```text
 34.702: [GC {Heap before gc invocations=7:
  def new generation   total 55296K, used 52568K [0x1ebd0000, 0x227d0000, 0x227d0000)
 eden space 49152K,  99% used [0x1ebd0000, 0x21bce430, 0x21bd0000)
@@ -100,8 +101,9 @@ the space 69632K,   4% used [0x227d0000, 0x22aeb958, 0x22aeba00, 0x26bd0000)
     rw space 12288K,  46% used [0x2b3d0000, 0x2b972060, 0x2b972200, 0x2bfd0000)
 }
 , 0.0757599 secs]
+```
 -Xloggc:filename:与上面几个配合使用，把相关日志信息记录到文件以便分析。
-常见配置汇总
+**常见配置汇总**
 ### 3.1 堆设置
 -Xms:初始堆大小
 -Xmx:最大堆大小
