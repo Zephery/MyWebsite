@@ -1,8 +1,10 @@
 # Table of contents
 
 * [目录](README.md)
+
 * [一、Java](java/README.md)
   * [1.1 一次jvm调优过程.md](java/一次jvm调优过程.md)
+  * [1.2 JVM调优参数.md](java/JVM调优参数.md)
 * [二、个人网站](personalwebsite/README.md)
   * [2.1 历史与架构.md](personalwebsite/1.历史与架构.md)
   * [2.2 Lucene的使用.md](personalwebsite/2.Lucene的使用.md)
@@ -20,4 +22,7 @@
   * [3.4Git](devops/gitlab-ci.md)
 * [四、Kubernetes](kubernetes/README.md)
 * [五、云原生](cloudnative/README.md)
-
+* [六、redis](redis/README.md)
+  * [6.1 redis缓存.md](redis/redis缓存.md)
+* [七、生活](life/README.md)
+  * [7.1 2018.md](life/2018.md)
