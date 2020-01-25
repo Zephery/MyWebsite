@@ -25,4 +25,6 @@
 * [六、redis](redis/README.md)
   * [6.1 redis缓存.md](redis/redis缓存.md)
 * [七、生活](life/README.md)
-  * [7.1 2018.md](life/2018.md)
+  * [7.1 2017.md](life/2017.md)
+  * [7.2 2018.md](life/2018.md)
+  * [7.3 2019.md](life/2019.md)
