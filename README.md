@@ -18,7 +18,7 @@
   * [3.1 DevOps平台.md](devops/devops-ping-tai.md)
   * [3.2 jenkins-x](devops/jenkins-x.md)
   * [3.3 tekton](devops/tekton.md)
-  * [3.4Git](devops/gitlab-ci.md)
+  * [3.4 Git](devops/gitlab-ci.md)
 * [四、Kubernetes](kubernetes/README.md)
 * [五、云原生](cloudnative/README.md)
 * [六、redis](redis/README.md)
