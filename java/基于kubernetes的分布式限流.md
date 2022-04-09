@@ -15,7 +15,7 @@
 限流基于某段时间范围或者某个时间点，也就是我们常说的“时间窗口”，比如对每分钟、每秒钟的时间窗口做限定
 **资源**
 基于可用资源的限制，比如设定最大访问次数，或最高可用连接数。
-  限流就是在某个时间窗口对资源访问做限制，比如设定每秒最多100个访问请求。在实际的业务场景中，一般都是多种限流规则同时使用，主要的几种限流规则如下：
+  限流就是在某个时间窗口对资源访问做限制，比如设定每秒最多100个访问请求。
 
 <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h10f5c73zyj21280g4my2.jpg" alt="image-20220406232904323" style="zoom:50%;" />
 
@@ -39,68 +39,79 @@ Guava的Ratelimiter设计实现相当不错，可惜只能支持单机，网关�
 
 对于极致追求高性能的服务不需要考虑熔断、降级来说，是需要尽量减少网络之间的IO，那么是否可以通过一个总限频然后分配到具体的单机里面去，在单机中实现平均的限流，比如限制某个ip的qps为100，服务总共有10个节点，那么平均到每个服务里就是10qps，此时就可以通过guava的ratelimiter来实现了，甚至说如果服务的节点动态调整，单个服务的qps也能动态调整。
 
-
 ## 三、基于kubernetes的分布式限流
 
+在Spring Boot应用中，定义一个filter，获取请求参数里的key（ip、userId等），然后根据key来获取rateLimiter，其中，rateLimiter的创建由数据库定义的限频数和副本数来判断，最后，再通过rateLimiter.tryAcquire来判断是否可以通过。
 
+<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h13ke2ox1wj20u00vdq4g.jpg" alt="image-20220409164709045" style="zoom:50%;" />
 
-```mermaid
-graph LR
+### 3.1 kubernetes中的副本数
 
-A[方形] -->B(圆角)
+在实际的服务中，数据上报服务一般无法确定客户端的上报时间、上报量，特别是对于这种要求高性能，服务一般都会用到HPA来实现动态扩缩容，所以，需要去间隔一段时间去获取服务的副本数。
 
-  B --> C{条件a}
-
-  C -->|a=1| D[结果1]
-
-  C -->|a=2| E[结果2]
-
-  F[横向流程图]
+```go
+func CountDeploymentSize(namespace string, deploymentName string) *int32 {
+	deployment, err := client.AppsV1().Deployments(namespace).Get(context.TODO(), deploymentName, metav1.GetOptions{})
+	if err != nil {
+		return nil
+	}
+	return deployment.Spec.Replicas
+}
 ```
 
-定义一个RateLimiterService
+用法：GET host/namespaces/test/deployments/k8s-rest-api直接即可。
+
+
+
+### 3.2 rateLimiter的创建
+
+在RateLimiterService中定义一个LoadingCache<String, RateLimiter>，其中，key可以为ip、userId等，并且，在多线程的情况下，使用refreshAfterWrite只阻塞加载数据的线程，其他线程则返回旧数据，极致发挥缓存的作用。
 
 ```java
 private final LoadingCache<String, RateLimiter> loadingCache = Caffeine.newBuilder()
-  .maximumSize(10_000)
-  .refreshAfterWrite(20, TimeUnit.MINUTES)
-  .build(this::createRateLimit);
-
+        .maximumSize(10_000)
+        .refreshAfterWrite(20, TimeUnit.MINUTES)
+        .build(this::createRateLimit);
 //定义一个默认最小的QPS
 private static final Integer minQpsLimit = 3000;
 ```
 
 
 
+之后是创建rateLimiter，获取总限频数totalLimit和副本数replicas，之后是自己所需的逻辑判断，可以根据totalLimit和replicas的情况来进行qps的限定。
+
 ```java
-public RateLimiter createRateLimit(String ip) {
-  log.info("createRateLimit,appId:{}", ip);
-  int totalLimit = 根据ip获取所配置的总qps;
-  Integer replicas = kubernetesService.getDeploymentReplicas();
-  log.info("totalLimit:{},replicas:{}", totalLimit, ip);
-  RateLimiter rateLimiter;
-  if (totalLimit > 0 && replicas == null) {
-    rateLimiter = RateLimiter.create(totalLimit);
-  } else if (totalLimit > 0) {
-    int nodeQpsLimit = totalLimit / replicas;
-    rateLimiter = RateLimiter.create(nodeQpsLimit > minQpsLimit ? nodeQpsLimit : minQpsLimit);
-  } else {
-    rateLimiter = RateLimiter.create(minQpsLimit);
-  }
-  log.info("create rateLimiter success,ip:{},rateLimiter:{}", ip, rateLimiter);
-  return rateLimiter;
+public RateLimiter createRateLimit(String key) {
+    log.info("createRateLimit,key:{}", key);
+    int totalLimit = 获取总限频数，可以在数据库中定义
+    Integer replicas = kubernetesService.getDeploymentReplicas();
+    RateLimiter rateLimiter;
+    if (totalLimit > 0 && replicas == null) {
+        rateLimiter = RateLimiter.create(totalLimit);
+    } else if (totalLimit > 0) {
+        int nodeQpsLimit = totalLimit / replicas;
+        rateLimiter = RateLimiter.create(nodeQpsLimit > minQpsLimit ? nodeQpsLimit : minQpsLimit);
+    } else {
+        rateLimiter = RateLimiter.create(minQpsLimit);
+    }
+    log.info("create rateLimiter success,key:{},rateLimiter:{}", key, rateLimiter);
+    return rateLimiter;
 }
 ```
 
+### 3.3 rateLimiter的获取
 
+根据key获取RateLimiter，如果有特殊需求的话，需要判断key不存在的尝尽
 
 ```java
-public RateLimiter getRateLimiter(String ip) {
-  return loadingCache.get(ip);
+public RateLimiter getRateLimiter(String key) {
+  return loadingCache.get(key);
 }
 ```
 
+### 3.4 filter里的判断
 
+最后一步，就是使用rateLimiter来进行限流，如果rateLimiter.tryAcquire()为true，则进行filterChain.doFilter(request, response)，如果为false，则返回HttpStatus.TOO_MANY_REQUESTS
 
 ```java
 public class RateLimiterFilter implements Filter {
@@ -111,8 +122,8 @@ public class RateLimiterFilter implements Filter {
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain filterChain) throws IOException, ServletException {
         HttpServletRequest httpServletRequest = (HttpServletRequest) request;
         HttpServletResponse httpServletResponse = (HttpServletResponse) response;
-        String ip = httpServletRequest.getHeader("ip");
-        RateLimiter rateLimiter = rateLimiterService.getRateLimiter(ip);
+        String key = httpServletRequest.getHeader("key");
+        RateLimiter rateLimiter = rateLimiterService.getRateLimiter(key);
         if (rateLimiter != null) {
             if (rateLimiter.tryAcquire()) {
                 filterChain.doFilter(request, response);
@@ -128,9 +139,51 @@ public class RateLimiterFilter implements Filter {
 
 
 
+## 四、性能压测
+
+为了方便对比性能之间的差距，我们在本地单机做了下列测试，其中，总限频都设置为3万。
+
+**无限流**
+
+![image-20220409185751603](https://tva1.sinaimg.cn/large/e6c9d24egy1h13o62inuyj223805cq3t.jpg)
+
+
+
+**使用redis限流**
+
+其中，ping redis大概6-7ms左右，对应的，每次请求需要访问redis，时延都有大概6-7ms，性能下降明显
+
+![image-20220409190100225](https://tva1.sinaimg.cn/large/e6c9d24egy1h13o9c03vuj222y04gt9i.jpg)
+
+
+
+**自研限流**
+
+性能几乎追平无限流的场景，guava的rateLimiter确实表现卓越
+
+![image-20220409185629313](https://tva1.sinaimg.cn/large/e6c9d24egy1h13o4myqjfj223a054q3u.jpg)
+
+
+
+## 五、其他问题
+
+**5.1 对于保证qps限频准确的时候，应该怎么解决呢？**
+
+在k8s中，服务是动态扩缩容的，相应的，每个节点应该都要有所变化，如果对外宣称限频100qps，而且后续业务方真的要求百分百准确，只能把LoadingCache<String, RateLimiter>的过期时间调小一点，让它能够近实时的更新单节点的qps。这里还需要考虑一下k8s的压力，因为每次都要获取副本数，这里也是需要做缓存的
+
+**5.2 服务从1个节点动态扩为4个节点，这个时候新节点识别为4，但其实有些并没有启动完，会不会造成某个节点承受了太大的压力**
+
+理论上是存在这个可能的，这个时候需要考虑一下初始的副本数的，扩缩容不能一蹴而就，一下子从1变为4变为几十个这种。一般的话，生产环境肯定是不能只有一个节点，并且要考虑扩缩容的话，至于要有多个副本预备的
+
+**5.3 如果有多个副本，怎么保证请求是均匀的**
+
+这个是依赖于k8s的service负载均衡策略的，这个我们之前做过实验，流量确实是能够均匀的落到节点上的。还有就是，我们整个限流都是基于k8s的，如果k8s出现问题，那就是整个集群所有服务都有可能出现问题了。
+
+
+
 
 ## 参考
-1.[常见的分布式限流解决方案](https://blog.csdn.net/hou_ge/article/details/113869419)
-2.[分布式服务限流实战](https://www.infoq.cn/article/qg2tx8fyw5vt-f3hh673)
-3.[高性能](https://www.cnblogs.com/huilei/p/13773557.html)
+1.[常见的分布式限流解决方案](https://blog.csdn.net/hou_ge/article/details/113869419)  
+2.[分布式服务限流实战](https://www.infoq.cn/article/qg2tx8fyw5vt-f3hh673)  
+3.[高性能](https://www.cnblogs.com/huilei/p/13773557.html)  
 
