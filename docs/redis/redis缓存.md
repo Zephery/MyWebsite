@@ -25,7 +25,7 @@ Mybatis的一级缓存是指Session回话级别的缓存，也称作本地缓存
 
 ![](http://image.wenzhihuai.com/images/20180120015614.png)
 
-我们来查看一下源码的类图，具体的源码分析简单概括一下：SqlSession实际上是使用PerpetualCache来维护的，PerpetualCache中定义了一个HashMap<k,v>来进行缓存。  
+我们来查看一下源码的类图，具体的源码分析简单概括一下：SqlSession实际上是使用PerpetualCache来维护的，PerpetualCache中定义了一个HashMap来进行缓存。  
 （1）当会话开始时，会创建一个新的SqlSession对象，SqlSession对象中会有一个新的Executor对象，Executor对象中持有一个新的PerpetualCache对象；  
 （2）对于某个查询，根据statementId,params,rowBounds来构建一个key值，根据这个key值去缓存Cache中取出对应的key值存储的缓存结果。如果命中，则返回结果，如果没有命中，则去数据库中查询，再将结果存储到cache中，最后返回结果。如果执行增删改，则执行flushCacheIfRequired方法刷新缓存。
 （3）当会话结束时，SqlSession对象及其内部的Executor对象还有PerpetualCache对象也一并释放掉。
@@ -39,8 +39,8 @@ Mybatis的二级缓存是指mapper映射文件，为Application应用级别的�
 
 ### 2.2.1 MyBatis二级缓存的划分
 MyBatis并不是简单地对整个Application就只有一个Cache缓存对象，它将缓存划分的更细，即是Mapper级别的，即每一个Mapper都可以拥有一个Cache对象，具体如下：
-a.为每一个Mapper分配一个Cache缓存对象（使用<cache>节点配置）；
-b.多个Mapper共用一个Cache缓存对象（使用<cache-ref>节点配置）；
+a.为每一个Mapper分配一个Cache缓存对象；
+b.多个Mapper共用一个Cache缓存对象；
 
 ### 2.2.2 二级缓存的开启
 在mybatis的配置文件中添加：
@@ -59,7 +59,7 @@ b.多个Mapper共用一个Cache缓存对象（使用<cache-ref>节点配置）�
            readOnly="true"/>
 ```
 ### 2.2.3 使用第三方支持的二级缓存的实现
-  MyBatis对二级缓存的设计非常灵活，它自己内部实现了一系列的Cache缓存实现类，并提供了各种缓存刷新策略如LRU，FIFO等等；另外，MyBatis还允许用户自定义Cache接口实现，用户是需要实现org.apache.ibatis.cache.Cache接口，然后将Cache实现类配置在<cache  type="">节点的type属性上即可；除此之外，MyBatis还支持跟第三方内存缓存库如Memecached、Redis的集成，总之，使用MyBatis的二级缓存有三个选择:
+  MyBatis对二级缓存的设计非常灵活，它自己内部实现了一系列的Cache缓存实现类，并提供了各种缓存刷新策略如LRU，FIFO等等；另外，MyBatis还允许用户自定义Cache接口实现，用户是需要实现org.apache.ibatis.cache.Cache接口，然后将Cache实现类配置在节点的type属性上即可；除此之外，MyBatis还支持跟第三方内存缓存库如Memecached、Redis的集成，总之，使用MyBatis的二级缓存有三个选择:
 1. MyBatis自身提供的缓存实现；  
 2. 用户自定义的Cache接口实现；  
 3. 跟第三方内存缓存库的集成；  

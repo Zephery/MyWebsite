@@ -1,7 +1,6 @@
 import {defineUserConfig} from "vuepress";
 import theme from "./theme.js";
 import { commentPlugin } from "vuepress-plugin-comment2";
-import {comment} from "vuepress-theme-hope";
 
 export default defineUserConfig({
     dest: "./dist",
