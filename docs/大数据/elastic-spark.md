@@ -23,7 +23,7 @@ elasticsearch相对hdfs来说，容易搭建、并且有可视化kibana支持，
         </dependency>
 ```
 
-SparkConf配置，更多详细的请点击[这里](https://www.elastic.co/guide/en/elasticsearch/hadoop/current/configuration.html)或者源码[ConfigurationOptions](https://github.com/elastic/elasticsearch-hadoop/blob/master/mr/src/main/java/org/elasticsearch/hadoop/cfg/ConfigurationOptions.java)。
+SparkConf配置，更多详细的请点击[这里](https://www.elastic.co/Zephery/en/elasticsearch/hadoop/current/configuration.html)或者源码[ConfigurationOptions](https://github.com/elastic/elasticsearch-hadoop/blob/master/mr/src/main/java/org/elasticsearch/hadoop/cfg/ConfigurationOptions.java)。
 
 ```java
 public static SparkConf getSparkConf() {
@@ -90,7 +90,7 @@ spark的实时处理，es5.0的时候开始支持，目前
 
 # 参考：
 
-1.[Apache Spark support](https://www.elastic.co/guide/en/elasticsearch/hadoop/current/spark.html)
+1.[Apache Spark support](https://www.elastic.co/Zephery/en/elasticsearch/hadoop/current/spark.html)
 
 2.[elasticsearch-hadoop](https://github.com/elastic/elasticsearch-hadoop)
 

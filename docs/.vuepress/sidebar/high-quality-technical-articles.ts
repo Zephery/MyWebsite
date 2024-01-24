@@ -35,7 +35,7 @@ export const highQualityTechnicalArticles = arraySidebar([
     collapsible: false,
     children: [
       "how-do-programmers-publish-a-technical-book",
-      "efficient-book-publishing-and-practice-guide",
+      "efficient-book-publishing-and-practice-Zephery",
     ],
   },
   {

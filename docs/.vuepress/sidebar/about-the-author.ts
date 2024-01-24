@@ -8,7 +8,7 @@ export const aboutTheAuthor = arraySidebar([
     children: [
       "internet-addiction-teenager",
       "my-college-life",
-      "javaguide-100k-star",
+      "javaZephery-100k-star",
       "feelings-after-one-month-of-induction-training",
       "feelings-of-half-a-year-from-graduation-to-entry",
     ],

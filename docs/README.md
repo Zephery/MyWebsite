@@ -1,4 +1,4 @@
-# Table of contents
+[[TOC]]
 
 * [目录](README.md)
 

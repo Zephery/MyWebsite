@@ -1,1 +1,3 @@
-https://blog.csdn.net/m0_37965018/article/details/103841362
+基于[VuePress](https://v2.vuepress.vuejs.org/zh/)构建
+
+pip3 install setuptools

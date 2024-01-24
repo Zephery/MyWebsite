@@ -182,7 +182,7 @@ private void executePhase(SearchPhase phase) {
 
 ## 3.1 query阶段
 
-图片来源[官网](https://www.elastic.co/guide/en/elasticsearch/guide/current/_query_phase.html)，比较旧，但任然可用
+图片来源[官网](https://www.elastic.co/Zephery/en/elasticsearch/Zephery/current/_query_phase.html)，比较旧，但任然可用
 
 <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0fj0stiwbj212q0hot9s.jpg" alt="image-20220315002620496" style="zoom:40%;" />
 
@@ -289,7 +289,7 @@ private void successfulShardExecution (SearchShardIterator shardsIt) {
 
 ## 3.2 Fetch阶段
 
-取回阶段，图片来自[官网](https://www.elastic.co/guide/en/elasticsearch/guide/current/_fetch_phase.html)，
+取回阶段，图片来自[官网](https://www.elastic.co/Zephery/en/elasticsearch/Zephery/current/_fetch_phase.html)，
 
 <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0fj4bo32sj213m0iswfm.jpg" alt="image-20220315002725203" style="zoom:40%;" />
 

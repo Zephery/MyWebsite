@@ -20,27 +20,6 @@ export default sidebar({
   // 必须放在最后面
   "/": [
     {
-      text: "必看",
-      icon: "star",
-      collapsible: true,
-      prefix: "javaguide/",
-      children: ["intro", "use-suggestion", "contribution-guideline", "faq"],
-    },
-    {
-      text: "面试准备",
-      icon: "interview",
-      collapsible: true,
-      prefix: "interview-preparation/",
-      children: [
-        "teach-you-how-to-prepare-for-the-interview-hand-in-hand",
-        "resume-guide",
-        "key-points-of-interview",
-        "project-experience-guide",
-        "interview-experience",
-        "self-test-of-common-interview-questions",
-      ],
-    },
-    {
       text: "Java",
       icon: "java",
       collapsible: true,
@@ -381,7 +360,7 @@ export default sidebar({
         {
           text: "IDEA",
           icon: "intellijidea",
-          link: "https://gitee.com/SnailClimb/awesome-idea-tutorial",
+          link: "https://gitee.com/Zephery/awesome-idea-tutorial",
         },
       ],
     },
