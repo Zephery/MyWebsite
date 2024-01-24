@@ -1,4 +1,4 @@
-# 2017-09-23
+# 被挖矿攻击
 服务器被黑，进程占用率高达99%，查看了一下，是/usr/sbin/bashd的原因，怎么删也删不掉，使用ps查看：  
 ![](http://image.wenzhihuai.com/images/553ac1ca20170923033013.png)  
 stratum+tcp://get.bi-chi.com:3333 -u 47EAoaBc5TWDZKVaAYvQ7Y4ZfoJMFathAR882gabJ43wHEfxEp81vfJ3J3j6FQGJxJNQTAwvmJYS2Ei8dbkKcwfPFst8FhG   

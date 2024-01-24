@@ -11,7 +11,7 @@ export default hopeTheme({
   logo: "/logo.png",
   favicon: "/favicon.ico",
 
-  iconAssets: "//at.alicdn.com/t/c/font_2922463_o9q9dxmps9.css",
+  // iconAssets: "//at.alicdn.com/t/c/font_2922463_o9q9dxmps9.css",
 
   author: {
     name: "Zephery",

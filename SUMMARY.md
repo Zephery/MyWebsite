@@ -29,8 +29,8 @@
 * [六、云原生](docs/cloudnative/README.md)
 * [七、redis](docs/redis/README.md)
   * [7.1 redis缓存.md](docs/redis/redis缓存.md)
-* [八、mysql](docs/mysql/README.md)  
-  * [8.1  mysql缓存.md](docs/mysql/数据库缓存.md)  
+* [八、mysql](docs/database/mysql/README.md)  
+  * [8.1  mysql缓存.md](docs/database/mysql/数据库缓存.md)  
 * [面试](docs/interview/README.md)
   
   * [算法](docs/interview/算法.md)

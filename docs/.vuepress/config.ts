@@ -1,11 +1,24 @@
 import {defineUserConfig} from "vuepress";
 import theme from "./theme.js";
+import { commentPlugin } from "vuepress-plugin-comment2";
+import {comment} from "vuepress-theme-hope";
 
 export default defineUserConfig({
     dest: "./dist",
     title: "个人博客",
     description: "个人博客",
     lang: "zh-CN",
+    plugins: [
+        // https://plugin-comment2.vuejs.press/zh/config/giscus.html#darktheme
+        commentPlugin({
+            provider: "Giscus",
+            comment: true, //启用评论功能
+            repo: "Zephery/MyWebsite", //远程仓库
+            repoId: "MDEwOlJlcG9zaXRvcnkyMDM2MDIyMDQ=", //对应自己的仓库Id
+            category: "General",
+            categoryId: "DIC_kwDODCK5HM4Ccp32" //对应自己的分类Id
+        }),
+    ],
     head: [
         // meta
         ["meta", {name: "robots", content: "all"}],

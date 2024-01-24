@@ -372,7 +372,7 @@ private void executeFetch(...) {
 
 <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0fj4fe7zxj20zf0ppdju.jpg" alt="image-20220316000309117" style="zoom:50%;" />
 
-counter是一个收集器CountedCollector<FetchSearchResult>，onResult(result)主要是每次收到的shard数据存放，并且执行一次countDown，当所有shard数据收集完之后，然后触发一次finishPhase。
+counter是一个收集器CountedCollector，onResult(result)主要是每次收到的shard数据存放，并且执行一次countDown，当所有shard数据收集完之后，然后触发一次finishPhase。
 
 ```
 # CountedCollector.class

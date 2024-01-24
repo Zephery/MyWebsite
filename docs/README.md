@@ -36,8 +36,8 @@
 * [七、redis](redis/README.md)
   * [7.1 redis缓存.md](redis/redis缓存.md)
   
-* [八、mysql](mysql/README.md)
-  * [8.1  mysql缓存.md](mysql/数据库缓存.md)
+* [八、mysql](database/mysql/README.md)
+  * [8.1  mysql缓存.md](database/mysql/数据库缓存.md)
   
 * [面试](interview/README.md)
   
