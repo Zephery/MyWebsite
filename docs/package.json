@@ -1,18 +1,18 @@
 {
-  "name": "javaguide",
+  "name": "myblog",
   "version": "2.0.0-alpha.40",
   "private": true,
-  "description": "javaguide",
+  "description": "myblog",
   "license": "MIT",
-  "author": "Guide",
+  "author": "zephery",
   "scripts": {
-    "docs:build": "vuepress build docs",
-    "docs:dev": "vuepress dev docs",
-    "docs:clean-dev": "vuepress dev docs --clean-cache",
+    "docs:build": "../node_modules/.bin/vuepress build docs",
+    "docs:dev": "../node_modules/.bin/vuepress dev docs",
+    "docs:clean-dev": "../node_modules/.bin/vuepress dev docs --clean-cache",
     "lint": "pnpm lint:prettier && pnpm lint:md",
-    "lint:md": "markdownlint-cli2 '**/*.md'",
-    "lint:prettier": "prettier --check --write .",
-    "prepare": "husky install",
+    "lint:md": "../node_modules/.bin/markdownlint-cli2 '**/*.md'",
+    "lint:prettier": "../node_modules/.bin/prettier --check --write .",
+    "prepare": "../node_modules/.bin/husky install",
     "update": "pnpm dlx vp-update"
   },
   "nano-staged": {
