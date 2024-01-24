@@ -66,7 +66,7 @@ b.多个Mapper共用一个Cache缓存对象；
 具体的实现，可参照：[SpringMVC + MyBatis + Mysql + Redis(作为二级缓存) 配置](http://blog.csdn.net/xiadi934/article/details/50786293) 
 
 MyBatis中一级缓存和二级缓存的组织如下图所示（图片来自[深入理解mybatis原理](http://blog.csdn.net/luanlouis/article/details/41390801)）：
-
+ 
 ![](http://image.wenzhihuai.com/images/20180120120015.png)
 
 ## 2.3 Mybatis在分布式环境下脏读问题
