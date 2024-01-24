@@ -3,7 +3,6 @@ import theme from "./theme.js";
 import { commentPlugin } from "vuepress-plugin-comment2";
 
 export default defineUserConfig({
-    base: "/MyWebsite/",
     dest: "./dist",
     title: "个人博客",
     description: "个人博客",
