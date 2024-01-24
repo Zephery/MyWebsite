@@ -27,7 +27,6 @@
     "@vuepress/plugin-search": "2.0.0-rc.0",
     "@vuepress/utils": "2.0.0-rc.0",
     "husky": "8.0.3",
-    "vuepress-plugin-comment2": "2.0.0-rc.11",
     "markdownlint-cli2": "0.11.0",
     "mathjax-full": "3.2.2",
     "nano-staged": "0.8.0",
