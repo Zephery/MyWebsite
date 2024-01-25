@@ -29,7 +29,10 @@ export const database = arraySidebar([
         prefix: "elasticsearch/",
         icon: "elasticsearch",
         collapsible: false,
-        children: ["【elasticsearch】搜索过程详解"],
+        children: [
+            "【elasticsearch】搜索过程详解",
+            "elasticsearch源码debug.md"
+        ],
     },
     {
         text: "MongoDB",

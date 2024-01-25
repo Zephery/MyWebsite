@@ -8,6 +8,7 @@ import {donate} from "./donate.js";
 import {bigdata} from "./bigdata.js";
 import {personalWebsite} from "./personalWebsite.js";
 import {kubernetes} from "./kubernetes.js";
+import {others} from "./others";
 
 export default sidebar({
     // 应该把更精确的路径放置在前边
@@ -17,6 +18,7 @@ export default sidebar({
     "/kubernetes/": kubernetes,
     "/books/": books,
     "/donate/": donate,
+    "/others/": others,
     "/about-the-author/": aboutTheAuthor,
     "/high-quality-technical-articles/": highQualityTechnicalArticles,
     "/zhuanlan/": [
@@ -40,6 +42,7 @@ export default sidebar({
                 "内存屏障",
                 "基于kubernetes的分布式限流",
                 "锁",
+                "在 Spring 6 中使用虚拟线程.md"
             ],
         },
     ],
