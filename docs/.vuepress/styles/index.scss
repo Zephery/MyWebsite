@@ -8,3 +8,7 @@ body {
   --font-family: gitbook-content-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   --font-family-heading: gitbook-content-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 }
+
+html[data-theme=dark] {
+  --text-color: #FFFFFF;
+}
