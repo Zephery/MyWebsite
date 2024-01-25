@@ -6,11 +6,6 @@ export const aboutTheAuthor = arraySidebar([
     icon: "experience",
     collapsible: false,
     children: [
-      "internet-addiction-teenager",
-      "my-college-life",
-      "javaZephery-100k-star",
-      "feelings-after-one-month-of-induction-training",
-      "feelings-of-half-a-year-from-graduation-to-entry",
     ],
   },
   {
@@ -18,10 +13,6 @@ export const aboutTheAuthor = arraySidebar([
     icon: "chat",
     collapsible: false,
     children: [
-      "writing-technology-blog-six-years",
-      "my-article-was-stolen-and-made-into-video-and-it-became-popular",
-      "dog-that-copies-other-people-essay",
-      "zhishixingqiu-two-years",
     ],
   },
 ]);

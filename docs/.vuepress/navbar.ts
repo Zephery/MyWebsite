@@ -3,6 +3,7 @@ import {others} from "./sidebar/others";
 
 export default navbar([
     {text: "Java", icon: "java", link: "/index"},
+    {text: "中间件", icon: "middleware", link: "/middleware/"},
     {text: "数据库", icon: "database", link: "/database/"},
     {text: "大数据", icon: "bigdata", link: "/bigdata/"},
     {text: "Kubernetes", icon: "Kubernetes", link: "/kubernetes/"},

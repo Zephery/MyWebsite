@@ -1,7 +1,7 @@
 import {defineUserConfig} from "vuepress";
 import theme from "./theme.js";
 import {commentPlugin} from "vuepress-plugin-comment2";
-import {mediumZoomPlugin} from '@vuepress/plugin-medium-zoom'
+import {mdEnhancePlugin} from "vuepress-plugin-md-enhance";
 
 export default defineUserConfig({
     dest: "./dist",
@@ -9,8 +9,15 @@ export default defineUserConfig({
     description: "个人博客",
     lang: "zh-CN",
     plugins: [
-        mediumZoomPlugin({
-            // options
+        mdEnhancePlugin({
+            // 启用 figure
+            figure: true,
+            // 启用图片懒加载
+            imgLazyload: true,
+            // 启用图片标记
+            imgMark: true,
+            // 启用图片大小
+            imgSize: true,
         }),
         // https://plugin-comment2.vuejs.press/zh/config/giscus.html#darktheme
         commentPlugin({

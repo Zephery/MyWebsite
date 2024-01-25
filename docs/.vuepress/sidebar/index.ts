@@ -9,11 +9,13 @@ import {bigdata} from "./bigdata.js";
 import {personalWebsite} from "./personalWebsite.js";
 import {kubernetes} from "./kubernetes.js";
 import {others} from "./others";
+import {middleware} from "./middleware.js";
 
 export default sidebar({
     // 应该把更精确的路径放置在前边
     "/database/": database,
     "/bigdata/": bigdata,
+    "/middleware/": middleware,
     "/personalWebsite/": personalWebsite,
     "/kubernetes/": kubernetes,
     "/books/": books,
@@ -41,7 +43,6 @@ export default sidebar({
                 "一次jvm调优过程",
                 "内存屏障",
                 "基于kubernetes的分布式限流",
-                "锁",
                 "在 Spring 6 中使用虚拟线程.md"
             ],
         },

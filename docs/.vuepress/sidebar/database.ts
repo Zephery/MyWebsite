@@ -19,9 +19,6 @@ export const database = arraySidebar([
         icon: "redis",
         collapsible: false,
         children: [
-            "cache-basics",
-            "redis-questions-01",
-            "redis-questions-02",
         ],
     },
     {
@@ -39,6 +36,6 @@ export const database = arraySidebar([
         prefix: "mongodb/",
         icon: "mongodb",
         collapsible: false,
-        children: ["mongodb-questions-01", "mongodb-questions-02"],
+        children: [],
     },
 ]);

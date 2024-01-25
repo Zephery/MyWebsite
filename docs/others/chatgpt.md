@@ -11,11 +11,12 @@ openai提供服务的区域，美国最好，这个解决办法是搞个翻墙�
 
 国外手机号，没有的话也可以去https://sms-activate.org，费用大概需要1美元，这个网站记得也用国外邮箱注册，需要先充值，使用支付宝支付。
 
-<img src="https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/vfh7kn.png" alt="image-20230220172107296" style="zoom:30%;" />
+
+<div style="text-align: center;"><img src="https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/vfh7kn.png" alt="image-20230220172107296" style="zoom:30%;" /></div>
 
 之后再搜索框填openai进行下单购买即可。
 
-<img src="https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/1620.png" alt="img" style="zoom:67%;" />
+<div style="text-align: center;"><img src="https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/1620.png" alt="img" style="zoom:67%;" /></div>
 
 
 
@@ -29,13 +30,13 @@ openai在国内不提供服务的，而且也通过ip识别是不是在国内，
 
 购买完之后，就可以直接打开openai的官网了，然后去https://platform.openai.com/signup官网里注册，注册过程具体就不讲了，讲下核心问题——短信验证码
 
-<img src="https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/oz1r8x.png" alt="image-20230222104357230" style="zoom:80%;" />
+<div style="text-align: center;"><img src="https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/oz1r8x.png" alt="image-20230222104357230" style="zoom:80%;" /></div>
 
 然后回sms查看验证码。
 
 
 
-<img src="https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/28gfhn.png" alt="image-20230222104225722" style="zoom:50%;" />
+<div style="text-align: center;"><img src="https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/28gfhn.png" alt="image-20230222104225722" style="zoom:50%;" /></div>
 
 注册成功之后就可以在chatgpt里聊天啦，能够识别各种语言，发起多轮会话的时候，可能回出现访问超过限制什么的。
 
@@ -43,7 +44,7 @@ openai在国内不提供服务的，而且也通过ip识别是不是在国内，
 
 通过chatgpt聊天不是我们最终想要的，我们需要的是在微信公众号也提供智能客服的聊天回复，所以我们需要在通过openai的api来进行调用。
 
-<img src="https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/ykhrvs.png" alt="image-20230222104316514" style="zoom:30%;" />
+<div style="text-align: center;"><img src="https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/ykhrvs.png" alt="image-20230222104316514" style="zoom:30%;" /></div>
 
 
 ## 二、搭建nginx服务器
@@ -86,7 +87,7 @@ Content-Type: application/json
 
 微信公众平台提供了微信云托管，无需鉴权，比其他方式都方便不少，可以免费试用3个月，继续薅羊毛，当然，如果自己开发能力足够，也可以自己从0开始开发。
 
-<img src="https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/svjm7s.png" alt="image-20230220192603751" style="zoom:30%;" />
+<div style="text-align: center;"><img src="https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/svjm7s.png" alt="image-20230220192603751" style="zoom:30%;" /></div>
 
 提供了各种语言的模版，方便快速开发，OpenAI官方提供的sdk是node和python，这里我们选择express（node）。
 
@@ -149,7 +150,7 @@ app.post("/message/simple", async (req, res) => {
 
 部署完之后，云托管也提供了云端调试功能，相当于在服务里发送了http请求。这一步很重要，如果没有调用成功，则无法进行云托管消息推送。
 
-<img src="https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/129qih.png" alt="image-20230220203711436" style="zoom:30%;" />
+<div style="text-align: center;"><img src="https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/129qih.png" alt="image-20230220203711436" style="zoom:30%;" /></div>
 
 这里填上你自己的url，我们这里配置的是/meesage/simple，如果没有成功，需要进行下面步骤进行排查：
 
@@ -161,7 +162,7 @@ app.post("/message/simple", async (req, res) => {
 
 保存成功之后，就可以在微信公众号里测试了。
 
-<img src="https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/p82i06.png" alt="image-20230221134250689" style="zoom:50%;" />
+<div style="text-align: center;"><img src="https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/p82i06.png" alt="image-20230221134250689" style="zoom:50%;" /></div>
 
 体验还可以
 
@@ -270,7 +271,7 @@ async function buildCtxPrompt({ FromUserName }) {
 
 之后就可以实现会话之间的保存通信了。
 
-<img src="https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/52pp5f.png" alt="image-20230218203309437" style="zoom:33%;" />
+<div style="text-align: center;"><img src="https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/52pp5f.png" alt="image-20230218203309437" style="zoom:33%;" /></div>
 
 ## 六、其他问题
 
