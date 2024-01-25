@@ -6,8 +6,6 @@ export const bigdata = arraySidebar([
         prefix: "spark/",
         icon: "bigdata",
         collapsible: false,
-        children: [
-            "elastic-spark.md",
-        ],
+        children: "structure"
     },
 ]);

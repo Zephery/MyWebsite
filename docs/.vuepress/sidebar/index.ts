@@ -36,15 +36,7 @@ export default sidebar({
             icon: "java",
             collapsible: false,
             prefix: "java/",
-            children: [
-                "JVM调优参数",
-                "lucene搜索原理",
-                "serverlog",
-                "一次jvm调优过程",
-                "内存屏障",
-                "基于kubernetes的分布式限流",
-                "在 Spring 6 中使用虚拟线程.md"
-            ],
+            children: "structure"
         },
     ],
 });

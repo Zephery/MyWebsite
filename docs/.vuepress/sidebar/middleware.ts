@@ -6,17 +6,13 @@ export const middleware = arraySidebar([
         prefix: "kafka/",
         icon: "kafka",
         collapsible: false,
-        children: [
-            "kafka.md",
-        ],
+        children: "structure"
     },
     {
         text: "Zookeeper",
         prefix: "zookeeper/",
         icon: "zookeeper",
         collapsible: false,
-        children: [
-            "zookeeper.md",
-        ],
+        children: "structure"
     },
 ]);
