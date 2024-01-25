@@ -32,7 +32,7 @@ POST aaaa-18/_doc
 
 即可在kibana上看到3条数据
 
-![image-20220219195141327](https://tva1.sinaimg.cn/large/e6c9d24egy1h0fiqkv22vj226s0tqtek.jpg)
+![image-20220219195141327](./assets/1240.png)
 
 此时，假设我们用一个索引+星号来搜索，es内部的搜索是怎么样的呢？
 
@@ -91,7 +91,7 @@ GET aaaa*/_search
 一个搜索请求必须询问请求的索引中所有分片的某个副本来进行匹配。假设一个索引有5个主分片，每个主分片有1个副分片，共10个分片，一次搜索请求会由5个分片来共同完成，它们可能是主分片，也可能是副分片。也就是说，一次搜索请求只会命中所有分片副本中的一个。当搜索任务执行在分布式系统上时，整体流程如下图所示。图片来源[Elasitcsearch源码解析与优化实战](https://weread.qq.com/web/reader/f9c32dc07184876ef9cdeb6k7f33291023d7f39f8317e0b)
 
 
-<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0fis2ah95j20u00yjaci.jpg" alt="image-20220220170111657" style="zoom:50%;" />
+![2](./assets/1240-20240125205906732.png)
 
 
 ## 搜索入口：
@@ -178,13 +178,13 @@ private void executePhase(SearchPhase phase) {
 
 两阶段相应的实现位置：查询（Query）阶段—search.SearchQueryThenFetchAsyncAction；取回（Fetch）阶段—search.FetchSearchPhase。它们都继承自SearchPhase，如下图所示。
 
-<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0fj0n8y8bj21qq0fsmyw.jpg" alt="image-20220319171622622" style="zoom:30%;" />
+![23](./assets/1240-20240125210335027.png)
 
 ## 3.1 query阶段
 
 图片来源[官网](https://www.elastic.co/Zephery/en/elasticsearch/Zephery/current/_query_phase.html)，比较旧，但任然可用
 
-<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0fj0stiwbj212q0hot9s.jpg" alt="image-20220315002620496" style="zoom:40%;" />
+![12](./assets/1240-20240125210338196.png)
 
 （1）客户端发送一个search请求到node3，node3创建一个大小为from，to的优先级队列。
 （2）node3转发转发search请求至索引的主分片或者副本，每个分片执行查询请求，并且将结果放到一个排序之后的from、to大小的优先级队列。
@@ -219,7 +219,7 @@ private void executeSearch(.. .) {
 
 查看结果
 
-<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0fj3t8hn9j215q0qu792.jpg" style="zoom:25%;" />
+![241](./assets/1240-20240125205916232.png)
 
 #### 3.1.2 对所有分片进行搜索
 
@@ -237,7 +237,7 @@ for (int i = 0; i < shardsIts.size(); i++) {
 
 其中shardsIts是所有aaaa*的所有索引+其中一个副本
 
-<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0fj3wn99qj20ru09vgmu.jpg" alt="image-20220315000514770" style="zoom:50%;" />
+![2141](./assets/1240-20240125205923525.png)
 
 #### 3.1.3 分片具体的搜索过程
 
@@ -281,7 +281,7 @@ private void successfulShardExecution (SearchShardIterator shardsIt) {
 
 ```
 
-<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0fj40eqosj21150sun1c.jpg" alt="image-20220315001153465" style="zoom:80%;" />
+![412](./assets/1240-20240125205928956.png)
 
 此处忽略了搜索结果totalHits为0的结果，并将结果进行累加，当xTotalOps等于expectedTotalOps时开始AbstractSearchAsyncAction.onPhaseDone再进行AbstractSearchAsyncAction.executeNextPhase取回阶段
 
@@ -291,7 +291,7 @@ private void successfulShardExecution (SearchShardIterator shardsIt) {
 
 取回阶段，图片来自[官网](https://www.elastic.co/Zephery/en/elasticsearch/Zephery/current/_fetch_phase.html)，
 
-<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0fj4bo32sj213m0iswfm.jpg" alt="image-20220315002725203" style="zoom:40%;" />
+![412412](./assets/1240-20240125205939879.png)
 
 （1）各个shard 返回的只是各文档的id和排序值 IDs and sort values ，coordinate node根据这些id&sort values 构建完priority queue之后，然后把程序需要的document 的id发送mget请求去所有shard上获取对应的document
 
@@ -370,7 +370,7 @@ private void executeFetch(...) {
   
 ```
 
-<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0fj4fe7zxj20zf0ppdju.jpg" alt="image-20220316000309117" style="zoom:50%;" />
+![13413](./assets/1240-20240125205944929.png)
 
 counter是一个收集器CountedCollector，onResult(result)主要是每次收到的shard数据存放，并且执行一次countDown，当所有shard数据收集完之后，然后触发一次finishPhase。
 
@@ -396,7 +396,7 @@ AbstractSearchAsyncAction.executePhase->ExpandSearchPhase.run。取回阶段完�
 
 ExpandSearchPhase执行完之后回复客户端，在AbstractSearchAsyncAction.sendSearchResponse方法中实现：
 
-<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0fj4mc36dj21cm0tltcz.jpg" alt="image-20220316004058222" style="zoom:50%;" />
+![412412](./assets/1240-20240125205952628.png)
 
 # 四、数据节点
 
@@ -439,7 +439,7 @@ public void executeQueryPhase(ShardSearchRequest request, SearchShardTask task, 
 
 其中ensureAfterSeqNoRefreshed是把request任务放到一个名为search的线程池里面执行，容量大小为1000。
 
-<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0fj4vuy2kj21550u0wkt.jpg" alt="image-20220318003020110" style="zoom:80%;" />
+![1](./assets/1240-20240125205957133.png)
 
 主要是用来执行SearchService.executeQueryPhase->SearchService.loadOrExecuteQueryPhase->QueryPhase.execute。核心的查询封装在queryPhase.execute(context)中，其中调用Lucene实现检索，同时实现聚合：
 
@@ -508,7 +508,7 @@ public void execute(SearchContext context) {
 # 五、数据返回
 入口：RestCancellableNodeClient.doExecute
 Task task = client.executeLocally主要执行查询，并使用了ActionListener来进行监听
-![image-20220319003638991](https://tva1.sinaimg.cn/large/e6c9d24egy1h0fj55fmlqj213e0oetcy.jpg)
+![image-20220319003638991](./assets/1240-20240125210045403.png)
 
 其中onResponse的调用链路如下：RestActionListener.onResponse->RestResponseListener.processResponse->RestController.sendResponse->DefaultRestChannel.sendResponse->Netty4HttpChannel.sendResponse
 
