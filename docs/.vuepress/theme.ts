@@ -73,7 +73,7 @@ export default hopeTheme({
     },
     blog: true,
     copyright: {
-      author: "JavaZephery(wenzhihuai.com)",
+      author: "wenzhihuai.com",
       license: "MIT",
       triggerLength: 100,
       maxLength: 700,

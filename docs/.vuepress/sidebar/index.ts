@@ -4,11 +4,13 @@ import {aboutTheAuthor} from "./about-the-author.js";
 import {books} from "./books.js";
 import {highQualityTechnicalArticles} from "./high-quality-technical-articles.js";
 import {database} from "./database.js";
+import {donate} from "./donate.js";
 
 export default sidebar({
     // 应该把更精确的路径放置在前边
     "/database/": database,
     "/books/": books,
+    "/donate/": donate,
     "/about-the-author/": aboutTheAuthor,
     "/high-quality-technical-articles/": highQualityTechnicalArticles,
     "/zhuanlan/": [
