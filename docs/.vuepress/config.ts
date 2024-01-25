@@ -1,7 +1,6 @@
 import {defineUserConfig} from "vuepress";
 import theme from "./theme.js";
 import { commentPlugin } from "vuepress-plugin-comment2";
-import googleAdSensePlugin from "vuepress-plugin-google-adsense2";
 
 export default defineUserConfig({
     dest: "./dist",
@@ -18,11 +17,16 @@ export default defineUserConfig({
             category: "General",
             categoryId: "DIC_kwDODCK5HM4Ccp32" //对应自己的分类Id
         }),
-        googleAdSensePlugin({
-            id: 'ca-pub-9037099208128116',
-        }),
     ],
     head: [
+        [
+            "script",
+            {
+                "data-ad-client": "ca-pub-9037099208128116",
+                async: true,
+                src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+            }
+        ],
         // meta
         ["meta", {name: "robots", content: "all"}],
         ["meta", {name: "author", content: "个人博客"}],
