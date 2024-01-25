@@ -3,7 +3,9 @@ import {navbar} from "vuepress-theme-hope";
 export default navbar([
     {text: "Java", icon: "java", link: "/index"},
     {text: "数据库", icon: "database", link: "/database/"},
-    {text: "技术书籍", icon: "book", link: "/books/"},
+    {text: "大数据", icon: "bigdata", link: "/bigdata/"},
+    {text: "Kubernetes", icon: "Kubernetes", link: "/kubernetes/"},
+    {text: "个人网站", icon: "personalWebsite.ts", link: "/personalWebsite/"},
     {
         text: "网站相关",
         icon: "about",

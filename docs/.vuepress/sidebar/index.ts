@@ -5,10 +5,16 @@ import {books} from "./books.js";
 import {highQualityTechnicalArticles} from "./high-quality-technical-articles.js";
 import {database} from "./database.js";
 import {donate} from "./donate.js";
+import {bigdata} from "./bigdata.js";
+import {personalWebsite} from "./personalWebsite.js";
+import {kubernetes} from "./kubernetes.js";
 
 export default sidebar({
     // 应该把更精确的路径放置在前边
     "/database/": database,
+    "/bigdata/": bigdata,
+    "/personalWebsite/": personalWebsite,
+    "/kubernetes/": kubernetes,
     "/books/": books,
     "/donate/": donate,
     "/about-the-author/": aboutTheAuthor,
@@ -24,7 +30,7 @@ export default sidebar({
         {
             text: "Java",
             icon: "java",
-            collapsible: true,
+            collapsible: false,
             prefix: "java/",
             children: [
                 "JVM调优参数",
@@ -37,22 +43,5 @@ export default sidebar({
                 "锁",
             ],
         },
-        {
-            text: "个人网站",
-            icon: "computer",
-            prefix: "personalwebsite/",
-            collapsible: true,
-            children: [
-                "1.历史与架构",
-                "2.Lucene的使用",
-                "3.定时任务",
-                "4.日志系统",
-                "5.小集群部署",
-                "6.数据库备份",
-                "7.那些牛逼的插件",
-                "8.基于贝叶斯的情感分析",
-                "9.网站性能优化"
-            ]
-        }
     ],
 });
