@@ -17,7 +17,7 @@
 基于可用资源的限制，比如设定最大访问次数，或最高可用连接数。
   限流就是在某个时间窗口对资源访问做限制，比如设定每秒最多100个访问请求。
 
-![image.png](./assets/1240-20240125210940819-6188218.png)
+![image.png](https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/1240-20240125210940819-6188218.png)
 
 
 
@@ -45,7 +45,7 @@ Guava的Ratelimiter设计实现相当不错，可惜只能支持单机，网关�
 
 在Spring Boot应用中，定义一个filter，获取请求参数里的key（ip、userId等），然后根据key来获取rateLimiter，其中，rateLimiter的创建由数据库定义的限频数和副本数来判断，最后，再通过rateLimiter.tryAcquire来判断是否可以通过。
 
-![企业微信截图_868136b4-f9e2-4813-bc02-281a66756ecd.png](./assets/1240-20240125211018162.png)
+![企业微信截图_868136b4-f9e2-4813-bc02-281a66756ecd.png](https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/1240-20240125211018162.png)
 
 
 
@@ -149,7 +149,7 @@ public class RateLimiterFilter implements Filter {
 
 **无限流**
 
-![企业微信截图_ea1b7815-3b89-43bf-aed7-240e135bdad1.png](./assets/1240-20240125211018144.png)
+![企业微信截图_ea1b7815-3b89-43bf-aed7-240e135bdad1.png](https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/1240-20240125211018144.png)
 
 
 
@@ -157,7 +157,7 @@ public class RateLimiterFilter implements Filter {
 
 其中，ping redis大概6-7ms左右，对应的，每次请求需要访问redis，时延都有大概6-7ms，性能下降明显
 
-![企业微信截图_9118c4e0-c7f3-4e74-9649-4cd4d56fda79.png](./assets/1240-20240125211018162-6188218.png)
+![企业微信截图_9118c4e0-c7f3-4e74-9649-4cd4d56fda79.png](https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/1240-20240125211018162-6188218.png)
 
 
 
@@ -166,7 +166,7 @@ public class RateLimiterFilter implements Filter {
 
 性能几乎追平无限流的场景，guava的rateLimiter确实表现卓越
 
-![企业微信截图_9f6510bd-be9e-438b-aa9d-bdd13ebca953.png](./assets/1240-20240125211018163.png)
+![企业微信截图_9f6510bd-be9e-438b-aa9d-bdd13ebca953.png](https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/1240-20240125211018163.png)
 
 
 

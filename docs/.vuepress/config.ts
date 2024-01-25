@@ -1,6 +1,7 @@
 import {defineUserConfig} from "vuepress";
 import theme from "./theme.js";
-import { commentPlugin } from "vuepress-plugin-comment2";
+import {commentPlugin} from "vuepress-plugin-comment2";
+import {mediumZoomPlugin} from '@vuepress/plugin-medium-zoom'
 
 export default defineUserConfig({
     dest: "./dist",
@@ -8,6 +9,9 @@ export default defineUserConfig({
     description: "个人博客",
     lang: "zh-CN",
     plugins: [
+        mediumZoomPlugin({
+            // options
+        }),
         // https://plugin-comment2.vuejs.press/zh/config/giscus.html#darktheme
         commentPlugin({
             provider: "Giscus",

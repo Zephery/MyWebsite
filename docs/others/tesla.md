@@ -8,11 +8,11 @@
 
 正常创建用户就好，然后需要开启多重身份认证，这边常用的是mircrosoft的Authenticator.
 
-<img src="./assets/3hnb7w.png" alt="image-20231210142130054" style="zoom:5%;" />
+<img src="https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/3hnb7w.png" alt="image-20231210142130054" style="zoom:5%;" />
 
 
 
-<img src="./assets/zdto5j.png" alt="image-20231210142415598" style="zoom:25%;" />
+<img src="https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/zdto5j.png" alt="image-20231210142415598" style="zoom:25%;" />
 
 注意点：（1）不要用自己车辆的邮箱来注册（2）有些邮箱不是特斯拉开发者的邮箱，可能用这些有些无法正常提交访问请求。
 
@@ -24,19 +24,19 @@
 
 （1）Invalid domain
 
-<img src="./assets/mfthul.png" alt="image-20231210144504486" style="zoom:33%;" />
+<img src="https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/mfthul.png" alt="image-20231210144504486" style="zoom:33%;" />
 
 无效的域名，这里我用的域名是腾讯云个人服务器的域名，证书是腾讯云免费一年的证书，印象中第一申请的时候还是能过的，第二次的时候就不行了，可能被识别到免费的ssl证书不符合规范，还是需要由合法机构的颁发证书才行。所以，为了金快速申请通过，先填个https://baidu.com吧。当然，后续需要彻底解决自己域名证书的问题，我改为使用阿里云的ssl证书，3个月到期的那种。
 
 （2）Unable to Onboard
 
-<img src="./assets/y6s6ea.png" alt="image-20231210142930976" style="zoom:50%;" />
+<img src="https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/y6s6ea.png" alt="image-20231210142930976" style="zoom:50%;" />
 
 应用无法上架，可能原因为邮箱不对，用了之前消费者账号（即自己的车辆账号），建议换别的邮箱试试。
 
 （3） Rejected
 
-<img src="./assets/5fxmcv.png" alt="image-20231210143156308" style="zoom:50%;" />
+<img src="https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/5fxmcv.png" alt="image-20231210143156308" style="zoom:50%;" />
 
 这一步尝试了很多次，具体原因为国内还无法正常使用tesla api，只能切换至美国服务器申请下（截止2023-11-15），后续留意官网通知。
 
@@ -46,7 +46,7 @@
 
 申请好就可以在自己的账号下看到自己的应用了，
 
-<img src="./assets/kpdjbc.png" alt="image-20231210144244888" style="zoom:33%;" />
+<img src="https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/kpdjbc.png" alt="image-20231210144244888" style="zoom:33%;" />
 
 ### 1.4 开始 API 集成
 

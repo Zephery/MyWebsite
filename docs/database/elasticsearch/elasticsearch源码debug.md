@@ -2,12 +2,12 @@
 
 # 一、下载源代码
 直接用idea下载代码https://github.com/elastic/elasticsearch.git
-![image](./assets/755525-20220124160719006-851383635.png)
+![image](https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/755525-20220124160719006-851383635.png)
 
 
 
 切换到特定版本的分支：比如7.17，之后idea会自己加上Run/Debug Elasitcsearch的，配置可以不用改，默认就好
-![image](./assets/755525-20220124160709513-361605195.png)
+![image](https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/755525-20220124160709513-361605195.png)
 
 
 
@@ -29,4 +29,4 @@ user username: 'elastic-admin', password: 'elastic-password', role: 'superuser'
 
 ./gradlew :run --debug-jvm
 打开浏览器http://localhost:9200即可看到es相关信息了
-![image](./assets/755525-20220124160657219-1269826381.png)
+![image](https://github-images-1251938559.cos.ap-shanghai.myqcloud.com/images/755525-20220124160657219-1269826381.png)
