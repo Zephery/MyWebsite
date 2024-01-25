@@ -35,7 +35,6 @@ export default sidebar({
             children: [
                 "JVM调优参数",
                 "lucene搜索原理",
-                "es8.0练习",
                 "serverlog",
                 "一次jvm调优过程",
                 "内存屏障",
