@@ -11,11 +11,11 @@ openai提供服务的区域，美国最好，这个解决办法是搞个翻墙�
 
 国外手机号，没有的话也可以去https://sms-activate.org，费用大概需要1美元，这个网站记得也用国外邮箱注册，需要先充值，使用支付宝支付。
 
-<img src="https://p.ipic.vip/vfh7kn.png" alt="image-20230220172107296" style="zoom:30%;" />
+<img src="./assets/vfh7kn.png" alt="image-20230220172107296" style="zoom:30%;" />
 
 之后再搜索框填openai进行下单购买即可。
 
-<img src="https://ask.qcloudimg.com/http-save/6854995/ee59335a8cc5662585f2be689213a0d7.png?imageView2/2/w/1620" alt="img" style="zoom:67%;" />
+<img src="./assets/1620.png" alt="img" style="zoom:67%;" />
 
 
 
@@ -23,27 +23,27 @@ openai提供服务的区域，美国最好，这个解决办法是搞个翻墙�
 
 openai在国内不提供服务的，而且也通过ip识别是不是在国内，解决办法用vpn也行，或者，自己去买一台国外的服务器也行。我这里使用的是腾讯云轻量服务器，最低配置54元/月，选择windows的主要原因毕竟需要注册openai，需要看页面，同时也可以搭建nginx，当然，用ubuntu如果能自己搞界面也行。
 
-<img src="https://p.ipic.vip/4yrkq1.png" alt="image-20230221193455384" style="zoom:50%;" />
+<img src="./assets/4yrkq1.png" alt="image-20230221193455384" style="zoom:50%;" />
 
 ### 1.3 ChatGPT注册
 
 购买完之后，就可以直接打开openai的官网了，然后去https://platform.openai.com/signup官网里注册，注册过程具体就不讲了，讲下核心问题——短信验证码
 
-<img src="https://p.ipic.vip/oz1r8x.png" alt="image-20230222104357230" style="zoom:80%;" />
+<img src="./assets/oz1r8x.png" alt="image-20230222104357230" style="zoom:80%;" />
 
 然后回sms查看验证码。
 
 
 
-<img src="https://p.ipic.vip/28gfhn.png" alt="image-20230222104225722" style="zoom:50%;" />
+<img src="./assets/28gfhn.png" alt="image-20230222104225722" style="zoom:50%;" />
 
 注册成功之后就可以在chatgpt里聊天啦，能够识别各种语言，发起多轮会话的时候，可能回出现访问超过限制什么的。
 
-<img src="https://p.ipic.vip/mrw3cz.png" alt="image-20230220173335691" style="zoom:50%;" />
+<img src="./assets/mrw3cz.png" alt="image-20230220173335691" style="zoom:50%;" />
 
 通过chatgpt聊天不是我们最终想要的，我们需要的是在微信公众号也提供智能客服的聊天回复，所以我们需要在通过openai的api来进行调用。
 
-<img src="https://p.ipic.vip/ykhrvs.png" alt="image-20230222104316514" style="zoom:30%;" />
+<img src="./assets/ykhrvs.png" alt="image-20230222104316514" style="zoom:30%;" />
 
 
 ## 二、搭建nginx服务器
@@ -86,11 +86,11 @@ Content-Type: application/json
 
 微信公众平台提供了微信云托管，无需鉴权，比其他方式都方便不少，可以免费试用3个月，继续薅羊毛，当然，如果自己开发能力足够，也可以自己从0开始开发。
 
-<img src="https://p.ipic.vip/svjm7s.png" alt="image-20230220192603751" style="zoom:30%;" />
+<img src="./assets/svjm7s.png" alt="image-20230220192603751" style="zoom:30%;" />
 
 提供了各种语言的模版，方便快速开发，OpenAI官方提供的sdk是node和python，这里我们选择express（node）。
 
-<img src="https://p.ipic.vip/kkjdna.png" alt="image-20230220201004069" style="zoom:30%;" />
+<img src="./assets/kkjdna.png" alt="image-20230220201004069" style="zoom:30%;" />
 
 
 
@@ -145,11 +145,11 @@ app.post("/message/simple", async (req, res) => {
 
 提交代码只github或者gitee都可以，值得注意的是，OpenAI判断key泄露的规则，不知道是不是判断调用的ip地址不一样，还是github的提交记录里含有这块，有点玄学，同样的key本地调用一次，然后在云托管也调用的话，OpenAI就很容易把key给重新更新。
 
-<img src="https://p.ipic.vip/wfekdb.png" alt="image-20230220203313790" style="zoom:50%;" />
+<img src="./assets/wfekdb.png" alt="image-20230220203313790" style="zoom:50%;" />
 
 部署完之后，云托管也提供了云端调试功能，相当于在服务里发送了http请求。这一步很重要，如果没有调用成功，则无法进行云托管消息推送。
 
-<img src="https://p.ipic.vip/129qih.png" alt="image-20230220203711436" style="zoom:30%;" />
+<img src="./assets/129qih.png" alt="image-20230220203711436" style="zoom:30%;" />
 
 这里填上你自己的url，我们这里配置的是/meesage/simple，如果没有成功，需要进行下面步骤进行排查：
 
@@ -157,11 +157,11 @@ app.post("/message/simple", async (req, res) => {
 
 （2）端口有没有设置错误，这个很多次没有注意到
 
-<img src="https://p.ipic.vip/dn1f67.png" alt="image-20230220203445297" style="zoom:50%;" />
+<img src="./assets/dn1f67.png" alt="image-20230220203445297" style="zoom:50%;" />
 
 保存成功之后，就可以在微信公众号里测试了。
 
-<img src="https://p.ipic.vip/p82i06.png" alt="image-20230221134250689" style="zoom:50%;" />
+<img src="./assets/p82i06.png" alt="image-20230221134250689" style="zoom:50%;" />
 
 体验还可以
 
@@ -176,7 +176,7 @@ app.post("/message/simple", async (req, res) => {
 
 根据微信官方文档，没有认证的公众号是没有调用主动回复接口权限的，https://developers.weixin.qq.com/doc/offiaccount/Getting_Started/Explanation_of_interface_privileges.html
 
-<img src="https://p.ipic.vip/eeogjb.png" alt="image-20230221100251825" style="zoom:40%;" />
+<img src="./assets/eeogjb.png" alt="image-20230221100251825" style="zoom:40%;" />
 
 对于有微信认证的订阅号或者服务号，可以调用微信官方的/cgi-bin/message/custom/send接口来实现主动回复，但是对于个人的公众号，没有权限调用，只能尝试别的办法。想来想去，只能在3s内返回让用户重新复制发送的信息，同时后台里保存记录异步调用，用户重新发送的时候再从数据库里提取回复。
 
@@ -240,7 +240,7 @@ app.post("/message/simple", async (req, res) => {
     sleep(2900).then(() => AI_THINKING_MESSAGE),
     getAIMessage({ Content, FromUserName }),
   ]);
-```  
+```
 这样子大概就能实现超时之前返回了。
 
 
@@ -270,7 +270,7 @@ async function buildCtxPrompt({ FromUserName }) {
 
 之后就可以实现会话之间的保存通信了。
 
-<img src="https://p.ipic.vip/52pp5f.png" alt="image-20230218203309437" style="zoom:33%;" />
+<img src="./assets/52pp5f.png" alt="image-20230218203309437" style="zoom:33%;" />
 
 ## 六、其他问题
 
@@ -288,7 +288,7 @@ chatgpt毕竟也是新上线的，火热是肯定的，聊天窗口只能开几�
 
 我们这里用的模型算法是text-davinci-003，具体可以参考：https://platform.openai.com/docs/models/overview，也算是一个比较老的样本了吧
 
-<img src="https://p.ipic.vip/qh4efq.png" alt="image-20230221192417900" style="zoom:50%;" />
+<img src="./assets/qh4efq.png" alt="image-20230221192417900" style="zoom:50%;" />
 
 从官方文档来看，官方服务版的 ChatGPT 的模型并非基础版的`text-davinci-003`，而是经过了「微调：fine-tunes」。文档地址在这：[platform.openai.com/docs/guides…](https://link.juejin.cn/?target=https%3A%2F%2Fplatform.openai.com%2Fdocs%2Fguides%2Ffine-tuning)
 
@@ -296,7 +296,7 @@ chatgpt毕竟也是新上线的，火热是肯定的，聊天窗口只能开几�
 
 有时候消息没有回复，真的不是我们的问题，chatgpt毕竟太火了，官网的这个能力都经常挂掉，也可以订阅官网修复的通知，一旦修复则会发邮件告知你。
 
-<img src="https://p.ipic.vip/4hod0s.png" alt="image-20230221175150025" style="zoom:50%;" />
+<img src="./assets/4hod0s.png" alt="image-20230221175150025" style="zoom:50%;" />
 
 参考：https://juejin.cn/post/7200769439335546935
 
