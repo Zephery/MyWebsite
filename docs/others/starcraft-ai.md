@@ -56,7 +56,6 @@ sc2的[wiki](https://sc2ai.net/wiki/human-vs-bot/)资料很全，可以从这里
 ![](https://github-images.wenzhihuai.com/images/755525-20211220223256462-1602936807.png)
 
 7.慢慢等待，比赛结束之前都看不到结果的，也没有实时流进行查看的，结束之后就可以看到结果以及下载replay。其中arena会随机的进行一些比赛，也有可能是别人随机选的，一个bot一天大概能有50场比赛，arena也会提供统计，胜率、ELO（分数）等  
-{{uploading-image-898657.png(uploading...)}}
 
 # Bot开发样例
 https://github.com/Zephery/sc2-api-simple-bot.git  
