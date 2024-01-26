@@ -8,7 +8,7 @@ const __dirname = getDirname(import.meta.url);
 
 export default hopeTheme({
   hostname: "http://www.wenzhihuai.com/",
-  logo: "/logo.png",
+  logo: "https://github-images.wenzhihuai.com/images/logo.png",
   favicon: "/favicon.ico",
 
   // iconAssets: "//at.alicdn.com/t/c/font_2922463_o9q9dxmps9.css",
