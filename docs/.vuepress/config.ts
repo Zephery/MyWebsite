@@ -2,6 +2,8 @@ import {defineUserConfig} from "vuepress";
 import theme from "./theme.js";
 import {commentPlugin} from "vuepress-plugin-comment2";
 import {mdEnhancePlugin} from "vuepress-plugin-md-enhance";
+import {searchProPlugin} from "vuepress-plugin-search-pro";
+import {cut} from "nodejs-jieba";
 
 export default defineUserConfig({
     dest: "./dist",
@@ -18,6 +20,17 @@ export default defineUserConfig({
             imgMark: true,
             // 启用图片大小
             imgSize: true,
+        }),
+        //加强中文搜索
+        searchProPlugin({
+            // 配置选项
+            // 索引全部内容
+            indexContent: true,
+            indexOptions: {
+                // 使用 nodejs-jieba 进行分词
+                tokenize: (text, fieldName) =>
+                    fieldName === "id" ? [text] : cut(text, true),
+            },
         }),
         // https://plugin-comment2.vuejs.press/zh/config/giscus.html#darktheme
         commentPlugin({
