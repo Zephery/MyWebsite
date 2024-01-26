@@ -30,7 +30,6 @@
     "vuepress-plugin-comment2": "2.0.0-rc.11",
     "vuepress-plugin-copyright2": "2.0.0-rc.11",
     "vuepress-plugin-feed2": "2.0.0-rc.11",
-    "vuepress-plugin-md-enhance": "2.0.0-rc.12",
     "vuepress-theme-hope": "2.0.0-rc.11"
   }
 }
