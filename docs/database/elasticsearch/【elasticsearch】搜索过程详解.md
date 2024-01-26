@@ -392,7 +392,7 @@ moveToNextPhase方法执行下一阶段，下-阶段要执行的任务定义在F
 
 AbstractSearchAsyncAction.executePhase->ExpandSearchPhase.run。取回阶段完成之后执行ExpandSearchPhase#run，主要判断是否启用字段折叠，根据需要实现字段折叠功能，如果没有实现字段折叠，则直接返回给客户端。
 
-![image-20220317000858513](https://tva1.sinaimg.cn/large/e6c9d24egy1h0fj4j3u0vj212q0hmdif.jpg)
+![image-20220317000858513](https://github-images.wenzhihuai.com/images/1339227-c5c82e202430fc45.png)
 
 ExpandSearchPhase执行完之后回复客户端，在AbstractSearchAsyncAction.sendSearchResponse方法中实现：
 
