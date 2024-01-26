@@ -14,12 +14,16 @@ export default navbar([
         text: "网站相关",
         icon: "about",
         children: [
-            {text: "关于作者", icon: "zuozhe", link: "/about-the-author/"},
             {
-                text: "生活",
-                icon: "life",
-                link: "/life/",
+                text: "关于作者",
+                icon: "zuozhe",
+                link: "/about-the-author/"
             },
+            // {
+            //     text: "生活",
+            //     icon: "life",
+            //     link: "/life/",
+            // },
         ],
     },
 ]);

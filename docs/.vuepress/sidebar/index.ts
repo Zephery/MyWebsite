@@ -10,6 +10,7 @@ import {personalWebsite} from "./personalWebsite.js";
 import {kubernetes} from "./kubernetes.js";
 import {others} from "./others";
 import {middleware} from "./middleware.js";
+import {life} from "./life.js";
 
 export default sidebar({
     // 应该把更精确的路径放置在前边
@@ -20,6 +21,7 @@ export default sidebar({
     "/kubernetes/": kubernetes,
     "/books/": books,
     "/donate/": donate,
+    "/life/": life,
     "/others/": others,
     "/about-the-author/": aboutTheAuthor,
     "/high-quality-technical-articles/": highQualityTechnicalArticles,
