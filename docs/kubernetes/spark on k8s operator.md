@@ -101,9 +101,9 @@ spark-wordcount-application-java-0ac352810a9728e1-exec-1   1/1     Running   0  
 
 同时会自动生成相应的service。
 
-![image-20220528203941897](https://tva1.sinaimg.cn/large/e6c9d24egy1h2oeh4gm96j21qg02wweq.jpg)
+![image-20220528203941897](https://github-images.wenzhihuai.com/images/e6c9d24egy1h2oeh4gm96j21qg02wweq.jpg)
 
-<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h2oefrpt7yj21ty0u0gpz.jpg" alt="image-20220528203816649" style="zoom:50%;" />
+<img src="https://github-images.wenzhihuai.com/images/e6c9d24egy1h2oefrpt7yj21ty0u0gpz.jpg" alt="image-20220528203816649" style="zoom:50%;" />
 
 Spark on k8s operator大大减少了spark的部署与运维成本，用容器的调度来替换掉yarn，
 
@@ -111,7 +111,7 @@ Spark on k8s operator大大减少了spark的部署与运维成本，用容器的
 
 
 
-<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h2phgjds4sj20qo0f075v.jpg" alt="architecture-diagram" style="zoom:80%;" />
+<img src="https://github-images.wenzhihuai.com/images/e6c9d24egy1h2phgjds4sj20qo0f075v.jpg" alt="architecture-diagram" style="zoom:80%;" />
 
 Spark Operator的主要组件如下：
 
@@ -129,7 +129,7 @@ Spark Operator的主要组件如下：
 
 
 
-<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h35p5wncymj20hk0e0gly.jpg" alt="image-20220612194403742" style="zoom:50%;" />
+<img src="https://github-images.wenzhihuai.com/images/e6c9d24egy1h35p5wncymj20hk0e0gly.jpg" alt="image-20220612194403742" style="zoom:50%;" />
 
 apis：用户编写yaml时的解析
 
