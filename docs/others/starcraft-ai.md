@@ -34,7 +34,8 @@ sc2的[wiki](https://sc2ai.net/wiki/human-vs-bot/)资料很全，可以从这里
 # 二、AI天梯
 目前没有看到什么办法让暴雪允许AI在实际的天梯上进行运行，但社区搞了个专门的AI天梯，[sc2ai](https://sc2ai.net/)，可以将代码上传到里面进行对战，实时流我没看到，对战完后可以下载replay复盘。下面讲下如何上传代码进行对战。  
 1.第一步肯定是先要注册登录  
-2.upload new bot  
+2.u
+
 ![](https://github-images.wenzhihuai.com/images/755525-20211220223227654-1821240851.png)
 
 
