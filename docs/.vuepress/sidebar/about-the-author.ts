@@ -9,11 +9,18 @@ export const aboutTheAuthor = arraySidebar([
         children: "structure"
     },
     {
+        text: "作品",
+        icon: "works",
+        prefix: "works/",
+        collapsible: false,
+        children: "structure"
+    },
+    {
         text: "杂谈",
         icon: "chat",
         prefix: "talking/",
         collapsible: false,
         children: "structure"
-
     },
+
 ]);
