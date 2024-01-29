@@ -1,3 +1,3 @@
 # mysql 
 
-![img](.img/img.png)
+![img](https://github-images.wenzhihuai.com/images/img.png)
