@@ -11,7 +11,7 @@
 ### 1.2 本站缓存架构
 从没有使用缓存，到使用mybatis缓存，然后使用了ehcache，再然后是mybatis+redis缓存。
 
-![](http://image.wenzhihuai.com/images/20180121034503.png)
+![](https://github-images.wenzhihuai.com/images/20180121034503.png)
 
 步骤：
 （1）用户发送一个请求到nginx，nginx对请求进行分发。
@@ -25,7 +25,7 @@
 ### 2.1 mybatis一级缓存
 Mybatis的一级缓存是指Session回话级别的缓存，也称作本地缓存。一级缓存的作用域是一个SqlSession。Mybatis默认开启一级缓存。在同一个SqlSession中，执行相同的查询SQL，第一次会去查询数据库，并写到缓存中；第二次直接从缓存中取。当执行SQL时两次查询中间发生了增删改操作，则SqlSession的缓存清空。Mybatis 默认支持一级缓存，不需要在配置文件中配置。
 
-![](http://image.wenzhihuai.com/images/20180120015614.png)
+![](https://github-images.wenzhihuai.com/images/20180120015614.png)
 
 我们来查看一下源码的类图，具体的源码分析简单概括一下：SqlSession实际上是使用PerpetualCache来维护的，PerpetualCache中定义了一个HashMap<k,v>来进行缓存。  
 （1）当会话开始时，会创建一个新的SqlSession对象，SqlSession对象中会有一个新的Executor对象，Executor对象中持有一个新的PerpetualCache对象；  
@@ -35,7 +35,7 @@ Mybatis的一级缓存是指Session回话级别的缓存，也称作本地缓存
 
 ### 2.2 mybatis二级缓存
 Mybatis的二级缓存是指mapper映射文件，为Application应用级别的缓存，生命周期长。二级缓存的作用域是同一个namespace下的mapper映射文件内容，多个SqlSession共享。Mybatis需要手动设置启动二级缓存。在同一个namespace下的mapper文件中，执行相同的查询SQL。实现二级缓存，关键是要对Executor对象做文章，Mybatis给Executor对象加上了一个CachingExecutor，使用了设计模式中的装饰者模式，
-![](http://image.wenzhihuai.com/images/20180120030017.png)
+![](https://github-images.wenzhihuai.com/images/20180120030017.png)
 
 #### 2.2.1 MyBatis二级缓存的划分
 MyBatis并不是简单地对整个Application就只有一个Cache缓存对象，它将缓存划分的更细，即是Mapper级别的，即每一个Mapper都可以拥有一个Cache对象，具体如下：
@@ -71,7 +71,7 @@ MyBatis对二级缓存的设计非常灵活，它自己内部实现了一系列�
 
 MyBatis中一级缓存和二级缓存的组织如下图所示（图片来自[深入理解mybatis原理](http://blog.csdn.net/luanlouis/article/details/41390801)）：
 
-![](http://image.wenzhihuai.com/images/20180120120015.png)
+![](https://github-images.wenzhihuai.com/images/20180120120015.png)
 
 ### 2.3 Mybatis在分布式环境下脏读问题
 （1）如果是一级缓存，在多个SqlSession或者分布式的环境下，数据库的写操作会引起脏数据，多数情况可以通过设置缓存级别为Statement来解决。  
@@ -85,7 +85,7 @@ MyBatis中一级缓存和二级缓存的组织如下图所示（图片来自[深
 ## 三、Redis缓存
 Redis运行于独立的进程，通过网络协议和应用交互，将数据保存在内存中，并提供多种手段持久化内存的数据。同时具备服务器的水平拆分、复制等分布式特性，使得其成为缓存服务器的主流。为了与Spring更好的结合使用，我们使用的是Spring-Data-Redis。此处省略安装过程和Redis的命令讲解。
 
-![](http://image.wenzhihuai.com/images/20180119110640.png)
+![](https://github-images.wenzhihuai.com/images/20180119110640.png)
 
 ### 3.1 Spring Cache
 Spring 3.1 引入了激动人心的基于注释（annotation）的缓存（cache）技术，它本质上不是一个具体的缓存实现方案（例如EHCache 或者 OSCache），而是一个对缓存使用的抽象，通过在既有代码中添加少量它定义的各种 annotation，即能够达到缓存方法的返回对象的效果。Spring 的缓存技术还具备相当的灵活性，不仅能够使用 **SpEL（Spring Expression Language）**来定义缓存的 key 和各种 condition，还提供开箱即用的缓存临时存储方案，也支持和主流的专业缓存例如 EHCache 集成。
@@ -248,7 +248,7 @@ public class SpringTest {
 
 部署进个人博客之后，redis已经缓存的数据：
 
-![](http://image.wenzhihuai.com/images/20180120052757.png)
+![](https://github-images.wenzhihuai.com/images/20180120052757.png)
 
 
 
@@ -266,7 +266,7 @@ public class SpringTest {
 ## 五、题外话
 兄弟姐妹们啊，个人网站只是个小项目，纯属为了学习而用的，文章可以看看，但是，就不要抓取了吧。。。。一个小时抓取6万次宝宝心脏真的受不了，虽然服务器一切都还稳定==
 
-![](http://image.wenzhihuai.com/images/20180119044345.png)
+![](https://github-images.wenzhihuai.com/images/20180119044345.png)
 
 
 **个人网站**：[http://www.wenzhihuai.com](http://www.wenzhihuai.com)

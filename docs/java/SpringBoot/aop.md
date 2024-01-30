@@ -2,7 +2,7 @@
 ## 一、概述
 在通常的开发过程中，我们调用的顺序通常是controller->service-dao，其中，service中包含着太多的业务逻辑，并且还要不断调用dao来实现自身的业务逻辑，经常会导致业务耗时过久，在aop出现之前，方式一般是在函数中开始写一个startTime，结尾再写一个endTime来查看执行该函数的耗时，过多的使用此类方式会导致代码的耦合性太高，不利于管理，于是，AOP（面向切面）出现了。AOP关注的是横向的，而OOP的是纵向。
 
-![](http://image.wenzhihuai.com/images/20180118085015.png)
+![](https://github-images.wenzhihuai.com/images/20180118085015.png)
 
 Spring自2.0版本开始采用@AspectJ注解非常容易的定义一个切面。@AspectJ注解使用AspectJ切点表达式语法进行切点定义，可以通过切点函数、运算符、通配符等高级功能进行切点定义，拥有强大的连接点描述能力。
 ### 1.1 特点
@@ -39,7 +39,7 @@ Spring实现AOP主要是由IOC容器来负责生成、管理的。其创建的�
 ## 三、原理概述
 Spring AOP的实现原理是基于动态织入的动态代理技术，而AspectJ则是静态织入，而动态代理技术又分为Java JDK动态代理和CGLIB动态代理，前者是基于反射技术的实现，后者是基于继承的机制实现。Spring AOP 在使用时机上也进行自动化调整，当有接口时会自动选择JDK动态代理技术，如果没有则选择CGLIB技术，当然Spring AOP的底层实现并没有这么简单，为更简便生成代理对象，Spring AOP 内部实现了一个专注于生成代理对象的工厂类，这样就避免了大量的手动编码，这点也是十分人性化的，但最核心的还是动态代理技术。从性能上来说，Spring AOP 虽然无需特殊编译器协助，但性能上并不优于AspectJ的静态织入，这点了解一下即可。
 
-![](http://image.wenzhihuai.com/images/20180204060518.png)
+![](https://github-images.wenzhihuai.com/images/20180204060518.png)
 
 具体的原理请看[Spring AOP](http://blog.csdn.net/javazejian/article/details/56267036/)
 
