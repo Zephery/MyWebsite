@@ -1,15 +1,24 @@
 <template>
   <normal-page>
     <template #contentBefore>
-      <ins class="adsbygoogle"
-           style="display:block; text-align:center;"
-           data-ad-layout="in-article"
-           data-ad-format="fluid"
-           data-ad-client="ca-pub-9037099208128116"
-           data-ad-slot="8206550629"></ins>
+      <div class="slot-demo-block">
+        <ins class="adsbygoogle"
+             style="display:block; text-align:center;"
+             data-ad-layout="in-article"
+             data-ad-format="fluid"
+             data-ad-client="ca-pub-9037099208128116"
+             data-ad-slot="8206550629"></ins>
+      </div>
     </template>
     <template #tocAfter>
-      <div class="slot-demo-block">tocAfter Slot</div>
+      <div class="slot-demo-block">
+        <ins class="adsbygoogle"
+             style="display:block; text-align:center;"
+             data-ad-layout="in-article"
+             data-ad-format="fluid"
+             data-ad-client="ca-pub-9037099208128116"
+             data-ad-slot="8206550629"></ins>
+      </div>
     </template>
   </normal-page>
 </template>
