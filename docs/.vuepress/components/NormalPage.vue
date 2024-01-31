@@ -14,7 +14,7 @@
            data-ad-layout="in-article"
            data-ad-format="fluid"
            data-ad-client="ca-pub-9037099208128116"
-           data-ad-slot="8206550629"></ins>
+           data-ad-slot="3248671754"></ins>
     </template>
     <template #tocAfter>
       <ins class="adsbygoogleRight"
