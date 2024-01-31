@@ -1,24 +1,20 @@
 <template>
   <normal-page>
     <template #contentBefore>
-      <div class="slot-demo-block">
-        <ins class="adsbygoogle"
-             style="display:block; text-align:center;"
-             data-ad-layout="in-article"
-             data-ad-format="fluid"
-             data-ad-client="ca-pub-9037099208128116"
-             data-ad-slot="8206550629"></ins>
-      </div>
+      <ins class="adsbygoogle"
+           style="display:block; text-align:center;width: 90%"
+           data-ad-layout="in-article"
+           data-ad-format="fluid"
+           data-ad-client="ca-pub-9037099208128116"
+           data-ad-slot="8206550629"></ins>
     </template>
     <template #tocAfter>
-      <div class="slot-demo-block">
-        <ins class="adsbygoogle"
-             style="display:block; text-align:center;"
-             data-ad-layout="in-article"
-             data-ad-format="fluid"
-             data-ad-client="ca-pub-9037099208128116"
-             data-ad-slot="8206550629"></ins>
-      </div>
+      <ins class="adsbygoogle"
+           style="display:block; text-align:center;"
+           data-ad-layout="in-article"
+           data-ad-format="fluid"
+           data-ad-client="ca-pub-9037099208128116"
+           data-ad-slot="8206550629"></ins>
     </template>
   </normal-page>
 </template>
@@ -46,30 +42,4 @@ export default {
 
 
 <style lang="scss" scoped>
-.slot-demo-inline {
-  display: inline-block;
-  background-color: var(--bg-color-tertiary);
-  border-radius: 0.5rem;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 18px;
-  width: 2rem;
-  height: 2rem;
-  margin: 0.25em;
-}
-
-.slot-demo-block {
-  background-color: var(--bg-color-tertiary);
-  border-radius: 0.5rem;
-  padding: 1rem 2rem;
-  margin: 0.5rem 1rem;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 18px;
-  color: var(--text-color-light);
-}
 </style>
