@@ -1,6 +1,7 @@
 import {defineUserConfig} from "vuepress";
 import theme from "./theme.js";
 import {commentPlugin} from "vuepress-plugin-comment2";
+import {path} from "@vuepress/utils";
 
 export default defineUserConfig({
     dest: "./dist",
@@ -69,6 +70,13 @@ export default defineUserConfig({
   })();`,
         ],
     ],
+    alias: {
+        "@theme-hope/components/NormalPage": path.resolve(
+            __dirname,
+            "./components/NormalPage.vue",
+        ),
+    },
+
 
     theme,
 
