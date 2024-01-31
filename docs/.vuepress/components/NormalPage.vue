@@ -9,21 +9,21 @@
            data-ad-slot="8206550629"></ins>
     </template>
     <template #contentAfter>
-      <ins class="adsbygoogle"
+      <ins class="adsbygoogleAfter"
            style="display:block; text-align:center;width: 90%;margin: 0 auto;"
            data-ad-layout="in-article"
            data-ad-format="fluid"
            data-ad-client="ca-pub-9037099208128116"
            data-ad-slot="8206550629"></ins>
     </template>
-        <template #tocAfter>
-          <ins class="adsbygoogle"
-               style="display:block; text-align:center;"
-               data-ad-layout="in-article"
-               data-ad-format="fluid"
-               data-ad-client="ca-pub-9037099208128116"
-               data-ad-slot="8206550629"></ins>
-        </template>
+    <template #tocAfter>
+      <ins class="adsbygoogleRight"
+           style="display:block"
+           data-ad-client="ca-pub-9037099208128116"
+           data-ad-slot="3862119113"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+    </template>
   </normal-page>
 </template>
 <script>
@@ -36,6 +36,8 @@ export default {
   },
   mounted() {
     this.adsenseAddLoad();
+    this.adsenseAddLoadAfter();
+    this.adsenseAddLoadRight();
   },
   methods: {
     adsenseAddLoad() {
@@ -43,7 +45,19 @@ export default {
       inlineScript.type = "text/javascript";
       inlineScript.text = '(adsbygoogle = window.adsbygoogle || []).push({});'
       document.getElementsByTagName('body')[0].appendChild(inlineScript);
-    }
+    },
+    adsenseAddLoadAfter() {
+      let inlineScript = document.createElement("script");
+      inlineScript.type = "text/javascript";
+      inlineScript.text = '(adsbygoogleAfter = window.adsbygoogleAfter || []).push({});'
+      document.getElementsByTagName('body')[0].appendChild(inlineScript);
+    },
+    adsenseAddLoadRight() {
+      let inlineScript = document.createElement("script");
+      inlineScript.type = "text/javascript";
+      inlineScript.text = '(adsbygoogleRight = window.adsbygoogleRight || []).push({});'
+      document.getElementsByTagName('body')[0].appendChild(inlineScript);
+    },
   }
 }
 </script>
