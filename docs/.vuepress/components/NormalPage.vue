@@ -2,7 +2,7 @@
   <normal-page>
     <template #contentBefore>
       <ins class="adsbygoogle"
-           style="display:block; text-align:center;width: 100%"
+           style="display:block; text-align:center;width: 90%;margin: 0 auto;"
            data-ad-layout="in-article"
            data-ad-format="fluid"
            data-ad-client="ca-pub-9037099208128116"
