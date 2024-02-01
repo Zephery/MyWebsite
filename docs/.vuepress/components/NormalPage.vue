@@ -9,24 +9,21 @@
            data-ad-slot="8206550629"></ins>
     </template>
     <template #contentAfter>
-      <UnionAd id="u6953633"></UnionAd>
+      <div class="_9upjubfyl0f" style="display:block; text-align:center;width: 90%;margin: 0 auto;"></div>
     </template>
   </normal-page>
 </template>
 <script>
 import NormalPage from "vuepress-theme-hope/components/NormalPage.js";
-import {createUnionAdComponent} from 'union-ad-vue';
-import {h} from 'vue';
 
 export default {
   name: "adsense-inline",
   components: {
     'normal-page': NormalPage,
-    UnionAd: createUnionAdComponent(h)
-
   },
   mounted() {
     this.adsenseAddLoad();
+    this.loadBaiduAdAsync();
   },
   methods: {
     adsenseAddLoad() {
@@ -34,6 +31,13 @@ export default {
       inlineScript.type = "text/javascript";
       inlineScript.text = '(adsbygoogle = window.adsbygoogle || []).push({});'
       document.getElementsByTagName('body')[0].appendChild(inlineScript);
+    },
+    loadBaiduAdAsync() {
+      (window.slotbydup = window.slotbydup || []).push({
+        id: "u6953633",
+        container: "_9upjubfyl0f",
+        async: true
+      });
     }
   }
 }
