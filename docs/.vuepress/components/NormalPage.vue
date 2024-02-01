@@ -46,6 +46,6 @@ export default {
 
 <style lang="scss" scoped>
 #iframeu6953633_0 {
-    width: 100%;
+    width: 100% !important;
 }
 </style>
