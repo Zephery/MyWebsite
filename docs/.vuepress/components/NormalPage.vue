@@ -45,4 +45,7 @@ export default {
 
 
 <style lang="scss" scoped>
+div iframe {
+    width: 100%;
+}
 </style>
