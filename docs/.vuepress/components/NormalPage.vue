@@ -8,15 +8,22 @@
            data-ad-client="ca-pub-9037099208128116"
            data-ad-slot="8206550629"></ins>
     </template>
+    <template #contentAfter>
+      <UnionAd id="u6953633"></UnionAd>
+    </template>
   </normal-page>
 </template>
 <script>
 import NormalPage from "vuepress-theme-hope/components/NormalPage.js";
+import {createUnionAdComponent} from 'union-ad-vue';
+import {h} from 'vue';
 
 export default {
   name: "adsense-inline",
   components: {
     'normal-page': NormalPage,
+    UnionAd: createUnionAdComponent(h)
+
   },
   mounted() {
     this.adsenseAddLoad();
