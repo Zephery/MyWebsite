@@ -9,7 +9,7 @@
            data-ad-slot="8206550629"></ins>
     </template>
     <template #contentAfter>
-      <div class="_v11onp8p29f" style="display:block; text-align:center;width: 90%;margin: 0 auto;"></div>
+      <div class="_vyps37o7ou" style="display:block; text-align:center;width: 90%;margin: 0 auto;"></div>
     </template>
   </normal-page>
 </template>
@@ -34,8 +34,8 @@ export default {
     },
     loadBaiduAdAsync() {
       (window.slotbydup = window.slotbydup || []).push({
-        id: "u6953635",
-        container: "_v11onp8p29f",
+        id: "u6953633",
+        container: "_vyps37o7ou",
         async: true
       });
     }
