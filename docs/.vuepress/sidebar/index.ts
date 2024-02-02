@@ -6,7 +6,6 @@ import {highQualityTechnicalArticles} from "./high-quality-technical-articles.js
 import {database} from "./database.js";
 import {donate} from "./donate.js";
 import {bigdata} from "./bigdata.js";
-import {personalWebsite} from "./personalWebsite.js";
 import {kubernetes} from "./kubernetes.js";
 import {others} from "./others";
 import {middleware} from "./middleware.js";
@@ -19,7 +18,6 @@ export default sidebar({
     "/link/": link,
     "/bigdata/": bigdata,
     "/middleware/": middleware,
-    "/personalWebsite/": personalWebsite,
     "/kubernetes/": kubernetes,
     "/books/": books,
     "/donate/": donate,
