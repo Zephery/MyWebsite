@@ -24,6 +24,9 @@ export default defineUserConfig({
             components: [
                 "SiteInfo",
             ],
+            rootComponents: ({
+                backToTop: true
+            })
         }),
     ],
     head: [
