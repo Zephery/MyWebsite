@@ -2,6 +2,7 @@ import {defineUserConfig} from "vuepress";
 import theme from "./theme.js";
 import {commentPlugin} from "vuepress-plugin-comment2";
 import {path} from "@vuepress/utils";
+import {componentsPlugin} from "vuepress-plugin-components";
 
 export default defineUserConfig({
     dest: "./dist",
@@ -17,6 +18,12 @@ export default defineUserConfig({
             repoId: "MDEwOlJlcG9zaXRvcnkyMDM2MDIyMDQ=", //对应自己的仓库Id
             category: "General",
             categoryId: "DIC_kwDODCK5HM4Ccp32" //对应自己的分类Id
+        }),
+        componentsPlugin({
+            // 插件选项
+            components: [
+                "SiteInfo",
+            ],
         }),
     ],
     head: [

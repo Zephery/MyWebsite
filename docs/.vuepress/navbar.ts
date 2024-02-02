@@ -17,13 +17,13 @@ export default navbar([
             {
                 text: "关于作者",
                 icon: "zuozhe",
-                link: "/about-the-author/"
+                link: "/about-the-author/personal-life/wewe.md"
             },
-            // {
-            //     text: "生活",
-            //     icon: "life",
-            //     link: "/life/",
-            // },
+            {
+                text: "友链",
+                icon: "link",
+                link: "/link/main.md",
+            },
         ],
     },
 ]);

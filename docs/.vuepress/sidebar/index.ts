@@ -11,10 +11,12 @@ import {kubernetes} from "./kubernetes.js";
 import {others} from "./others";
 import {middleware} from "./middleware.js";
 import {life} from "./life.js";
+import {link} from "./link.js";
 
 export default sidebar({
     // 应该把更精确的路径放置在前边
     "/database/": database,
+    "/link/": link,
     "/bigdata/": bigdata,
     "/middleware/": middleware,
     "/personalWebsite/": personalWebsite,
