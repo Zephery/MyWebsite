@@ -30,14 +30,6 @@ export default defineUserConfig({
         [
             "script",
             {
-                defer: "defer",
-                async: "async",
-                src: "//cpro.baidustatic.com/cpro/ui/cm.js"
-            }
-        ],
-        [
-            "script",
-            {
                 "data-ad-client": "ca-pub-9037099208128116",
                 async: true,
                 src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"

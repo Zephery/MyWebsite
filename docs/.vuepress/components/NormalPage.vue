@@ -8,9 +8,9 @@
            data-ad-client="ca-pub-9037099208128116"
            data-ad-slot="8206550629"></ins>
     </template>
-    <template #contentAfter>
-      <div class="_vyps37o7ou" style="display:block; text-align:center;width: 90%;margin: 0 auto;"></div>
-    </template>
+<!--    <template #contentAfter>-->
+<!--      <div class="_vyps37o7ou" style="display:block; text-align:center;width: 90%;margin: 0 auto;"></div>-->
+<!--    </template>-->
   </normal-page>
 </template>
 <script>
@@ -23,7 +23,7 @@ export default {
   },
   mounted() {
     this.adsenseAddLoad();
-    this.loadBaiduAdAsync();
+    // this.loadBaiduAdAsync();
   },
   methods: {
     adsenseAddLoad() {
