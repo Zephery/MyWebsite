@@ -5,14 +5,14 @@ HTTPS，即加密后的HTTP。HTTP协议传输的数据都是未加密的，也�
 
 HTTP2.0，下一代的HTTP协议。相比于HTTP1.x，大幅度的提升了web性能，进一步减少了网络延时和拥塞。
 
-![](http://image.wenzhihuai.com/images/20171224034237.png)
+![](https://github-images.wenzhihuai.com/images/20171224034237.png)
 
 各自的RFC相关文档自己去搜吧，[https://www.rfc-editor.org/](https://www.rfc-editor.org/)。
 
 # 一、TCP/IP
 为了了解HTTP，有必要先理解一下TCP/IP。目前，存在两种划分模型的方法，OSI七层模型和TCP/IP模型，具体的区别不在阐述。HTTP是建立在TCP协议之上，所以HTTP协议的瓶颈及其优化技巧都是基于TCP协议本身的特性，例如tcp建立连接的3次握手和断开连接的4次挥手以及每次建立连接带来的RTT延迟时间。
 
-![](http://image.wenzhihuai.com/images/20171221101751.png)
+![](https://github-images.wenzhihuai.com/images/20171221101751.png)
 
 TCP三次握手四次挥手的原理，由于篇幅关系，具体请看[TCP协议的三次握手和四次挥手](http://uule.iteye.com/blog/2213562)，
 
@@ -23,11 +23,11 @@ TCP三次握手四次挥手的原理，由于篇幅关系，具体请看[TCP协�
 ### 2.1.1 请求报文：
 为了形象点，我们把报文标准和实际的结合起来看。
 
-![](http://image.wenzhihuai.com/images/20171221111615.png)
+![](https://github-images.wenzhihuai.com/images/20171221111615.png)
 
 下面是实际报文，以访问自己的网站([http://www.wenzhihuai.com](http://www.wenzhihuai.com))中的一个链接为例。
 
-![](http://image.wenzhihuai.com/images/20171221043103.png)
+![](https://github-images.wenzhihuai.com/images/20171221043103.png)
 
 #### 请求行
 请求行由方法字段、URL 字段 和HTTP 协议版本字段 3 个部分组成，他们之间使用空格隔开。常用的 HTTP 请求方法有 GET、POST、HEAD、PUT、DELETE、OPTIONS、TRACE、CONNECT，这里我们使用的是GET方法，访问的是/biaoqianyun.do，协议使用的是HTTP/1.1。  
@@ -51,11 +51,11 @@ TCP三次握手四次挥手的原理，由于篇幅关系，具体请看[TCP协�
 ### 2.1.2 响应报文
 同样，先粘贴报文标准。
 
-![](http://image.wenzhihuai.com/images/20171224035755.png)
+![](https://github-images.wenzhihuai.com/images/20171224035755.png)
 
 抓包，以访问([http://www.wenzhihuai.com](http://www.wenzhihuai.com))为例。
 
-![](http://image.wenzhihuai.com/images/20171224035850.png)
+![](https://github-images.wenzhihuai.com/images/20171224035850.png)
 
 #### 状态行
 状态行由 HTTP 协议版本字段、状态码和状态码的描述文本 3 个部分组成，他们之间使用空格隔开，描述文本一般不显示;  
@@ -93,7 +93,7 @@ HTTP1.1 使用持久连接keepalive，所谓持久连接，就是服务器在发
    一个浏览器对于同一个域名，**同时**只能有4个链接（根据不同浏览器），如果超了后面的会被阻塞。  
    常用浏览器阻塞数量看下图。
 
-![](http://image.wenzhihuai.com/images/20171226081508.png)
+![](https://github-images.wenzhihuai.com/images/20171226081508.png)
 
 （2） DNS查询
 浏览器建立连接是需要知道服务器的IP的，DNS用来将域名解析为IP地址，这个可以通过刷新DNS缓存来加快速度。
@@ -109,7 +109,7 @@ HTTP1.1 使用持久连接keepalive，所谓持久连接，就是服务器在发
 
 BTW：明文传输有多危险，可以去试试，下面是某个政府网站，采用wireshark抓包，身份证、电话号码、住址什么的全暴露出来，所以，，，只要在路由器做点小动作，你的信息是全部能拿得到的，毕竟政府。
 
-![](http://image.wenzhihuai.com/images/20171224044825.png)
+![](https://github-images.wenzhihuai.com/images/20171224044825.png)
 
 由于涉及的隐私太多，打了马赛克
 
@@ -128,14 +128,14 @@ TLS(Transport Layer Security)，简称安全传输层协议，该协议由两层
 基于HTTPS的加密协议传输，大大提高了传输数据的可靠性。
 **服务端推送（server push）**，采用了SPDY的网页，例如我的网页有一个sytle.css的请求，在客户端收到sytle.css数据的同时，服务端会将sytle.js的文件推送给客户端，当客户端再次尝试获取sytle.js时就可以直接从缓存中获取到，不用再发请求了。SPDY构成图。
 
-![](http://image.wenzhihuai.com/images/20171226042016.png)
+![](https://github-images.wenzhihuai.com/images/20171226042016.png)
 
 
 ## 3.3 HTTPS报文分析
 
 跟之前的报文分析一样，我们使用wireshark来抓包分析，以在百度上搜索点东西为例。
 
-![](http://image.wenzhihuai.com/images/20171226044521.png)
+![](https://github-images.wenzhihuai.com/images/20171226044521.png)
 
 192.168.1.103为本地电脑的ip地址，14.215.177.39为百度服务器地址。下面是步骤：
 1. 客户端通过发送 Client Hello 报文开始 SSL 通信。报文中包含客户端支持的 SSL 的指定版本、加密组件（Cipher Suite）列表（所使用的加密算法及密钥长度等）。
@@ -146,11 +146,11 @@ TLS(Transport Layer Security)，简称安全传输层协议，该协议由两层
    **当然，用一张图更容易解释**  
    简单地说就是下面。
 
-![](http://image.wenzhihuai.com/images/20171226044137.png)
+![](https://github-images.wenzhihuai.com/images/20171226044137.png)
 
 当我们追踪流的数据的时候，可以看到，基本上都是乱码，经过加密，数据是看不到，如果需要在wireshark上看到，则需要在wireshark中配置ssl。
 
-![](http://image.wenzhihuai.com/images/20171226045845.png)
+![](https://github-images.wenzhihuai.com/images/20171226045845.png)
 
 ## 3.4 HTTPS全站化
 现今，感觉只要和商业利益有关的，就不得不涉及到加密这类东西。淘宝、京东、唯品会这些电商可谓是最早推行全站https的，这类电商是离用户金钱最近的企业。截止今年底，基本所有商业网站也基本实现了HTTPS。。。。至于小站点，比如个人网站，玩玩还是可以的。如果一个网站需要由HTTP全部变为HTTPS，那么需要关注下面几点：
@@ -172,7 +172,7 @@ HTTP 2.0在2013年8月进行首次合作共事性测试。在开放互联网上H
 ### 4.2.1 二进制帧
 HTTP1.x的解析是基于文本的，基于文本协议的格式解析存在天然缺陷，文本的表现形式有多样性，要做到健壮性考虑的场景必然很多。而HTTP/2会将所有传输的信息分割为更小的消息和帧，然后采用二进制的格式进行编码，HTTP1.x的头部信息会被封装到HEADER frame，而相应的Request Body则封装到DATA frame里面。不改动HTTP的语义，使用二进制编码，实现方便且健壮。
 
-![](http://image.wenzhihuai.com/images/20171226103043.png)
+![](https://github-images.wenzhihuai.com/images/20171226103043.png)
 
 
 ### 4.2.2 多路复用
@@ -185,7 +185,7 @@ TCP协议通过sliding window的算法来做流量控制。发送方有个sendin
 ### 4.2.4 服务器端推送
 服务器端的推送，就是服务器可以对一个客户端请求发送多个响应。除了对最初请求的响应外，服务器还可以额外向客户端推送资源，而无需客户端明确地请求。当浏览器请求一个html，服务器其实大概知道你是接下来要请求资源了，而不需要等待浏览器得到html后解析页面再发送资源请求。
 
-![](http://image.wenzhihuai.com/images/20171226105514.png)
+![](https://github-images.wenzhihuai.com/images/20171226105514.png)
 
 
 ### 4.2.5 首部压缩
@@ -195,21 +195,21 @@ HTTP 2.0 在客户端和服务器端使用“首部表”来跟踪和存储之�
 ## 4.3 HTTP1.1与HTTP2.0的对比
 以访问https://http2.akamai.com/demo为例。
 
-![](http://image.wenzhihuai.com/images/20171226051221.png)
+![](https://github-images.wenzhihuai.com/images/20171226051221.png)
 
 ## 4.4 报文
 访问[https://http2.akamai.com/demo](https://http2.akamai.com/demo)，谷歌浏览器的报文没有显示出协议，此处使用火狐浏览器。
 响应头部分如下。
 
-![](http://image.wenzhihuai.com/images/20171226071845.png)
+![](https://github-images.wenzhihuai.com/images/20171226071845.png)
 
 请求头如下。
 
-![](http://image.wenzhihuai.com/images/20171226075106.png)
+![](https://github-images.wenzhihuai.com/images/20171226075106.png)
 
 采用淘宝网站为例，淘宝目前采用主站使用HTTP1.1，资源使用HTTP2.0，少些使用SPDY协议。目前也是业界比较流行的做法。
 
-![](http://image.wenzhihuai.com/images/20171226065216.png)
+![](https://github-images.wenzhihuai.com/images/20171226065216.png)
 
 
 # 参考

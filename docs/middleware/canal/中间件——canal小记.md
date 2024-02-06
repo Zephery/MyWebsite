@@ -1,9 +1,10 @@
+# canal小记
 接到个小需求，将mysql的部分数据增量同步到es，但是不仅仅是使用canal而已，整体的流程是mysql>>canal>>flume>>kafka>>es，说难倒也不难，只是做起来碰到的坑实在太多，特别是中间套了那么多中间件，出了故障找起来真的特别麻烦。
 
 先来了解一下MySQL的主从备份：
 
 
-![](https://upyuncdn.wenzhihuai.com/20180421025107389573244.png)
+![](https://github-images.wenzhihuai.com/images/20180421025107389573244.png)
 
 
 
@@ -17,7 +18,7 @@ slave重做中继日志中的事件，将改变反映它自己的数据。
 最后发现是沟通问题。。。
 
 
-![](http://image.wenzhihuai.com/images/2018042101385616022393.png)
+![](https://github-images.wenzhihuai.com/images/2018042101385616022393.png)
 
 
 
@@ -59,7 +60,7 @@ canal.instance.global.spring.xml = classpath:spring/file-instance.xml
 该模式会记录集群中所有运行的节点，主要用与HA主备模式，节点中的数据如下，可以关闭某一个canal服务来查看running的变化信息。
 
 
-![](https://upyuncdn.wenzhihuai.com/201804210425561692361189.png)
+![](https://github-images.wenzhihuai.com/images/201804210425561692361189.png)
 
 
 
@@ -68,14 +69,14 @@ canal.instance.global.spring.xml = classpath:spring/file-instance.xml
 
 
 
-![](https://upyuncdn.wenzhihuai.com/201804210451321357023546.png)
+![](https://github-images.wenzhihuai.com/images/201804210451321357023546.png)
 
 ## 问题四：部分字段没有更新
 最终版本是以mysql的id为es的主键，用canal同步到flume，再由flume到kafka，然后再由一个中间件写到es里面去，结果发现，一天之中，会有那么一段时间得出的结果少一丢丢，甚至是骤降，如图。不得不从头开始排查情况，canal到flume，加了canal的重试，以及发送到flume的重试机制，没有报错，所有数据正常发送。flume到kafka不敢怀疑，毕竟公司一直在用，怎么可能有问题。kafka到es的中间件？组长写的，而且一直在用，不可能==最后确认的是flume到kafka，kafka的parition处理速度不同，
 
 
 
-![](https://upyuncdn.wenzhihuai.com/20180428015132288764661.png)
+![](https://github-images.wenzhihuai.com/images/20180428015132288764661.png)
 
 
 
@@ -92,7 +93,7 @@ check一下flume的文档，可以知道
 大概意思是flume如果不自定义partitionIdHeader，那么消息将会被分布式kafka的partion处理，kafka本身的设置就是高吞吐量的消息系统，同一partion的消息是可以按照顺序发送的，但是多个partion就不确定了，如果需要将消息按照顺序发送，那么就必须要指定一个parition，即在flume的配置文件中添加：a1.channels.channel1.partitionIdHeader=1，指定parition即可。全部修改完之后，在kibana查看一下曲线：
 
 
-![](http://image.wenzhihuai.com/images/201804290227121343830102.png)
+![](https://github-images.wenzhihuai.com/images/201804290227121343830102.png)
 
 
 

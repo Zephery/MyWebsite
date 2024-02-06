@@ -5,8 +5,6 @@ export const kubernetes = arraySidebar([
         text: "Kubernetes",
         icon: "kubernetes",
         collapsible: false,
-        children: [
-            "spark on k8s operator.md",
-        ],
-    },
+        children: "structure"
+    }
 ]);

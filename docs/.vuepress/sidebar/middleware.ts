@@ -15,4 +15,11 @@ export const middleware = arraySidebar([
         collapsible: false,
         children: "structure"
     },
+    {
+        text: "Canal",
+        prefix: "canal/",
+        icon: "canal",
+        collapsible: false,
+        children: "structure"
+    },
 ]);

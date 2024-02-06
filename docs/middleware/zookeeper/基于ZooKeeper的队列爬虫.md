@@ -10,7 +10,7 @@
 
 这张图来自[skyme](http://www.cnblogs.com/skyme/p/4362289.html)，我也是看了这张图的启发写了这篇文章的。
 
-![](http://image.wenzhihuai.com/images/20171030102024.png?imageMogr2/thumbnail/!55p)
+![](https://github-images.wenzhihuai.com/images/20171030102024.png)
 
 
 
@@ -28,7 +28,7 @@
 3.如果自己不是序号最小的子节点，那么就需要进入等待，同时向比自己序号小的最后一个节点注册Watcher监听。  
 4.接收到Watcher通知后，重复步骤1。
 
-![](http://image.wenzhihuai.com/images/20171030102114.png)
+![](https://github-images.wenzhihuai.com/images/20171030102114.png)
 
 
 ### 2.2 Watcher介绍
@@ -244,23 +244,23 @@ public class Consumer {
 ### 实验结果
 生产者生产URL：
 
-![](http://image.wenzhihuai.com/images/20171026083433.png)
+![](https://github-images.wenzhihuai.com/images/20171026083433.png)
 
 
 单机模式下的消费者，耗时：560825/(1000*60)=9分钟
 
-![](http://image.wenzhihuai.com/images/20171026084324.png)
+![](https://github-images.wenzhihuai.com/images/20171026084324.png)
 
 
 
 分布式模式下的抓取：
 
-![](http://image.wenzhihuai.com/images/20171026075704.png)
+![](https://github-images.wenzhihuai.com/images/20171026075704.png)
 
 
 耗时：564374/(1000*60)=9分钟：
 
-![](http://image.wenzhihuai.com/images/20171030103523.png)
+![](https://github-images.wenzhihuai.com/images/20171030103523.png)
 
 
 由图可见，当每个消费者处理能力大于队列分配的能力时，耗时的过程反而是在队列，毕竟分布式队列在进行take动作的时候对节点进行了加锁，还要对队列进行排序，特别是在节点多达2000+的情况下，耗时是十分严重的。
@@ -280,7 +280,7 @@ public static void sleepUtil(Integer time) {
 
 此时再看程序的输出，可以看出，队列的分发能力已经大于消费者的处理能力，总算是正常了。
 
-![](http://image.wenzhihuai.com/images/20171030085127.png)
+![](https://github-images.wenzhihuai.com/images/20171030085127.png)
 
 
 分布式队列分发的时间是：341998/(1000*60)=5.6分钟
