@@ -6,7 +6,7 @@
 [http://www.cnblogs.com/wuxl360/p/5817471.html](http://www.cnblogs.com/wuxl360/p/5817471.html)
 
 
-# 一、整体架构
+## 一、整体架构
 
 这张图来自[skyme](http://www.cnblogs.com/skyme/p/4362289.html)，我也是看了这张图的启发写了这篇文章的。
 
@@ -20,7 +20,7 @@
 
 
 
-# 二、ZooKeeper队列原理
+## 二、ZooKeeper队列原理
 ### 2.1 介绍
 分布式队列，目前此类产品大多类似于ActiveMQ、RabbitMQ等，本文主要介绍的是Zookeeper实现的分布式队列，它的实现方式也有两种，一种是FIFO（先进先出）的队列，另一种是等待队列元素聚集之后才统一安排的Barrier模型。同样，本文主要讲的是FIFO的队列模型。其大体设计思路也很简单，主要是在/SinaQueue下创建顺序节点，如/SinaQueue/qn-000000000，创建完节点之后，根据下面的4个步骤来决定执行的顺序。
 1.通过调用getChildren()接口来获取某一节点下的所有节点，即获取队列中的所有元素。  
@@ -114,7 +114,7 @@ public class SimpleDistributedQueue {
         }
 ```
 
-# 三、多线程并发
+## 三、多线程并发
 对于分布式爬虫来说，让每一个消费者高效的进行抓取是具有重要意义的，为了加快爬虫的速度，采用多线程爬虫的方法。Java多线程实现方式主要有三种：继承Thread类、实现Runnable接口、使用ExecutorService、Callable、Future实现有返回结果的多线程。其中前两种方式线程执行完后都没有返回值，只有最后一种是带返回值的。其中使用Executors提供了四种声明线程池的方法，分别是newCachedThreadPool、newFixedThreadPool、newSingleThreadExecutor和newScheduledThreadPool，为了监控实时监控队列的长度，我们使用数组型的阻塞队列ArrayBlockingQueue。声明方式如下：
 ```java
     private static final BlockingQueue<Runnable> queuelength = new ArrayBlockingQueue<>(1000);
@@ -123,7 +123,7 @@ public class SimpleDistributedQueue {
             queuelength);
 ```
 
-# 四、使用
+## 四、使用
 本次实验主要环境如下：
 ```html
 zookeeper.version=3.5
@@ -309,7 +309,7 @@ B服务器:08:49:54.509——09:05:05
 
 分布式下平均耗时约为13分钟，单机模式下耗时约为27分钟，还是蛮符合估算的。
 
-# 总结
+## 总结
 源代码都放在[这里](https://github.com/Zephery/distributecrawler/tree/master/wzhqueue/src/main/java/com/crawler)了，有兴趣的可以star一下或者下载看一下，也欢迎大家提提意见，没企业级的实战环境，见笑了O(∩_∩)O~
 
 
