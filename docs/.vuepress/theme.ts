@@ -24,7 +24,7 @@ export default hopeTheme({
         navbar,
         sidebar,
         footer:
-            '<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备17092242号-1</a><a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"  target="_blank"><img src="http://image.wenzhihuai.com/youpailogo6.png" style="float: left;width: 6%;"/></a>',
+            '<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备17092242号-1</a><a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"  target="_blank"><img src="https://github-images.wenzhihuai.com/images/youpailogo6.png" style="float: left;width: 6%;"/></a>',
         displayFooter: true,
 
         pageInfo: [
