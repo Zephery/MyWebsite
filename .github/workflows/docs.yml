@@ -50,3 +50,14 @@ jobs:
         env:
           # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Sync to Gitee
+        uses: wearerequired/git-mirror-action@v1
+        env:
+          # 在 Settings->Secrets 配置 GITEE_PRIVATE_KEY
+          SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY }}
+        with:
+          # GitHub 源仓库地址
+          source-repo: git@github.com:Zephery/MyWebsite.git
+          # Gitee 目标仓库地址
+          destination-repo: git@gitee.com:zephery.com.cn/MyWebsite.git
