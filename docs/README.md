@@ -4,7 +4,7 @@
 
 * [一、Java](java/README.md)
   * [一次jvm调优过程.md](java/一次jvm调优过程.md)
-  * [JVM调优参数.md](java/JVM调优参数.md)
+  * [JVM调优参数.md](java/JVM/JVM调优参数.md)
   * [serverlog.md](java/serverlog.md)
   * [基于kubernetes的分布式限流.md](java/基于kubernetes的分布式限流.md)
   * [Spring Boot Prometheus使用.md](java/SpringBoot/Spring%20Boot%20Prometheus使用.md)
