@@ -3,7 +3,7 @@
 * [目录](docs/_sidebar.md)
 
 * [一、Java](docs/java/README.md)
-  * [1.1 一次jvm调优过程.md](docs/java/一次jvm调优过程.md)
+  * [1.1 一次jvm调优过程.md](docs/java/JVM/一次jvm调优过程.md)
   * [1.2 JVM调优参数.md](docs/java/JVM/JVM调优参数.md)
   * [1.3 serverlog.md](docs/java/serverlog.md)
   * [1.4 【elasticsearch】搜索过程详解](docs/database/elasticsearch/es8.0练习.md)
