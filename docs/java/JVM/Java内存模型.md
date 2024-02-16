@@ -14,9 +14,9 @@
 
 但是随着cpu的发展，内存的读写速度也远远赶不上cpu。因此cpu厂商在每颗cpu上加上高速缓存，用于缓解这种情况。现在cpu和内存的交互大致如下。
 
-![img](https://github-images.wenzhihuai.com/images/10006199-d3fc8462f127a2c7-20240216171550523.jpg)
+![cpu、缓存、内存](https://github-images.wenzhihuai.com/images/10006199-d3fc8462f127a2c7-20240216171550523.jpg)
 
-cpu、缓存、内存
+
 
 cpu上加入了高速缓存这样做解决了处理器和内存的矛盾(一快一慢)，但是引来的新的问题 - **缓存一致性**
 
@@ -37,9 +37,9 @@ CPU要读取一个数据时，首先从一级缓存中查找，如果没有找�
 
 大概如下
 
-![img](https://github-images.wenzhihuai.com/images/10006199-0a3299bca20f13ad.png)
+![cpu与内存.png](https://github-images.wenzhihuai.com/images/10006199-0a3299bca20f13ad.png)
 
-cpu与内存.png
+
 
 在CPU层面，内存屏障提供了个充分必要条件
 
@@ -109,7 +109,7 @@ volatile型变量拥有如下特性
 
 ![img](https://github-images.wenzhihuai.com/images/10006199-61e3c01d0b265732.png)
 
-image.png
+
 
 ## 2. Java内存区域
 
@@ -133,9 +133,9 @@ image.png
 
 根据java虚拟机规范，java虚拟机管理的内存将分为下面五大区域。
 
-![img](https://github-images.wenzhihuai.com/images/10006199-a4108d8fb7810a71.jpeg)
+![jmm](https://github-images.wenzhihuai.com/images/10006199-a4108d8fb7810a71.jpeg)
 
-jmm
+
 
 ### 2.1 五大内存区域
 
@@ -179,9 +179,9 @@ jmm
 >
 > returnAddress类型:指向一条字节码指令的地址【深入理解Java虚拟机】[怎么理解returnAddress](https://links.jianshu.com/go?to=https%3A%2F%2Fwww.zhihu.com%2Fquestion%2F29056872)
 
-![img](https://github-images.wenzhihuai.com/images/10006199-728567b81e7abff5.png)
+![栈帧](https://github-images.wenzhihuai.com/images/10006199-728567b81e7abff5.png)
 
-栈帧
+
 
 **需要注意的是，局部变量表所需要的内存空间在编译期完成分配，当进入一个方法时，这个方法在栈中需要分配多大的局部变量空间是完全确定的，在方法运行期间不会改变局部变量表大小。**
 
@@ -310,9 +310,9 @@ markword很像网络协议报文头，划分为多个区间，并且会根据对
 
 不同状态时对象头的区间含义，如图所示。
 
-![img](https://github-images.wenzhihuai.com/images/10006199-9b3fe05daab42136.jpg)
+![对象头.jpg](https://github-images.wenzhihuai.com/images/10006199-9b3fe05daab42136.jpg)
 
-对象头.jpg
+
 
 HotSpot底层通过markOop实现Mark Word，具体实现位于`markOop.hpp`文件。
 
@@ -324,9 +324,9 @@ markOop中提供了大量方法用于查看当前对象头的状态，以及更�
 
 关于对象头和锁之间的转换，网上大神总结
 
-![img](https://github-images.wenzhihuai.com/images/10006199-318ad80ccb29abe4.png)
+![偏向锁轻量级锁重量级锁.png](https://github-images.wenzhihuai.com/images/10006199-318ad80ccb29abe4.png)
 
-偏向锁轻量级锁重量级锁.png
+
 
 ##### 2.2.2 实例数据
 
@@ -367,9 +367,9 @@ java程序需要通过引用(ref)数据来操作堆上面的对象，那么如�
 >
 > ##### 优点:引用中存储的是稳定的句柄地址,在对象被移动【垃圾收集时移动对象是常态】只需改变句柄中实例数据的指针，不需要改动引用【ref】本身。
 
-![img](https://github-images.wenzhihuai.com/images/10006199-27ef5c978077ed1c.jpg)
+![访问方式2.jpg](https://github-images.wenzhihuai.com/images/10006199-27ef5c978077ed1c.jpg)
 
-访问方式2.jpg
+
 
 ##### 2.3.2 直接指针
 
@@ -377,9 +377,9 @@ java程序需要通过引用(ref)数据来操作堆上面的对象，那么如�
 >
 > 优点:优势很明显，就是速度快，**相比于句柄访问少了一次指针定位的开销时间**。【可能是出于Java中对象的访问时十分频繁的,平时我们常用的JVM HotSpot采用此种方式】
 
-![img](https://github-images.wenzhihuai.com/images/10006199-6cefc46d23c2d549.jpg)
+![访问方式1.jpg](https://github-images.wenzhihuai.com/images/10006199-6cefc46d23c2d549.jpg)
 
-访问方式1.jpg
+
 
 ## 3.内存溢出
 
@@ -397,9 +397,9 @@ java -verbose:class -version 可以查看刚开始加载的类，可以发现这
 
 [参考OutOfMemoryError解读](https://links.jianshu.com/go?to=http%3A%2F%2Flovestblog.cn%2Fblog%2F2016%2F08%2F29%2Foom%2F)
 
-![img](https://github-images.wenzhihuai.com/images/10006199-07496d628d676815.png)
+![Snip20180904_8.png](https://github-images.wenzhihuai.com/images/10006199-07496d628d676815.png)
 
-Snip20180904_8.png
+
 
 两个基本的例子
 
@@ -497,9 +497,9 @@ Java堆是GC回收的“重点区域”。堆中基本存放着所有对象实�
 它的基本思路是通过一个称为“GC Roots”的对象为起始点，搜索所经过的路径称为引用链，当一个对象到GC Roots没有任何引用跟它连接则证明对象是不可用的。
 ```
 
-![img](https://github-images.wenzhihuai.com/images/10006199-854e1de91f66764b.png)
+![gc.png](https://github-images.wenzhihuai.com/images/10006199-854e1de91f66764b.png)
 
-gc.png
+
 
 可作为GC Roots的对象有四种
 
@@ -828,23 +828,23 @@ Heap
 
 终端输入jconsole就会出现jdk自带的gui监控工具
 
-![img](https://github-images.wenzhihuai.com/images/10006199-d409f452f8364937.png)
+![jconsole](https://github-images.wenzhihuai.com/images/10006199-d409f452f8364937.png)
 
-jconsole
+
 
 可以根据内存使用情况间接了解内存使用和gc情况
 
-![img](https://github-images.wenzhihuai.com/images/10006199-c0eb6418cf4bade9.png)
+![jconsole](https://github-images.wenzhihuai.com/images/10006199-c0eb6418cf4bade9.png)
 
-jconsole
+
 
 jstat命令
 
 比如jstat -gcutil pid查看对应java进程gc情况
 
-![img](https://github-images.wenzhihuai.com/images/10006199-6ed3ee78469592e8.png)
+![jstat](https://github-images.wenzhihuai.com/images/10006199-6ed3ee78469592e8.png)
 
-jstat
+
 
 
 
@@ -980,9 +980,9 @@ stop the world简单来说就是gc的时候，停掉除gc外的java线程。
 
 g1不再区分老年代、年轻代这样的内存空间，这是较以往收集器很大的差异，所有的内存空间就是一块划分为不同子区域，每个区域大小为1m-32m，最多支持的内存为64g左右，且由于它为了的特性适用于大内存机器。
 
-![img](https://github-images.wenzhihuai.com/images/10006199-8c124d281e0c6dd1.png)
+![g1回收时堆内存情况](https://github-images.wenzhihuai.com/images/10006199-8c124d281e0c6dd1.png)
 
-g1回收时堆内存情况
+
 
 适用场景:
 
