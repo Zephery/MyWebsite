@@ -1,6 +1,6 @@
 # ZGC
 
-本文转载自[12 张图带你彻底理解 ZGC](https://zhuanlan.zhihu.com/p/474527679)
+*本文转载自[12 张图带你彻底理解 ZGC](https://zhuanlan.zhihu.com/p/474527679)*
 
 ZGC（Z Garbage Collector） 是一款性能比 G1 更加优秀的垃圾收集器。ZGC 第一次出现是在 JDK 11 中以实验性的特性引入，这也是 JDK 11 中最大的亮点。在 JDK 15 中 ZGC 不再是实验功能，可以正式投入生产使用了，使用 –XX:+UseZGC 可以启用 ZGC。
 
