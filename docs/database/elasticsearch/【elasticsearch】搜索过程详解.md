@@ -86,7 +86,7 @@ GET aaaa*/_search
 
 
 
-# 一、es的分布式搜索过程
+## 一、es的分布式搜索过程
 
 一个搜索请求必须询问请求的索引中所有分片的某个副本来进行匹配。假设一个索引有5个主分片，每个主分片有1个副分片，共10个分片，一次搜索请求会由5个分片来共同完成，它们可能是主分片，也可能是副分片。也就是说，一次搜索请求只会命中所有分片副本中的一个。当搜索任务执行在分布式系统上时，整体流程如下图所示。图片来源[Elasitcsearch源码解析与优化实战](https://weread.qq.com/web/reader/f9c32dc07184876ef9cdeb6k7f33291023d7f39f8317e0b)
 
@@ -94,7 +94,7 @@ GET aaaa*/_search
 ![2](https://github-images.wenzhihuai.com/images/1240-20240125205906732.png)
 
 
-## 搜索入口：
+### 1.1 搜索入口
 
 整个http请求的入口，主要使用的是Netty4HttpRequestHandler。
 
@@ -117,7 +117,7 @@ class Netty4HttpRequestHandler extends SimpleChannelInboundHandler<HttpPipelined
 }
 ```
 
-# 二、初步调用流程
+## 二、初步调用流程
 
 调用链路过程：Netty4HttpRequestHandler.channelRead0->AbstractHttpServerTransport.incomingRequest->AbstractHttpServerTransport.handleIncomingRequest->AbstractHttpServerTransport.dispatchRequest->RestController.dispatchRequest(实现了HttpServerTransport.Dispatcher)->SecurityRestFilter.handleRequest->BaseRestHandler.handleRequest->action.accept(channel)->RestCancellableNodeClient.doExecute->NodeClient.executeLocally->RequestFilterChain.proceed->TransportAction.proceed->TransportSearchAction.doExecute->TransportSearchAction.executeRequest(判断是本地执行还是远程执行)->TransportSearchAction.searchAsyncAction
 
@@ -174,13 +174,13 @@ private void executePhase(SearchPhase phase) {
 }
 ```
 
-# 三、协调节点
+## 三、协调节点
 
 两阶段相应的实现位置：查询（Query）阶段—search.SearchQueryThenFetchAsyncAction；取回（Fetch）阶段—search.FetchSearchPhase。它们都继承自SearchPhase，如下图所示。
 
 ![23](https://github-images.wenzhihuai.com/images/1240-20240125210335027.png)
 
-## 3.1 query阶段
+### 3.1 query阶段
 
 图片来源[官网](https://www.elastic.co/Zephery/en/elasticsearch/Zephery/current/_query_phase.html)，比较旧，但任然可用
 
@@ -287,7 +287,7 @@ private void successfulShardExecution (SearchShardIterator shardsIt) {
 
 
 
-## 3.2 Fetch阶段
+### 3.2 Fetch阶段
 
 取回阶段，图片来自[官网](https://www.elastic.co/Zephery/en/elasticsearch/Zephery/current/_fetch_phase.html)，
 
@@ -299,7 +299,7 @@ private void successfulShardExecution (SearchShardIterator shardsIt) {
 
 （3）coordinate node将合并后的document结果返回给client客户端
 
-### 3.2.1 FetchSearchPhase（对应上面的1）
+#### 3.2.1 FetchSearchPhase（对应上面的1）
 
 Query阶段的executeNextPhase方法触发Fetch阶段，Fetch阶段的起点为FetchSearchPhase#innerRun函数，从查询阶段的shard列表中遍历，跳过查询结果为空的shard，对特定目标shard执行executeFetch来获取数据，其中包括分页信息。对scroll请求的处理也在FetchSearchPhase#innerRun函数中。
 
@@ -388,7 +388,7 @@ void countDown() {
 
 moveToNextPhase方法执行下一阶段，下-阶段要执行的任务定义在FetchSearchPhase构造 函数中，主要是触发ExpandSearchPhase。
 
-### 3.2.2 ExpandSearchPhase（对应上图的2）
+#### 3.2.2 ExpandSearchPhase（对应上图的2）
 
 AbstractSearchAsyncAction.executePhase->ExpandSearchPhase.run。取回阶段完成之后执行ExpandSearchPhase#run，主要判断是否启用字段折叠，根据需要实现字段折叠功能，如果没有实现字段折叠，则直接返回给客户端。
 
@@ -398,9 +398,9 @@ ExpandSearchPhase执行完之后回复客户端，在AbstractSearchAsyncAction.s
 
 ![412412](https://github-images.wenzhihuai.com/images/1240-20240125205952628.png)
 
-# 四、数据节点
+## 四、数据节点
 
-## 4.1 执行query、fetch流程
+### 4.1 执行query、fetch流程
 
 执行本流程的线程池: search。
 
@@ -505,7 +505,7 @@ public void execute(SearchContext context) {
 
 
 
-# 五、数据返回
+## 五、数据返回
 入口：RestCancellableNodeClient.doExecute
 Task task = client.executeLocally主要执行查询，并使用了ActionListener来进行监听
 ![image-20220319003638991](https://github-images.wenzhihuai.com/images/1240-20240125210045403.png)
@@ -524,10 +524,10 @@ public void sendResponse(RestResponse restResponse) {
 
 
 
-# 六、总结
+## 六、总结
 当我们以aaaa*这样来搜索的时候，实际上查询了所有匹配以aaaa开头的索引，并且对所有的索引的分片都进行了一次Query，再然后对有结果的分片进行一次fetch，最终才能展示结果。可能觉得好奇，对所有分片都进行一次搜索，遍历分片所有的Lucene分段，会不会太过于消耗资源，因此合并Lucene分段对搜索性能有好处，这里下篇文章在讲吧。同时，聚合是发生在fetch过程中的，并不是lucene。
 
-# 本文参考
+## 本文参考
 1. [Elasitcsearch源码解析与优化实战](https://weread.qq.com/web/reader/f9c32dc07184876ef9cdeb6k7f33291023d7f39f8317e0b)     
 2. [Elasticsearch源码分析-搜索分析(一)](https://www.jianshu.com/p/b77e80d6c18e)      
 3. [Elasticsearch源码分析-搜索分析(二)](https://www.jianshu.com/p/7174cf716790)      
