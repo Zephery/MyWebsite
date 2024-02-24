@@ -2,9 +2,9 @@
 ## 日志采集方式
 日志从传统方式演进到容器方式的过程就不详细讲了，可以参考一下这篇文章[Docker日志收集最佳实践](https://www.cnblogs.com/jingjulianyi/p/6637801.html)，由于容器的漂移、自动伸缩等特性，日志收集也就必须使用新的方式来实现，Kubernetes官方给出的方式基本是这三种：原生方式、DaemonSet方式和Sidecar方式。
 
-**1.原生方式：**使用 kubectl logs 直接在查看本地保留的日志，或者通过docker engine的 log driver 把日志重定向到文件、syslog、fluentd等系统中。
-**2.DaemonSet方式：**在K8S的每个node上部署日志agent，由agent采集所有容器的日志到服务端。
-**3.Sidecar方式：**一个POD中运行一个sidecar的日志agent容器，用于采集该POD主容器产生的日志。
+**1.原生方式** 使用 kubectl logs 直接在查看本地保留的日志，或者通过docker engine的 log driver 把日志重定向到文件、syslog、fluentd等系统中。
+**2.DaemonSet方式** 在K8S的每个node上部署日志agent，由agent采集所有容器的日志到服务端。
+**3.Sidecar方式** 一个POD中运行一个sidecar的日志agent容器，用于采集该POD主容器产生的日志。
 三种方式都有利有弊，没有哪种方式能够完美的解决100%问题的，所以要根据场景来贴合。
 
 ## 一、原生方式
