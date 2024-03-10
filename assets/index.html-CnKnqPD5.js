@@ -1,0 +1,1 @@
+import{_ as a,o as t,c as s,a as e,d as c}from"./app-BUhiAgtU.js";const n={},o=e("h1",{id:"database",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#database","aria-hidden":"true"},"#"),c(" Database")],-1),d=e("p",null,"目录留空",-1),r=[o,d];function _(i,l){return t(),s("div",null,r)}const f=a(n,[["render",_],["__file","index.html.vue"]]);export{f as default};

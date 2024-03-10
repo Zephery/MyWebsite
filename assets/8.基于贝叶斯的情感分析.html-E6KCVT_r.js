@@ -1,0 +1,1 @@
+import{_,o as t,c as a,a as e,d as c}from"./app-BUhiAgtU.js";const o={},r=e("h1",{id:"_8-基于贝叶斯的情感分析",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#_8-基于贝叶斯的情感分析","aria-hidden":"true"},"#"),c(" 8.基于贝叶斯的情感分析")],-1),s=[r];function n(d,i){return t(),a("div",null,s)}const l=_(o,[["render",n],["__file","8.基于贝叶斯的情感分析.html.vue"]]);export{l as default};

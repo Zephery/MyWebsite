@@ -1,0 +1,1 @@
+import{_ as a,o as t,c as r,a as e,d as s}from"./app-BUhiAgtU.js";const c={},n=e("h1",{id:"spark",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#spark","aria-hidden":"true"},"#"),s(" Spark")],-1),o=[n];function d(_,i){return t(),r("div",null,o)}const l=a(c,[["render",d],["__file","index.html.vue"]]);export{l as default};
