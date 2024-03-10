@@ -11,6 +11,7 @@ import {others} from "./others";
 import {middleware} from "./middleware.js";
 import {life} from "./life.js";
 import {link} from "./link.js";
+import {systemDesign} from "./system-design";
 
 export default sidebar({
     // 应该把更精确的路径放置在前边
@@ -20,6 +21,7 @@ export default sidebar({
     "/middleware/": middleware,
     "/kubernetes/": kubernetes,
     "/books/": books,
+    "/system-design/": systemDesign,
     "/donate/": donate,
     "/life/": life,
     "/others/": others,

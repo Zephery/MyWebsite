@@ -7,6 +7,7 @@ export default navbar([
     {text: "数据库", icon: "database", link: "/database/"},
     {text: "大数据", icon: "bigdata", link: "/bigdata/"},
     {text: "Kubernetes", icon: "Kubernetes", link: "/kubernetes/"},
+    {text: "系统设计", icon: "system-design", link: "/system-design/"},
     {text: "好玩的", icon: "others", link: "/others/"},
     {text: "捐赠", icon: "donate", link: "/donate/"},
     {
