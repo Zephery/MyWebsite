@@ -12,9 +12,12 @@ import {middleware} from "./middleware.js";
 import {life} from "./life.js";
 import {link} from "./link.js";
 import {systemDesign} from "./system-design";
+import {java} from "./java.js";
 
 export default sidebar({
     // 应该把更精确的路径放置在前边
+    "/others/": others,
+    "/java/": java,
     "/database/": database,
     "/link/": link,
     "/bigdata/": bigdata,
@@ -24,7 +27,6 @@ export default sidebar({
     "/system-design/": systemDesign,
     "/donate/": donate,
     "/life/": life,
-    "/others/": others,
     "/about-the-author/": aboutTheAuthor,
     "/high-quality-technical-articles/": highQualityTechnicalArticles,
     "/zhuanlan/": [
@@ -36,10 +38,10 @@ export default sidebar({
     // 必须放在最后面
     "/": [
         {
-            text: "Java",
-            icon: "java",
+            text: "好玩的",
+            icon: "others",
             collapsible: false,
-            prefix: "java/",
+            prefix: "others/",
             children: "structure"
         },
     ],

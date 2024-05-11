@@ -1,9 +1,10 @@
 import {arraySidebar} from "vuepress-theme-hope";
 
-export const others = arraySidebar([
+export const java = arraySidebar([
     {
-        text: "好玩的",
+        text: "Java",
+        icon: "java",
         collapsible: false,
         children: "structure"
-    },
+    }
 ]);
