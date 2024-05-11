@@ -7,7 +7,7 @@ import {database} from "./database.js";
 import {donate} from "./donate.js";
 import {bigdata} from "./bigdata.js";
 import {kubernetes} from "./kubernetes.js";
-import {others} from "./others";
+import {interesting} from "./interesting";
 import {middleware} from "./middleware.js";
 import {life} from "./life.js";
 import {link} from "./link.js";
@@ -16,7 +16,7 @@ import {java} from "./java.js";
 
 export default sidebar({
     // 应该把更精确的路径放置在前边
-    "/others/": others,
+    "/interesting/": interesting,
     "/java/": java,
     "/database/": database,
     "/link/": link,
@@ -39,9 +39,9 @@ export default sidebar({
     "/": [
         {
             text: "好玩的",
-            icon: "others",
+            icon: "interesting",
             collapsible: false,
-            prefix: "others/",
+            prefix: "interesting/",
             children: "structure"
         },
     ],

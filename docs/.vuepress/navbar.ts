@@ -1,8 +1,7 @@
 import {navbar} from "vuepress-theme-hope";
-import {others} from "./sidebar/others";
 
 export default navbar([
-    {text: "好玩的", icon: "others", link: "/index"},
+    {text: "好玩的", icon: "interesting", link: "/index"},
     {text: "Java", icon: "java", link: "/java"},
     {text: "中间件", icon: "middleware", link: "/middleware/"},
     {text: "数据库", icon: "database", link: "/database/"},

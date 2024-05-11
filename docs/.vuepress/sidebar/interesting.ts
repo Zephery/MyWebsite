@@ -1,6 +1,6 @@
 import {arraySidebar} from "vuepress-theme-hope";
 
-export const others = arraySidebar([
+export const interesting = arraySidebar([
     {
         text: "好玩的",
         collapsible: false,

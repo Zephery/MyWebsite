@@ -52,7 +52,7 @@ openai在国内不提供服务的，而且也通过ip识别是不是在国内，
 跟页面一样，OpenAI的调用也是不能再国内访问的，这里，我们使用同一台服务器来搭建nginx，还是保留使用windows吧，主要还是得注意下面这段话，如果API key被泄露了，OpenAI可能会自动重新更新你的API key，这个规则似乎是API key如果被多个ip使用，就会触发这个规则，调试阶段还是尽量使用windows的服务器吧，万一被更新了，还能去页面上重新找到。
 
 ```text
-Do not share your API key with others, or expose it in the browser or other client-side code. In order to protect the security of your account, OpenAI may also automatically rotate any API key that we've found has leaked publicly.
+Do not share your API key with interesting, or expose it in the browser or other client-side code. In order to protect the security of your account, OpenAI may also automatically rotate any API key that we've found has leaked publicly.
 ```
 
 windows的安装过程参考网上的来，我们只需要添加下面这个配置即可，原理主要是将调用OpenAI的接口全部往官网转发。
