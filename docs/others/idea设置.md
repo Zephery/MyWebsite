@@ -1,3 +1,4 @@
+# Jetbrains Idea设置
 ## 一、类注释
 
 想要在生成类的时候，自动带上author和时间，效果如下：
@@ -39,7 +40,7 @@ public class EFE {
 
 去settings里面找到Live Templates，新建一个Template Group叫做user，然后再新建一个Live Template。
 
-<img src="https://github-images.wenzhihuai.com/images/image-20240512001636936.png" alt="image-20240512001636936" style="zoom:30%;" />
+![image-20240512001636936](https://github-images.wenzhihuai.com/images/image-20240512001636936.png)
 
 Abbreviation填*，Description随便填，然后再Template text填下：
 
@@ -52,7 +53,7 @@ $VAR1$
 
 编辑变量，Edit Variables：
 
-<img src="https://github-images.wenzhihuai.com/images/image-20240512001711420.png" alt="image-20240512001711420" style="zoom:33%;" />
+![image-20240512001711420.png](https://github-images.wenzhihuai.com/images/image-20240512001711420.png)
 
 VAR1：
 
