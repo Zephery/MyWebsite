@@ -84,3 +84,10 @@ Idea这个太烦了，总是不小心误点，想把右侧的两个都给去掉�
 位置：settings直接搜Inlay Hints，把右侧的Usages、Code author给取消勾选即可
 
 ![image-20240512001010797](https://github-images.wenzhihuai.com/images/image-20240512001010797.png)
+
+**上面的设置放到百度网盘里了，可以下载后导入到Idea**
+
+链接: https://pan.baidu.com/s/1-3uhY1jssyMWyRbvBLQ2FQ?pwd=epw2 提取码: epw2 复制这段内容后打开百度网盘手机App，操作更方便哦
+
+
+<img src="https://github-images.wenzhihuai.com/images/image-20240512115716124.png" alt="image-20240512115716124" style="zoom:50%;" />
