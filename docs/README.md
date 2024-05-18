@@ -1,1 +1,6 @@
-<AutoCatalog />
+---
+home: true
+layout: BlogHome
+---
+
+<Catalog/>

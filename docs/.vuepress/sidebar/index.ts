@@ -15,6 +15,15 @@ import {systemDesign} from "./system-design";
 import {java} from "./java.js";
 
 export default sidebar({
+    // 必须放在最后面
+    "/": [
+        {
+            text: "首页",
+            icon: "home",
+            collapsible: false,
+            children: "structure"
+        },
+    ],
     // 应该把更精确的路径放置在前边
     "/interesting/": interesting,
     "/java/": java,
@@ -35,14 +44,5 @@ export default sidebar({
         "handwritten-rpc-framework",
         "source-code-reading",
     ],
-    // 必须放在最后面
-    "/": [
-        {
-            text: "好玩的",
-            icon: "interesting",
-            collapsible: false,
-            prefix: "interesting/",
-            children: "structure"
-        },
-    ],
+
 });

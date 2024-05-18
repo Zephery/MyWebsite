@@ -3,6 +3,7 @@ import theme from "./theme.js";
 import {commentPlugin} from "@vuepress/plugin-comment";
 import {componentsPlugin} from "vuepress-plugin-components";
 import viteBundler from "@vuepress/bundler-vite";
+import {path} from "@vuepress/utils";
 
 export default defineUserConfig({
     dest: "./dist",
@@ -84,12 +85,12 @@ export default defineUserConfig({
   })();`,
         ],
     ],
-    // alias: {
-    //     "@theme-hope/components/NormalPage": path.resolve(
-    //         __dirname,
-    //         "./components/NormalPage.vue",
-    //     ),
-    // },
+    alias: {
+        "@theme-hope/components/NormalPage": path.resolve(
+            __dirname,
+            "./components/NormalPage.vue",
+        ),
+    },
 
 
     theme,

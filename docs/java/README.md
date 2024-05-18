@@ -1,1 +1,7 @@
-# 简介
+---
+index: false
+---
+
+# Java
+
+<Catalog/>
