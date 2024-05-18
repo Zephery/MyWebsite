@@ -1,13 +1,17 @@
 import {defineUserConfig} from "vuepress";
 import theme from "./theme.js";
-import {commentPlugin} from "vuepress-plugin-comment2";
-import {path} from "@vuepress/utils";
+import {commentPlugin} from "@vuepress/plugin-comment";
 import {componentsPlugin} from "vuepress-plugin-components";
+import viteBundler from "@vuepress/bundler-vite";
 
 export default defineUserConfig({
     dest: "./dist",
     title: "个人博客",
     description: "个人博客",
+    bundler: viteBundler({
+        viteOptions: {},
+        vuePluginOptions: {},
+    }),
     lang: "zh-CN",
     plugins: [
         // https://plugin-comment2.vuejs.press/zh/config/giscus.html#darktheme
@@ -24,9 +28,9 @@ export default defineUserConfig({
             components: [
                 "SiteInfo",
             ],
-            rootComponents: ({
-                backToTop: true
-            })
+            // rootComponents: ({
+            //     backToTop: true
+            // })
         }),
     ],
     head: [
@@ -80,12 +84,12 @@ export default defineUserConfig({
   })();`,
         ],
     ],
-    alias: {
-        "@theme-hope/components/NormalPage": path.resolve(
-            __dirname,
-            "./components/NormalPage.vue",
-        ),
-    },
+    // alias: {
+    //     "@theme-hope/components/NormalPage": path.resolve(
+    //         __dirname,
+    //         "./components/NormalPage.vue",
+    //     ),
+    // },
 
 
     theme,
