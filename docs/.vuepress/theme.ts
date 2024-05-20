@@ -49,7 +49,15 @@ export default hopeTheme({
         },
 
         plugins: {
-            blog: true,
+            blog: {
+                excerptLength: 50,
+                type: [
+                    {
+                        key: "slide",
+                        filter: (page) => page.frontmatter.layout === "Slide",
+                    }
+                ],
+            },
             copyright: {
                 author: "wenzhihuai.com",
                 license: "MIT",
