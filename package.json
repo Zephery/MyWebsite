@@ -37,6 +37,7 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.14",
+    "echarts": "^5.5.1",
     "vuepress-plugin-components": "2.0.0-rc.50"
   }
 }

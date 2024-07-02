@@ -78,6 +78,7 @@ export default hopeTheme({
                 codetabs: true,
                 figure: true,
                 gfm: true,
+                echarts: true,
                 hint: true,
                 tasklist: true,
             },

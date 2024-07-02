@@ -13,6 +13,7 @@ import {life} from "./life.js";
 import {link} from "./link.js";
 import {systemDesign} from "./system-design";
 import {java} from "./java.js";
+import {stock} from "./stock.js";
 
 export default sidebar({
     // 必须放在最后面
@@ -33,6 +34,7 @@ export default sidebar({
     "/middleware/": middleware,
     "/kubernetes/": kubernetes,
     "/books/": books,
+    "/stock/": stock,
     "/system-design/": systemDesign,
     "/donate/": donate,
     "/life/": life,
