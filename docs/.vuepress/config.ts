@@ -25,16 +25,16 @@ export default defineUserConfig({
             category: "General",
             categoryId: "DIC_kwDODCK5HM4Ccp32" //对应自己的分类Id
         }),
-        noticePlugin({
-            config: [
-                {
-                    path: '/',
-                    title: '通知',
-                    content: '小站收益甚微，请帮忙点击下文章上面的广告（需关闭广告屏蔽插件）',
-                    showOnce: false
-                }
-            ]
-        }),
+        // noticePlugin({
+        //     config: [
+        //         {
+        //             path: '/',
+        //             title: '通知',
+        //             content: '小站收益甚微，请帮忙点击下文章上面的广告（需关闭广告屏蔽插件）',
+        //             showOnce: false
+        //         }
+        //     ]
+        // }),
         componentsPlugin({
             // 插件选项
             components: [
