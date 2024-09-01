@@ -9,9 +9,9 @@
            data-ad-slot="8206550629"></ins>
     </template>
     <template #tocAfter>
-      <div class="slot-demo-block">小站收益甚微，请帮忙点击下文章上面的广告（需关闭广告屏蔽插件）也可打赏鼓励作者
+      <div class="slot-demo-block">小站收益甚微，请帮忙点击下文章上面的广告（需关闭广告屏蔽插件）也可微信支付打赏鼓励作者
       </div>
-      <img class="slot-img" src="https://github-images.wenzhihuai.com/test/image-20240901205057672.png" alt=""/>
+      <img class="slot-img" src="https://github-images.wenzhihuai.com/test/image-20240901210440204.png" alt=""/>
     </template>
   </normal-page>
 </template>
