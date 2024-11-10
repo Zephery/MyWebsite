@@ -44,7 +44,9 @@ export default hopeTheme({
             medias: {
                 Zhihu: "https://www.zhihu.com/people/wen-zhi-huai-83",
                 Github: "https://github.com/Zephery",
-                Gitee: "https://gitee.com/zephery.com.cn"
+                Gitee: "https://gitee.com/zephery.com.cn",
+                BiliBili: "https://space.bilibili.com/3118581",
+                WechatPay: "https://wenzhihuai.com/donate"
             },
         },
 
@@ -75,11 +77,8 @@ export default hopeTheme({
 
             mdEnhance: {
                 align: true,
-                codetabs: true,
-                figure: true,
                 gfm: true,
                 echarts: true,
-                hint: true,
                 tasklist: true,
             },
 
