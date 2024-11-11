@@ -39,6 +39,7 @@ export default defineUserConfig({
             // 插件选项
             components: [
                 "SiteInfo",
+                "BiliBili"
             ],
             // rootComponents: ({
             //     backToTop: true

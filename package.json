@@ -38,10 +38,8 @@
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.14",
     "@vuepress/plugin-notice": "2.0.0-rc.41",
-    "artplayer": "^5.2.1",
     "echarts": "^5.5.1",
     "sass": "^1.80.6",
-    "vidstack": "^1.12.12",
     "vuepress-plugin-components": "2.0.0-rc.59",
     "vuepress-plugin-copyright2": "2.0.0-rc.18"
   }
