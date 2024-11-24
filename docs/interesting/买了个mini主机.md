@@ -119,6 +119,26 @@ nmcli connection show
 nmcli device show wlp3s0
 ```
 
+上面的其实在2024年其实有点问题，因为会默认连接2.4GHz的wifi，使用的时候很明显没有那么快，特别是在用命令行的时候会觉得明显卡顿，现在需要切换到5GHz的wifi。
+首先，使用 nmcli 获取可用 WiFi 网络及其 BSSID：  
+```shell
+nmcli -f SSID,BSSID,CHAN dev wifi list
+```
+示例输出：
+
+```text
+SSID       BSSID              CHAN
+MyNetwork  XX:XX:XX:XX:XX:01  36
+MyNetwork  XX:XX:XX:XX:XX:02  1
+```
+
+在这里, XX:XX:XX:XX:XX:01 是 5GHz 网络的 BSSID。
+
+使用 nmcli 连接到特定的 BSSID
+```shell
+nmcli dev wifi connect 'XX:XX:XX:XX:XX:01' password 'your_password'
+```
+
 
 
 ## 三、VNC远程连接
