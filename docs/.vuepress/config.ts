@@ -8,8 +8,8 @@ import {noticePlugin} from '@vuepress/plugin-notice'
 
 export default defineUserConfig({
     dest: "./dist",
-    title: "个人博客",
-    description: "个人博客",
+    title: "技术文档",
+    description: "技术文档",
     bundler: viteBundler({
         viteOptions: {},
         vuePluginOptions: {},
