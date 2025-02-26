@@ -9,7 +9,7 @@ export default navbar([
     {text: "大数据", icon: "bigdata", link: "/bigdata/"},
     {text: "Kubernetes", icon: "Kubernetes", link: "/kubernetes/"},
     {text: "系统设计", icon: "system-design", link: "/system-design/"},
-    {text: "股票预测", icon: "stock", link: "/stock/"},
+    // {text: "股票预测", icon: "stock", link: "/stock/"},
     {text: "捐赠", icon: "donate", link: "/donate/"},
     {
         text: "网站相关",
