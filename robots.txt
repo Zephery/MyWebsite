@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: http://www.wenzhihuai.com/sitemap.xml
