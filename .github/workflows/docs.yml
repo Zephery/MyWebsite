@@ -31,7 +31,7 @@ jobs:
 
       # 安装依赖
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install
 
       # 构建 VuePress 站点
       - name: Build VuePress site
