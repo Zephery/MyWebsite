@@ -6,8 +6,8 @@
     <link>https://www.wenzhihuai.com/</link>
     <description>个人博客</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 01 Nov 2025 16:51:11 GMT</pubDate>
-    <lastBuildDate>Sat, 01 Nov 2025 16:51:11 GMT</lastBuildDate>
+    <pubDate>Sat, 01 Nov 2025 17:09:36 GMT</pubDate>
+    <lastBuildDate>Sat, 01 Nov 2025 17:09:36 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <item>
@@ -2648,6 +2648,13 @@ synchronized的特点：
 ]]></content:encoded>
     </item>
     <item>
+      <title>SpringBoot</title>
+      <link>https://www.wenzhihuai.com/java/SpringBoot/</link>
+      <guid>https://www.wenzhihuai.com/java/SpringBoot/</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">SpringBoot</source>
+      <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
+    </item>
+    <item>
       <title>JVM</title>
       <link>https://www.wenzhihuai.com/java/JVM/</link>
       <guid>https://www.wenzhihuai.com/java/JVM/</guid>
@@ -2842,24 +2849,10 @@ synchronized的特点：
       <enclosure url="https://github-images.wenzhihuai.com/images/v2-62257a68cd5fa063d16cb4c30bd75ac0_1440w.webp" type="image/webp"/>
     </item>
     <item>
-      <title>SpringBoot</title>
-      <link>https://www.wenzhihuai.com/java/SpringBoot/</link>
-      <guid>https://www.wenzhihuai.com/java/SpringBoot/</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">SpringBoot</source>
-      <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
-    </item>
-    <item>
       <title>I/O</title>
       <link>https://www.wenzhihuai.com/java/io/</link>
       <guid>https://www.wenzhihuai.com/java/io/</guid>
       <source url="https://www.wenzhihuai.com/rss.xml">I/O</source>
-      <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>网络</title>
-      <link>https://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/</link>
-      <guid>https://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">网络</source>
       <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
     </item>
     <item>
@@ -2883,6 +2876,13 @@ synchronized的特点：
 <h2>有序性</h2>
 ]]></content:encoded>
       <enclosure url="https://github-images.wenzhihuai.com/images/image-20240217004404932.png" type="image/png"/>
+    </item>
+    <item>
+      <title>网络</title>
+      <link>https://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/</link>
+      <guid>https://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">网络</source>
+      <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
     </item>
     <item>
       <title>DevOps</title>
