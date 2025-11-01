@@ -36,16 +36,12 @@ jobs:
       # 构建 VuePress 站点
       - name: Build VuePress site
         run: pnpm docs:build
-
-      # 部署到 GitHub Pages
-      - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v4
+      - name: Deploy to gh pages
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          target_branch: gh-pages
-          build_dir: docs/.vuepress/dist
-          fqdn: wenzhihuai.com
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
+          folder: dist
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       # 同步到 Gitee
       - name: Sync to Gitee
