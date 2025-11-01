@@ -7,11 +7,11 @@ import {database} from "./database.js";
 import {donate} from "./donate.js";
 import {bigdata} from "./bigdata.js";
 import {kubernetes} from "./kubernetes.js";
-import {interesting} from "./interesting";
+import {interesting} from "./interesting.js";
 import {middleware} from "./middleware.js";
 import {life} from "./life.js";
 import {link} from "./link.js";
-import {systemDesign} from "./system-design";
+import {systemDesign} from "./system-design.js";
 import {java} from "./java.js";
 import {stock} from "./stock.js";
 
