@@ -1,5 +1,5 @@
 <template>
-  <normal-page>
+  <Layout>
     <template #contentBefore>
       <ins class="adsbygoogle"
            style="display:block; text-align:center;width: 90%;margin: 0 auto;"
@@ -13,36 +13,23 @@
       </div>
       <img class="slot-img" src="https://github-images.wenzhihuai.com/test/image-20240901210440204.png" alt=""/>
     </template>
-  </normal-page>
+  </Layout>
 </template>
-<script>
-import NormalPage from "vuepress-theme-hope/components/NormalPage.js";
+<script setup lang="ts">
+import {onMounted} from "vue";
 
-export default {
-  name: "adsense-inline",
-  components: {
-    'normal-page': NormalPage,
-  },
-  mounted() {
-    this.adsenseAddLoad();
-    // this.loadBaiduAdAsync();
-  },
-  methods: {
-    adsenseAddLoad() {
-      let inlineScript = document.createElement("script");
-      inlineScript.type = "text/javascript";
-      inlineScript.text = '(adsbygoogle = window.adsbygoogle || []).push({});'
-      document.getElementsByTagName('body')[0].appendChild(inlineScript);
-    },
-    loadBaiduAdAsync() {
-      (window.slotbydup = window.slotbydup || []).push({
-        id: "u6953633",
-        container: "_vyps37o7ou",
-        async: true
-      });
-    }
-  }
+import {Layout} from "vuepress-theme-hope/client";
+
+function adsenseAddLoad(): void {
+  const inlineScript = document.createElement("script");
+  inlineScript.type = "text/javascript";
+  inlineScript.text = "(adsbygoogle = window.adsbygoogle || []).push({});";
+  document.body.appendChild(inlineScript);
 }
+
+onMounted(() => {
+  adsenseAddLoad();
+});
 </script>
 
 

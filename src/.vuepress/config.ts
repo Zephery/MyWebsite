@@ -1,51 +1,11 @@
 import {defineUserConfig} from "vuepress";
 import theme from "./theme.js";
-import {commentPlugin} from "@vuepress/plugin-comment";
-import {componentsPlugin} from "vuepress-plugin-components";
-import viteBundler from "@vuepress/bundler-vite";
-import {path} from "@vuepress/utils";
-import {noticePlugin} from '@vuepress/plugin-notice'
 
 export default defineUserConfig({
     dest: "./dist",
     title: "个人博客",
     description: "个人博客",
-    bundler: viteBundler({
-        viteOptions: {},
-        vuePluginOptions: {},
-    }),
     lang: "zh-CN",
-    plugins: [
-        // https://plugin-comment2.vuejs.press/zh/config/giscus.html#darktheme
-        commentPlugin({
-            provider: "Giscus",
-            comment: true, //启用评论功能
-            repo: "Zephery/MyWebsite", //远程仓库
-            repoId: "MDEwOlJlcG9zaXRvcnkyMDM2MDIyMDQ=", //对应自己的仓库Id
-            category: "General",
-            categoryId: "DIC_kwDODCK5HM4Ccp32" //对应自己的分类Id
-        }),
-        // noticePlugin({
-        //     config: [
-        //         {
-        //             path: '/',
-        //             title: '通知',
-        //             content: '小站收益甚微，请帮忙点击下文章上面的广告（需关闭广告屏蔽插件）',
-        //             showOnce: false
-        //         }
-        //     ]
-        // }),
-        componentsPlugin({
-            // 插件选项
-            components: [
-                "SiteInfo",
-                "BiliBili"
-            ],
-            // rootComponents: ({
-            //     backToTop: true
-            // })
-        }),
-    ],
     head: [
         [
             "script",
@@ -97,12 +57,6 @@ export default defineUserConfig({
   })();`,
         ],
     ],
-    alias: {
-        "@theme-hope/components/NormalPage": path.resolve(
-            __dirname,
-            "./components/NormalPage.vue",
-        ),
-    },
 
 
     theme,

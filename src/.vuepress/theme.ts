@@ -10,6 +10,9 @@ export default hopeTheme({
         favicon: "/favicon.ico",
 
         // iconAssets: "//at.alicdn.com/t/c/font_2922463_o9q9dxmps9.css",
+        markdown: {
+            mermaid: true,
+        },
 
         author: {
             name: "Zephery",
@@ -17,9 +20,9 @@ export default hopeTheme({
         },
 
         repo: "https://github.com/Zephery/MyWebsite",
-        docsDir: "docs",
+        docsDir: "src",
         // 纯净模式：https://theme-hope.vuejs.press/zh/Zephery/interface/pure.html
-        pure: true,
+        // pure: true,
         breadcrumb: false,
         navbar,
         sidebar,
@@ -40,7 +43,6 @@ export default hopeTheme({
 
         blog: {
             intro: "/about-the-author/",
-            sidebarDisplay: "mobile",
             medias: {
                 Zhihu: "https://www.zhihu.com/people/wen-zhi-huai-83",
                 Github: "https://github.com/Zephery",
@@ -51,6 +53,20 @@ export default hopeTheme({
         },
 
         plugins: {
+            comment: {
+                provider: "Giscus",
+                comment: true, //启用评论功能
+                repo: "Zephery/MyWebsite", //远程仓库
+                repoId: "MDEwOlJlcG9zaXRvcnkyMDM2MDIyMDQ=", //对应自己的仓库Id
+                category: "General",
+                categoryId: "DIC_kwDODCK5HM4Ccp32" //对应自己的分类Id
+            },
+            components: {
+                components: [
+                    "SiteInfo",
+                    "BiliBili"
+                ]
+            },
             blog: {
                 excerptLength: 50,
                 type: [
@@ -75,12 +91,6 @@ export default hopeTheme({
                 rss: true,
             },
 
-            mdEnhance: {
-                align: true,
-                gfm: true,
-                echarts: true,
-                tasklist: true,
-            },
 
             search: {
                 isSearchable: (page) => page.path !== "/",
