@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="http://www.wenzhihuai.com/rss.xsl"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://www.wenzhihuai.com/rss.xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <atom:link href="http://www.wenzhihuai.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://www.wenzhihuai.com/rss.xml" rel="self" type="application/rss+xml"/>
     <title>个人博客</title>
-    <link>http://www.wenzhihuai.com/</link>
+    <link>https://www.wenzhihuai.com/</link>
     <description>个人博客</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 01 Nov 2025 13:35:35 GMT</pubDate>
-    <lastBuildDate>Sat, 01 Nov 2025 13:35:35 GMT</lastBuildDate>
+    <pubDate>Sat, 01 Nov 2025 14:45:34 GMT</pubDate>
+    <lastBuildDate>Sat, 01 Nov 2025 14:45:34 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <item>
       <title></title>
-      <link>http://www.wenzhihuai.com/</link>
-      <guid>http://www.wenzhihuai.com/</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml"></source>
+      <link>https://www.wenzhihuai.com/</link>
+      <guid>https://www.wenzhihuai.com/</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml"></source>
       <description>广告系统</description>
       <pubDate>Sat, 01 Nov 2025 04:49:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>广告系统</p>
@@ -22,9 +22,9 @@
     </item>
     <item>
       <title>ShadowSocks安装</title>
-      <link>http://www.wenzhihuai.com/interesting/ShadowSocks%E5%AE%89%E8%A3%85.html</link>
-      <guid>http://www.wenzhihuai.com/interesting/ShadowSocks%E5%AE%89%E8%A3%85.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">ShadowSocks安装</source>
+      <link>https://www.wenzhihuai.com/interesting/ShadowSocks%E5%AE%89%E8%A3%85.html</link>
+      <guid>https://www.wenzhihuai.com/interesting/ShadowSocks%E5%AE%89%E8%A3%85.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">ShadowSocks安装</source>
       <description>ShadowSocks安装 https://www.v2ray.com/</description>
       <pubDate>Sat, 01 Nov 2025 04:49:29 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -33,9 +33,9 @@
     </item>
     <item>
       <title>监控指标上报Starrocks</title>
-      <link>http://www.wenzhihuai.com/java/SpringBoot/%E7%9B%91%E6%8E%A7%E6%8C%87%E6%A0%87%E4%B8%8A%E6%8A%A5Starrocks.html</link>
-      <guid>http://www.wenzhihuai.com/java/SpringBoot/%E7%9B%91%E6%8E%A7%E6%8C%87%E6%A0%87%E4%B8%8A%E6%8A%A5Starrocks.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">监控指标上报Starrocks</source>
+      <link>https://www.wenzhihuai.com/java/SpringBoot/%E7%9B%91%E6%8E%A7%E6%8C%87%E6%A0%87%E4%B8%8A%E6%8A%A5Starrocks.html</link>
+      <guid>https://www.wenzhihuai.com/java/SpringBoot/%E7%9B%91%E6%8E%A7%E6%8C%87%E6%A0%87%E4%B8%8A%E6%8A%A5Starrocks.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">监控指标上报Starrocks</source>
       <description>监控指标上报Starrocks 一、 背景与目标 监控最主要还是上报到Prometheus，可惜成本实在是高昂，特别是存储时间要求得越久，我们这里探索了下micrometer转换成json，然后存储到starrocks这类mpp olap引擎，通过starrocks的存算分离架构，降低成本。 二、 总体架构 三、 存储方案对比 我们以一串json为例 ...</description>
       <pubDate>Sat, 01 Nov 2025 04:49:29 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -45,9 +45,9 @@
     </item>
     <item>
       <title>推荐工程-前后端</title>
-      <link>http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E5%89%8D%E5%90%8E%E7%AB%AF.html</link>
-      <guid>http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E5%89%8D%E5%90%8E%E7%AB%AF.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">推荐工程-前后端</source>
+      <link>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E5%89%8D%E5%90%8E%E7%AB%AF.html</link>
+      <guid>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E5%89%8D%E5%90%8E%E7%AB%AF.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">推荐工程-前后端</source>
       <description>推荐工程-前后端</description>
       <pubDate>Sat, 01 Nov 2025 04:49:29 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -55,9 +55,9 @@
     </item>
     <item>
       <title>推荐工程-召回</title>
-      <link>http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E5%8F%AC%E5%9B%9E.html</link>
-      <guid>http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E5%8F%AC%E5%9B%9E.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">推荐工程-召回</source>
+      <link>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E5%8F%AC%E5%9B%9E.html</link>
+      <guid>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E5%8F%AC%E5%9B%9E.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">推荐工程-召回</source>
       <description>推荐工程-召回</description>
       <pubDate>Sat, 01 Nov 2025 04:49:29 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -65,9 +65,9 @@
     </item>
     <item>
       <title>推荐工程-用户画像</title>
-      <link>http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F.html</link>
-      <guid>http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">推荐工程-用户画像</source>
+      <link>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F.html</link>
+      <guid>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">推荐工程-用户画像</source>
       <description>推荐工程-用户画像</description>
       <pubDate>Sat, 01 Nov 2025 04:49:29 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -75,9 +75,9 @@
     </item>
     <item>
       <title>推荐工程-画像</title>
-      <link>http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%94%BB%E5%83%8F.html</link>
-      <guid>http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%94%BB%E5%83%8F.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">推荐工程-画像</source>
+      <link>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%94%BB%E5%83%8F.html</link>
+      <guid>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%94%BB%E5%83%8F.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">推荐工程-画像</source>
       <description>推荐工程-画像</description>
       <pubDate>Sat, 01 Nov 2025 04:49:29 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -85,9 +85,9 @@
     </item>
     <item>
       <title>推荐工程-粗排</title>
-      <link>http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%B2%97%E6%8E%92.html</link>
-      <guid>http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%B2%97%E6%8E%92.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">推荐工程-粗排</source>
+      <link>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%B2%97%E6%8E%92.html</link>
+      <guid>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%B2%97%E6%8E%92.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">推荐工程-粗排</source>
       <description>推荐工程-粗排</description>
       <pubDate>Sat, 01 Nov 2025 04:49:29 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -95,9 +95,9 @@
     </item>
     <item>
       <title>推荐工程-精排</title>
-      <link>http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%B2%BE%E6%8E%92.html</link>
-      <guid>http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%B2%BE%E6%8E%92.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">推荐工程-精排</source>
+      <link>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%B2%BE%E6%8E%92.html</link>
+      <guid>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%B2%BE%E6%8E%92.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">推荐工程-精排</source>
       <description>推荐工程-精排</description>
       <pubDate>Sat, 01 Nov 2025 04:49:29 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -105,9 +105,9 @@
     </item>
     <item>
       <title>推荐系统常用概念</title>
-      <link>http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%B8%B8%E7%94%A8%E6%A6%82%E5%BF%B5.html</link>
-      <guid>http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%B8%B8%E7%94%A8%E6%A6%82%E5%BF%B5.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">推荐系统常用概念</source>
+      <link>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%B8%B8%E7%94%A8%E6%A6%82%E5%BF%B5.html</link>
+      <guid>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%B8%B8%E7%94%A8%E6%A6%82%E5%BF%B5.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">推荐系统常用概念</source>
       <description>推荐系统常用概念 一、召回 二、特征 三、KV文件 四、商品标签 五、画像 用户画像是一种数据分析方法，通过对用户的行为、兴趣、偏好、属性等信息进行整合，形成一个全面的、数据化的用户模型。它在广告、推荐系统、精准营销等领域中广泛应用，目的是帮助系统更好地理解和预测用户行为，从而提供个性化服务。 用户画像通常包含以下几个方面的信息： 用户基本属性： 包括...</description>
       <pubDate>Sat, 01 Nov 2025 04:49:29 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -132,9 +132,9 @@
     </item>
     <item>
       <title>商品推荐系统-FAISS召回</title>
-      <link>http://www.wenzhihuai.com/system-design/%E7%B3%BB%E7%BB%9F%E5%BB%BA%E8%AE%BE/%E5%95%86%E5%93%81%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F-FAISS%E5%8F%AC%E5%9B%9E.html</link>
-      <guid>http://www.wenzhihuai.com/system-design/%E7%B3%BB%E7%BB%9F%E5%BB%BA%E8%AE%BE/%E5%95%86%E5%93%81%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F-FAISS%E5%8F%AC%E5%9B%9E.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">商品推荐系统-FAISS召回</source>
+      <link>https://www.wenzhihuai.com/system-design/%E7%B3%BB%E7%BB%9F%E5%BB%BA%E8%AE%BE/%E5%95%86%E5%93%81%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F-FAISS%E5%8F%AC%E5%9B%9E.html</link>
+      <guid>https://www.wenzhihuai.com/system-design/%E7%B3%BB%E7%BB%9F%E5%BB%BA%E8%AE%BE/%E5%95%86%E5%93%81%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F-FAISS%E5%8F%AC%E5%9B%9E.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">商品推荐系统-FAISS召回</source>
       <description>商品推荐系统-FAISS召回 1. 背景与挑战 在互联网电商、内容平台等实际业务中，商品库动辄百万量级，如何为每位用户从海量商品中迅速召回个性化、高相关的候选商品，是推荐系统最基础也最关键的一环。 如果只依赖商品的原始属性（如标题、描述）匹配，不仅难以刻画深层语义，还会因为暴力检索计算巨大，难以支撑在线业务实时性需求。 向量化（Embedding）特征...</description>
       <pubDate>Tue, 10 Jun 2025 16:06:41 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -145,9 +145,9 @@
     </item>
     <item>
       <title>商品推荐系统</title>
-      <link>http://www.wenzhihuai.com/system-design/%E7%B3%BB%E7%BB%9F%E5%BB%BA%E8%AE%BE/%E4%BA%9A%E9%A9%AC%E9%80%8A%E5%95%86%E5%93%81%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F.html</link>
-      <guid>http://www.wenzhihuai.com/system-design/%E7%B3%BB%E7%BB%9F%E5%BB%BA%E8%AE%BE/%E4%BA%9A%E9%A9%AC%E9%80%8A%E5%95%86%E5%93%81%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">商品推荐系统</source>
+      <link>https://www.wenzhihuai.com/system-design/%E7%B3%BB%E7%BB%9F%E5%BB%BA%E8%AE%BE/%E4%BA%9A%E9%A9%AC%E9%80%8A%E5%95%86%E5%93%81%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F.html</link>
+      <guid>https://www.wenzhihuai.com/system-design/%E7%B3%BB%E7%BB%9F%E5%BB%BA%E8%AE%BE/%E4%BA%9A%E9%A9%AC%E9%80%8A%E5%95%86%E5%93%81%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">商品推荐系统</source>
       <description>商品推荐系统 推荐系统首先收集用户的历史行为数据,然后通过预处理的方法得到用户-评价矩阵,再利用机器学习领域中相关推荐技术形成对用户的个性化推荐。有的推荐系统还搜集用户对推荐结果的反馈,并根据实际的反馈信息实时调整推荐策略,产生更符合用户需求的推荐结果。为了更好的去了解一个推荐系统，从0到1了解推荐过程，我们通过一些网上开源的数据来搭建一个推荐系统 一...</description>
       <pubDate>Sun, 20 Apr 2025 09:08:56 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -157,9 +157,9 @@
     </item>
     <item>
       <title>在鹅厂做java开发是什么体验</title>
-      <link>http://www.wenzhihuai.com/interesting/%E5%9C%A8%E9%B9%85%E5%8E%82%E5%81%9Ajava%E5%BC%80%E5%8F%91%E6%98%AF%E4%BB%80%E4%B9%88%E4%BD%93%E9%AA%8C.html</link>
-      <guid>http://www.wenzhihuai.com/interesting/%E5%9C%A8%E9%B9%85%E5%8E%82%E5%81%9Ajava%E5%BC%80%E5%8F%91%E6%98%AF%E4%BB%80%E4%B9%88%E4%BD%93%E9%AA%8C.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">在鹅厂做java开发是什么体验</source>
+      <link>https://www.wenzhihuai.com/interesting/%E5%9C%A8%E9%B9%85%E5%8E%82%E5%81%9Ajava%E5%BC%80%E5%8F%91%E6%98%AF%E4%BB%80%E4%B9%88%E4%BD%93%E9%AA%8C.html</link>
+      <guid>https://www.wenzhihuai.com/interesting/%E5%9C%A8%E9%B9%85%E5%8E%82%E5%81%9Ajava%E5%BC%80%E5%8F%91%E6%98%AF%E4%BB%80%E4%B9%88%E4%BD%93%E9%AA%8C.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">在鹅厂做java开发是什么体验</source>
       <description>在鹅厂做java开发是什么体验 离职已有好几个月，准备写一篇关于之前在腾讯做Java开发的经历，现在来谈谈在Java领域里，在腾讯做Java开发的体验。随便写写别较真。 首先，介绍一下腾讯里与Java相关的部门。主要有CDG中的腾讯广告和FIT（金融科技事业群）理财通。其他部门则包括TEG中的一些大数据部门，以及IEG中的大数据相关团队。在腾讯，大部分...</description>
       <pubDate>Tue, 25 Feb 2025 16:59:17 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -195,9 +195,9 @@
     </item>
     <item>
       <title>mac通过网线连接主机(fnOS)</title>
-      <link>http://www.wenzhihuai.com/interesting/mini%E4%B8%BB%E6%9C%BA/mac%E8%BF%9E%E6%8E%A5%E4%B8%BB%E6%9C%BA.html</link>
-      <guid>http://www.wenzhihuai.com/interesting/mini%E4%B8%BB%E6%9C%BA/mac%E8%BF%9E%E6%8E%A5%E4%B8%BB%E6%9C%BA.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">mac通过网线连接主机(fnOS)</source>
+      <link>https://www.wenzhihuai.com/interesting/mini%E4%B8%BB%E6%9C%BA/mac%E8%BF%9E%E6%8E%A5%E4%B8%BB%E6%9C%BA.html</link>
+      <guid>https://www.wenzhihuai.com/interesting/mini%E4%B8%BB%E6%9C%BA/mac%E8%BF%9E%E6%8E%A5%E4%B8%BB%E6%9C%BA.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">mac通过网线连接主机(fnOS)</source>
       <description>mac通过网线连接主机(fnOS) 一、mac端 mac是typec的，用了个转接头+网线直连主机，初始化的时候跟下面一致，默认都是自动的 点击详细信息，配置IPv4选择使用DHCP 二、主机端 主机端是最麻烦的，刚开始的时候怎么也找不到网卡，ifconfg敲了很多遍，最后发现是fnOS没有装驱动。。。 *-network UNCLAIMED 表明你的...</description>
       <pubDate>Fri, 29 Nov 2024 18:45:10 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -267,9 +267,9 @@
     </item>
     <item>
       <title>推荐工程-概述</title>
-      <link>http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E6%A6%82%E8%BF%B0.html</link>
-      <guid>http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E6%A6%82%E8%BF%B0.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">推荐工程-概述</source>
+      <link>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E6%A6%82%E8%BF%B0.html</link>
+      <guid>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E6%A6%82%E8%BF%B0.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">推荐工程-概述</source>
       <description>推荐工程-概述 随着移动互联网的飞速发展，人们已经处于信息过载的时代。在这个时代，信息的生产者很难将信息呈现在对其感兴趣的消费者面前，而信息消费者也难以从海量信息中找到自己感兴趣的内容。推荐系统充当了将信息生产者和信息消费者连接起来的桥梁，平台通常作为推荐系统的载体，实现信息生产者和消费者之间的匹配。 平台方、信息生产者和消费者可以分别用平台方（如：腾...</description>
       <pubDate>Fri, 29 Nov 2024 18:45:10 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -316,9 +316,9 @@
     </item>
     <item>
       <title>2024-11-09上海迪斯尼</title>
-      <link>http://www.wenzhihuai.com/about-the-author/personal-life/2024-11-09%E4%B8%8A%E6%B5%B7%E8%BF%AA%E6%96%AF%E5%B0%BC.html</link>
-      <guid>http://www.wenzhihuai.com/about-the-author/personal-life/2024-11-09%E4%B8%8A%E6%B5%B7%E8%BF%AA%E6%96%AF%E5%B0%BC.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">2024-11-09上海迪斯尼</source>
+      <link>https://www.wenzhihuai.com/about-the-author/personal-life/2024-11-09%E4%B8%8A%E6%B5%B7%E8%BF%AA%E6%96%AF%E5%B0%BC.html</link>
+      <guid>https://www.wenzhihuai.com/about-the-author/personal-life/2024-11-09%E4%B8%8A%E6%B5%B7%E8%BF%AA%E6%96%AF%E5%B0%BC.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">2024-11-09上海迪斯尼</source>
       <description>2024-11-09上海迪斯尼</description>
       <pubDate>Sun, 10 Nov 2024 15:55:36 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -326,9 +326,9 @@
     </item>
     <item>
       <title>买了个mini主机</title>
-      <link>http://www.wenzhihuai.com/interesting/mini%E4%B8%BB%E6%9C%BA/%E4%B9%B0%E4%BA%86%E4%B8%AAmini%E4%B8%BB%E6%9C%BA.html</link>
-      <guid>http://www.wenzhihuai.com/interesting/mini%E4%B8%BB%E6%9C%BA/%E4%B9%B0%E4%BA%86%E4%B8%AAmini%E4%B8%BB%E6%9C%BA.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">买了个mini主机</source>
+      <link>https://www.wenzhihuai.com/interesting/mini%E4%B8%BB%E6%9C%BA/%E4%B9%B0%E4%BA%86%E4%B8%AAmini%E4%B8%BB%E6%9C%BA.html</link>
+      <guid>https://www.wenzhihuai.com/interesting/mini%E4%B8%BB%E6%9C%BA/%E4%B9%B0%E4%BA%86%E4%B8%AAmini%E4%B8%BB%E6%9C%BA.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">买了个mini主机</source>
       <description>买了个mini主机 虽然有苹果的电脑，但是在安装一些软件的时候，总想着能不能有一个小型的服务器，免得各种设置导致 Mac 出现异常。整体上看了一些小型主机，也看过苹果的 Mac mini，但是发现它太贵了，大概要 3000 多，特别是如果要更高配置的话，价格会更高，甚至更贵。所以，我就考虑一些别的小型主机。也看了一些像 NUC 这些服务器，但是觉得还是...</description>
       <pubDate>Sun, 27 Oct 2024 13:33:05 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -503,9 +503,9 @@
     </item>
     <item>
       <title>流程编排LiteFlow</title>
-      <link>http://www.wenzhihuai.com/java/%E6%B5%81%E7%A8%8B%E7%BC%96%E6%8E%92LiteFlow.html</link>
-      <guid>http://www.wenzhihuai.com/java/%E6%B5%81%E7%A8%8B%E7%BC%96%E6%8E%92LiteFlow.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">流程编排LiteFlow</source>
+      <link>https://www.wenzhihuai.com/java/%E6%B5%81%E7%A8%8B%E7%BC%96%E6%8E%92LiteFlow.html</link>
+      <guid>https://www.wenzhihuai.com/java/%E6%B5%81%E7%A8%8B%E7%BC%96%E6%8E%92LiteFlow.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">流程编排LiteFlow</source>
       <description>流程编排LiteFlow LiteFlow真的是相见恨晚啊，之前做过的很多系统，都会用各种if else，switch这些来解决不同业务方提出的问题，有时候还要“切一个分支”来搞这些额外的事情，把代码搞得一团糟，毫无可读性而言。如何打破僵局？LiteFlow为解耦逻辑而生，为编排而生，在使用LiteFlow之后，你会发现打造一个低耦合，灵活的系统会变得...</description>
       <pubDate>Sun, 08 Sep 2024 16:55:53 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -680,9 +680,9 @@ LiteFlow 具有高度的扩展性，开发者可以根据自身业务的特殊�
     </item>
     <item>
       <title>推荐系统入门</title>
-      <link>http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%85%A5%E9%97%A8.html</link>
-      <guid>http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%85%A5%E9%97%A8.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">推荐系统入门</source>
+      <link>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%85%A5%E9%97%A8.html</link>
+      <guid>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%85%A5%E9%97%A8.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">推荐系统入门</source>
       <description>推荐系统入门 转载自：https://www.cnblogs.com/cgli/p/17225189.html 一、背景 近期由于公司业务系统需要做一个推荐系统，应该说是实现一个相当简单推荐逻辑。毕竟业务场景相当简单，企业的数据规模也比较小，各种用户数据、交易数据、订单数据、行为数据等加在一起 100 多 TB 量级，这点数据量在巨大的平台商面前都谈不...</description>
       <pubDate>Sun, 01 Sep 2024 13:54:44 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -939,9 +939,9 @@ LiteFlow 具有高度的扩展性，开发者可以根据自身业务的特殊�
     </item>
     <item>
       <title>计算广告基本概念入门总结</title>
-      <link>http://www.wenzhihuai.com/system-design/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E5%85%A5%E9%97%A8%E6%80%BB%E7%BB%93.html</link>
-      <guid>http://www.wenzhihuai.com/system-design/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E5%85%A5%E9%97%A8%E6%80%BB%E7%BB%93.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">计算广告基本概念入门总结</source>
+      <link>https://www.wenzhihuai.com/system-design/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E5%85%A5%E9%97%A8%E6%80%BB%E7%BB%93.html</link>
+      <guid>https://www.wenzhihuai.com/system-design/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E5%85%A5%E9%97%A8%E6%80%BB%E7%BB%93.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">计算广告基本概念入门总结</source>
       <description>计算广告基本概念入门总结 广告业务是各大互联网公司主要的商业化变现营收来源。近年来随着互联网和移动端技术的普及，使得广告的用户触达成本大大降低，而广告的形态和内涵也逐渐变得复杂。广告不再是单纯的展示和计费，而是结合了推荐、大数据等各类计算技术，以达到广告的精准受众定向，计算广告概念由此诞生。 本文基于《计算广告》及互联网内容，整理了计算广告核心概念及入...</description>
       <pubDate>Sun, 01 Sep 2024 13:54:44 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -952,9 +952,9 @@ LiteFlow 具有高度的扩展性，开发者可以根据自身业务的特殊�
     </item>
     <item>
       <title>程序员副业探索之电商</title>
-      <link>http://www.wenzhihuai.com/interesting/%E7%A8%8B%E5%BA%8F%E5%91%98%E5%89%AF%E4%B8%9A%E6%8E%A2%E7%B4%A2%E4%B9%8B%E7%94%B5%E5%95%86.html</link>
-      <guid>http://www.wenzhihuai.com/interesting/%E7%A8%8B%E5%BA%8F%E5%91%98%E5%89%AF%E4%B8%9A%E6%8E%A2%E7%B4%A2%E4%B9%8B%E7%94%B5%E5%95%86.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">程序员副业探索之电商</source>
+      <link>https://www.wenzhihuai.com/interesting/%E7%A8%8B%E5%BA%8F%E5%91%98%E5%89%AF%E4%B8%9A%E6%8E%A2%E7%B4%A2%E4%B9%8B%E7%94%B5%E5%95%86.html</link>
+      <guid>https://www.wenzhihuai.com/interesting/%E7%A8%8B%E5%BA%8F%E5%91%98%E5%89%AF%E4%B8%9A%E6%8E%A2%E7%B4%A2%E4%B9%8B%E7%94%B5%E5%95%86.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">程序员副业探索之电商</source>
       <description>程序员副业探索之电商 在腾讯广告工作期间，我主要负责小程序电商与广告业务，见证了互联网电商行业的剧变，特别是众多电商公司纷纷拥抱私域流量，直播带货成为新风尚，广告投入也在持续增加。通过这些经历，我积累了不少关于互联网电商的经验，并萌生了尝试电商副业的想法。 在小红书上，女装博主们凭借独特的穿搭分享吸引了大量粉丝，“种草”文化+电商+私域正成为未来的发展...</description>
       <pubDate>Sun, 04 Aug 2024 14:51:49 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1026,9 +1026,9 @@ LiteFlow 具有高度的扩展性，开发者可以根据自身业务的特殊�
     </item>
     <item>
       <title>2024-07-24</title>
-      <link>http://www.wenzhihuai.com/about-the-author/personal-life/2024-07-24.html</link>
-      <guid>http://www.wenzhihuai.com/about-the-author/personal-life/2024-07-24.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">2024-07-24</source>
+      <link>https://www.wenzhihuai.com/about-the-author/personal-life/2024-07-24.html</link>
+      <guid>https://www.wenzhihuai.com/about-the-author/personal-life/2024-07-24.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">2024-07-24</source>
       <description>2024-07-24 新买了台air m3，午夜色的，心心念念了好久 IMG_20240723_235443 读写速度 c6c117ff1f5f6371b3ab682621369c1f 和以前的m1 pro对比了下，感觉差了半截，使用上没有区别吧 096e891a0278263d0c790e74f32ef911_720 非果粉，但好多苹果设备 0742...</description>
       <pubDate>Wed, 24 Jul 2024 15:52:12 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1044,9 +1044,9 @@ LiteFlow 具有高度的扩展性，开发者可以根据自身业务的特殊�
     </item>
     <item>
       <title>股票预测</title>
-      <link>http://www.wenzhihuai.com/stock/</link>
-      <guid>http://www.wenzhihuai.com/stock/</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">股票预测</source>
+      <link>https://www.wenzhihuai.com/stock/</link>
+      <guid>https://www.wenzhihuai.com/stock/</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">股票预测</source>
       <description>股票预测 ::: echarts 赛力斯 ::: ::: echarts Stocks :::</description>
       <pubDate>Tue, 02 Jul 2024 14:33:09 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1455,9 +1455,9 @@ LiteFlow 具有高度的扩展性，开发者可以根据自身业务的特殊�
     </item>
     <item>
       <title>赛力斯</title>
-      <link>http://www.wenzhihuai.com/stock/%E8%B5%9B%E5%8A%9B%E6%96%AF.html</link>
-      <guid>http://www.wenzhihuai.com/stock/%E8%B5%9B%E5%8A%9B%E6%96%AF.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">赛力斯</source>
+      <link>https://www.wenzhihuai.com/stock/%E8%B5%9B%E5%8A%9B%E6%96%AF.html</link>
+      <guid>https://www.wenzhihuai.com/stock/%E8%B5%9B%E5%8A%9B%E6%96%AF.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">赛力斯</source>
       <description>赛力斯 update</description>
       <pubDate>Tue, 02 Jul 2024 14:33:09 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1466,9 +1466,9 @@ LiteFlow 具有高度的扩展性，开发者可以根据自身业务的特殊�
     </item>
     <item>
       <title>好玩的</title>
-      <link>http://www.wenzhihuai.com/interesting/</link>
-      <guid>http://www.wenzhihuai.com/interesting/</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">好玩的</source>
+      <link>https://www.wenzhihuai.com/interesting/</link>
+      <guid>https://www.wenzhihuai.com/interesting/</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">好玩的</source>
       <description>好玩的</description>
       <pubDate>Sat, 18 May 2024 19:54:10 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1476,9 +1476,9 @@ LiteFlow 具有高度的扩展性，开发者可以根据自身业务的特殊�
     </item>
     <item>
       <title>基于OLAP做业务监控</title>
-      <link>http://www.wenzhihuai.com/interesting/%E5%9F%BA%E4%BA%8EOLAP%E5%81%9A%E4%B8%9A%E5%8A%A1%E7%9B%91%E6%8E%A7.html</link>
-      <guid>http://www.wenzhihuai.com/interesting/%E5%9F%BA%E4%BA%8EOLAP%E5%81%9A%E4%B8%9A%E5%8A%A1%E7%9B%91%E6%8E%A7.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">基于OLAP做业务监控</source>
+      <link>https://www.wenzhihuai.com/interesting/%E5%9F%BA%E4%BA%8EOLAP%E5%81%9A%E4%B8%9A%E5%8A%A1%E7%9B%91%E6%8E%A7.html</link>
+      <guid>https://www.wenzhihuai.com/interesting/%E5%9F%BA%E4%BA%8EOLAP%E5%81%9A%E4%B8%9A%E5%8A%A1%E7%9B%91%E6%8E%A7.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">基于OLAP做业务监控</source>
       <description>基于OLAP做业务监控 在监控领域，Prometheus 与 Grafana 常被认为是无敌组合。然而，随着成本的增加，不少人开始审慎考虑其他替代方案。本文将深入探讨 Prometheus 的特点，并讨论 Grafana 中关键参数 interval 和 for 的意义及其影响。此外，还将分析 OLAP 数据库作为监控数据持久性存储的优势。 一、两者的...</description>
       <pubDate>Mon, 13 May 2024 16:26:06 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1509,9 +1509,9 @@ OLAP 数据库通常具有可靠的数据持久性和长期存储能力，能存
     </item>
     <item>
       <title>Jetbrains Idea设置</title>
-      <link>http://www.wenzhihuai.com/interesting/idea%E8%AE%BE%E7%BD%AE.html</link>
-      <guid>http://www.wenzhihuai.com/interesting/idea%E8%AE%BE%E7%BD%AE.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">Jetbrains Idea设置</source>
+      <link>https://www.wenzhihuai.com/interesting/idea%E8%AE%BE%E7%BD%AE.html</link>
+      <guid>https://www.wenzhihuai.com/interesting/idea%E8%AE%BE%E7%BD%AE.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">Jetbrains Idea设置</source>
       <description>Jetbrains Idea设置 一、类注释 想要在生成类的时候，自动带上author和时间，效果如下： 放到File Header里统一下即可，当然，也可以去Files里定义Class File或者其他： image-20240512002500812 二、方法注释 想让自动给方法生成注释，以及参数的默认注释： 去settings里面找到Live T...</description>
       <pubDate>Sat, 11 May 2024 16:37:27 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1562,9 +1562,9 @@ OLAP 数据库通常具有可靠的数据持久性和长期存储能力，能存
     </item>
     <item>
       <title>小程序反编译</title>
-      <link>http://www.wenzhihuai.com/interesting/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%8F%8D%E7%BC%96%E8%AF%91.html</link>
-      <guid>http://www.wenzhihuai.com/interesting/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%8F%8D%E7%BC%96%E8%AF%91.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">小程序反编译</source>
+      <link>https://www.wenzhihuai.com/interesting/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%8F%8D%E7%BC%96%E8%AF%91.html</link>
+      <guid>https://www.wenzhihuai.com/interesting/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%8F%8D%E7%BC%96%E8%AF%91.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">小程序反编译</source>
       <description>小程序反编译 第一步:电脑端提取 先找到小程序保存的地址，一般先找到微信的文件管理下 image-20240310171919281 然后到该目录的C:\Users\w1570\Documents\WeChat Files\Applet即可看到相关小程序了。 image-20240310173802224 找到需要解压的包__APP__.wxapkg，...</description>
       <pubDate>Sun, 10 Mar 2024 14:39:30 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1607,9 +1607,9 @@ OLAP 数据库通常具有可靠的数据持久性和长期存储能力，能存
     </item>
     <item>
       <title>开发工具整理</title>
-      <link>http://www.wenzhihuai.com/interesting/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E6%95%B4%E7%90%86.html</link>
-      <guid>http://www.wenzhihuai.com/interesting/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E6%95%B4%E7%90%86.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">开发工具整理</source>
+      <link>https://www.wenzhihuai.com/interesting/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E6%95%B4%E7%90%86.html</link>
+      <guid>https://www.wenzhihuai.com/interesting/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E6%95%B4%E7%90%86.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">开发工具整理</source>
       <description>开发工具整理 ShadowsocksX mac端：https://github.com/shadowsocks/ShadowsocksX-NG win端：https://github.com/shadowsocks/shadowsocks-windows 安卓：https://github.com/shadowsocks/shadowsocks-and...</description>
       <pubDate>Sun, 10 Mar 2024 14:39:30 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1626,9 +1626,9 @@ http://fls.itxe.net</p>
     </item>
     <item>
       <title>高可用</title>
-      <link>http://www.wenzhihuai.com/java/%E9%AB%98%E5%8F%AF%E7%94%A8.html</link>
-      <guid>http://www.wenzhihuai.com/java/%E9%AB%98%E5%8F%AF%E7%94%A8.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">高可用</source>
+      <link>https://www.wenzhihuai.com/java/%E9%AB%98%E5%8F%AF%E7%94%A8.html</link>
+      <guid>https://www.wenzhihuai.com/java/%E9%AB%98%E5%8F%AF%E7%94%A8.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">高可用</source>
       <description>高可用 4个9（99.99） 流量控制 流量控制在网络传输中是一个常用的概念，它用于调整网络包的发送数据。然而，从系统稳定性角度考虑，在处理请求的速度上，也有非常多的讲究。任意时间到来的请求往往是随机不可控的，而系统的处理能力是有限的。我们需要根据系统的处理能力对流量进行控制。Sentinel 作为一个调配器，可以根据需要把随机的请求调整成合适的形状，...</description>
       <pubDate>Sun, 10 Mar 2024 14:39:30 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1640,9 +1640,9 @@ http://fls.itxe.net</p>
     </item>
     <item>
       <title>高并发</title>
-      <link>http://www.wenzhihuai.com/java/%E9%AB%98%E5%B9%B6%E5%8F%91.html</link>
-      <guid>http://www.wenzhihuai.com/java/%E9%AB%98%E5%B9%B6%E5%8F%91.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">高并发</source>
+      <link>https://www.wenzhihuai.com/java/%E9%AB%98%E5%B9%B6%E5%8F%91.html</link>
+      <guid>https://www.wenzhihuai.com/java/%E9%AB%98%E5%B9%B6%E5%8F%91.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">高并发</source>
       <description>高并发 QPS 高并发（High Concurrency）是互联网分布式系统架构设计中必须考虑的因素之一，它通常是指，通过设计保证系统能够同时并行处理很多请求。 高并发相关常用的一些指标有响应时间（Response Time），吞吐量（Throughput），每秒查询率QPS（Query Per Second），并发用户数等。 响应时间：系统对请求做出...</description>
       <pubDate>Sun, 10 Mar 2024 14:39:30 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1680,9 +1680,9 @@ http://fls.itxe.net</p>
     </item>
     <item>
       <title>高性能</title>
-      <link>http://www.wenzhihuai.com/java/%E9%AB%98%E6%80%A7%E8%83%BD.html</link>
-      <guid>http://www.wenzhihuai.com/java/%E9%AB%98%E6%80%A7%E8%83%BD.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">高性能</source>
+      <link>https://www.wenzhihuai.com/java/%E9%AB%98%E6%80%A7%E8%83%BD.html</link>
+      <guid>https://www.wenzhihuai.com/java/%E9%AB%98%E6%80%A7%E8%83%BD.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">高性能</source>
       <description>高性能 响应时间 性能直接影响用户的感官体验，访问一个系统，如果超过5秒没有响应，绝大数用户会选择离开。 那么有哪些因素会影响系统的性能呢？ 用户网络环境 请求/响应的数据包大小 业务系统 CPU、内存、磁盘等性能 业务链路的长度 下游系统的性能 算法实现是否高效 当然，随着并发数的提升，系统压力增大，平均请求延迟也会增大。 1、高性能缓存 对一些热点...</description>
       <pubDate>Sun, 10 Mar 2024 14:39:30 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1719,9 +1719,9 @@ http://fls.itxe.net</p>
     </item>
     <item>
       <title>Feed系统设计</title>
-      <link>http://www.wenzhihuai.com/system-design/feed.html</link>
-      <guid>http://www.wenzhihuai.com/system-design/feed.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">Feed系统设计</source>
+      <link>https://www.wenzhihuai.com/system-design/feed.html</link>
+      <guid>https://www.wenzhihuai.com/system-design/feed.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">Feed系统设计</source>
       <description>Feed系统设计 https://blog.csdn.net/weixin_45583158/article/details/128195940</description>
       <pubDate>Sun, 10 Mar 2024 14:39:30 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1730,9 +1730,9 @@ http://fls.itxe.net</p>
     </item>
     <item>
       <title>行锁，表锁，意向锁</title>
-      <link>http://www.wenzhihuai.com/database/mysql/%E8%A1%8C%E9%94%81%EF%BC%8C%E8%A1%A8%E9%94%81%EF%BC%8C%E6%84%8F%E5%90%91%E9%94%81.html</link>
-      <guid>http://www.wenzhihuai.com/database/mysql/%E8%A1%8C%E9%94%81%EF%BC%8C%E8%A1%A8%E9%94%81%EF%BC%8C%E6%84%8F%E5%90%91%E9%94%81.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">行锁，表锁，意向锁</source>
+      <link>https://www.wenzhihuai.com/database/mysql/%E8%A1%8C%E9%94%81%EF%BC%8C%E8%A1%A8%E9%94%81%EF%BC%8C%E6%84%8F%E5%90%91%E9%94%81.html</link>
+      <guid>https://www.wenzhihuai.com/database/mysql/%E8%A1%8C%E9%94%81%EF%BC%8C%E8%A1%A8%E9%94%81%EF%BC%8C%E6%84%8F%E5%90%91%E9%94%81.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">行锁，表锁，意向锁</source>
       <description>行锁，表锁，意向锁</description>
       <pubDate>Sun, 10 Mar 2024 14:39:30 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1740,9 +1740,9 @@ http://fls.itxe.net</p>
     </item>
     <item>
       <title>一致性hash算法和哈希槽</title>
-      <link>http://www.wenzhihuai.com/database/redis/%E4%B8%80%E8%87%B4%E6%80%A7hash%E7%AE%97%E6%B3%95%E5%92%8C%E5%93%88%E5%B8%8C%E6%A7%BD.html</link>
-      <guid>http://www.wenzhihuai.com/database/redis/%E4%B8%80%E8%87%B4%E6%80%A7hash%E7%AE%97%E6%B3%95%E5%92%8C%E5%93%88%E5%B8%8C%E6%A7%BD.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">一致性hash算法和哈希槽</source>
+      <link>https://www.wenzhihuai.com/database/redis/%E4%B8%80%E8%87%B4%E6%80%A7hash%E7%AE%97%E6%B3%95%E5%92%8C%E5%93%88%E5%B8%8C%E6%A7%BD.html</link>
+      <guid>https://www.wenzhihuai.com/database/redis/%E4%B8%80%E8%87%B4%E6%80%A7hash%E7%AE%97%E6%B3%95%E5%92%8C%E5%93%88%E5%B8%8C%E6%A7%BD.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">一致性hash算法和哈希槽</source>
       <description>一致性hash算法和哈希槽</description>
       <pubDate>Sun, 10 Mar 2024 14:39:30 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1750,9 +1750,9 @@ http://fls.itxe.net</p>
     </item>
     <item>
       <title>JVM(java虚拟机)</title>
-      <link>http://www.wenzhihuai.com/java/JVM/jvm(java%E8%99%9A%E6%8B%9F%E6%9C%BA).html</link>
-      <guid>http://www.wenzhihuai.com/java/JVM/jvm(java%E8%99%9A%E6%8B%9F%E6%9C%BA).html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">JVM(java虚拟机)</source>
+      <link>https://www.wenzhihuai.com/java/JVM/jvm(java%E8%99%9A%E6%8B%9F%E6%9C%BA).html</link>
+      <guid>https://www.wenzhihuai.com/java/JVM/jvm(java%E8%99%9A%E6%8B%9F%E6%9C%BA).html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">JVM(java虚拟机)</source>
       <description>一、了解JVM 1、什么是JVM JVM是Java Virtual Machine（Java虚拟机）的缩写，是一个虚构出来的计算机，是通过在实际的计算机上仿真模拟计算机功能来实现的，JVM屏蔽了与具体操作系统平台相关的信息，Java程序只需生成在Java虚拟机上运行的字节码，就可以在多种平台上不加修改的运行。JVM在执行字节码时，实际上最终还是把字节码...</description>
       <pubDate>Sun, 10 Mar 2024 14:39:30 GMT</pubDate>
       <content:encoded><![CDATA[<h2>一、了解JVM</h2>
@@ -1862,9 +1862,9 @@ GC 过程：新生成的对象在Eden区分配（大对象除外，大对象直�
     </item>
     <item>
       <title>JAVA NIO</title>
-      <link>http://www.wenzhihuai.com/java/io/nio.html</link>
-      <guid>http://www.wenzhihuai.com/java/io/nio.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">JAVA NIO</source>
+      <link>https://www.wenzhihuai.com/java/io/nio.html</link>
+      <guid>https://www.wenzhihuai.com/java/io/nio.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">JAVA NIO</source>
       <description>JAVA NIO 一、简介 1）Java BIO ： 同步并阻塞(传统阻塞型)，服务器实现模式为一个连接一个线程，即客户端有连接请求时服务器端就需要启动一个线程进行处理，如果这个连接不做任何事情会造成不必要的线程开销。 2）Java NIO ： 同步非阻塞，服务器实现模式为一个线程处理多个请求(连接)，即客户端发送的连接请求都会注册到多路复用器上，多路...</description>
       <pubDate>Sun, 10 Mar 2024 14:39:30 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1880,9 +1880,9 @@ GC 过程：新生成的对象在Eden区分配（大对象除外，大对象直�
     </item>
     <item>
       <title>Spring Cloud Sentinel</title>
-      <link>http://www.wenzhihuai.com/middleware/sentinel/springcloud_sentinel.html</link>
-      <guid>http://www.wenzhihuai.com/middleware/sentinel/springcloud_sentinel.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">Spring Cloud Sentinel</source>
+      <link>https://www.wenzhihuai.com/middleware/sentinel/springcloud_sentinel.html</link>
+      <guid>https://www.wenzhihuai.com/middleware/sentinel/springcloud_sentinel.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">Spring Cloud Sentinel</source>
       <description>Spring Cloud Sentinel 参考 1.超详细springcloud sentinel教程~</description>
       <pubDate>Sun, 10 Mar 2024 14:39:30 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1892,9 +1892,9 @@ GC 过程：新生成的对象在Eden区分配（大对象除外，大对象直�
     </item>
     <item>
       <title>入门使用</title>
-      <link>http://www.wenzhihuai.com/middleware/sentinel/%E5%85%A5%E9%97%A8%E4%BD%BF%E7%94%A8.html</link>
-      <guid>http://www.wenzhihuai.com/middleware/sentinel/%E5%85%A5%E9%97%A8%E4%BD%BF%E7%94%A8.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">入门使用</source>
+      <link>https://www.wenzhihuai.com/middleware/sentinel/%E5%85%A5%E9%97%A8%E4%BD%BF%E7%94%A8.html</link>
+      <guid>https://www.wenzhihuai.com/middleware/sentinel/%E5%85%A5%E9%97%A8%E4%BD%BF%E7%94%A8.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">入门使用</source>
       <description>入门使用 参考 1.Sentinel入门（干货版）</description>
       <pubDate>Sun, 10 Mar 2024 14:39:30 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1904,9 +1904,9 @@ GC 过程：新生成的对象在Eden区分配（大对象除外，大对象直�
     </item>
     <item>
       <title>基础</title>
-      <link>http://www.wenzhihuai.com/database/elasticsearch/%E5%9F%BA%E7%A1%80.html</link>
-      <guid>http://www.wenzhihuai.com/database/elasticsearch/%E5%9F%BA%E7%A1%80.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">基础</source>
+      <link>https://www.wenzhihuai.com/database/elasticsearch/%E5%9F%BA%E7%A1%80.html</link>
+      <guid>https://www.wenzhihuai.com/database/elasticsearch/%E5%9F%BA%E7%A1%80.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">基础</source>
       <description>基础 一、ElasticSearch基础 1、什么是Elasticsearch： Elasticsearch 是基于 Lucene 的 Restful 的分布式实时全文搜索引擎，每个字段都被索引并可被搜索，可以快速存储、搜索、分析海量的数据。 全文检索是指对每一个词建立一个索引，指明该词在文章中出现的次数和位置。当查询时，根据事先建立的索引进行查找，并...</description>
       <pubDate>Sat, 24 Feb 2024 15:02:58 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -2016,9 +2016,9 @@ quorum：默认值，要求ES中大部分的shard是活跃可用的，才可以�
     </item>
     <item>
       <title>一些不常用但很实用的命令</title>
-      <link>http://www.wenzhihuai.com/interesting/%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%B8%B8%E7%94%A8%E4%BD%86%E5%BE%88%E5%AE%9E%E7%94%A8%E7%9A%84%E5%91%BD%E4%BB%A4.html</link>
-      <guid>http://www.wenzhihuai.com/interesting/%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%B8%B8%E7%94%A8%E4%BD%86%E5%BE%88%E5%AE%9E%E7%94%A8%E7%9A%84%E5%91%BD%E4%BB%A4.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">一些不常用但很实用的命令</source>
+      <link>https://www.wenzhihuai.com/interesting/%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%B8%B8%E7%94%A8%E4%BD%86%E5%BE%88%E5%AE%9E%E7%94%A8%E7%9A%84%E5%91%BD%E4%BB%A4.html</link>
+      <guid>https://www.wenzhihuai.com/interesting/%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%B8%B8%E7%94%A8%E4%BD%86%E5%BE%88%E5%AE%9E%E7%94%A8%E7%9A%84%E5%91%BD%E4%BB%A4.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">一些不常用但很实用的命令</source>
       <description>一些不常用但很实用的命令 https连接耗时检测 iptables拒绝请求</description>
       <pubDate>Sat, 24 Feb 2024 05:31:47 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -2030,9 +2030,9 @@ quorum：默认值，要求ES中大部分的shard是活跃可用的，才可以�
     </item>
     <item>
       <title>Jenkins的一些笔记</title>
-      <link>http://www.wenzhihuai.com/kubernetes/Jenkins%E7%9A%84%E4%B8%80%E4%BA%9B%E7%AC%94%E8%AE%B0.html</link>
-      <guid>http://www.wenzhihuai.com/kubernetes/Jenkins%E7%9A%84%E4%B8%80%E4%BA%9B%E7%AC%94%E8%AE%B0.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">Jenkins的一些笔记</source>
+      <link>https://www.wenzhihuai.com/kubernetes/Jenkins%E7%9A%84%E4%B8%80%E4%BA%9B%E7%AC%94%E8%AE%B0.html</link>
+      <guid>https://www.wenzhihuai.com/kubernetes/Jenkins%E7%9A%84%E4%B8%80%E4%BA%9B%E7%AC%94%E8%AE%B0.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">Jenkins的一些笔记</source>
       <description>Jenkins的一些笔记 公司主要要开发自己的paas平台，集成了Jenkins，真的是遇到了很多很多困难，特别是在api调用的权限这一块，这里，把自己遇到的一些坑的解决方法做一下笔记吧。当然，首先要讲的，就是如何在开启安全的情况下进行API调用。 一、在全局安全配置中 1.1 启用安全 如果勾选不对，那么Jenkins有可能崩溃掉，亲身经历，之前一直...</description>
       <pubDate>Sat, 24 Feb 2024 05:12:56 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -2110,9 +2110,9 @@ quorum：默认值，要求ES中大部分的shard是活跃可用的，才可以�
     </item>
     <item>
       <title>Kubernetes容器日志收集</title>
-      <link>http://www.wenzhihuai.com/kubernetes/Kubernetes%E5%AE%B9%E5%99%A8%E6%97%A5%E5%BF%97%E6%94%B6%E9%9B%86.html</link>
-      <guid>http://www.wenzhihuai.com/kubernetes/Kubernetes%E5%AE%B9%E5%99%A8%E6%97%A5%E5%BF%97%E6%94%B6%E9%9B%86.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">Kubernetes容器日志收集</source>
+      <link>https://www.wenzhihuai.com/kubernetes/Kubernetes%E5%AE%B9%E5%99%A8%E6%97%A5%E5%BF%97%E6%94%B6%E9%9B%86.html</link>
+      <guid>https://www.wenzhihuai.com/kubernetes/Kubernetes%E5%AE%B9%E5%99%A8%E6%97%A5%E5%BF%97%E6%94%B6%E9%9B%86.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">Kubernetes容器日志收集</source>
       <description>Kubernetes容器日志收集 日志采集方式 日志从传统方式演进到容器方式的过程就不详细讲了，可以参考一下这篇文章Docker日志收集最佳实践，由于容器的漂移、自动伸缩等特性，日志收集也就必须使用新的方式来实现，Kubernetes官方给出的方式基本是这三种：原生方式、DaemonSet方式和Sidecar方式。 1.原生方式 使用 kubectl ...</description>
       <pubDate>Sat, 24 Feb 2024 05:12:56 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -2350,9 +2350,9 @@ EmptyDir类型的volume创建于pod被调度到某个宿主机上的时候，而
     </item>
     <item>
       <title>Kubernetes之request 和 limit详解</title>
-      <link>http://www.wenzhihuai.com/kubernetes/request_limit.html</link>
-      <guid>http://www.wenzhihuai.com/kubernetes/request_limit.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">Kubernetes之request 和 limit详解</source>
+      <link>https://www.wenzhihuai.com/kubernetes/request_limit.html</link>
+      <guid>https://www.wenzhihuai.com/kubernetes/request_limit.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">Kubernetes之request 和 limit详解</source>
       <description>Kubernetes之request 和 limit详解 我们都知道 Kubernetes 中最小的原子调度单位是Pod，那么就意味着资源管理和资源调度相关的属性都应该Pod对象的字段，其中我们最常见的就是 Pod 的 CPU 和内存配置，而为了实现 Kubernetes 集群中资源的有效调度和充分利用，Kubernetes采用 requests 和 ...</description>
       <pubDate>Fri, 16 Feb 2024 11:46:28 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -2377,9 +2377,9 @@ memory 等于500Mi，（备注：1Mi=10241024；1M=10001000）
     </item>
     <item>
       <title>JVM调优思路</title>
-      <link>http://www.wenzhihuai.com/java/JVM/%E8%B0%83%E4%BC%98%E6%80%9D%E8%B7%AF.html</link>
-      <guid>http://www.wenzhihuai.com/java/JVM/%E8%B0%83%E4%BC%98%E6%80%9D%E8%B7%AF.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">JVM调优思路</source>
+      <link>https://www.wenzhihuai.com/java/JVM/%E8%B0%83%E4%BC%98%E6%80%9D%E8%B7%AF.html</link>
+      <guid>https://www.wenzhihuai.com/java/JVM/%E8%B0%83%E4%BC%98%E6%80%9D%E8%B7%AF.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">JVM调优思路</source>
       <description>JVM调优思路 在项目开发过程中、生产环境中，任何问题的解决、性能的调优总结下来都是三个步骤，即发现问题、定位问题、解决问题，本文将从这个步骤入手，详细阐述内存溢出（OOM、OutOfMemeory）、CPU飙高、GC频繁等JVM问题的排查、定位，以及调优。 1.监控发现问题 2.工具分析问题 3.性能调优 下面开始一步步讲解 一、监控发现问题 通过监...</description>
       <pubDate>Fri, 16 Feb 2024 11:46:28 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -2403,9 +2403,9 @@ OOM
     </item>
     <item>
       <title>主流GC收集器采用的算法</title>
-      <link>http://www.wenzhihuai.com/java/JVM/%E5%B8%B8%E7%94%A8GC%E5%9B%9E%E6%94%B6%E5%99%A8.html</link>
-      <guid>http://www.wenzhihuai.com/java/JVM/%E5%B8%B8%E7%94%A8GC%E5%9B%9E%E6%94%B6%E5%99%A8.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">主流GC收集器采用的算法</source>
+      <link>https://www.wenzhihuai.com/java/JVM/%E5%B8%B8%E7%94%A8GC%E5%9B%9E%E6%94%B6%E5%99%A8.html</link>
+      <guid>https://www.wenzhihuai.com/java/JVM/%E5%B8%B8%E7%94%A8GC%E5%9B%9E%E6%94%B6%E5%99%A8.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">主流GC收集器采用的算法</source>
       <description>主流GC收集器采用的算法 上述表格展示了一些主流垃圾回收器所采用的GC算法。值得注意的是，一些回收器可能会组合使用不同的算法，或者在特定阶段采用特定的算法，以优化性能和内存利用。这种选择通常取决于应用程序的特性和性能需求。 是否可以使用两种或多种垃圾回收器 在Java中，你不能同时使用两种不同的垃圾回收器。Serial和G1是两种不同的垃圾回收器，它们...</description>
       <pubDate>Fri, 16 Feb 2024 09:55:09 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -2415,9 +2415,9 @@ OOM
     </item>
     <item>
       <title>Java内存模型(JMM)</title>
-      <link>http://www.wenzhihuai.com/java/JVM/Java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B.html</link>
-      <guid>http://www.wenzhihuai.com/java/JVM/Java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">Java内存模型(JMM)</source>
+      <link>https://www.wenzhihuai.com/java/JVM/Java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B.html</link>
+      <guid>https://www.wenzhihuai.com/java/JVM/Java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">Java内存模型(JMM)</source>
       <description>Java内存模型(JMM) 本文转载自深入理解JVM-内存模型（jmm）和GC 1 CPU和内存的交互 了解jvm内存模型前，了解下cpu和计算机内存的交互情况。【因为Java虚拟机内存模型定义的访问操作与计算机十分相似】 有篇很棒的文章，从cpu讲到内存模型:什么是java内存模型 在计算机中，cpu和内存的交互最为频繁，相比内存，磁盘读写太慢，内存...</description>
       <pubDate>Fri, 16 Feb 2024 09:22:35 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -2430,9 +2430,9 @@ OOM
     </item>
     <item>
       <title>引用计数和根可达算法</title>
-      <link>http://www.wenzhihuai.com/java/JVM/%E5%BC%95%E7%94%A8%E8%AE%A1%E6%95%B0%E5%92%8C%E6%A0%B9%E5%8F%AF%E8%BE%BE%E7%AE%97%E6%B3%95.html</link>
-      <guid>http://www.wenzhihuai.com/java/JVM/%E5%BC%95%E7%94%A8%E8%AE%A1%E6%95%B0%E5%92%8C%E6%A0%B9%E5%8F%AF%E8%BE%BE%E7%AE%97%E6%B3%95.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">引用计数和根可达算法</source>
+      <link>https://www.wenzhihuai.com/java/JVM/%E5%BC%95%E7%94%A8%E8%AE%A1%E6%95%B0%E5%92%8C%E6%A0%B9%E5%8F%AF%E8%BE%BE%E7%AE%97%E6%B3%95.html</link>
+      <guid>https://www.wenzhihuai.com/java/JVM/%E5%BC%95%E7%94%A8%E8%AE%A1%E6%95%B0%E5%92%8C%E6%A0%B9%E5%8F%AF%E8%BE%BE%E7%AE%97%E6%B3%95.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">引用计数和根可达算法</source>
       <description>引用计数和根可达算法 本文从JVM是如何寻找垃圾的？——引用计数和根可达算法转载 硬件角度来看什么叫做垃圾？ 计算机的内存也叫做**DRAM(Dynamic Random Access Memory, 动态随机访问内存)**，底层是由一个电容和一个晶体管组成，电容充电表示该bit位数据为1，电容放电表示该bit位数据为0，整个内存就是无数个这样的bit...</description>
       <pubDate>Fri, 16 Feb 2024 09:22:35 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -2468,9 +2468,9 @@ OOM
     </item>
     <item>
       <title>synchronized</title>
-      <link>http://www.wenzhihuai.com/java/%E7%BA%BF%E7%A8%8B/synchronized.html</link>
-      <guid>http://www.wenzhihuai.com/java/%E7%BA%BF%E7%A8%8B/synchronized.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">synchronized</source>
+      <link>https://www.wenzhihuai.com/java/%E7%BA%BF%E7%A8%8B/synchronized.html</link>
+      <guid>https://www.wenzhihuai.com/java/%E7%BA%BF%E7%A8%8B/synchronized.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">synchronized</source>
       <description>synchronized 偏向锁在JDK 15后已经废弃 一、什么是synchronized 关键字提供了一种简单而有效的方式来控制并发访问共享资源。但是，它也有一些限制，例如性能问题和潜在的死锁风险，在更复杂的并发场景中，可以考虑使用java.util.concurrent包中提供的更灵活的同步机制。 img 学习Java的小伙伴都知道synchro...</description>
       <pubDate>Fri, 16 Feb 2024 09:22:35 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -2642,16 +2642,16 @@ synchronized的特点：
     </item>
     <item>
       <title>mini主机</title>
-      <link>http://www.wenzhihuai.com/interesting/mini%E4%B8%BB%E6%9C%BA/</link>
-      <guid>http://www.wenzhihuai.com/interesting/mini%E4%B8%BB%E6%9C%BA/</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">mini主机</source>
+      <link>https://www.wenzhihuai.com/interesting/mini%E4%B8%BB%E6%9C%BA/</link>
+      <guid>https://www.wenzhihuai.com/interesting/mini%E4%B8%BB%E6%9C%BA/</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">mini主机</source>
       <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
     </item>
     <item>
       <title>个人网站</title>
-      <link>http://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/</link>
-      <guid>http://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">个人网站</source>
+      <link>https://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/</link>
+      <guid>https://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">个人网站</source>
       <description>jofjweoiaejof</description>
       <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
       <content:encoded><![CDATA[<p>jofjweoiaejof</p>
@@ -2659,16 +2659,16 @@ synchronized的特点：
     </item>
     <item>
       <title>JVM</title>
-      <link>http://www.wenzhihuai.com/java/JVM/</link>
-      <guid>http://www.wenzhihuai.com/java/JVM/</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">JVM</source>
+      <link>https://www.wenzhihuai.com/java/JVM/</link>
+      <guid>https://www.wenzhihuai.com/java/JVM/</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">JVM</source>
       <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
     </item>
     <item>
       <title>CMS</title>
-      <link>http://www.wenzhihuai.com/java/JVM/cms.html</link>
-      <guid>http://www.wenzhihuai.com/java/JVM/cms.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">CMS</source>
+      <link>https://www.wenzhihuai.com/java/JVM/cms.html</link>
+      <guid>https://www.wenzhihuai.com/java/JVM/cms.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">CMS</source>
       <description>CMS JDK14已经将CMS回收器完全移除，这里只需要记住它的缺点即可。 CPU资源消耗：CMS垃圾回收器在运行过程中会与应用线程并发执行，这可能会导致较高的CPU资源消耗。 内存碎片问题：CMS垃圾回收器在进行垃圾回收时，不会对对象进行压缩和整理，这可能会导致内存碎片问题。当内存碎片过多时，可能会导致无法找到足够大的连续内存空间来分配大对象，从而提...</description>
       <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -2681,9 +2681,9 @@ synchronized的特点：
     </item>
     <item>
       <title>G1</title>
-      <link>http://www.wenzhihuai.com/java/JVM/g1.html</link>
-      <guid>http://www.wenzhihuai.com/java/JVM/g1.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">G1</source>
+      <link>https://www.wenzhihuai.com/java/JVM/g1.html</link>
+      <guid>https://www.wenzhihuai.com/java/JVM/g1.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">G1</source>
       <description>G1 本文转载自增量式垃圾回收器——带你深入理解G1垃圾回收器 G1垃圾回收器是在Java 7之后引入的一种垃圾回收器。它被设计为一种分代、增量、并行和并发的标记-复制垃圾回收器，旨在适应不断扩大的内存和增加的处理器数量，以显著降低垃圾回收造成的暂停时间，同时保持良好的吞吐量，主要有以下特点： 并行与并发： G1回收器在垃圾回收的不同阶段使用了并行和并...</description>
       <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -2706,9 +2706,9 @@ synchronized的特点：
     </item>
     <item>
       <title>ZGC</title>
-      <link>http://www.wenzhihuai.com/java/JVM/zgc.html</link>
-      <guid>http://www.wenzhihuai.com/java/JVM/zgc.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">ZGC</source>
+      <link>https://www.wenzhihuai.com/java/JVM/zgc.html</link>
+      <guid>https://www.wenzhihuai.com/java/JVM/zgc.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">ZGC</source>
       <description>ZGC 本文转载自12 张图带你彻底理解 ZGC ZGC（Z Garbage Collector） 是一款性能比 G1 更加优秀的垃圾收集器。ZGC 第一次出现是在 JDK 11 中以实验性的特性引入，这也是 JDK 11 中最大的亮点。在 JDK 15 中 ZGC 不再是实验功能，可以正式投入生产使用了，使用 –XX:+UseZGC 可以启用 ZGC...</description>
       <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -2853,30 +2853,37 @@ synchronized的特点：
     </item>
     <item>
       <title>SpringBoot</title>
-      <link>http://www.wenzhihuai.com/java/SpringBoot/</link>
-      <guid>http://www.wenzhihuai.com/java/SpringBoot/</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">SpringBoot</source>
+      <link>https://www.wenzhihuai.com/java/SpringBoot/</link>
+      <guid>https://www.wenzhihuai.com/java/SpringBoot/</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">SpringBoot</source>
       <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
     </item>
     <item>
       <title>I/O</title>
-      <link>http://www.wenzhihuai.com/java/io/</link>
-      <guid>http://www.wenzhihuai.com/java/io/</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">I/O</source>
+      <link>https://www.wenzhihuai.com/java/io/</link>
+      <guid>https://www.wenzhihuai.com/java/io/</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">I/O</source>
+      <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>网络</title>
+      <link>https://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/</link>
+      <guid>https://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">网络</source>
       <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
     </item>
     <item>
       <title>线程</title>
-      <link>http://www.wenzhihuai.com/java/%E7%BA%BF%E7%A8%8B/</link>
-      <guid>http://www.wenzhihuai.com/java/%E7%BA%BF%E7%A8%8B/</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">线程</source>
+      <link>https://www.wenzhihuai.com/java/%E7%BA%BF%E7%A8%8B/</link>
+      <guid>https://www.wenzhihuai.com/java/%E7%BA%BF%E7%A8%8B/</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">线程</source>
       <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
     </item>
     <item>
       <title>volatile</title>
-      <link>http://www.wenzhihuai.com/java/%E7%BA%BF%E7%A8%8B/volatile.html</link>
-      <guid>http://www.wenzhihuai.com/java/%E7%BA%BF%E7%A8%8B/volatile.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">volatile</source>
+      <link>https://www.wenzhihuai.com/java/%E7%BA%BF%E7%A8%8B/volatile.html</link>
+      <guid>https://www.wenzhihuai.com/java/%E7%BA%BF%E7%A8%8B/volatile.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">volatile</source>
       <description>volatile Volatile是Java中的一种轻量级同步机制，用于保证变量的可见性和禁止指令重排。当一个变量被声明为Volatile类型时，任何修改该变量的操作都会立即被所有线程看到。也就是说，Volatile修饰的变量在每次修改时都会强制将修改刷新到主内存中，具有很好的可见性和线程安全性。 image-20240217004404932 可见性...</description>
       <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -2888,17 +2895,10 @@ synchronized的特点：
       <enclosure url="https://github-images.wenzhihuai.com/images/image-20240217004404932.png" type="image/png"/>
     </item>
     <item>
-      <title>网络</title>
-      <link>http://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/</link>
-      <guid>http://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">网络</source>
-      <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
-    </item>
-    <item>
       <title>DevOps</title>
-      <link>http://www.wenzhihuai.com/kubernetes/devops/</link>
-      <guid>http://www.wenzhihuai.com/kubernetes/devops/</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">DevOps</source>
+      <link>https://www.wenzhihuai.com/kubernetes/devops/</link>
+      <guid>https://www.wenzhihuai.com/kubernetes/devops/</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">DevOps</source>
       <description>jofjweoiaejof</description>
       <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
       <content:encoded><![CDATA[<p>jofjweoiaejof</p>
@@ -2906,9 +2906,9 @@ synchronized的特点：
     </item>
     <item>
       <title>RedissonLock分布式锁源码分析</title>
-      <link>http://www.wenzhihuai.com/database/redis/RedissonLock%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90.html</link>
-      <guid>http://www.wenzhihuai.com/database/redis/RedissonLock%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">RedissonLock分布式锁源码分析</source>
+      <link>https://www.wenzhihuai.com/database/redis/RedissonLock%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90.html</link>
+      <guid>https://www.wenzhihuai.com/database/redis/RedissonLock%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">RedissonLock分布式锁源码分析</source>
       <description>RedissonLock分布式锁源码分析 最近碰到的一个问题，Java代码中写了一个定时器，分布式部署的时候，多台同时执行的话就会出现重复的数据，为了避免这种情况，之前是通过在配置文件里写上可以执行这段代码的IP，代码中判断如果跟这个IP相等，则执行，否则不执行，想想也是一种比较简单的方式吧，但是感觉很low很low，所以改用分布式锁。 目前分布式锁常...</description>
       <pubDate>Tue, 06 Feb 2024 07:22:35 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -3211,9 +3211,9 @@ lua脚本解释</p>
     </item>
     <item>
       <title>canal小记</title>
-      <link>http://www.wenzhihuai.com/middleware/canal/%E4%B8%AD%E9%97%B4%E4%BB%B6%E2%80%94%E2%80%94canal%E5%B0%8F%E8%AE%B0.html</link>
-      <guid>http://www.wenzhihuai.com/middleware/canal/%E4%B8%AD%E9%97%B4%E4%BB%B6%E2%80%94%E2%80%94canal%E5%B0%8F%E8%AE%B0.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">canal小记</source>
+      <link>https://www.wenzhihuai.com/middleware/canal/%E4%B8%AD%E9%97%B4%E4%BB%B6%E2%80%94%E2%80%94canal%E5%B0%8F%E8%AE%B0.html</link>
+      <guid>https://www.wenzhihuai.com/middleware/canal/%E4%B8%AD%E9%97%B4%E4%BB%B6%E2%80%94%E2%80%94canal%E5%B0%8F%E8%AE%B0.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">canal小记</source>
       <description>canal小记 接到个小需求，将mysql的部分数据增量同步到es，但是不仅仅是使用canal而已，整体的流程是mysql&amp;gt;&amp;gt;canal&amp;gt;&amp;gt;flume&amp;gt;&amp;gt;kafka&amp;gt;&amp;gt;es，说难倒也不难，只是做起来碰到的坑实在太多，特别是中间套了那么多中间件，出了故障找起来真的特别麻烦。 先来了解一下MySQL的主从备份： 从上层来看，复制分成三步： master将改...</description>
       <pubDate>Tue, 06 Feb 2024 07:22:35 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -3273,9 +3273,9 @@ slave重做中继日志中的事件，将改变反映它自己的数据。</p>
     </item>
     <item>
       <title>基于ZooKeeper的队列爬虫</title>
-      <link>http://www.wenzhihuai.com/middleware/zookeeper/%E5%9F%BA%E4%BA%8EZooKeeper%E7%9A%84%E9%98%9F%E5%88%97%E7%88%AC%E8%99%AB.html</link>
-      <guid>http://www.wenzhihuai.com/middleware/zookeeper/%E5%9F%BA%E4%BA%8EZooKeeper%E7%9A%84%E9%98%9F%E5%88%97%E7%88%AC%E8%99%AB.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">基于ZooKeeper的队列爬虫</source>
+      <link>https://www.wenzhihuai.com/middleware/zookeeper/%E5%9F%BA%E4%BA%8EZooKeeper%E7%9A%84%E9%98%9F%E5%88%97%E7%88%AC%E8%99%AB.html</link>
+      <guid>https://www.wenzhihuai.com/middleware/zookeeper/%E5%9F%BA%E4%BA%8EZooKeeper%E7%9A%84%E9%98%9F%E5%88%97%E7%88%AC%E8%99%AB.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">基于ZooKeeper的队列爬虫</source>
       <description>基于ZooKeeper的队列爬虫 一直琢磨着分布式的东西怎么搞，公司也没有相关的项目能够参与，所以还是回归自己的专长来吧——基于ZooKeeper的分布式队列爬虫，由于没什么人能够一起沟通分布式的相关知识，下面的小项目纯属“胡编乱造”。 简单介绍下ZooKeeper：ZooKeeper是一个分布式的，开放源码的分布式应用程序协调服务，是Google的C...</description>
       <pubDate>Tue, 06 Feb 2024 07:22:35 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -3534,9 +3534,9 @@ slave重做中继日志中的事件，将改变反映它自己的数据。</p>
     </item>
     <item>
       <title>TCP/IP、HTTP、HTTPS、HTTP2.0</title>
-      <link>http://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/IP%E3%80%81HTTP%E3%80%81HTTPS%E3%80%81HTTP2.0.html</link>
-      <guid>http://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/IP%E3%80%81HTTP%E3%80%81HTTPS%E3%80%81HTTP2.0.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">TCP/IP、HTTP、HTTPS、HTTP2.0</source>
+      <link>https://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/IP%E3%80%81HTTP%E3%80%81HTTPS%E3%80%81HTTP2.0.html</link>
+      <guid>https://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/IP%E3%80%81HTTP%E3%80%81HTTPS%E3%80%81HTTP2.0.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">TCP/IP、HTTP、HTTPS、HTTP2.0</source>
       <description>TCP/IP、HTTP、HTTPS、HTTP2.0 HTTP，全称超文本传输协议（HTTP，HyperText Transfer Protocol)，是一个客户端和服务器端请求和应答的标准（TCP），互联网上应用最为广泛的一种网络协议。客户端是终端用户，服务器端是网站。通过使用Web浏览器、网络爬虫或者其它的工具，客户端发起一个到服务器上指定端口（默认...</description>
       <pubDate>Tue, 06 Feb 2024 07:05:59 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -3719,9 +3719,9 @@ TLS(Transport Layer Security)，简称安全传输层协议，该协议由两层
     </item>
     <item>
       <title>高性能高并发高可用的一些思考</title>
-      <link>http://www.wenzhihuai.com/java/%E9%AB%98%E6%80%A7%E8%83%BD%E9%AB%98%E5%B9%B6%E5%8F%91%E9%AB%98%E5%8F%AF%E7%94%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83.html</link>
-      <guid>http://www.wenzhihuai.com/java/%E9%AB%98%E6%80%A7%E8%83%BD%E9%AB%98%E5%B9%B6%E5%8F%91%E9%AB%98%E5%8F%AF%E7%94%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">高性能高并发高可用的一些思考</source>
+      <link>https://www.wenzhihuai.com/java/%E9%AB%98%E6%80%A7%E8%83%BD%E9%AB%98%E5%B9%B6%E5%8F%91%E9%AB%98%E5%8F%AF%E7%94%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83.html</link>
+      <guid>https://www.wenzhihuai.com/java/%E9%AB%98%E6%80%A7%E8%83%BD%E9%AB%98%E5%B9%B6%E5%8F%91%E9%AB%98%E5%8F%AF%E7%94%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">高性能高并发高可用的一些思考</source>
       <description>高性能高并发高可用的一些思考 TODO待补充 异步 Jmeter JProfiler 火焰图 curl -O https://arthas.aliyun.com/arthas-boot.jar java -jar arthas-boot.jar 内存火焰图 缓存 限流熔断 Kafka 序列化 参考 1.Java数据库高并发如何解决 java高并发三种解...</description>
       <pubDate>Sat, 03 Feb 2024 17:57:14 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -3745,9 +3745,9 @@ java -jar arthas-boot.jar</p>
     </item>
     <item>
       <title>友链地址</title>
-      <link>http://www.wenzhihuai.com/link/main.html</link>
-      <guid>http://www.wenzhihuai.com/link/main.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">友链地址</source>
+      <link>https://www.wenzhihuai.com/link/main.html</link>
+      <guid>https://www.wenzhihuai.com/link/main.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">友链地址</source>
       <description>友链地址</description>
       <pubDate>Fri, 02 Feb 2024 03:58:59 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -3755,9 +3755,9 @@ java -jar arthas-boot.jar</p>
     </item>
     <item>
       <title>广州图书馆借阅抓取</title>
-      <link>http://www.wenzhihuai.com/interesting/%E5%B9%BF%E5%B7%9E%E5%9B%BE%E4%B9%A6%E9%A6%86%E5%80%9F%E9%98%85%E6%8A%93%E5%8F%96.html</link>
-      <guid>http://www.wenzhihuai.com/interesting/%E5%B9%BF%E5%B7%9E%E5%9B%BE%E4%B9%A6%E9%A6%86%E5%80%9F%E9%98%85%E6%8A%93%E5%8F%96.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">广州图书馆借阅抓取</source>
+      <link>https://www.wenzhihuai.com/interesting/%E5%B9%BF%E5%B7%9E%E5%9B%BE%E4%B9%A6%E9%A6%86%E5%80%9F%E9%98%85%E6%8A%93%E5%8F%96.html</link>
+      <guid>https://www.wenzhihuai.com/interesting/%E5%B9%BF%E5%B7%9E%E5%9B%BE%E4%B9%A6%E9%A6%86%E5%80%9F%E9%98%85%E6%8A%93%E5%8F%96.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">广州图书馆借阅抓取</source>
       <description>广州图书馆借阅抓取 欢迎访问我的个人网站，要是能在GitHub上对网站源码给个star就更好了。 搭建自己的网站的时候，想把自己读过借过的书都想记录一下，大学也做过自己学校的借书记录的爬取，但是数据库删掉了==，只保留一张截图。所以还是要好好珍惜自己阅读的日子吧，记录自己的借书记录——广州图书馆，现在代码已经放在服务器上定时运行，结果查看我的网站（关于...</description>
       <pubDate>Tue, 30 Jan 2024 06:37:05 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -3936,9 +3936,9 @@ java -jar arthas-boot.jar</p>
     </item>
     <item>
       <title>AOP</title>
-      <link>http://www.wenzhihuai.com/java/SpringBoot/aop.html</link>
-      <guid>http://www.wenzhihuai.com/java/SpringBoot/aop.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">AOP</source>
+      <link>https://www.wenzhihuai.com/java/SpringBoot/aop.html</link>
+      <guid>https://www.wenzhihuai.com/java/SpringBoot/aop.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">AOP</source>
       <description>AOP 一、概述 在通常的开发过程中，我们调用的顺序通常是controller-&amp;gt;service-dao，其中，service中包含着太多的业务逻辑，并且还要不断调用dao来实现自身的业务逻辑，经常会导致业务耗时过久，在aop出现之前，方式一般是在函数中开始写一个startTime，结尾再写一个endTime来查看执行该函数的耗时，过多的使用此类方式会...</description>
       <pubDate>Tue, 30 Jan 2024 06:37:05 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -4013,9 +4013,9 @@ java -jar arthas-boot.jar</p>
     </item>
     <item>
       <title>Spring Boot Prometheus使用</title>
-      <link>http://www.wenzhihuai.com/java/SpringBoot/Spring%20Boot%20Prometheus%E4%BD%BF%E7%94%A8.html</link>
-      <guid>http://www.wenzhihuai.com/java/SpringBoot/Spring%20Boot%20Prometheus%E4%BD%BF%E7%94%A8.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">Spring Boot Prometheus使用</source>
+      <link>https://www.wenzhihuai.com/java/SpringBoot/Spring%20Boot%20Prometheus%E4%BD%BF%E7%94%A8.html</link>
+      <guid>https://www.wenzhihuai.com/java/SpringBoot/Spring%20Boot%20Prometheus%E4%BD%BF%E7%94%A8.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">Spring Boot Prometheus使用</source>
       <description>Spring Boot Prometheus使用 一、基本原理 Prometheus的基本原理是通过HTTP协议周期性抓取被监控组件的状态，任意组件只要提供对应的HTTP接口就可以接入监控。不需要任何SDK或者其他的集成过程。这样做非常适合做虚拟化环境监控系统，比如VM、Docker、Kubernetes等。输出被监控组件信息的HTTP接口被叫做exp...</description>
       <pubDate>Sat, 27 Jan 2024 13:52:01 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -4112,9 +4112,9 @@ java -jar arthas-boot.jar</p>
     </item>
     <item>
       <title>小程序</title>
-      <link>http://www.wenzhihuai.com/about-the-author/works/%E4%B8%AA%E4%BA%BA%E4%BD%9C%E5%93%81.html</link>
-      <guid>http://www.wenzhihuai.com/about-the-author/works/%E4%B8%AA%E4%BA%BA%E4%BD%9C%E5%93%81.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">小程序</source>
+      <link>https://www.wenzhihuai.com/about-the-author/works/%E4%B8%AA%E4%BA%BA%E4%BD%9C%E5%93%81.html</link>
+      <guid>https://www.wenzhihuai.com/about-the-author/works/%E4%B8%AA%E4%BA%BA%E4%BD%9C%E5%93%81.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">小程序</source>
       <description>小程序 助眠风扇 MyTesMate</description>
       <pubDate>Sat, 27 Jan 2024 09:51:43 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -4125,9 +4125,9 @@ java -jar arthas-boot.jar</p>
     </item>
     <item>
       <title>Webflux</title>
-      <link>http://www.wenzhihuai.com/java/SpringBoot/webflux.html</link>
-      <guid>http://www.wenzhihuai.com/java/SpringBoot/webflux.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">Webflux</source>
+      <link>https://www.wenzhihuai.com/java/SpringBoot/webflux.html</link>
+      <guid>https://www.wenzhihuai.com/java/SpringBoot/webflux.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">Webflux</source>
       <description>Webflux 1.Servlet 3.1就已经支持异步非阻塞，为什么要用webflux? ChatGpt: Servlet 3.1 和 WebFlux 虽然底层都使用了 Java 的 NIO（非阻塞 IO），但是他们的编程模型和如何使用 NIO 是不同的，这也是导致他们性能差异的原因。 Servlet 3.1：虽然 Servlet 3.1 支持非阻塞...</description>
       <pubDate>Sat, 27 Jan 2024 09:51:43 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -4148,9 +4148,9 @@ WebFlux 和 Spring Boot 使用虚拟线程（也称为纤程或轻量级线程�
     </item>
     <item>
       <title>StarCraft Ⅱ 人工智能教程</title>
-      <link>http://www.wenzhihuai.com/interesting/starcraft-ai.html</link>
-      <guid>http://www.wenzhihuai.com/interesting/starcraft-ai.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">StarCraft Ⅱ 人工智能教程</source>
+      <link>https://www.wenzhihuai.com/interesting/starcraft-ai.html</link>
+      <guid>https://www.wenzhihuai.com/interesting/starcraft-ai.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">StarCraft Ⅱ 人工智能教程</source>
       <description>StarCraft Ⅱ 人工智能教程 非深度学习人士，仅仅是兴趣驱动，可能有很多不对的地方，也欢迎大家指正。这里主要讲解如何将AI运行起来、机器人对战、人机对战、天梯上分等等，希望能对大家的人工智能工程道路上有所帮助。 一、其他的太抽象了，先讲人机对战吧 sc2的wiki资料很全，可以从这里下载并运行，目前人机对战只能在win下运行，这边特别强调一下的...</description>
       <pubDate>Fri, 26 Jan 2024 16:53:43 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -4194,9 +4194,9 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
     </item>
     <item>
       <title>自我介绍</title>
-      <link>http://www.wenzhihuai.com/about-the-author/personal-life/wewe.html</link>
-      <guid>http://www.wenzhihuai.com/about-the-author/personal-life/wewe.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">自我介绍</source>
+      <link>https://www.wenzhihuai.com/about-the-author/personal-life/wewe.html</link>
+      <guid>https://www.wenzhihuai.com/about-the-author/personal-life/wewe.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">自我介绍</source>
       <description>自我介绍 安安静静的开发，搞点好玩的。 硅谷</description>
       <pubDate>Fri, 26 Jan 2024 04:53:47 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -4207,9 +4207,9 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
     </item>
     <item>
       <title>关于我</title>
-      <link>http://www.wenzhihuai.com/about-the-author/</link>
-      <guid>http://www.wenzhihuai.com/about-the-author/</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">关于我</source>
+      <link>https://www.wenzhihuai.com/about-the-author/</link>
+      <guid>https://www.wenzhihuai.com/about-the-author/</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">关于我</source>
       <description>关于我 留空</description>
       <pubDate>Thu, 25 Jan 2024 17:34:45 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -4218,9 +4218,9 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
     </item>
     <item>
       <title>Zookeeper</title>
-      <link>http://www.wenzhihuai.com/middleware/zookeeper/zookeeper.html</link>
-      <guid>http://www.wenzhihuai.com/middleware/zookeeper/zookeeper.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">Zookeeper</source>
+      <link>https://www.wenzhihuai.com/middleware/zookeeper/zookeeper.html</link>
+      <guid>https://www.wenzhihuai.com/middleware/zookeeper/zookeeper.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">Zookeeper</source>
       <description>Zookeeper 留空</description>
       <pubDate>Thu, 25 Jan 2024 17:34:45 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -4229,9 +4229,9 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
     </item>
     <item>
       <title>微信公众号-chatgpt智能客服搭建</title>
-      <link>http://www.wenzhihuai.com/interesting/chatgpt.html</link>
-      <guid>http://www.wenzhihuai.com/interesting/chatgpt.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">微信公众号-chatgpt智能客服搭建</source>
+      <link>https://www.wenzhihuai.com/interesting/chatgpt.html</link>
+      <guid>https://www.wenzhihuai.com/interesting/chatgpt.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">微信公众号-chatgpt智能客服搭建</source>
       <description>微信公众号-chatgpt智能客服搭建 想体验的可以去微信上搜索【旅行的树】公众号。 一、ChatGPT注册 1.1 短信手机号申请 openai提供服务的区域，美国最好，这个解决办法是搞个翻墙，或者买一台美国的服务器更好。 国外邮箱，hotmail或者google最好，qq邮箱可能会对这些平台进行邮件过滤。 国外手机号，没有的话也可以去https:/...</description>
       <pubDate>Thu, 25 Jan 2024 12:42:18 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -4432,9 +4432,9 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
     </item>
     <item>
       <title>Tesla api</title>
-      <link>http://www.wenzhihuai.com/interesting/tesla.html</link>
-      <guid>http://www.wenzhihuai.com/interesting/tesla.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">Tesla api</source>
+      <link>https://www.wenzhihuai.com/interesting/tesla.html</link>
+      <guid>https://www.wenzhihuai.com/interesting/tesla.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">Tesla api</source>
       <description>Tesla api 一、特斯拉应用申请 1.1 创建 Tesla 账户 如果您还没有 Tesla 账户，请创建账户。验证您的电子邮件并设置多重身份验证。 正常创建用户就好，然后需要开启多重身份认证，这边常用的是mircrosoft的Authenticator. image-20231210142130054 image-2023121014241559...</description>
       <pubDate>Thu, 25 Jan 2024 12:42:18 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -4513,9 +4513,9 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
     </item>
     <item>
       <title>在 Spring 6 中使用虚拟线程</title>
-      <link>http://www.wenzhihuai.com/java/%E5%9C%A8%20Spring%206%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E8%99%9A%E6%8B%9F%E7%BA%BF%E7%A8%8B.html</link>
-      <guid>http://www.wenzhihuai.com/java/%E5%9C%A8%20Spring%206%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E8%99%9A%E6%8B%9F%E7%BA%BF%E7%A8%8B.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">在 Spring 6 中使用虚拟线程</source>
+      <link>https://www.wenzhihuai.com/java/%E5%9C%A8%20Spring%206%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E8%99%9A%E6%8B%9F%E7%BA%BF%E7%A8%8B.html</link>
+      <guid>https://www.wenzhihuai.com/java/%E5%9C%A8%20Spring%206%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E8%99%9A%E6%8B%9F%E7%BA%BF%E7%A8%8B.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">在 Spring 6 中使用虚拟线程</source>
       <description>在 Spring 6 中使用虚拟线程 一、简介 在这个简短的教程中，我们将了解如何在 Spring Boot 应用程序中利用虚拟线程的强大功能。 虚拟线程是Java 19 的预览功能，这意味着它们将在未来 12 个月内包含在官方 JDK 版本中。Spring 6 版本最初由 Project Loom 引入，为开发人员提供了开始尝试这一出色功能的选项。 ...</description>
       <pubDate>Thu, 25 Jan 2024 12:42:18 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -4611,9 +4611,9 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
     </item>
     <item>
       <title>【elasticsearch】源码debug</title>
-      <link>http://www.wenzhihuai.com/database/elasticsearch/elasticsearch%E6%BA%90%E7%A0%81debug.html</link>
-      <guid>http://www.wenzhihuai.com/database/elasticsearch/elasticsearch%E6%BA%90%E7%A0%81debug.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">【elasticsearch】源码debug</source>
+      <link>https://www.wenzhihuai.com/database/elasticsearch/elasticsearch%E6%BA%90%E7%A0%81debug.html</link>
+      <guid>https://www.wenzhihuai.com/database/elasticsearch/elasticsearch%E6%BA%90%E7%A0%81debug.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">【elasticsearch】源码debug</source>
       <description>【elasticsearch】源码debug 一、下载源代码 直接用idea下载代码https://github.com/elastic/elasticsearch.git image 切换到特定版本的分支：比如7.17，之后idea会自己加上Run/Debug Elasitcsearch的，配置可以不用改，默认就好 image 二、修改设置(可选) ...</description>
       <pubDate>Thu, 25 Jan 2024 12:42:18 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -4637,9 +4637,9 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
     </item>
     <item>
       <title>Database</title>
-      <link>http://www.wenzhihuai.com/database/</link>
-      <guid>http://www.wenzhihuai.com/database/</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">Database</source>
+      <link>https://www.wenzhihuai.com/database/</link>
+      <guid>https://www.wenzhihuai.com/database/</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">Database</source>
       <description>Database 目录留空</description>
       <pubDate>Thu, 25 Jan 2024 11:42:16 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -4648,9 +4648,9 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
     </item>
     <item>
       <title>微信支付</title>
-      <link>http://www.wenzhihuai.com/donate/</link>
-      <guid>http://www.wenzhihuai.com/donate/</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">微信支付</source>
+      <link>https://www.wenzhihuai.com/donate/</link>
+      <guid>https://www.wenzhihuai.com/donate/</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">微信支付</source>
       <description>微信支付 微信支付</description>
       <pubDate>Thu, 25 Jan 2024 08:04:11 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -4660,9 +4660,9 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
     </item>
     <item>
       <title>10.历时8年最终改版</title>
-      <link>http://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/10.%E5%8E%86%E6%97%B68%E5%B9%B4%E6%9C%80%E7%BB%88%E6%94%B9%E7%89%88.html</link>
-      <guid>http://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/10.%E5%8E%86%E6%97%B68%E5%B9%B4%E6%9C%80%E7%BB%88%E6%94%B9%E7%89%88.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">10.历时8年最终改版</source>
+      <link>https://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/10.%E5%8E%86%E6%97%B68%E5%B9%B4%E6%9C%80%E7%BB%88%E6%94%B9%E7%89%88.html</link>
+      <guid>https://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/10.%E5%8E%86%E6%97%B68%E5%B9%B4%E6%9C%80%E7%BB%88%E6%94%B9%E7%89%88.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">10.历时8年最终改版</source>
       <description>10.历时8年最终改版 不知不觉，自建站https://www.wenzhihuai.com已经接近8年了，大二的时候开启使用ssh+jsp框架来做了一个自己的网站，完全自写前后端，过程中不断进化，改用ssm，整合es做文章搜索，加kafka，加redis缓存，整体上对个人来说还是学习到了不少东西。但是随之而来的问题也不少，被挖矿攻击、服务器被黑等等。...</description>
       <pubDate>Thu, 25 Jan 2024 06:44:04 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -4791,9 +4791,9 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
     </item>
     <item>
       <title></title>
-      <link>http://www.wenzhihuai.com/open-source-project/</link>
-      <guid>http://www.wenzhihuai.com/open-source-project/</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml"></source>
+      <link>https://www.wenzhihuai.com/open-source-project/</link>
+      <guid>https://www.wenzhihuai.com/open-source-project/</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml"></source>
       <description>jfaowejfoewj</description>
       <pubDate>Wed, 24 Jan 2024 10:30:22 GMT</pubDate>
       <content:encoded><![CDATA[<p>jfaowejfoewj</p>
@@ -4801,9 +4801,9 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
     </item>
     <item>
       <title>中间件</title>
-      <link>http://www.wenzhihuai.com/middleware/</link>
-      <guid>http://www.wenzhihuai.com/middleware/</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">中间件</source>
+      <link>https://www.wenzhihuai.com/middleware/</link>
+      <guid>https://www.wenzhihuai.com/middleware/</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">中间件</source>
       <description>中间件</description>
       <pubDate>Wed, 24 Jan 2024 03:35:40 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -4811,9 +4811,9 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
     </item>
     <item>
       <title></title>
-      <link>http://www.wenzhihuai.com/interview/tiktok2023.html</link>
-      <guid>http://www.wenzhihuai.com/interview/tiktok2023.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml"></source>
+      <link>https://www.wenzhihuai.com/interview/tiktok2023.html</link>
+      <guid>https://www.wenzhihuai.com/interview/tiktok2023.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml"></source>
       <description>tt一面： 1.全程项目 2.lc3，最长无重复子串，滑动窗口解决 tt二面： 全程基础，一直追问 1.java内存模型介绍一下 2.volatile原理 3.内存屏障，使用场景？（我提了在gc中有使用） 4.gc中具体是怎么使用内存屏障的，详细介绍 5.cms和g1介绍一下，g1能取代cms吗？g1和cms各自的使用场景是什么 6.线程内存分配方式，...</description>
       <pubDate>Sun, 02 Apr 2023 12:15:06 GMT</pubDate>
       <content:encoded><![CDATA[<p>tt一面：
@@ -4842,9 +4842,9 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
     </item>
     <item>
       <title>Mysql</title>
-      <link>http://www.wenzhihuai.com/database/mysql/1mysql.html</link>
-      <guid>http://www.wenzhihuai.com/database/mysql/1mysql.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">Mysql</source>
+      <link>https://www.wenzhihuai.com/database/mysql/1mysql.html</link>
+      <guid>https://www.wenzhihuai.com/database/mysql/1mysql.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">Mysql</source>
       <description>Mysql img</description>
       <pubDate>Sun, 26 Mar 2023 12:44:23 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -4854,9 +4854,9 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
     </item>
     <item>
       <title>数据库缓存</title>
-      <link>http://www.wenzhihuai.com/database/mysql/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BC%93%E5%AD%98.html</link>
-      <guid>http://www.wenzhihuai.com/database/mysql/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BC%93%E5%AD%98.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">数据库缓存</source>
+      <link>https://www.wenzhihuai.com/database/mysql/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BC%93%E5%AD%98.html</link>
+      <guid>https://www.wenzhihuai.com/database/mysql/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BC%93%E5%AD%98.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">数据库缓存</source>
       <description>数据库缓存 在MySQL 5.6开始，就已经默认禁用查询缓存了。在MySQL 8.0，就已经删除查询缓存功能了。 将select语句和语句的结果做hash映射关系后保存在一定的内存区域内。 禁用原因： 1.命中率低 2.写时所有都失效 禁用了：https://mp.weixin.qq.com/s/_EXXmciNdgXswSVzKyO4xg。 查询缓存...</description>
       <pubDate>Sun, 26 Mar 2023 12:44:23 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -4871,9 +4871,9 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
     </item>
     <item>
       <title>spark on k8s operator</title>
-      <link>http://www.wenzhihuai.com/kubernetes/spark%20on%20k8s%20operator.html</link>
-      <guid>http://www.wenzhihuai.com/kubernetes/spark%20on%20k8s%20operator.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">spark on k8s operator</source>
+      <link>https://www.wenzhihuai.com/kubernetes/spark%20on%20k8s%20operator.html</link>
+      <guid>https://www.wenzhihuai.com/kubernetes/spark%20on%20k8s%20operator.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">spark on k8s operator</source>
       <description>spark on k8s operator Spark operator是一个管理Kubernetes上的Apache Spark应用程序生命周期的operator，旨在像在Kubernetes上运行其他工作负载一样简单的指定和运行spark应用程序。 使用Spark Operator管理Spark应用，能更好的利用Kubernetes原生能力控制和管...</description>
       <pubDate>Sun, 12 Jun 2022 12:19:23 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -4991,9 +4991,9 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
     </item>
     <item>
       <title>elastic spark</title>
-      <link>http://www.wenzhihuai.com/bigdata/spark/elastic-spark.html</link>
-      <guid>http://www.wenzhihuai.com/bigdata/spark/elastic-spark.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">elastic spark</source>
+      <link>https://www.wenzhihuai.com/bigdata/spark/elastic-spark.html</link>
+      <guid>https://www.wenzhihuai.com/bigdata/spark/elastic-spark.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">elastic spark</source>
       <description>elastic spark Hadoop允许Elasticsearch在Spark中以两种方式使用：通过自2.1以来的原生RDD支持，或者通过自2.0以来的Map/Reduce桥接器。从5.0版本开始，elasticsearch-hadoop就支持Spark 2.0。目前spark支持的数据源有： （1）文件系统：LocalFS、HDFS、Hive、t...</description>
       <pubDate>Tue, 03 May 2022 11:42:30 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -5058,9 +5058,9 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
     </item>
     <item>
       <title>基于kubernetes的分布式限流</title>
-      <link>http://www.wenzhihuai.com/java/%E5%9F%BA%E4%BA%8Ekubernetes%E7%9A%84%E5%88%86%E5%B8%83%E5%BC%8F%E9%99%90%E6%B5%81.html</link>
-      <guid>http://www.wenzhihuai.com/java/%E5%9F%BA%E4%BA%8Ekubernetes%E7%9A%84%E5%88%86%E5%B8%83%E5%BC%8F%E9%99%90%E6%B5%81.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">基于kubernetes的分布式限流</source>
+      <link>https://www.wenzhihuai.com/java/%E5%9F%BA%E4%BA%8Ekubernetes%E7%9A%84%E5%88%86%E5%B8%83%E5%BC%8F%E9%99%90%E6%B5%81.html</link>
+      <guid>https://www.wenzhihuai.com/java/%E5%9F%BA%E4%BA%8Ekubernetes%E7%9A%84%E5%88%86%E5%B8%83%E5%BC%8F%E9%99%90%E6%B5%81.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">基于kubernetes的分布式限流</source>
       <description>基于kubernetes的分布式限流 做为一个数据上报系统，随着接入量越来越大，由于 API 接口无法控制调用方的行为，因此当遇到瞬时请求量激增时，会导致接口占用过多服务器资源，使得其他请求响应速度降低或是超时，更有甚者可能导致服务器宕机。 一、概念 限流(Ratelimiting)指对应用服务的请求进行限制，例如某一接口的请求限制为 100 个每秒,...</description>
       <pubDate>Sat, 09 Apr 2022 05:35:51 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -5187,9 +5187,9 @@ Guava是一个客户端组件，在其多线程模块下提供了以RateLimiter�
     </item>
     <item>
       <title>【elasticsearch】搜索过程详解</title>
-      <link>http://www.wenzhihuai.com/database/elasticsearch/%E3%80%90elasticsearch%E3%80%91%E6%90%9C%E7%B4%A2%E8%BF%87%E7%A8%8B%E8%AF%A6%E8%A7%A3.html</link>
-      <guid>http://www.wenzhihuai.com/database/elasticsearch/%E3%80%90elasticsearch%E3%80%91%E6%90%9C%E7%B4%A2%E8%BF%87%E7%A8%8B%E8%AF%A6%E8%A7%A3.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">【elasticsearch】搜索过程详解</source>
+      <link>https://www.wenzhihuai.com/database/elasticsearch/%E3%80%90elasticsearch%E3%80%91%E6%90%9C%E7%B4%A2%E8%BF%87%E7%A8%8B%E8%AF%A6%E8%A7%A3.html</link>
+      <guid>https://www.wenzhihuai.com/database/elasticsearch/%E3%80%90elasticsearch%E3%80%91%E6%90%9C%E7%B4%A2%E8%BF%87%E7%A8%8B%E8%AF%A6%E8%A7%A3.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">【elasticsearch】搜索过程详解</source>
       <description>【elasticsearch】搜索过程详解 本文基于elasticsearch8.1。在es搜索中，经常会使用索引+星号，采用时间戳来进行搜索，比如aaaa-*在es中是怎么处理这类请求的呢？是对匹配的进行搜索呢还是仅仅根据时间找出索引，然后才遍历索引进行搜索。在了解其原理前先了解一些基本知识。 SearchType QUERY_THEN_FETCH(...</description>
       <pubDate>Sun, 20 Mar 2022 15:14:40 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -5585,9 +5585,9 @@ Task task = client.executeLocally主要执行查询，并使用了ActionListener
     </item>
     <item>
       <title>kafka面试题</title>
-      <link>http://www.wenzhihuai.com/middleware/kafka/kafka.html</link>
-      <guid>http://www.wenzhihuai.com/middleware/kafka/kafka.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">kafka面试题</source>
+      <link>https://www.wenzhihuai.com/middleware/kafka/kafka.html</link>
+      <guid>https://www.wenzhihuai.com/middleware/kafka/kafka.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">kafka面试题</source>
       <description>kafka面试题 1、请说明什么是Apache Kafka? Apache Kafka是由Apache开发的一种发布订阅消息系统，它是一个分布式的、分区的和可复制的提交日志服务。 2、说说Kafka的使用场景？ ①异步处理 ②应用解耦 ③流量削峰 ④日志处理 ⑤消息通讯等。 3、使用Kafka有什么优点和缺点？ 优点： ①支持跨数据中心的消息复制； ②...</description>
       <pubDate>Sun, 20 Mar 2022 15:14:40 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -5775,9 +5775,9 @@ request.required.acks有三个值 0 1 -1
     </item>
     <item>
       <title>2017</title>
-      <link>http://www.wenzhihuai.com/life/2017.html</link>
-      <guid>http://www.wenzhihuai.com/life/2017.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">2017</source>
+      <link>https://www.wenzhihuai.com/life/2017.html</link>
+      <guid>https://www.wenzhihuai.com/life/2017.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">2017</source>
       <description>2017 2016年6月，大三，考完最后一科，默默的看着大四那群人一个一个的走了，想着想着，明年毕业的时候，自己将会失去你所拥有的一切，大学那群认识的人，可能这辈子都不会见到了——致远离家乡出省读书的娃。然而，我并没有想到，自己失去的，不仅仅是那群人，几乎是一切。。。。 17年1月，因为受不了北京雾霾（其实是次因），从实习的公司跑路了，很不舍，只是，感...</description>
       <pubDate>Sat, 25 Jan 2020 13:18:10 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -5828,9 +5828,9 @@ request.required.acks有三个值 0 1 -1
     </item>
     <item>
       <title>2019</title>
-      <link>http://www.wenzhihuai.com/life/2019.html</link>
-      <guid>http://www.wenzhihuai.com/life/2019.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">2019</source>
+      <link>https://www.wenzhihuai.com/life/2019.html</link>
+      <guid>https://www.wenzhihuai.com/life/2019.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">2019</source>
       <description>2019 2019，本命年，1字头开头的年份，就这么过去了，迎来了2开头的十年，12月过的不是很好，每隔几天就吵架，都没怎么想起写自己的年终总结了，对这个跨年也不是很重视，貌似有点浑浑噩噩的样子。今天1号，就继续来公司学习学习，就写写文章吧。 19年一月，没发生什么事，对老板也算是失望，打算过完春节就出去外面试试，完全的架构错误啊，怎么守得了，然后开了...</description>
       <pubDate>Sat, 25 Jan 2020 13:18:10 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -5865,9 +5865,9 @@ request.required.acks有三个值 0 1 -1
     </item>
     <item>
       <title>被挖矿攻击</title>
-      <link>http://www.wenzhihuai.com/java/serverlog.html</link>
-      <guid>http://www.wenzhihuai.com/java/serverlog.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">被挖矿攻击</source>
+      <link>https://www.wenzhihuai.com/java/serverlog.html</link>
+      <guid>https://www.wenzhihuai.com/java/serverlog.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">被挖矿攻击</source>
       <description>被挖矿攻击 服务器被黑，进程占用率高达99%，查看了一下，是/usr/sbin/bashd的原因，怎么删也删不掉，使用ps查看： stratum+tcp://get.bi-chi.com:3333 -u 47EAoaBc5TWDZKVaAYvQ7Y4ZfoJMFathAR882gabJ43wHEfxEp81vfJ3J3j6FQGJxJNQTAwvmJY...</description>
       <pubDate>Sat, 25 Jan 2020 13:10:49 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -5894,9 +5894,9 @@ stratum+tcp://get.bi-chi.com:3333 -u 47EAoaBc5TWDZKVaAYvQ7Y4ZfoJMFathAR882gabJ43
     </item>
     <item>
       <title>2018</title>
-      <link>http://www.wenzhihuai.com/life/2018.html</link>
-      <guid>http://www.wenzhihuai.com/life/2018.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">2018</source>
+      <link>https://www.wenzhihuai.com/life/2018.html</link>
+      <guid>https://www.wenzhihuai.com/life/2018.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">2018</source>
       <description>2018 年底老姐结婚，跑回家去了，忙着一直没写，本来想回深圳的时候空余的时候写写，没想到一直加班，嗯，9点半下班那种，偶尔也趁着间隙的时间，一段一段的凑着吧。 想着17年12月31号写的那篇文章https://www.cnblogs.com/w1570631036/p/8158284.html，感叹18年还算恢复了点。 心惊胆战的裸辞经历 其实校招过...</description>
       <pubDate>Sat, 25 Jan 2020 13:10:49 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -5931,9 +5931,9 @@ stratum+tcp://get.bi-chi.com:3333 -u 47EAoaBc5TWDZKVaAYvQ7Y4ZfoJMFathAR882gabJ43
     </item>
     <item>
       <title>Redis缓存</title>
-      <link>http://www.wenzhihuai.com/database/redis/redis%E7%BC%93%E5%AD%98.html</link>
-      <guid>http://www.wenzhihuai.com/database/redis/redis%E7%BC%93%E5%AD%98.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">Redis缓存</source>
+      <link>https://www.wenzhihuai.com/database/redis/redis%E7%BC%93%E5%AD%98.html</link>
+      <guid>https://www.wenzhihuai.com/database/redis/redis%E7%BC%93%E5%AD%98.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">Redis缓存</source>
       <description>Redis缓存 一、概述 1.1 缓存介绍 系统的性能指标一般包括响应时间、延迟时间、吞吐量，并发用户数和资源利用率等。在应用运行过程中，我们有可能在一次数据库会话中，执行多次查询条件完全相同的SQL，MyBatis提供了一级缓存的方案优化这部分场景，如果是相同的SQL语句，会优先命中一级缓存，避免直接对数据库进行查询，提高性能。 缓存常用语： 数据不...</description>
       <pubDate>Sat, 25 Jan 2020 13:10:49 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -6009,9 +6009,9 @@ stratum+tcp://get.bi-chi.com:3333 -u 47EAoaBc5TWDZKVaAYvQ7Y4ZfoJMFathAR882gabJ43
     </item>
     <item>
       <title>JVM调优参数</title>
-      <link>http://www.wenzhihuai.com/java/JVM/JVM%E8%B0%83%E4%BC%98%E5%8F%82%E6%95%B0.html</link>
-      <guid>http://www.wenzhihuai.com/java/JVM/JVM%E8%B0%83%E4%BC%98%E5%8F%82%E6%95%B0.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">JVM调优参数</source>
+      <link>https://www.wenzhihuai.com/java/JVM/JVM%E8%B0%83%E4%BC%98%E5%8F%82%E6%95%B0.html</link>
+      <guid>https://www.wenzhihuai.com/java/JVM/JVM%E8%B0%83%E4%BC%98%E5%8F%82%E6%95%B0.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">JVM调优参数</source>
       <description>JVM调优参数 一、堆大小设置 JVM 中最大堆大小有三方面限制：相关操作系统的数据模型（32-bt还是64-bit）限制；系统的可用虚拟内存限制；系统的可用物理内存限制。32位系统 下，一般限制在1.5G~2G；64为操作系统对内存无限制。我在Windows Server 2003 系统，3.5G物理内存，JDK5.0下测试，最大可设置为1478m。...</description>
       <pubDate>Sat, 25 Jan 2020 13:10:49 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -6137,9 +6137,9 @@ stratum+tcp://get.bi-chi.com:3333 -u 47EAoaBc5TWDZKVaAYvQ7Y4ZfoJMFathAR882gabJ43
     </item>
     <item>
       <title>1.历史与架构</title>
-      <link>http://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/1.%E5%8E%86%E5%8F%B2%E4%B8%8E%E6%9E%B6%E6%9E%84.html</link>
-      <guid>http://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/1.%E5%8E%86%E5%8F%B2%E4%B8%8E%E6%9E%B6%E6%9E%84.html</guid>
-      <source url="http://www.wenzhihuai.com/rss.xml">1.历史与架构</source>
+      <link>https://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/1.%E5%8E%86%E5%8F%B2%E4%B8%8E%E6%9E%B6%E6%9E%84.html</link>
+      <guid>https://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/1.%E5%8E%86%E5%8F%B2%E4%B8%8E%E6%9E%B6%E6%9E%84.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">1.历史与架构</source>
       <description>1.历史与架构 各位大佬瞄一眼我的个人网站呗 。如果觉得不错，希望能在GitHub上麻烦给个star，GitHub地址https://github.com/Zephery/newblog 。 大学的时候萌生的一个想法，就是建立一个个人网站，前前后后全部推翻重构了4、5遍，现在终于能看了，下面是目前的首页。 由原本的ssh变成ssm，再变成ssm+shi...</description>
       <pubDate>Tue, 21 Jan 2020 02:38:05 GMT</pubDate>
       <content:encoded><![CDATA[

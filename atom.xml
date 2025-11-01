@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="http://www.wenzhihuai.com/atom.xsl"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://www.wenzhihuai.com/atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
-  <id>http://www.wenzhihuai.com/</id>
+  <id>https://www.wenzhihuai.com/</id>
   <title>个人博客</title>
   <subtitle>个人博客</subtitle>
-  <icon>http://www.wenzhihuai.com/favicon.ico</icon>
-  <updated>2025-11-01T13:35:35.525Z</updated>
+  <icon>https://www.wenzhihuai.com/favicon.ico</icon>
+  <updated>2025-11-01T14:45:34.918Z</updated>
   <generator>@vuepress/plugin-feed</generator>
-  <link rel="self" href="http://www.wenzhihuai.com/atom.xml"/>
-  <link rel="alternate" href="http://www.wenzhihuai.com/"/>
+  <link rel="self" href="https://www.wenzhihuai.com/atom.xml"/>
+  <link rel="alternate" href="https://www.wenzhihuai.com/"/>
   <entry>
     <title type="text"></title>
-    <id>http://www.wenzhihuai.com/</id>
-    <link href="http://www.wenzhihuai.com/"/>
+    <id>https://www.wenzhihuai.com/</id>
+    <link href="https://www.wenzhihuai.com/"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[<p>广告系统</p>
 ]]></summary>
@@ -21,8 +21,8 @@
   </entry>
   <entry>
     <title type="text">ShadowSocks安装</title>
-    <id>http://www.wenzhihuai.com/interesting/ShadowSocks%E5%AE%89%E8%A3%85.html</id>
-    <link href="http://www.wenzhihuai.com/interesting/ShadowSocks%E5%AE%89%E8%A3%85.html"/>
+    <id>https://www.wenzhihuai.com/interesting/ShadowSocks%E5%AE%89%E8%A3%85.html</id>
+    <link href="https://www.wenzhihuai.com/interesting/ShadowSocks%E5%AE%89%E8%A3%85.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>https://www.v2ray.com/</p>
@@ -34,8 +34,8 @@
   </entry>
   <entry>
     <title type="text">监控指标上报Starrocks</title>
-    <id>http://www.wenzhihuai.com/java/SpringBoot/%E7%9B%91%E6%8E%A7%E6%8C%87%E6%A0%87%E4%B8%8A%E6%8A%A5Starrocks.html</id>
-    <link href="http://www.wenzhihuai.com/java/SpringBoot/%E7%9B%91%E6%8E%A7%E6%8C%87%E6%A0%87%E4%B8%8A%E6%8A%A5Starrocks.html"/>
+    <id>https://www.wenzhihuai.com/java/SpringBoot/%E7%9B%91%E6%8E%A7%E6%8C%87%E6%A0%87%E4%B8%8A%E6%8A%A5Starrocks.html</id>
+    <link href="https://www.wenzhihuai.com/java/SpringBoot/%E7%9B%91%E6%8E%A7%E6%8C%87%E6%A0%87%E4%B8%8A%E6%8A%A5Starrocks.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>一、 背景与目标</h2>
@@ -52,8 +52,8 @@
   </entry>
   <entry>
     <title type="text">推荐工程-前后端</title>
-    <id>http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E5%89%8D%E5%90%8E%E7%AB%AF.html</id>
-    <link href="http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E5%89%8D%E5%90%8E%E7%AB%AF.html"/>
+    <id>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E5%89%8D%E5%90%8E%E7%AB%AF.html</id>
+    <link href="https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E5%89%8D%E5%90%8E%E7%AB%AF.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 ]]></summary>
@@ -63,8 +63,8 @@
   </entry>
   <entry>
     <title type="text">推荐工程-召回</title>
-    <id>http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E5%8F%AC%E5%9B%9E.html</id>
-    <link href="http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E5%8F%AC%E5%9B%9E.html"/>
+    <id>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E5%8F%AC%E5%9B%9E.html</id>
+    <link href="https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E5%8F%AC%E5%9B%9E.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 ]]></summary>
@@ -74,8 +74,8 @@
   </entry>
   <entry>
     <title type="text">推荐工程-用户画像</title>
-    <id>http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F.html</id>
-    <link href="http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F.html"/>
+    <id>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F.html</id>
+    <link href="https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 ]]></summary>
@@ -85,8 +85,8 @@
   </entry>
   <entry>
     <title type="text">推荐工程-画像</title>
-    <id>http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%94%BB%E5%83%8F.html</id>
-    <link href="http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%94%BB%E5%83%8F.html"/>
+    <id>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%94%BB%E5%83%8F.html</id>
+    <link href="https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%94%BB%E5%83%8F.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 ]]></summary>
@@ -96,8 +96,8 @@
   </entry>
   <entry>
     <title type="text">推荐工程-粗排</title>
-    <id>http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%B2%97%E6%8E%92.html</id>
-    <link href="http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%B2%97%E6%8E%92.html"/>
+    <id>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%B2%97%E6%8E%92.html</id>
+    <link href="https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%B2%97%E6%8E%92.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 ]]></summary>
@@ -107,8 +107,8 @@
   </entry>
   <entry>
     <title type="text">推荐工程-精排</title>
-    <id>http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%B2%BE%E6%8E%92.html</id>
-    <link href="http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%B2%BE%E6%8E%92.html"/>
+    <id>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%B2%BE%E6%8E%92.html</id>
+    <link href="https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%B2%BE%E6%8E%92.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 ]]></summary>
@@ -118,8 +118,8 @@
   </entry>
   <entry>
     <title type="text">推荐系统常用概念</title>
-    <id>http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%B8%B8%E7%94%A8%E6%A6%82%E5%BF%B5.html</id>
-    <link href="http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%B8%B8%E7%94%A8%E6%A6%82%E5%BF%B5.html"/>
+    <id>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%B8%B8%E7%94%A8%E6%A6%82%E5%BF%B5.html</id>
+    <link href="https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%B8%B8%E7%94%A8%E6%A6%82%E5%BF%B5.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>一、召回</h2>
@@ -156,8 +156,8 @@
   </entry>
   <entry>
     <title type="text">商品推荐系统-FAISS召回</title>
-    <id>http://www.wenzhihuai.com/system-design/%E7%B3%BB%E7%BB%9F%E5%BB%BA%E8%AE%BE/%E5%95%86%E5%93%81%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F-FAISS%E5%8F%AC%E5%9B%9E.html</id>
-    <link href="http://www.wenzhihuai.com/system-design/%E7%B3%BB%E7%BB%9F%E5%BB%BA%E8%AE%BE/%E5%95%86%E5%93%81%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F-FAISS%E5%8F%AC%E5%9B%9E.html"/>
+    <id>https://www.wenzhihuai.com/system-design/%E7%B3%BB%E7%BB%9F%E5%BB%BA%E8%AE%BE/%E5%95%86%E5%93%81%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F-FAISS%E5%8F%AC%E5%9B%9E.html</id>
+    <link href="https://www.wenzhihuai.com/system-design/%E7%B3%BB%E7%BB%9F%E5%BB%BA%E8%AE%BE/%E5%95%86%E5%93%81%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F-FAISS%E5%8F%AC%E5%9B%9E.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>1. 背景与挑战</h2>
@@ -172,8 +172,8 @@
   </entry>
   <entry>
     <title type="text">商品推荐系统</title>
-    <id>http://www.wenzhihuai.com/system-design/%E7%B3%BB%E7%BB%9F%E5%BB%BA%E8%AE%BE/%E4%BA%9A%E9%A9%AC%E9%80%8A%E5%95%86%E5%93%81%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F.html</id>
-    <link href="http://www.wenzhihuai.com/system-design/%E7%B3%BB%E7%BB%9F%E5%BB%BA%E8%AE%BE/%E4%BA%9A%E9%A9%AC%E9%80%8A%E5%95%86%E5%93%81%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F.html"/>
+    <id>https://www.wenzhihuai.com/system-design/%E7%B3%BB%E7%BB%9F%E5%BB%BA%E8%AE%BE/%E4%BA%9A%E9%A9%AC%E9%80%8A%E5%95%86%E5%93%81%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F.html</id>
+    <link href="https://www.wenzhihuai.com/system-design/%E7%B3%BB%E7%BB%9F%E5%BB%BA%E8%AE%BE/%E4%BA%9A%E9%A9%AC%E9%80%8A%E5%95%86%E5%93%81%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>推荐系统首先收集用户的历史行为数据,然后通过预处理的方法得到用户-评价矩阵,再利用机器学习领域中相关推荐技术形成对用户的个性化推荐。有的推荐系统还搜集用户对推荐结果的反馈,并根据实际的反馈信息实时调整推荐策略,产生更符合用户需求的推荐结果。为了更好的去了解一个推荐系统，从0到1了解推荐过程，我们通过一些网上开源的数据来搭建一个推荐系统</p>
@@ -199,8 +199,8 @@
   </entry>
   <entry>
     <title type="text">在鹅厂做java开发是什么体验</title>
-    <id>http://www.wenzhihuai.com/interesting/%E5%9C%A8%E9%B9%85%E5%8E%82%E5%81%9Ajava%E5%BC%80%E5%8F%91%E6%98%AF%E4%BB%80%E4%B9%88%E4%BD%93%E9%AA%8C.html</id>
-    <link href="http://www.wenzhihuai.com/interesting/%E5%9C%A8%E9%B9%85%E5%8E%82%E5%81%9Ajava%E5%BC%80%E5%8F%91%E6%98%AF%E4%BB%80%E4%B9%88%E4%BD%93%E9%AA%8C.html"/>
+    <id>https://www.wenzhihuai.com/interesting/%E5%9C%A8%E9%B9%85%E5%8E%82%E5%81%9Ajava%E5%BC%80%E5%8F%91%E6%98%AF%E4%BB%80%E4%B9%88%E4%BD%93%E9%AA%8C.html</id>
+    <link href="https://www.wenzhihuai.com/interesting/%E5%9C%A8%E9%B9%85%E5%8E%82%E5%81%9Ajava%E5%BC%80%E5%8F%91%E6%98%AF%E4%BB%80%E4%B9%88%E4%BD%93%E9%AA%8C.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>离职已有好几个月，准备写一篇关于之前在腾讯做Java开发的经历，现在来谈谈在Java领域里，在腾讯做Java开发的体验。随便写写别较真。</p>
@@ -239,8 +239,8 @@
   </entry>
   <entry>
     <title type="text">mac通过网线连接主机(fnOS)</title>
-    <id>http://www.wenzhihuai.com/interesting/mini%E4%B8%BB%E6%9C%BA/mac%E8%BF%9E%E6%8E%A5%E4%B8%BB%E6%9C%BA.html</id>
-    <link href="http://www.wenzhihuai.com/interesting/mini%E4%B8%BB%E6%9C%BA/mac%E8%BF%9E%E6%8E%A5%E4%B8%BB%E6%9C%BA.html"/>
+    <id>https://www.wenzhihuai.com/interesting/mini%E4%B8%BB%E6%9C%BA/mac%E8%BF%9E%E6%8E%A5%E4%B8%BB%E6%9C%BA.html</id>
+    <link href="https://www.wenzhihuai.com/interesting/mini%E4%B8%BB%E6%9C%BA/mac%E8%BF%9E%E6%8E%A5%E4%B8%BB%E6%9C%BA.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>一、mac端</h2>
@@ -316,8 +316,8 @@
   </entry>
   <entry>
     <title type="text">推荐工程-概述</title>
-    <id>http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E6%A6%82%E8%BF%B0.html</id>
-    <link href="http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E6%A6%82%E8%BF%B0.html"/>
+    <id>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E6%A6%82%E8%BF%B0.html</id>
+    <link href="https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E6%A6%82%E8%BF%B0.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>随着移动互联网的飞速发展，人们已经处于信息过载的时代。在这个时代，信息的生产者很难将信息呈现在对其感兴趣的消费者面前，而信息消费者也难以从海量信息中找到自己感兴趣的内容。推荐系统充当了将信息生产者和信息消费者连接起来的桥梁，平台通常作为推荐系统的载体，实现信息生产者和消费者之间的匹配。</p>
@@ -368,8 +368,8 @@
   </entry>
   <entry>
     <title type="text">2024-11-09上海迪斯尼</title>
-    <id>http://www.wenzhihuai.com/about-the-author/personal-life/2024-11-09%E4%B8%8A%E6%B5%B7%E8%BF%AA%E6%96%AF%E5%B0%BC.html</id>
-    <link href="http://www.wenzhihuai.com/about-the-author/personal-life/2024-11-09%E4%B8%8A%E6%B5%B7%E8%BF%AA%E6%96%AF%E5%B0%BC.html"/>
+    <id>https://www.wenzhihuai.com/about-the-author/personal-life/2024-11-09%E4%B8%8A%E6%B5%B7%E8%BF%AA%E6%96%AF%E5%B0%BC.html</id>
+    <link href="https://www.wenzhihuai.com/about-the-author/personal-life/2024-11-09%E4%B8%8A%E6%B5%B7%E8%BF%AA%E6%96%AF%E5%B0%BC.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 ]]></summary>
@@ -379,8 +379,8 @@
   </entry>
   <entry>
     <title type="text">买了个mini主机</title>
-    <id>http://www.wenzhihuai.com/interesting/mini%E4%B8%BB%E6%9C%BA/%E4%B9%B0%E4%BA%86%E4%B8%AAmini%E4%B8%BB%E6%9C%BA.html</id>
-    <link href="http://www.wenzhihuai.com/interesting/mini%E4%B8%BB%E6%9C%BA/%E4%B9%B0%E4%BA%86%E4%B8%AAmini%E4%B8%BB%E6%9C%BA.html"/>
+    <id>https://www.wenzhihuai.com/interesting/mini%E4%B8%BB%E6%9C%BA/%E4%B9%B0%E4%BA%86%E4%B8%AAmini%E4%B8%BB%E6%9C%BA.html</id>
+    <link href="https://www.wenzhihuai.com/interesting/mini%E4%B8%BB%E6%9C%BA/%E4%B9%B0%E4%BA%86%E4%B8%AAmini%E4%B8%BB%E6%9C%BA.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>虽然有苹果的电脑，但是在安装一些软件的时候，总想着能不能有一个小型的服务器，免得各种设置导致 Mac 出现异常。整体上看了一些小型主机，也看过苹果的 Mac mini，但是发现它太贵了，大概要 3000 多，特别是如果要更高配置的话，价格会更高，甚至更贵。所以，我就考虑一些别的小型主机。也看了一些像 NUC 这些服务器，但是觉得还是太贵了。于是我自己去淘宝搜索，找到了这一款 N100 版的主机。</p>
@@ -557,8 +557,8 @@
   </entry>
   <entry>
     <title type="text">流程编排LiteFlow</title>
-    <id>http://www.wenzhihuai.com/java/%E6%B5%81%E7%A8%8B%E7%BC%96%E6%8E%92LiteFlow.html</id>
-    <link href="http://www.wenzhihuai.com/java/%E6%B5%81%E7%A8%8B%E7%BC%96%E6%8E%92LiteFlow.html"/>
+    <id>https://www.wenzhihuai.com/java/%E6%B5%81%E7%A8%8B%E7%BC%96%E6%8E%92LiteFlow.html</id>
+    <link href="https://www.wenzhihuai.com/java/%E6%B5%81%E7%A8%8B%E7%BC%96%E6%8E%92LiteFlow.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>LiteFlow真的是相见恨晚啊，之前做过的很多系统，都会用各种if else，switch这些来解决不同业务方提出的问题，有时候还要“切一个分支”来搞这些额外的事情，把代码搞得一团糟，毫无可读性而言。如何打破僵局？LiteFlow为解耦逻辑而生，为编排而生，在使用LiteFlow之后，你会发现打造一个低耦合，灵活的系统会变得易如反掌！</p>
@@ -735,8 +735,8 @@ LiteFlow 具有高度的扩展性，开发者可以根据自身业务的特殊�
   </entry>
   <entry>
     <title type="text">推荐系统入门</title>
-    <id>http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%85%A5%E9%97%A8.html</id>
-    <link href="http://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%85%A5%E9%97%A8.html"/>
+    <id>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%85%A5%E9%97%A8.html</id>
+    <link href="https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%85%A5%E9%97%A8.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p><em>转载自：https://www.cnblogs.com/cgli/p/17225189.html</em></p>
@@ -997,8 +997,8 @@ LiteFlow 具有高度的扩展性，开发者可以根据自身业务的特殊�
   </entry>
   <entry>
     <title type="text">计算广告基本概念入门总结</title>
-    <id>http://www.wenzhihuai.com/system-design/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E5%85%A5%E9%97%A8%E6%80%BB%E7%BB%93.html</id>
-    <link href="http://www.wenzhihuai.com/system-design/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E5%85%A5%E9%97%A8%E6%80%BB%E7%BB%93.html"/>
+    <id>https://www.wenzhihuai.com/system-design/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E5%85%A5%E9%97%A8%E6%80%BB%E7%BB%93.html</id>
+    <link href="https://www.wenzhihuai.com/system-design/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E5%85%A5%E9%97%A8%E6%80%BB%E7%BB%93.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>广告业务是各大互联网公司主要的商业化变现营收来源。近年来随着互联网和移动端技术的普及，使得广告的用户触达成本大大降低，而广告的形态和内涵也逐渐变得复杂。广告不再是单纯的展示和计费，而是结合了推荐、大数据等各类计算技术，以达到广告的精准受众定向，计算广告概念由此诞生。</p>
@@ -1015,8 +1015,8 @@ LiteFlow 具有高度的扩展性，开发者可以根据自身业务的特殊�
   </entry>
   <entry>
     <title type="text">程序员副业探索之电商</title>
-    <id>http://www.wenzhihuai.com/interesting/%E7%A8%8B%E5%BA%8F%E5%91%98%E5%89%AF%E4%B8%9A%E6%8E%A2%E7%B4%A2%E4%B9%8B%E7%94%B5%E5%95%86.html</id>
-    <link href="http://www.wenzhihuai.com/interesting/%E7%A8%8B%E5%BA%8F%E5%91%98%E5%89%AF%E4%B8%9A%E6%8E%A2%E7%B4%A2%E4%B9%8B%E7%94%B5%E5%95%86.html"/>
+    <id>https://www.wenzhihuai.com/interesting/%E7%A8%8B%E5%BA%8F%E5%91%98%E5%89%AF%E4%B8%9A%E6%8E%A2%E7%B4%A2%E4%B9%8B%E7%94%B5%E5%95%86.html</id>
+    <link href="https://www.wenzhihuai.com/interesting/%E7%A8%8B%E5%BA%8F%E5%91%98%E5%89%AF%E4%B8%9A%E6%8E%A2%E7%B4%A2%E4%B9%8B%E7%94%B5%E5%95%86.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>在腾讯广告工作期间，我主要负责小程序电商与广告业务，见证了互联网电商行业的剧变，特别是众多电商公司纷纷拥抱私域流量，直播带货成为新风尚，广告投入也在持续增加。通过这些经历，我积累了不少关于互联网电商的经验，并萌生了尝试电商副业的想法。</p>
@@ -1091,8 +1091,8 @@ LiteFlow 具有高度的扩展性，开发者可以根据自身业务的特殊�
   </entry>
   <entry>
     <title type="text">2024-07-24</title>
-    <id>http://www.wenzhihuai.com/about-the-author/personal-life/2024-07-24.html</id>
-    <link href="http://www.wenzhihuai.com/about-the-author/personal-life/2024-07-24.html"/>
+    <id>https://www.wenzhihuai.com/about-the-author/personal-life/2024-07-24.html</id>
+    <link href="https://www.wenzhihuai.com/about-the-author/personal-life/2024-07-24.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>新买了台air m3，午夜色的，心心念念了好久</p>
@@ -1113,8 +1113,8 @@ LiteFlow 具有高度的扩展性，开发者可以根据自身业务的特殊�
   </entry>
   <entry>
     <title type="text">股票预测</title>
-    <id>http://www.wenzhihuai.com/stock/</id>
-    <link href="http://www.wenzhihuai.com/stock/"/>
+    <id>https://www.wenzhihuai.com/stock/</id>
+    <link href="https://www.wenzhihuai.com/stock/"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>::: echarts 赛力斯</p>
@@ -1620,8 +1620,8 @@ LiteFlow 具有高度的扩展性，开发者可以根据自身业务的特殊�
   </entry>
   <entry>
     <title type="text">赛力斯</title>
-    <id>http://www.wenzhihuai.com/stock/%E8%B5%9B%E5%8A%9B%E6%96%AF.html</id>
-    <link href="http://www.wenzhihuai.com/stock/%E8%B5%9B%E5%8A%9B%E6%96%AF.html"/>
+    <id>https://www.wenzhihuai.com/stock/%E8%B5%9B%E5%8A%9B%E6%96%AF.html</id>
+    <link href="https://www.wenzhihuai.com/stock/%E8%B5%9B%E5%8A%9B%E6%96%AF.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>update</p>
@@ -1633,8 +1633,8 @@ LiteFlow 具有高度的扩展性，开发者可以根据自身业务的特殊�
   </entry>
   <entry>
     <title type="text">好玩的</title>
-    <id>http://www.wenzhihuai.com/interesting/</id>
-    <link href="http://www.wenzhihuai.com/interesting/"/>
+    <id>https://www.wenzhihuai.com/interesting/</id>
+    <link href="https://www.wenzhihuai.com/interesting/"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 ]]></summary>
@@ -1644,8 +1644,8 @@ LiteFlow 具有高度的扩展性，开发者可以根据自身业务的特殊�
   </entry>
   <entry>
     <title type="text">基于OLAP做业务监控</title>
-    <id>http://www.wenzhihuai.com/interesting/%E5%9F%BA%E4%BA%8EOLAP%E5%81%9A%E4%B8%9A%E5%8A%A1%E7%9B%91%E6%8E%A7.html</id>
-    <link href="http://www.wenzhihuai.com/interesting/%E5%9F%BA%E4%BA%8EOLAP%E5%81%9A%E4%B8%9A%E5%8A%A1%E7%9B%91%E6%8E%A7.html"/>
+    <id>https://www.wenzhihuai.com/interesting/%E5%9F%BA%E4%BA%8EOLAP%E5%81%9A%E4%B8%9A%E5%8A%A1%E7%9B%91%E6%8E%A7.html</id>
+    <link href="https://www.wenzhihuai.com/interesting/%E5%9F%BA%E4%BA%8EOLAP%E5%81%9A%E4%B8%9A%E5%8A%A1%E7%9B%91%E6%8E%A7.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>在监控领域，Prometheus 与 Grafana 常被认为是无敌组合。然而，随着成本的增加，不少人开始审慎考虑其他替代方案。本文将深入探讨 Prometheus 的特点，并讨论 Grafana 中关键参数 <code>interval</code> 和 <code>for</code> 的意义及其影响。此外，还将分析 OLAP 数据库作为监控数据持久性存储的优势。</p>
@@ -1688,8 +1688,8 @@ OLAP 数据库通常具有可靠的数据持久性和长期存储能力，能存
   </entry>
   <entry>
     <title type="text">Jetbrains Idea设置</title>
-    <id>http://www.wenzhihuai.com/interesting/idea%E8%AE%BE%E7%BD%AE.html</id>
-    <link href="http://www.wenzhihuai.com/interesting/idea%E8%AE%BE%E7%BD%AE.html"/>
+    <id>https://www.wenzhihuai.com/interesting/idea%E8%AE%BE%E7%BD%AE.html</id>
+    <link href="https://www.wenzhihuai.com/interesting/idea%E8%AE%BE%E7%BD%AE.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>一、类注释</h2>
@@ -1749,8 +1749,8 @@ OLAP 数据库通常具有可靠的数据持久性和长期存储能力，能存
   </entry>
   <entry>
     <title type="text">小程序反编译</title>
-    <id>http://www.wenzhihuai.com/interesting/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%8F%8D%E7%BC%96%E8%AF%91.html</id>
-    <link href="http://www.wenzhihuai.com/interesting/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%8F%8D%E7%BC%96%E8%AF%91.html"/>
+    <id>https://www.wenzhihuai.com/interesting/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%8F%8D%E7%BC%96%E8%AF%91.html</id>
+    <link href="https://www.wenzhihuai.com/interesting/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%8F%8D%E7%BC%96%E8%AF%91.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <h3>第一步:电脑端提取</h3>
@@ -1798,8 +1798,8 @@ OLAP 数据库通常具有可靠的数据持久性和长期存储能力，能存
   </entry>
   <entry>
     <title type="text">开发工具整理</title>
-    <id>http://www.wenzhihuai.com/interesting/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E6%95%B4%E7%90%86.html</id>
-    <link href="http://www.wenzhihuai.com/interesting/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E6%95%B4%E7%90%86.html"/>
+    <id>https://www.wenzhihuai.com/interesting/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E6%95%B4%E7%90%86.html</id>
+    <link href="https://www.wenzhihuai.com/interesting/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E6%95%B4%E7%90%86.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>ShadowsocksX</h2>
@@ -1827,8 +1827,8 @@ http://fls.itxe.net</p>
   </entry>
   <entry>
     <title type="text">高可用</title>
-    <id>http://www.wenzhihuai.com/java/%E9%AB%98%E5%8F%AF%E7%94%A8.html</id>
-    <link href="http://www.wenzhihuai.com/java/%E9%AB%98%E5%8F%AF%E7%94%A8.html"/>
+    <id>https://www.wenzhihuai.com/java/%E9%AB%98%E5%8F%AF%E7%94%A8.html</id>
+    <link href="https://www.wenzhihuai.com/java/%E9%AB%98%E5%8F%AF%E7%94%A8.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>4个9（99.99）</p>
@@ -1907,8 +1907,8 @@ http://fls.itxe.net</p>
   </entry>
   <entry>
     <title type="text">高并发</title>
-    <id>http://www.wenzhihuai.com/java/%E9%AB%98%E5%B9%B6%E5%8F%91.html</id>
-    <link href="http://www.wenzhihuai.com/java/%E9%AB%98%E5%B9%B6%E5%8F%91.html"/>
+    <id>https://www.wenzhihuai.com/java/%E9%AB%98%E5%B9%B6%E5%8F%91.html</id>
+    <link href="https://www.wenzhihuai.com/java/%E9%AB%98%E5%B9%B6%E5%8F%91.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>QPS</p>
@@ -1955,8 +1955,8 @@ http://fls.itxe.net</p>
   </entry>
   <entry>
     <title type="text">高性能</title>
-    <id>http://www.wenzhihuai.com/java/%E9%AB%98%E6%80%A7%E8%83%BD.html</id>
-    <link href="http://www.wenzhihuai.com/java/%E9%AB%98%E6%80%A7%E8%83%BD.html"/>
+    <id>https://www.wenzhihuai.com/java/%E9%AB%98%E6%80%A7%E8%83%BD.html</id>
+    <link href="https://www.wenzhihuai.com/java/%E9%AB%98%E6%80%A7%E8%83%BD.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>响应时间</p>
@@ -2006,8 +2006,8 @@ http://fls.itxe.net</p>
   </entry>
   <entry>
     <title type="text">Feed系统设计</title>
-    <id>http://www.wenzhihuai.com/system-design/feed.html</id>
-    <link href="http://www.wenzhihuai.com/system-design/feed.html"/>
+    <id>https://www.wenzhihuai.com/system-design/feed.html</id>
+    <link href="https://www.wenzhihuai.com/system-design/feed.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>https://blog.csdn.net/weixin_45583158/article/details/128195940</p>
@@ -2019,8 +2019,8 @@ http://fls.itxe.net</p>
   </entry>
   <entry>
     <title type="text">行锁，表锁，意向锁</title>
-    <id>http://www.wenzhihuai.com/database/mysql/%E8%A1%8C%E9%94%81%EF%BC%8C%E8%A1%A8%E9%94%81%EF%BC%8C%E6%84%8F%E5%90%91%E9%94%81.html</id>
-    <link href="http://www.wenzhihuai.com/database/mysql/%E8%A1%8C%E9%94%81%EF%BC%8C%E8%A1%A8%E9%94%81%EF%BC%8C%E6%84%8F%E5%90%91%E9%94%81.html"/>
+    <id>https://www.wenzhihuai.com/database/mysql/%E8%A1%8C%E9%94%81%EF%BC%8C%E8%A1%A8%E9%94%81%EF%BC%8C%E6%84%8F%E5%90%91%E9%94%81.html</id>
+    <link href="https://www.wenzhihuai.com/database/mysql/%E8%A1%8C%E9%94%81%EF%BC%8C%E8%A1%A8%E9%94%81%EF%BC%8C%E6%84%8F%E5%90%91%E9%94%81.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 ]]></summary>
@@ -2030,8 +2030,8 @@ http://fls.itxe.net</p>
   </entry>
   <entry>
     <title type="text">一致性hash算法和哈希槽</title>
-    <id>http://www.wenzhihuai.com/database/redis/%E4%B8%80%E8%87%B4%E6%80%A7hash%E7%AE%97%E6%B3%95%E5%92%8C%E5%93%88%E5%B8%8C%E6%A7%BD.html</id>
-    <link href="http://www.wenzhihuai.com/database/redis/%E4%B8%80%E8%87%B4%E6%80%A7hash%E7%AE%97%E6%B3%95%E5%92%8C%E5%93%88%E5%B8%8C%E6%A7%BD.html"/>
+    <id>https://www.wenzhihuai.com/database/redis/%E4%B8%80%E8%87%B4%E6%80%A7hash%E7%AE%97%E6%B3%95%E5%92%8C%E5%93%88%E5%B8%8C%E6%A7%BD.html</id>
+    <link href="https://www.wenzhihuai.com/database/redis/%E4%B8%80%E8%87%B4%E6%80%A7hash%E7%AE%97%E6%B3%95%E5%92%8C%E5%93%88%E5%B8%8C%E6%A7%BD.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 ]]></summary>
@@ -2041,8 +2041,8 @@ http://fls.itxe.net</p>
   </entry>
   <entry>
     <title type="text">JVM(java虚拟机)</title>
-    <id>http://www.wenzhihuai.com/java/JVM/jvm(java%E8%99%9A%E6%8B%9F%E6%9C%BA).html</id>
-    <link href="http://www.wenzhihuai.com/java/JVM/jvm(java%E8%99%9A%E6%8B%9F%E6%9C%BA).html"/>
+    <id>https://www.wenzhihuai.com/java/JVM/jvm(java%E8%99%9A%E6%8B%9F%E6%9C%BA).html</id>
+    <link href="https://www.wenzhihuai.com/java/JVM/jvm(java%E8%99%9A%E6%8B%9F%E6%9C%BA).html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[<h2>一、了解JVM</h2>
 <h4>1、什么是JVM</h4>
@@ -2155,8 +2155,8 @@ GC 过程：新生成的对象在Eden区分配（大对象除外，大对象直�
   </entry>
   <entry>
     <title type="text">JAVA NIO</title>
-    <id>http://www.wenzhihuai.com/java/io/nio.html</id>
-    <link href="http://www.wenzhihuai.com/java/io/nio.html"/>
+    <id>https://www.wenzhihuai.com/java/io/nio.html</id>
+    <link href="https://www.wenzhihuai.com/java/io/nio.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>一、简介</h2>
@@ -2177,8 +2177,8 @@ GC 过程：新生成的对象在Eden区分配（大对象除外，大对象直�
   </entry>
   <entry>
     <title type="text">Spring Cloud Sentinel</title>
-    <id>http://www.wenzhihuai.com/middleware/sentinel/springcloud_sentinel.html</id>
-    <link href="http://www.wenzhihuai.com/middleware/sentinel/springcloud_sentinel.html"/>
+    <id>https://www.wenzhihuai.com/middleware/sentinel/springcloud_sentinel.html</id>
+    <link href="https://www.wenzhihuai.com/middleware/sentinel/springcloud_sentinel.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>参考</h2>
@@ -2192,8 +2192,8 @@ GC 过程：新生成的对象在Eden区分配（大对象除外，大对象直�
   </entry>
   <entry>
     <title type="text">入门使用</title>
-    <id>http://www.wenzhihuai.com/middleware/sentinel/%E5%85%A5%E9%97%A8%E4%BD%BF%E7%94%A8.html</id>
-    <link href="http://www.wenzhihuai.com/middleware/sentinel/%E5%85%A5%E9%97%A8%E4%BD%BF%E7%94%A8.html"/>
+    <id>https://www.wenzhihuai.com/middleware/sentinel/%E5%85%A5%E9%97%A8%E4%BD%BF%E7%94%A8.html</id>
+    <link href="https://www.wenzhihuai.com/middleware/sentinel/%E5%85%A5%E9%97%A8%E4%BD%BF%E7%94%A8.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>参考</h2>
@@ -2207,8 +2207,8 @@ GC 过程：新生成的对象在Eden区分配（大对象除外，大对象直�
   </entry>
   <entry>
     <title type="text">基础</title>
-    <id>http://www.wenzhihuai.com/database/elasticsearch/%E5%9F%BA%E7%A1%80.html</id>
-    <link href="http://www.wenzhihuai.com/database/elasticsearch/%E5%9F%BA%E7%A1%80.html"/>
+    <id>https://www.wenzhihuai.com/database/elasticsearch/%E5%9F%BA%E7%A1%80.html</id>
+    <link href="https://www.wenzhihuai.com/database/elasticsearch/%E5%9F%BA%E7%A1%80.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>一、ElasticSearch基础</h2>
@@ -2324,8 +2324,8 @@ quorum：默认值，要求ES中大部分的shard是活跃可用的，才可以�
   </entry>
   <entry>
     <title type="text">一些不常用但很实用的命令</title>
-    <id>http://www.wenzhihuai.com/interesting/%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%B8%B8%E7%94%A8%E4%BD%86%E5%BE%88%E5%AE%9E%E7%94%A8%E7%9A%84%E5%91%BD%E4%BB%A4.html</id>
-    <link href="http://www.wenzhihuai.com/interesting/%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%B8%B8%E7%94%A8%E4%BD%86%E5%BE%88%E5%AE%9E%E7%94%A8%E7%9A%84%E5%91%BD%E4%BB%A4.html"/>
+    <id>https://www.wenzhihuai.com/interesting/%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%B8%B8%E7%94%A8%E4%BD%86%E5%BE%88%E5%AE%9E%E7%94%A8%E7%9A%84%E5%91%BD%E4%BB%A4.html</id>
+    <link href="https://www.wenzhihuai.com/interesting/%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%B8%B8%E7%94%A8%E4%BD%86%E5%BE%88%E5%AE%9E%E7%94%A8%E7%9A%84%E5%91%BD%E4%BB%A4.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <h4>https连接耗时检测</h4>
@@ -2341,8 +2341,8 @@ quorum：默认值，要求ES中大部分的shard是活跃可用的，才可以�
   </entry>
   <entry>
     <title type="text">Jenkins的一些笔记</title>
-    <id>http://www.wenzhihuai.com/kubernetes/Jenkins%E7%9A%84%E4%B8%80%E4%BA%9B%E7%AC%94%E8%AE%B0.html</id>
-    <link href="http://www.wenzhihuai.com/kubernetes/Jenkins%E7%9A%84%E4%B8%80%E4%BA%9B%E7%AC%94%E8%AE%B0.html"/>
+    <id>https://www.wenzhihuai.com/kubernetes/Jenkins%E7%9A%84%E4%B8%80%E4%BA%9B%E7%AC%94%E8%AE%B0.html</id>
+    <link href="https://www.wenzhihuai.com/kubernetes/Jenkins%E7%9A%84%E4%B8%80%E4%BA%9B%E7%AC%94%E8%AE%B0.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>公司主要要开发自己的paas平台，集成了Jenkins，真的是遇到了很多很多困难，特别是在api调用的权限这一块，这里，把自己遇到的一些坑的解决方法做一下笔记吧。当然，首先要讲的，就是如何在开启安全的情况下进行API调用。</p>
@@ -2427,8 +2427,8 @@ quorum：默认值，要求ES中大部分的shard是活跃可用的，才可以�
   </entry>
   <entry>
     <title type="text">Kubernetes容器日志收集</title>
-    <id>http://www.wenzhihuai.com/kubernetes/Kubernetes%E5%AE%B9%E5%99%A8%E6%97%A5%E5%BF%97%E6%94%B6%E9%9B%86.html</id>
-    <link href="http://www.wenzhihuai.com/kubernetes/Kubernetes%E5%AE%B9%E5%99%A8%E6%97%A5%E5%BF%97%E6%94%B6%E9%9B%86.html"/>
+    <id>https://www.wenzhihuai.com/kubernetes/Kubernetes%E5%AE%B9%E5%99%A8%E6%97%A5%E5%BF%97%E6%94%B6%E9%9B%86.html</id>
+    <link href="https://www.wenzhihuai.com/kubernetes/Kubernetes%E5%AE%B9%E5%99%A8%E6%97%A5%E5%BF%97%E6%94%B6%E9%9B%86.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>日志采集方式</h2>
@@ -2672,8 +2672,8 @@ EmptyDir类型的volume创建于pod被调度到某个宿主机上的时候，而
   </entry>
   <entry>
     <title type="text">Kubernetes之request 和 limit详解</title>
-    <id>http://www.wenzhihuai.com/kubernetes/request_limit.html</id>
-    <link href="http://www.wenzhihuai.com/kubernetes/request_limit.html"/>
+    <id>https://www.wenzhihuai.com/kubernetes/request_limit.html</id>
+    <link href="https://www.wenzhihuai.com/kubernetes/request_limit.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>我们都知道 Kubernetes 中最小的原子调度单位是Pod，那么就意味着资源管理和资源调度相关的属性都应该Pod对象的字段，其中我们最常见的就是 Pod 的 CPU 和内存配置，而为了实现 Kubernetes 集群中资源的有效调度和充分利用，Kubernetes采用 requests 和 limits 两种限制类型来对CPU和内存资源进行容器粒度的分配。</p>
@@ -2708,8 +2708,8 @@ memory 等于500Mi，（备注：1Mi=10241024；1M=10001000）
   </entry>
   <entry>
     <title type="text">JVM调优思路</title>
-    <id>http://www.wenzhihuai.com/java/JVM/%E8%B0%83%E4%BC%98%E6%80%9D%E8%B7%AF.html</id>
-    <link href="http://www.wenzhihuai.com/java/JVM/%E8%B0%83%E4%BC%98%E6%80%9D%E8%B7%AF.html"/>
+    <id>https://www.wenzhihuai.com/java/JVM/%E8%B0%83%E4%BC%98%E6%80%9D%E8%B7%AF.html</id>
+    <link href="https://www.wenzhihuai.com/java/JVM/%E8%B0%83%E4%BC%98%E6%80%9D%E8%B7%AF.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>在项目开发过程中、生产环境中，任何问题的解决、性能的调优总结下来都是三个步骤，即发现问题、定位问题、解决问题，本文将从这个步骤入手，详细阐述内存溢出（OOM、OutOfMemeory）、CPU飙高、GC频繁等JVM问题的排查、定位，以及调优。</p>
@@ -2748,8 +2748,8 @@ OOM
   </entry>
   <entry>
     <title type="text">主流GC收集器采用的算法</title>
-    <id>http://www.wenzhihuai.com/java/JVM/%E5%B8%B8%E7%94%A8GC%E5%9B%9E%E6%94%B6%E5%99%A8.html</id>
-    <link href="http://www.wenzhihuai.com/java/JVM/%E5%B8%B8%E7%94%A8GC%E5%9B%9E%E6%94%B6%E5%99%A8.html"/>
+    <id>https://www.wenzhihuai.com/java/JVM/%E5%B8%B8%E7%94%A8GC%E5%9B%9E%E6%94%B6%E5%99%A8.html</id>
+    <link href="https://www.wenzhihuai.com/java/JVM/%E5%B8%B8%E7%94%A8GC%E5%9B%9E%E6%94%B6%E5%99%A8.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <table>
@@ -2806,8 +2806,8 @@ OOM
   </entry>
   <entry>
     <title type="text">Java内存模型(JMM)</title>
-    <id>http://www.wenzhihuai.com/java/JVM/Java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B.html</id>
-    <link href="http://www.wenzhihuai.com/java/JVM/Java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B.html"/>
+    <id>https://www.wenzhihuai.com/java/JVM/Java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B.html</id>
+    <link href="https://www.wenzhihuai.com/java/JVM/Java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p><em>本文转载自<a href="https://www.jianshu.com/p/76959115d486" target="_blank" rel="noopener noreferrer">深入理解JVM-内存模型（jmm）和GC</a></em></p>
@@ -2824,8 +2824,8 @@ OOM
   </entry>
   <entry>
     <title type="text">引用计数和根可达算法</title>
-    <id>http://www.wenzhihuai.com/java/JVM/%E5%BC%95%E7%94%A8%E8%AE%A1%E6%95%B0%E5%92%8C%E6%A0%B9%E5%8F%AF%E8%BE%BE%E7%AE%97%E6%B3%95.html</id>
-    <link href="http://www.wenzhihuai.com/java/JVM/%E5%BC%95%E7%94%A8%E8%AE%A1%E6%95%B0%E5%92%8C%E6%A0%B9%E5%8F%AF%E8%BE%BE%E7%AE%97%E6%B3%95.html"/>
+    <id>https://www.wenzhihuai.com/java/JVM/%E5%BC%95%E7%94%A8%E8%AE%A1%E6%95%B0%E5%92%8C%E6%A0%B9%E5%8F%AF%E8%BE%BE%E7%AE%97%E6%B3%95.html</id>
+    <link href="https://www.wenzhihuai.com/java/JVM/%E5%BC%95%E7%94%A8%E8%AE%A1%E6%95%B0%E5%92%8C%E6%A0%B9%E5%8F%AF%E8%BE%BE%E7%AE%97%E6%B3%95.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p><em>本文从<a href="https://zhuanlan.zhihu.com/p/669582286" target="_blank" rel="noopener noreferrer">JVM是如何寻找垃圾的？——引用计数和根可达算法</a>转载</em></p>
@@ -2864,8 +2864,8 @@ OOM
   </entry>
   <entry>
     <title type="text">synchronized</title>
-    <id>http://www.wenzhihuai.com/java/%E7%BA%BF%E7%A8%8B/synchronized.html</id>
-    <link href="http://www.wenzhihuai.com/java/%E7%BA%BF%E7%A8%8B/synchronized.html"/>
+    <id>https://www.wenzhihuai.com/java/%E7%BA%BF%E7%A8%8B/synchronized.html</id>
+    <link href="https://www.wenzhihuai.com/java/%E7%BA%BF%E7%A8%8B/synchronized.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p><em>偏向锁在JDK 15后已经废弃</em></p>
@@ -3041,15 +3041,15 @@ synchronized的特点：
   </entry>
   <entry>
     <title type="text">mini主机</title>
-    <id>http://www.wenzhihuai.com/interesting/mini%E4%B8%BB%E6%9C%BA/</id>
-    <link href="http://www.wenzhihuai.com/interesting/mini%E4%B8%BB%E6%9C%BA/"/>
+    <id>https://www.wenzhihuai.com/interesting/mini%E4%B8%BB%E6%9C%BA/</id>
+    <link href="https://www.wenzhihuai.com/interesting/mini%E4%B8%BB%E6%9C%BA/"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <published>2024-02-16T04:00:26.000Z</published>
   </entry>
   <entry>
     <title type="text">个人网站</title>
-    <id>http://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/</id>
-    <link href="http://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/"/>
+    <id>https://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/</id>
+    <link href="https://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[<p>jofjweoiaejof</p>
 ]]></summary>
@@ -3059,15 +3059,15 @@ synchronized的特点：
   </entry>
   <entry>
     <title type="text">JVM</title>
-    <id>http://www.wenzhihuai.com/java/JVM/</id>
-    <link href="http://www.wenzhihuai.com/java/JVM/"/>
+    <id>https://www.wenzhihuai.com/java/JVM/</id>
+    <link href="https://www.wenzhihuai.com/java/JVM/"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <published>2024-02-16T04:00:26.000Z</published>
   </entry>
   <entry>
     <title type="text">CMS</title>
-    <id>http://www.wenzhihuai.com/java/JVM/cms.html</id>
-    <link href="http://www.wenzhihuai.com/java/JVM/cms.html"/>
+    <id>https://www.wenzhihuai.com/java/JVM/cms.html</id>
+    <link href="https://www.wenzhihuai.com/java/JVM/cms.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>JDK14已经将CMS回收器完全移除，这里只需要记住它的缺点即可。</p>
@@ -3085,8 +3085,8 @@ synchronized的特点：
   </entry>
   <entry>
     <title type="text">G1</title>
-    <id>http://www.wenzhihuai.com/java/JVM/g1.html</id>
-    <link href="http://www.wenzhihuai.com/java/JVM/g1.html"/>
+    <id>https://www.wenzhihuai.com/java/JVM/g1.html</id>
+    <link href="https://www.wenzhihuai.com/java/JVM/g1.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p><em>本文转载自<a href="https://zhuanlan.zhihu.com/p/669830180" target="_blank" rel="noopener noreferrer">增量式垃圾回收器——带你深入理解G1垃圾回收器</a></em></p>
@@ -3118,8 +3118,8 @@ synchronized的特点：
   </entry>
   <entry>
     <title type="text">ZGC</title>
-    <id>http://www.wenzhihuai.com/java/JVM/zgc.html</id>
-    <link href="http://www.wenzhihuai.com/java/JVM/zgc.html"/>
+    <id>https://www.wenzhihuai.com/java/JVM/zgc.html</id>
+    <link href="https://www.wenzhihuai.com/java/JVM/zgc.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p><em>本文转载自<a href="https://zhuanlan.zhihu.com/p/474527679" target="_blank" rel="noopener noreferrer">12 张图带你彻底理解 ZGC</a></em></p>
@@ -3267,29 +3267,36 @@ synchronized的特点：
   </entry>
   <entry>
     <title type="text">SpringBoot</title>
-    <id>http://www.wenzhihuai.com/java/SpringBoot/</id>
-    <link href="http://www.wenzhihuai.com/java/SpringBoot/"/>
+    <id>https://www.wenzhihuai.com/java/SpringBoot/</id>
+    <link href="https://www.wenzhihuai.com/java/SpringBoot/"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <published>2024-02-16T04:00:26.000Z</published>
   </entry>
   <entry>
     <title type="text">I/O</title>
-    <id>http://www.wenzhihuai.com/java/io/</id>
-    <link href="http://www.wenzhihuai.com/java/io/"/>
+    <id>https://www.wenzhihuai.com/java/io/</id>
+    <link href="https://www.wenzhihuai.com/java/io/"/>
+    <updated>2025-11-01T04:49:29.000Z</updated>
+    <published>2024-02-16T04:00:26.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">网络</title>
+    <id>https://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/</id>
+    <link href="https://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <published>2024-02-16T04:00:26.000Z</published>
   </entry>
   <entry>
     <title type="text">线程</title>
-    <id>http://www.wenzhihuai.com/java/%E7%BA%BF%E7%A8%8B/</id>
-    <link href="http://www.wenzhihuai.com/java/%E7%BA%BF%E7%A8%8B/"/>
+    <id>https://www.wenzhihuai.com/java/%E7%BA%BF%E7%A8%8B/</id>
+    <link href="https://www.wenzhihuai.com/java/%E7%BA%BF%E7%A8%8B/"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <published>2024-02-16T04:00:26.000Z</published>
   </entry>
   <entry>
     <title type="text">volatile</title>
-    <id>http://www.wenzhihuai.com/java/%E7%BA%BF%E7%A8%8B/volatile.html</id>
-    <link href="http://www.wenzhihuai.com/java/%E7%BA%BF%E7%A8%8B/volatile.html"/>
+    <id>https://www.wenzhihuai.com/java/%E7%BA%BF%E7%A8%8B/volatile.html</id>
+    <link href="https://www.wenzhihuai.com/java/%E7%BA%BF%E7%A8%8B/volatile.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>Volatile是Java中的一种<a href="https://www.zhihu.com/search?q=%E8%BD%BB%E9%87%8F%E7%BA%A7%E5%90%8C%E6%AD%A5%E6%9C%BA%E5%88%B6&amp;search_source=Entity&amp;hybrid_search_source=Entity&amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A2978976437%7D" target="_blank" rel="noopener noreferrer">轻量级同步机制</a>，用于保证变量的可见性和禁止<a href="https://www.zhihu.com/search?q=%E6%8C%87%E4%BB%A4%E9%87%8D%E6%8E%92&amp;search_source=Entity&amp;hybrid_search_source=Entity&amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A2978976437%7D" target="_blank" rel="noopener noreferrer">指令重排</a>。当一个变量被声明为Volatile类型时，任何修改该变量的操作都会立即被所有线程看到。也就是说，Volatile修饰的变量在每次修改时都会强制将修改刷新到主内存中，具有很好的可见性和线程安全性。</p>]]></summary>
@@ -3302,16 +3309,9 @@ synchronized的特点：
     <published>2024-02-16T04:00:26.000Z</published>
   </entry>
   <entry>
-    <title type="text">网络</title>
-    <id>http://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/</id>
-    <link href="http://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/"/>
-    <updated>2025-11-01T04:49:29.000Z</updated>
-    <published>2024-02-16T04:00:26.000Z</published>
-  </entry>
-  <entry>
     <title type="text">DevOps</title>
-    <id>http://www.wenzhihuai.com/kubernetes/devops/</id>
-    <link href="http://www.wenzhihuai.com/kubernetes/devops/"/>
+    <id>https://www.wenzhihuai.com/kubernetes/devops/</id>
+    <link href="https://www.wenzhihuai.com/kubernetes/devops/"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[<p>jofjweoiaejof</p>
 ]]></summary>
@@ -3321,8 +3321,8 @@ synchronized的特点：
   </entry>
   <entry>
     <title type="text">RedissonLock分布式锁源码分析</title>
-    <id>http://www.wenzhihuai.com/database/redis/RedissonLock%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90.html</id>
-    <link href="http://www.wenzhihuai.com/database/redis/RedissonLock%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90.html"/>
+    <id>https://www.wenzhihuai.com/database/redis/RedissonLock%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90.html</id>
+    <link href="https://www.wenzhihuai.com/database/redis/RedissonLock%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>最近碰到的一个问题，Java代码中写了一个定时器，分布式部署的时候，多台同时执行的话就会出现重复的数据，为了避免这种情况，之前是通过在配置文件里写上可以执行这段代码的IP，代码中判断如果跟这个IP相等，则执行，否则不执行，想想也是一种比较简单的方式吧，但是感觉很low很low，所以改用分布式锁。
@@ -3627,8 +3627,8 @@ lua脚本解释</p>
   </entry>
   <entry>
     <title type="text">canal小记</title>
-    <id>http://www.wenzhihuai.com/middleware/canal/%E4%B8%AD%E9%97%B4%E4%BB%B6%E2%80%94%E2%80%94canal%E5%B0%8F%E8%AE%B0.html</id>
-    <link href="http://www.wenzhihuai.com/middleware/canal/%E4%B8%AD%E9%97%B4%E4%BB%B6%E2%80%94%E2%80%94canal%E5%B0%8F%E8%AE%B0.html"/>
+    <id>https://www.wenzhihuai.com/middleware/canal/%E4%B8%AD%E9%97%B4%E4%BB%B6%E2%80%94%E2%80%94canal%E5%B0%8F%E8%AE%B0.html</id>
+    <link href="https://www.wenzhihuai.com/middleware/canal/%E4%B8%AD%E9%97%B4%E4%BB%B6%E2%80%94%E2%80%94canal%E5%B0%8F%E8%AE%B0.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>接到个小需求，将mysql的部分数据增量同步到es，但是不仅仅是使用canal而已，整体的流程是mysql&gt;&gt;canal&gt;&gt;flume&gt;&gt;kafka&gt;&gt;es，说难倒也不难，只是做起来碰到的坑实在太多，特别是中间套了那么多中间件，出了故障找起来真的特别麻烦。</p>
@@ -3695,8 +3695,8 @@ slave重做中继日志中的事件，将改变反映它自己的数据。</p>
   </entry>
   <entry>
     <title type="text">基于ZooKeeper的队列爬虫</title>
-    <id>http://www.wenzhihuai.com/middleware/zookeeper/%E5%9F%BA%E4%BA%8EZooKeeper%E7%9A%84%E9%98%9F%E5%88%97%E7%88%AC%E8%99%AB.html</id>
-    <link href="http://www.wenzhihuai.com/middleware/zookeeper/%E5%9F%BA%E4%BA%8EZooKeeper%E7%9A%84%E9%98%9F%E5%88%97%E7%88%AC%E8%99%AB.html"/>
+    <id>https://www.wenzhihuai.com/middleware/zookeeper/%E5%9F%BA%E4%BA%8EZooKeeper%E7%9A%84%E9%98%9F%E5%88%97%E7%88%AC%E8%99%AB.html</id>
+    <link href="https://www.wenzhihuai.com/middleware/zookeeper/%E5%9F%BA%E4%BA%8EZooKeeper%E7%9A%84%E9%98%9F%E5%88%97%E7%88%AC%E8%99%AB.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>一直琢磨着分布式的东西怎么搞，公司也没有相关的项目能够参与，所以还是回归自己的专长来吧——基于ZooKeeper的分布式队列爬虫，由于没什么人能够一起沟通分布式的相关知识，下面的小项目纯属“胡编乱造”。
@@ -3960,8 +3960,8 @@ slave重做中继日志中的事件，将改变反映它自己的数据。</p>
   </entry>
   <entry>
     <title type="text">TCP/IP、HTTP、HTTPS、HTTP2.0</title>
-    <id>http://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/IP%E3%80%81HTTP%E3%80%81HTTPS%E3%80%81HTTP2.0.html</id>
-    <link href="http://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/IP%E3%80%81HTTP%E3%80%81HTTPS%E3%80%81HTTP2.0.html"/>
+    <id>https://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/IP%E3%80%81HTTP%E3%80%81HTTPS%E3%80%81HTTP2.0.html</id>
+    <link href="https://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/IP%E3%80%81HTTP%E3%80%81HTTPS%E3%80%81HTTP2.0.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>HTTP，全称超文本传输协议（HTTP，HyperText Transfer Protocol)，是一个客户端和服务器端请求和应答的标准（TCP），互联网上应用最为广泛的一种网络协议。客户端是终端用户，服务器端是网站。通过使用Web浏览器、网络爬虫或者其它的工具，客户端发起一个到服务器上指定端口（默认端口为80）的HTTP请求。</p>
@@ -4146,8 +4146,8 @@ TLS(Transport Layer Security)，简称安全传输层协议，该协议由两层
   </entry>
   <entry>
     <title type="text">高性能高并发高可用的一些思考</title>
-    <id>http://www.wenzhihuai.com/java/%E9%AB%98%E6%80%A7%E8%83%BD%E9%AB%98%E5%B9%B6%E5%8F%91%E9%AB%98%E5%8F%AF%E7%94%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83.html</id>
-    <link href="http://www.wenzhihuai.com/java/%E9%AB%98%E6%80%A7%E8%83%BD%E9%AB%98%E5%B9%B6%E5%8F%91%E9%AB%98%E5%8F%AF%E7%94%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83.html"/>
+    <id>https://www.wenzhihuai.com/java/%E9%AB%98%E6%80%A7%E8%83%BD%E9%AB%98%E5%B9%B6%E5%8F%91%E9%AB%98%E5%8F%AF%E7%94%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83.html</id>
+    <link href="https://www.wenzhihuai.com/java/%E9%AB%98%E6%80%A7%E8%83%BD%E9%AB%98%E5%B9%B6%E5%8F%91%E9%AB%98%E5%8F%AF%E7%94%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p><em>TODO待补充</em></p>
@@ -4188,8 +4188,8 @@ java -jar arthas-boot.jar</p>
   </entry>
   <entry>
     <title type="text">友链地址</title>
-    <id>http://www.wenzhihuai.com/link/main.html</id>
-    <link href="http://www.wenzhihuai.com/link/main.html"/>
+    <id>https://www.wenzhihuai.com/link/main.html</id>
+    <link href="https://www.wenzhihuai.com/link/main.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 ]]></summary>
@@ -4199,8 +4199,8 @@ java -jar arthas-boot.jar</p>
   </entry>
   <entry>
     <title type="text">广州图书馆借阅抓取</title>
-    <id>http://www.wenzhihuai.com/interesting/%E5%B9%BF%E5%B7%9E%E5%9B%BE%E4%B9%A6%E9%A6%86%E5%80%9F%E9%98%85%E6%8A%93%E5%8F%96.html</id>
-    <link href="http://www.wenzhihuai.com/interesting/%E5%B9%BF%E5%B7%9E%E5%9B%BE%E4%B9%A6%E9%A6%86%E5%80%9F%E9%98%85%E6%8A%93%E5%8F%96.html"/>
+    <id>https://www.wenzhihuai.com/interesting/%E5%B9%BF%E5%B7%9E%E5%9B%BE%E4%B9%A6%E9%A6%86%E5%80%9F%E9%98%85%E6%8A%93%E5%8F%96.html</id>
+    <link href="https://www.wenzhihuai.com/interesting/%E5%B9%BF%E5%B7%9E%E5%9B%BE%E4%B9%A6%E9%A6%86%E5%80%9F%E9%98%85%E6%8A%93%E5%8F%96.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>欢迎访问我的<a href="http://www.wenzhihuai.com/" target="_blank" rel="noopener noreferrer">个人网站</a>，要是能在GitHub上对<a href="https://github.com/Zephery/newblog" target="_blank" rel="noopener noreferrer">网站源码</a>给个star就更好了。</p>
@@ -4381,8 +4381,8 @@ java -jar arthas-boot.jar</p>
   </entry>
   <entry>
     <title type="text">AOP</title>
-    <id>http://www.wenzhihuai.com/java/SpringBoot/aop.html</id>
-    <link href="http://www.wenzhihuai.com/java/SpringBoot/aop.html"/>
+    <id>https://www.wenzhihuai.com/java/SpringBoot/aop.html</id>
+    <link href="https://www.wenzhihuai.com/java/SpringBoot/aop.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>一、概述</h2>
@@ -4460,8 +4460,8 @@ java -jar arthas-boot.jar</p>
   </entry>
   <entry>
     <title type="text">Spring Boot Prometheus使用</title>
-    <id>http://www.wenzhihuai.com/java/SpringBoot/Spring%20Boot%20Prometheus%E4%BD%BF%E7%94%A8.html</id>
-    <link href="http://www.wenzhihuai.com/java/SpringBoot/Spring%20Boot%20Prometheus%E4%BD%BF%E7%94%A8.html"/>
+    <id>https://www.wenzhihuai.com/java/SpringBoot/Spring%20Boot%20Prometheus%E4%BD%BF%E7%94%A8.html</id>
+    <link href="https://www.wenzhihuai.com/java/SpringBoot/Spring%20Boot%20Prometheus%E4%BD%BF%E7%94%A8.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <h1>一、基本原理</h1>
@@ -4561,8 +4561,8 @@ java -jar arthas-boot.jar</p>
   </entry>
   <entry>
     <title type="text">小程序</title>
-    <id>http://www.wenzhihuai.com/about-the-author/works/%E4%B8%AA%E4%BA%BA%E4%BD%9C%E5%93%81.html</id>
-    <link href="http://www.wenzhihuai.com/about-the-author/works/%E4%B8%AA%E4%BA%BA%E4%BD%9C%E5%93%81.html"/>
+    <id>https://www.wenzhihuai.com/about-the-author/works/%E4%B8%AA%E4%BA%BA%E4%BD%9C%E5%93%81.html</id>
+    <link href="https://www.wenzhihuai.com/about-the-author/works/%E4%B8%AA%E4%BA%BA%E4%BD%9C%E5%93%81.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p><img src="https://github-images.wenzhihuai.com/github/gh_89030789780b_344.jpg" alt="助眠风扇"></p>
@@ -4576,8 +4576,8 @@ java -jar arthas-boot.jar</p>
   </entry>
   <entry>
     <title type="text">Webflux</title>
-    <id>http://www.wenzhihuai.com/java/SpringBoot/webflux.html</id>
-    <link href="http://www.wenzhihuai.com/java/SpringBoot/webflux.html"/>
+    <id>https://www.wenzhihuai.com/java/SpringBoot/webflux.html</id>
+    <link href="https://www.wenzhihuai.com/java/SpringBoot/webflux.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <h3>1.Servlet 3.1就已经支持异步非阻塞，为什么要用webflux?</h3>
@@ -4603,8 +4603,8 @@ WebFlux 和 Spring Boot 使用虚拟线程（也称为纤程或轻量级线程�
   </entry>
   <entry>
     <title type="text">StarCraft Ⅱ 人工智能教程</title>
-    <id>http://www.wenzhihuai.com/interesting/starcraft-ai.html</id>
-    <link href="http://www.wenzhihuai.com/interesting/starcraft-ai.html"/>
+    <id>https://www.wenzhihuai.com/interesting/starcraft-ai.html</id>
+    <link href="https://www.wenzhihuai.com/interesting/starcraft-ai.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>非深度学习人士，仅仅是兴趣驱动，可能有很多不对的地方，也欢迎大家指正。这里主要讲解如何将AI运行起来、机器人对战、人机对战、天梯上分等等，希望能对大家的人工智能工程道路上有所帮助。</p>
@@ -4651,8 +4651,8 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
   </entry>
   <entry>
     <title type="text">自我介绍</title>
-    <id>http://www.wenzhihuai.com/about-the-author/personal-life/wewe.html</id>
-    <link href="http://www.wenzhihuai.com/about-the-author/personal-life/wewe.html"/>
+    <id>https://www.wenzhihuai.com/about-the-author/personal-life/wewe.html</id>
+    <link href="https://www.wenzhihuai.com/about-the-author/personal-life/wewe.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>安安静静的开发，搞点好玩的。</p>
@@ -4666,8 +4666,8 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
   </entry>
   <entry>
     <title type="text">关于我</title>
-    <id>http://www.wenzhihuai.com/about-the-author/</id>
-    <link href="http://www.wenzhihuai.com/about-the-author/"/>
+    <id>https://www.wenzhihuai.com/about-the-author/</id>
+    <link href="https://www.wenzhihuai.com/about-the-author/"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>留空</p>
@@ -4679,8 +4679,8 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
   </entry>
   <entry>
     <title type="text">Zookeeper</title>
-    <id>http://www.wenzhihuai.com/middleware/zookeeper/zookeeper.html</id>
-    <link href="http://www.wenzhihuai.com/middleware/zookeeper/zookeeper.html"/>
+    <id>https://www.wenzhihuai.com/middleware/zookeeper/zookeeper.html</id>
+    <link href="https://www.wenzhihuai.com/middleware/zookeeper/zookeeper.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>留空</p>
@@ -4692,8 +4692,8 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
   </entry>
   <entry>
     <title type="text">微信公众号-chatgpt智能客服搭建</title>
-    <id>http://www.wenzhihuai.com/interesting/chatgpt.html</id>
-    <link href="http://www.wenzhihuai.com/interesting/chatgpt.html"/>
+    <id>https://www.wenzhihuai.com/interesting/chatgpt.html</id>
+    <link href="https://www.wenzhihuai.com/interesting/chatgpt.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>想体验的可以去微信上搜索【旅行的树】公众号。</p>
@@ -4902,8 +4902,8 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
   </entry>
   <entry>
     <title type="text">Tesla api</title>
-    <id>http://www.wenzhihuai.com/interesting/tesla.html</id>
-    <link href="http://www.wenzhihuai.com/interesting/tesla.html"/>
+    <id>https://www.wenzhihuai.com/interesting/tesla.html</id>
+    <link href="https://www.wenzhihuai.com/interesting/tesla.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>一、特斯拉应用申请</h2>
@@ -4989,8 +4989,8 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
   </entry>
   <entry>
     <title type="text">在 Spring 6 中使用虚拟线程</title>
-    <id>http://www.wenzhihuai.com/java/%E5%9C%A8%20Spring%206%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E8%99%9A%E6%8B%9F%E7%BA%BF%E7%A8%8B.html</id>
-    <link href="http://www.wenzhihuai.com/java/%E5%9C%A8%20Spring%206%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E8%99%9A%E6%8B%9F%E7%BA%BF%E7%A8%8B.html"/>
+    <id>https://www.wenzhihuai.com/java/%E5%9C%A8%20Spring%206%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E8%99%9A%E6%8B%9F%E7%BA%BF%E7%A8%8B.html</id>
+    <link href="https://www.wenzhihuai.com/java/%E5%9C%A8%20Spring%206%20%E4%B8%AD%E4%BD%BF%E7%94%A8%E8%99%9A%E6%8B%9F%E7%BA%BF%E7%A8%8B.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>一、简介</h2>
@@ -5089,8 +5089,8 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
   </entry>
   <entry>
     <title type="text">【elasticsearch】源码debug</title>
-    <id>http://www.wenzhihuai.com/database/elasticsearch/elasticsearch%E6%BA%90%E7%A0%81debug.html</id>
-    <link href="http://www.wenzhihuai.com/database/elasticsearch/elasticsearch%E6%BA%90%E7%A0%81debug.html"/>
+    <id>https://www.wenzhihuai.com/database/elasticsearch/elasticsearch%E6%BA%90%E7%A0%81debug.html</id>
+    <link href="https://www.wenzhihuai.com/database/elasticsearch/elasticsearch%E6%BA%90%E7%A0%81debug.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <h1>一、下载源代码</h1>
@@ -5119,8 +5119,8 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
   </entry>
   <entry>
     <title type="text">Database</title>
-    <id>http://www.wenzhihuai.com/database/</id>
-    <link href="http://www.wenzhihuai.com/database/"/>
+    <id>https://www.wenzhihuai.com/database/</id>
+    <link href="https://www.wenzhihuai.com/database/"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>目录留空</p>
@@ -5132,8 +5132,8 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
   </entry>
   <entry>
     <title type="text">微信支付</title>
-    <id>http://www.wenzhihuai.com/donate/</id>
-    <link href="http://www.wenzhihuai.com/donate/"/>
+    <id>https://www.wenzhihuai.com/donate/</id>
+    <link href="https://www.wenzhihuai.com/donate/"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p><img src="https://github-images.wenzhihuai.com/images/wechat-pay.png" alt="微信支付"></p>
@@ -5145,8 +5145,8 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
   </entry>
   <entry>
     <title type="text">10.历时8年最终改版</title>
-    <id>http://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/10.%E5%8E%86%E6%97%B68%E5%B9%B4%E6%9C%80%E7%BB%88%E6%94%B9%E7%89%88.html</id>
-    <link href="http://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/10.%E5%8E%86%E6%97%B68%E5%B9%B4%E6%9C%80%E7%BB%88%E6%94%B9%E7%89%88.html"/>
+    <id>https://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/10.%E5%8E%86%E6%97%B68%E5%B9%B4%E6%9C%80%E7%BB%88%E6%94%B9%E7%89%88.html</id>
+    <link href="https://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/10.%E5%8E%86%E6%97%B68%E5%B9%B4%E6%9C%80%E7%BB%88%E6%94%B9%E7%89%88.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>不知不觉，自建站<a href="https://www.wenzhihuai.com" target="_blank" rel="noopener noreferrer">https://www.wenzhihuai.com</a>已经接近8年了，大二的时候开启使用ssh+jsp框架来做了一个自己的网站，完全自写前后端，过程中不断进化，改用ssm，整合es做文章搜索，加kafka，加redis缓存，整体上对个人来说还是学习到了不少东西。但是随之而来的问题也不少，被挖矿攻击、服务器被黑等等。有时候因为要用服务器搞一些别的东西，直接没有备份数据库就重装，导致不少文章丢失，虽然别的平台可能零散分布。</p>]]></summary>
@@ -5276,8 +5276,8 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
   </entry>
   <entry>
     <title type="text"></title>
-    <id>http://www.wenzhihuai.com/open-source-project/</id>
-    <link href="http://www.wenzhihuai.com/open-source-project/"/>
+    <id>https://www.wenzhihuai.com/open-source-project/</id>
+    <link href="https://www.wenzhihuai.com/open-source-project/"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[<p>jfaowejfoewj</p>
 ]]></summary>
@@ -5287,8 +5287,8 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
   </entry>
   <entry>
     <title type="text">中间件</title>
-    <id>http://www.wenzhihuai.com/middleware/</id>
-    <link href="http://www.wenzhihuai.com/middleware/"/>
+    <id>https://www.wenzhihuai.com/middleware/</id>
+    <link href="https://www.wenzhihuai.com/middleware/"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 ]]></summary>
@@ -5298,8 +5298,8 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
   </entry>
   <entry>
     <title type="text"></title>
-    <id>http://www.wenzhihuai.com/interview/tiktok2023.html</id>
-    <link href="http://www.wenzhihuai.com/interview/tiktok2023.html"/>
+    <id>https://www.wenzhihuai.com/interview/tiktok2023.html</id>
+    <link href="https://www.wenzhihuai.com/interview/tiktok2023.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[<p>tt一面：
 1.全程项目
@@ -5344,8 +5344,8 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
   </entry>
   <entry>
     <title type="text">Mysql</title>
-    <id>http://www.wenzhihuai.com/database/mysql/1mysql.html</id>
-    <link href="http://www.wenzhihuai.com/database/mysql/1mysql.html"/>
+    <id>https://www.wenzhihuai.com/database/mysql/1mysql.html</id>
+    <link href="https://www.wenzhihuai.com/database/mysql/1mysql.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p><img src="https://github-images.wenzhihuai.com/images/img.png" alt="img"></p>
@@ -5357,8 +5357,8 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
   </entry>
   <entry>
     <title type="text">数据库缓存</title>
-    <id>http://www.wenzhihuai.com/database/mysql/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BC%93%E5%AD%98.html</id>
-    <link href="http://www.wenzhihuai.com/database/mysql/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BC%93%E5%AD%98.html"/>
+    <id>https://www.wenzhihuai.com/database/mysql/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BC%93%E5%AD%98.html</id>
+    <link href="https://www.wenzhihuai.com/database/mysql/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BC%93%E5%AD%98.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>在MySQL 5.6开始，就已经默认禁用查询缓存了。在MySQL 8.0，就已经删除查询缓存功能了。</p>
@@ -5380,8 +5380,8 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
   </entry>
   <entry>
     <title type="text">spark on k8s operator</title>
-    <id>http://www.wenzhihuai.com/kubernetes/spark%20on%20k8s%20operator.html</id>
-    <link href="http://www.wenzhihuai.com/kubernetes/spark%20on%20k8s%20operator.html"/>
+    <id>https://www.wenzhihuai.com/kubernetes/spark%20on%20k8s%20operator.html</id>
+    <link href="https://www.wenzhihuai.com/kubernetes/spark%20on%20k8s%20operator.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>Spark operator是一个管理Kubernetes上的Apache Spark应用程序生命周期的operator，旨在像在Kubernetes上运行其他工作负载一样简单的指定和运行spark应用程序。</p>
@@ -5509,8 +5509,8 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
   </entry>
   <entry>
     <title type="text">elastic spark</title>
-    <id>http://www.wenzhihuai.com/bigdata/spark/elastic-spark.html</id>
-    <link href="http://www.wenzhihuai.com/bigdata/spark/elastic-spark.html"/>
+    <id>https://www.wenzhihuai.com/bigdata/spark/elastic-spark.html</id>
+    <link href="https://www.wenzhihuai.com/bigdata/spark/elastic-spark.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>Hadoop允许Elasticsearch在Spark中以两种方式使用：通过自2.1以来的原生RDD支持，或者通过自2.0以来的Map/Reduce桥接器。从5.0版本开始，elasticsearch-hadoop就支持Spark 2.0。目前spark支持的数据源有：
@@ -5581,8 +5581,8 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
   </entry>
   <entry>
     <title type="text">基于kubernetes的分布式限流</title>
-    <id>http://www.wenzhihuai.com/java/%E5%9F%BA%E4%BA%8Ekubernetes%E7%9A%84%E5%88%86%E5%B8%83%E5%BC%8F%E9%99%90%E6%B5%81.html</id>
-    <link href="http://www.wenzhihuai.com/java/%E5%9F%BA%E4%BA%8Ekubernetes%E7%9A%84%E5%88%86%E5%B8%83%E5%BC%8F%E9%99%90%E6%B5%81.html"/>
+    <id>https://www.wenzhihuai.com/java/%E5%9F%BA%E4%BA%8Ekubernetes%E7%9A%84%E5%88%86%E5%B8%83%E5%BC%8F%E9%99%90%E6%B5%81.html</id>
+    <link href="https://www.wenzhihuai.com/java/%E5%9F%BA%E4%BA%8Ekubernetes%E7%9A%84%E5%88%86%E5%B8%83%E5%BC%8F%E9%99%90%E6%B5%81.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>做为一个数据上报系统，随着接入量越来越大，由于 API 接口无法控制调用方的行为，因此当遇到瞬时请求量激增时，会导致接口占用过多服务器资源，使得其他请求响应速度降低或是超时，更有甚者可能导致服务器宕机。</p>
@@ -5719,8 +5719,8 @@ Guava是一个客户端组件，在其多线程模块下提供了以RateLimiter�
   </entry>
   <entry>
     <title type="text">【elasticsearch】搜索过程详解</title>
-    <id>http://www.wenzhihuai.com/database/elasticsearch/%E3%80%90elasticsearch%E3%80%91%E6%90%9C%E7%B4%A2%E8%BF%87%E7%A8%8B%E8%AF%A6%E8%A7%A3.html</id>
-    <link href="http://www.wenzhihuai.com/database/elasticsearch/%E3%80%90elasticsearch%E3%80%91%E6%90%9C%E7%B4%A2%E8%BF%87%E7%A8%8B%E8%AF%A6%E8%A7%A3.html"/>
+    <id>https://www.wenzhihuai.com/database/elasticsearch/%E3%80%90elasticsearch%E3%80%91%E6%90%9C%E7%B4%A2%E8%BF%87%E7%A8%8B%E8%AF%A6%E8%A7%A3.html</id>
+    <link href="https://www.wenzhihuai.com/database/elasticsearch/%E3%80%90elasticsearch%E3%80%91%E6%90%9C%E7%B4%A2%E8%BF%87%E7%A8%8B%E8%AF%A6%E8%A7%A3.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>本文基于elasticsearch8.1。在es搜索中，经常会使用索引+星号，采用时间戳来进行搜索，比如aaaa-*在es中是怎么处理这类请求的呢？是对匹配的进行搜索呢还是仅仅根据时间找出索引，然后才遍历索引进行搜索。在了解其原理前先了解一些基本知识。</p>
@@ -6120,8 +6120,8 @@ Task task = client.executeLocally主要执行查询，并使用了ActionListener
   </entry>
   <entry>
     <title type="text">kafka面试题</title>
-    <id>http://www.wenzhihuai.com/middleware/kafka/kafka.html</id>
-    <link href="http://www.wenzhihuai.com/middleware/kafka/kafka.html"/>
+    <id>https://www.wenzhihuai.com/middleware/kafka/kafka.html</id>
+    <link href="https://www.wenzhihuai.com/middleware/kafka/kafka.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>1、请说明什么是Apache Kafka?
@@ -6327,8 +6327,8 @@ request.required.acks有三个值 0 1 -1
   </entry>
   <entry>
     <title type="text">2017</title>
-    <id>http://www.wenzhihuai.com/life/2017.html</id>
-    <link href="http://www.wenzhihuai.com/life/2017.html"/>
+    <id>https://www.wenzhihuai.com/life/2017.html</id>
+    <link href="https://www.wenzhihuai.com/life/2017.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>2016年6月，大三，考完最后一科，默默的看着大四那群人一个一个的走了，想着想着，明年毕业的时候，自己将会失去你所拥有的一切，大学那群认识的人，可能这辈子都不会见到了——致远离家乡出省读书的娃。然而，我并没有想到，自己失去的，不仅仅是那群人，几乎是一切。。。。<br>
@@ -6382,8 +6382,8 @@ request.required.acks有三个值 0 1 -1
   </entry>
   <entry>
     <title type="text">2019</title>
-    <id>http://www.wenzhihuai.com/life/2019.html</id>
-    <link href="http://www.wenzhihuai.com/life/2019.html"/>
+    <id>https://www.wenzhihuai.com/life/2019.html</id>
+    <link href="https://www.wenzhihuai.com/life/2019.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>2019，本命年，1字头开头的年份，就这么过去了，迎来了2开头的十年，12月过的不是很好，每隔几天就吵架，都没怎么想起写自己的年终总结了，对这个跨年也不是很重视，貌似有点浑浑噩噩的样子。今天1号，就继续来公司学习学习，就写写文章吧。
@@ -6422,8 +6422,8 @@ request.required.acks有三个值 0 1 -1
   </entry>
   <entry>
     <title type="text">被挖矿攻击</title>
-    <id>http://www.wenzhihuai.com/java/serverlog.html</id>
-    <link href="http://www.wenzhihuai.com/java/serverlog.html"/>
+    <id>https://www.wenzhihuai.com/java/serverlog.html</id>
+    <link href="https://www.wenzhihuai.com/java/serverlog.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>服务器被黑，进程占用率高达99%，查看了一下，是/usr/sbin/bashd的原因，怎么删也删不掉，使用ps查看：<br>
@@ -6455,8 +6455,8 @@ stratum+tcp://get.bi-chi.com:3333 -u 47EAoaBc5TWDZKVaAYvQ7Y4ZfoJMFathAR882gabJ43
   </entry>
   <entry>
     <title type="text">2018</title>
-    <id>http://www.wenzhihuai.com/life/2018.html</id>
-    <link href="http://www.wenzhihuai.com/life/2018.html"/>
+    <id>https://www.wenzhihuai.com/life/2018.html</id>
+    <link href="https://www.wenzhihuai.com/life/2018.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>年底老姐结婚，跑回家去了，忙着一直没写，本来想回深圳的时候空余的时候写写，没想到一直加班，嗯，9点半下班那种，偶尔也趁着间隙的时间，一段一段的凑着吧。</p>
@@ -6496,8 +6496,8 @@ stratum+tcp://get.bi-chi.com:3333 -u 47EAoaBc5TWDZKVaAYvQ7Y4ZfoJMFathAR882gabJ43
   </entry>
   <entry>
     <title type="text">Redis缓存</title>
-    <id>http://www.wenzhihuai.com/database/redis/redis%E7%BC%93%E5%AD%98.html</id>
-    <link href="http://www.wenzhihuai.com/database/redis/redis%E7%BC%93%E5%AD%98.html"/>
+    <id>https://www.wenzhihuai.com/database/redis/redis%E7%BC%93%E5%AD%98.html</id>
+    <link href="https://www.wenzhihuai.com/database/redis/redis%E7%BC%93%E5%AD%98.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>一、概述</h2>
@@ -6579,8 +6579,8 @@ stratum+tcp://get.bi-chi.com:3333 -u 47EAoaBc5TWDZKVaAYvQ7Y4ZfoJMFathAR882gabJ43
   </entry>
   <entry>
     <title type="text">JVM调优参数</title>
-    <id>http://www.wenzhihuai.com/java/JVM/JVM%E8%B0%83%E4%BC%98%E5%8F%82%E6%95%B0.html</id>
-    <link href="http://www.wenzhihuai.com/java/JVM/JVM%E8%B0%83%E4%BC%98%E5%8F%82%E6%95%B0.html"/>
+    <id>https://www.wenzhihuai.com/java/JVM/JVM%E8%B0%83%E4%BC%98%E5%8F%82%E6%95%B0.html</id>
+    <link href="https://www.wenzhihuai.com/java/JVM/JVM%E8%B0%83%E4%BC%98%E5%8F%82%E6%95%B0.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <h2>一、堆大小设置</h2>
@@ -6712,8 +6712,8 @@ stratum+tcp://get.bi-chi.com:3333 -u 47EAoaBc5TWDZKVaAYvQ7Y4ZfoJMFathAR882gabJ43
   </entry>
   <entry>
     <title type="text">1.历史与架构</title>
-    <id>http://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/1.%E5%8E%86%E5%8F%B2%E4%B8%8E%E6%9E%B6%E6%9E%84.html</id>
-    <link href="http://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/1.%E5%8E%86%E5%8F%B2%E4%B8%8E%E6%9E%B6%E6%9E%84.html"/>
+    <id>https://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/1.%E5%8E%86%E5%8F%B2%E4%B8%8E%E6%9E%B6%E6%9E%84.html</id>
+    <link href="https://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/1.%E5%8E%86%E5%8F%B2%E4%B8%8E%E6%9E%B6%E6%9E%84.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>各位大佬瞄一眼<a href="http://www.wenzhihuai.com/" target="_blank" rel="noopener noreferrer">我的个人网站</a>呗 。如果觉得不错，希望能在GitHub上麻烦给个star，GitHub地址<a href="https://github.com/Zephery/newblog" target="_blank" rel="noopener noreferrer">https://github.com/Zephery/newblog</a> 。
