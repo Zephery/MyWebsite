@@ -5,15 +5,13 @@ import sidebar from "./sidebar/index.js";
 
 
 export default hopeTheme({
-        hostname: "http://www.wenzhihuai.com/",
+        hostname: "https://www.wenzhihuai.com/",
         logo: "https://github-images.wenzhihuai.com/images/logo.png",
         favicon: "/favicon.ico",
-
         // iconAssets: "//at.alicdn.com/t/c/font_2922463_o9q9dxmps9.css",
         markdown: {
             mermaid: true,
         },
-
         author: {
             name: "Zephery",
             url: "https://wenzhihuai.com/article/",
@@ -27,7 +25,7 @@ export default hopeTheme({
         navbar,
         sidebar,
         footer:
-            '<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备17092242号-1</a><a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"  target="_blank"><img src="https://github-images.wenzhihuai.com/images/youpailogo6.png" style="float: left;width: 6%;"/></a>',
+            '<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备17092242号-1</a>',
         displayFooter: true,
 
         pageInfo: [
@@ -40,7 +38,6 @@ export default hopeTheme({
             "ReadingTime",
         ],
 
-
         blog: {
             intro: "/about-the-author/",
             medias: {
@@ -51,7 +48,6 @@ export default hopeTheme({
                 WechatPay: "https://wenzhihuai.com/donate"
             },
         },
-
         plugins: {
             comment: {
                 provider: "Giscus",
