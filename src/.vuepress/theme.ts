@@ -2,6 +2,7 @@ import {hopeTheme} from "vuepress-theme-hope";
 
 import navbar from "./navbar.js";
 import sidebar from "./sidebar/index.js";
+import {dateSorter} from "@vuepress/helper";
 
 
 export default hopeTheme({
@@ -32,7 +33,7 @@ export default hopeTheme({
             "Author",
             "Category",
             "Tag",
-            // "Date",
+            "Date",
             "Original",
             "Word",
             "ReadingTime",
@@ -69,7 +70,13 @@ export default hopeTheme({
                     {
                         key: "slide",
                         filter: (page) => page.frontmatter.layout === "Slide",
-                    }
+                    },
+                    {
+                        key: "original",
+                        filter: (page) => !!page.frontmatter.original,
+                        sorter: (pageA, pageB) =>
+                            -dateSorter(pageA.frontmatter.date, pageB.frontmatter.date),
+                    },
                 ],
             },
             copyright: {
