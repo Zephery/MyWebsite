@@ -203,7 +203,7 @@ public void sendMetrics() {
 }
 ```
 
-### 4.4 ## 构建 JSON：命名规范、标签与时间戳
+### 4.4 构建 JSON：命名规范、标签与时间戳
 把读到的值拼进一个统一的 JSON 字段结构，便于下游消费。
 ```java
 private Map<String, Object> buildPayload(Meter meter, Measurement measurement, double valueToSend) {
