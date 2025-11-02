@@ -8,7 +8,8 @@
            data-ad-client="ca-pub-9037099208128116"
            data-ad-slot="8206550629"></ins>
     </template>
-    <template #tocAfter>
+
+    <template #tocAfter v-if="!isMobile">
       <div class="slot-demo-block">小站收益甚微，请帮忙点击下文章上面的广告（需关闭广告屏蔽插件）也可微信支付打赏鼓励作者
       </div>
       <img class="slot-img" src="https://github-images.wenzhihuai.com/test/image-20240901210440204.png" alt=""/>
@@ -16,8 +17,7 @@
   </Layout>
 </template>
 <script setup lang="ts">
-import {onMounted} from "vue";
-
+import {onMounted, ref} from "vue";
 import {Layout} from "vuepress-theme-hope/client";
 
 function adsenseAddLoad(): void {
@@ -27,23 +27,17 @@ function adsenseAddLoad(): void {
   document.body.appendChild(inlineScript);
 }
 
+const isMobile = ref(false);
+
 onMounted(() => {
   adsenseAddLoad();
+  isMobile.value = window.innerWidth <= 768; // 768px 以下视为手机端
 });
 </script>
 
-
 <style lang="scss" scoped>
-#iframeu6953633_0 {
-  width: 100% !important;
-}
-
 .slot-demo-block {
-  //background-color: var(--bg-color-tertiary);
-  //border-radius: 0.5rem;
-  //padding: 1rem 2rem;
   margin: 1rem 0.5rem;
-
   display: flex;
   justify-content: center;
   align-items: center;
