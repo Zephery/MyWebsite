@@ -6,8 +6,8 @@
     <link>https://www.wenzhihuai.com/</link>
     <description>个人博客</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 01 Nov 2025 17:09:36 GMT</pubDate>
-    <lastBuildDate>Sat, 01 Nov 2025 17:09:36 GMT</lastBuildDate>
+    <pubDate>Sun, 02 Nov 2025 09:50:25 GMT</pubDate>
+    <lastBuildDate>Sun, 02 Nov 2025 09:50:25 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <item>
@@ -1719,21 +1719,21 @@ http://fls.itxe.net</p>
 ]]></content:encoded>
     </item>
     <item>
-      <title>一致性hash算法和哈希槽</title>
-      <link>https://www.wenzhihuai.com/database/redis/%E4%B8%80%E8%87%B4%E6%80%A7hash%E7%AE%97%E6%B3%95%E5%92%8C%E5%93%88%E5%B8%8C%E6%A7%BD.html</link>
-      <guid>https://www.wenzhihuai.com/database/redis/%E4%B8%80%E8%87%B4%E6%80%A7hash%E7%AE%97%E6%B3%95%E5%92%8C%E5%93%88%E5%B8%8C%E6%A7%BD.html</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">一致性hash算法和哈希槽</source>
-      <description>一致性hash算法和哈希槽</description>
-      <pubDate>Sun, 10 Mar 2024 14:39:30 GMT</pubDate>
-      <content:encoded><![CDATA[
-]]></content:encoded>
-    </item>
-    <item>
       <title>行锁，表锁，意向锁</title>
       <link>https://www.wenzhihuai.com/database/mysql/%E8%A1%8C%E9%94%81%EF%BC%8C%E8%A1%A8%E9%94%81%EF%BC%8C%E6%84%8F%E5%90%91%E9%94%81.html</link>
       <guid>https://www.wenzhihuai.com/database/mysql/%E8%A1%8C%E9%94%81%EF%BC%8C%E8%A1%A8%E9%94%81%EF%BC%8C%E6%84%8F%E5%90%91%E9%94%81.html</guid>
       <source url="https://www.wenzhihuai.com/rss.xml">行锁，表锁，意向锁</source>
       <description>行锁，表锁，意向锁</description>
+      <pubDate>Sun, 10 Mar 2024 14:39:30 GMT</pubDate>
+      <content:encoded><![CDATA[
+]]></content:encoded>
+    </item>
+    <item>
+      <title>一致性hash算法和哈希槽</title>
+      <link>https://www.wenzhihuai.com/database/redis/%E4%B8%80%E8%87%B4%E6%80%A7hash%E7%AE%97%E6%B3%95%E5%92%8C%E5%93%88%E5%B8%8C%E6%A7%BD.html</link>
+      <guid>https://www.wenzhihuai.com/database/redis/%E4%B8%80%E8%87%B4%E6%80%A7hash%E7%AE%97%E6%B3%95%E5%92%8C%E5%93%88%E5%B8%8C%E6%A7%BD.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">一致性hash算法和哈希槽</source>
+      <description>一致性hash算法和哈希槽</description>
       <pubDate>Sun, 10 Mar 2024 14:39:30 GMT</pubDate>
       <content:encoded><![CDATA[
 ]]></content:encoded>
@@ -2648,13 +2648,6 @@ synchronized的特点：
 ]]></content:encoded>
     </item>
     <item>
-      <title>SpringBoot</title>
-      <link>https://www.wenzhihuai.com/java/SpringBoot/</link>
-      <guid>https://www.wenzhihuai.com/java/SpringBoot/</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">SpringBoot</source>
-      <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
-    </item>
-    <item>
       <title>JVM</title>
       <link>https://www.wenzhihuai.com/java/JVM/</link>
       <guid>https://www.wenzhihuai.com/java/JVM/</guid>
@@ -2847,6 +2840,13 @@ synchronized的特点：
 <p>9.<a href="https://link.zhihu.com/?target=https%3A//www.jianshu.com/p/12544c0ad5c1" target="_blank" rel="noopener noreferrer">https://www.jianshu.com/p/12544c0ad</a></p>
 ]]></content:encoded>
       <enclosure url="https://github-images.wenzhihuai.com/images/v2-62257a68cd5fa063d16cb4c30bd75ac0_1440w.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>SpringBoot</title>
+      <link>https://www.wenzhihuai.com/java/SpringBoot/</link>
+      <guid>https://www.wenzhihuai.com/java/SpringBoot/</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">SpringBoot</source>
+      <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
     </item>
     <item>
       <title>I/O</title>

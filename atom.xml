@@ -4,7 +4,7 @@
   <title>个人博客</title>
   <subtitle>个人博客</subtitle>
   <icon>https://www.wenzhihuai.com/favicon.ico</icon>
-  <updated>2025-11-01T17:09:36.001Z</updated>
+  <updated>2025-11-02T09:50:25.990Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://www.wenzhihuai.com/atom.xml"/>
   <link rel="alternate" href="https://www.wenzhihuai.com/"/>
@@ -2007,9 +2007,9 @@ http://fls.itxe.net</p>
     <published>2024-03-10T14:39:30.000Z</published>
   </entry>
   <entry>
-    <title type="text">一致性hash算法和哈希槽</title>
-    <id>https://www.wenzhihuai.com/database/redis/%E4%B8%80%E8%87%B4%E6%80%A7hash%E7%AE%97%E6%B3%95%E5%92%8C%E5%93%88%E5%B8%8C%E6%A7%BD.html</id>
-    <link href="https://www.wenzhihuai.com/database/redis/%E4%B8%80%E8%87%B4%E6%80%A7hash%E7%AE%97%E6%B3%95%E5%92%8C%E5%93%88%E5%B8%8C%E6%A7%BD.html"/>
+    <title type="text">行锁，表锁，意向锁</title>
+    <id>https://www.wenzhihuai.com/database/mysql/%E8%A1%8C%E9%94%81%EF%BC%8C%E8%A1%A8%E9%94%81%EF%BC%8C%E6%84%8F%E5%90%91%E9%94%81.html</id>
+    <link href="https://www.wenzhihuai.com/database/mysql/%E8%A1%8C%E9%94%81%EF%BC%8C%E8%A1%A8%E9%94%81%EF%BC%8C%E6%84%8F%E5%90%91%E9%94%81.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 ]]></summary>
@@ -2018,9 +2018,9 @@ http://fls.itxe.net</p>
     <published>2024-03-10T14:39:30.000Z</published>
   </entry>
   <entry>
-    <title type="text">行锁，表锁，意向锁</title>
-    <id>https://www.wenzhihuai.com/database/mysql/%E8%A1%8C%E9%94%81%EF%BC%8C%E8%A1%A8%E9%94%81%EF%BC%8C%E6%84%8F%E5%90%91%E9%94%81.html</id>
-    <link href="https://www.wenzhihuai.com/database/mysql/%E8%A1%8C%E9%94%81%EF%BC%8C%E8%A1%A8%E9%94%81%EF%BC%8C%E6%84%8F%E5%90%91%E9%94%81.html"/>
+    <title type="text">一致性hash算法和哈希槽</title>
+    <id>https://www.wenzhihuai.com/database/redis/%E4%B8%80%E8%87%B4%E6%80%A7hash%E7%AE%97%E6%B3%95%E5%92%8C%E5%93%88%E5%B8%8C%E6%A7%BD.html</id>
+    <link href="https://www.wenzhihuai.com/database/redis/%E4%B8%80%E8%87%B4%E6%80%A7hash%E7%AE%97%E6%B3%95%E5%92%8C%E5%93%88%E5%B8%8C%E6%A7%BD.html"/>
     <updated>2025-11-01T04:49:29.000Z</updated>
     <summary type="html"><![CDATA[
 ]]></summary>
@@ -3047,13 +3047,6 @@ synchronized的特点：
     <published>2024-02-16T04:00:26.000Z</published>
   </entry>
   <entry>
-    <title type="text">SpringBoot</title>
-    <id>https://www.wenzhihuai.com/java/SpringBoot/</id>
-    <link href="https://www.wenzhihuai.com/java/SpringBoot/"/>
-    <updated>2025-11-01T04:49:29.000Z</updated>
-    <published>2024-02-16T04:00:26.000Z</published>
-  </entry>
-  <entry>
     <title type="text">JVM</title>
     <id>https://www.wenzhihuai.com/java/JVM/</id>
     <link href="https://www.wenzhihuai.com/java/JVM/"/>
@@ -3259,6 +3252,13 @@ synchronized的特点：
 <p>8.<a href="https://link.zhihu.com/?target=https%3A//www.cnblogs.com/jimoer/p/13170249.html" target="_blank" rel="noopener noreferrer">https://www.cnblogs.com/jimoer/p/13170249.html</a></p>
 <p>9.<a href="https://link.zhihu.com/?target=https%3A//www.jianshu.com/p/12544c0ad5c1" target="_blank" rel="noopener noreferrer">https://www.jianshu.com/p/12544c0ad</a></p>
 ]]></content>
+    <published>2024-02-16T04:00:26.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">SpringBoot</title>
+    <id>https://www.wenzhihuai.com/java/SpringBoot/</id>
+    <link href="https://www.wenzhihuai.com/java/SpringBoot/"/>
+    <updated>2025-11-01T04:49:29.000Z</updated>
     <published>2024-02-16T04:00:26.000Z</published>
   </entry>
   <entry>
