@@ -6,8 +6,8 @@
     <link>https://www.wenzhihuai.com/</link>
     <description>个人博客</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 02 Nov 2025 10:20:38 GMT</pubDate>
-    <lastBuildDate>Sun, 02 Nov 2025 10:20:38 GMT</lastBuildDate>
+    <pubDate>Sun, 02 Nov 2025 15:01:29 GMT</pubDate>
+    <lastBuildDate>Sun, 02 Nov 2025 15:01:29 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <item>
@@ -2550,6 +2550,13 @@ synchronized的特点：
 ]]></content:encoded>
     </item>
     <item>
+      <title>SpringBoot</title>
+      <link>https://www.wenzhihuai.com/java/SpringBoot/</link>
+      <guid>https://www.wenzhihuai.com/java/SpringBoot/</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">SpringBoot</source>
+      <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
+    </item>
+    <item>
       <title>JVM</title>
       <link>https://www.wenzhihuai.com/java/JVM/</link>
       <guid>https://www.wenzhihuai.com/java/JVM/</guid>
@@ -2742,13 +2749,6 @@ synchronized的特点：
 <p>9.<a href="https://link.zhihu.com/?target=https%3A//www.jianshu.com/p/12544c0ad5c1" target="_blank" rel="noopener noreferrer">https://www.jianshu.com/p/12544c0ad</a></p>
 ]]></content:encoded>
       <enclosure url="https://github-images.wenzhihuai.com/images/v2-62257a68cd5fa063d16cb4c30bd75ac0_1440w.webp" type="image/webp"/>
-    </item>
-    <item>
-      <title>SpringBoot</title>
-      <link>https://www.wenzhihuai.com/java/SpringBoot/</link>
-      <guid>https://www.wenzhihuai.com/java/SpringBoot/</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">SpringBoot</source>
-      <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
     </item>
     <item>
       <title>I/O</title>
