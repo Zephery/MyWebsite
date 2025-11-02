@@ -6,8 +6,8 @@
     <link>https://www.wenzhihuai.com/</link>
     <description>个人博客</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 02 Nov 2025 09:50:25 GMT</pubDate>
-    <lastBuildDate>Sun, 02 Nov 2025 09:50:25 GMT</lastBuildDate>
+    <pubDate>Sun, 02 Nov 2025 09:55:16 GMT</pubDate>
+    <lastBuildDate>Sun, 02 Nov 2025 09:55:16 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <item>
@@ -31,93 +31,6 @@
       <content:encoded><![CDATA[
 <h2>一、 背景与目标</h2>
 <p>监控最主要还是上报到Prometheus，可惜成本实在是高昂，特别是存储时间要求得越久，我们这里探索了下micrometer转换成json，然后存储到starrocks这类mpp olap引擎，通过starrocks的存算分离架构，降低成本。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>推荐工程-前后端</title>
-      <link>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E5%89%8D%E5%90%8E%E7%AB%AF.html</link>
-      <guid>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E5%89%8D%E5%90%8E%E7%AB%AF.html</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">推荐工程-前后端</source>
-      <description>推荐工程-前后端</description>
-      <pubDate>Sat, 01 Nov 2025 04:49:29 GMT</pubDate>
-      <content:encoded><![CDATA[
-]]></content:encoded>
-    </item>
-    <item>
-      <title>推荐工程-召回</title>
-      <link>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E5%8F%AC%E5%9B%9E.html</link>
-      <guid>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E5%8F%AC%E5%9B%9E.html</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">推荐工程-召回</source>
-      <description>推荐工程-召回</description>
-      <pubDate>Sat, 01 Nov 2025 04:49:29 GMT</pubDate>
-      <content:encoded><![CDATA[
-]]></content:encoded>
-    </item>
-    <item>
-      <title>推荐工程-用户画像</title>
-      <link>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F.html</link>
-      <guid>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F.html</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">推荐工程-用户画像</source>
-      <description>推荐工程-用户画像</description>
-      <pubDate>Sat, 01 Nov 2025 04:49:29 GMT</pubDate>
-      <content:encoded><![CDATA[
-]]></content:encoded>
-    </item>
-    <item>
-      <title>推荐工程-画像</title>
-      <link>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%94%BB%E5%83%8F.html</link>
-      <guid>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%94%BB%E5%83%8F.html</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">推荐工程-画像</source>
-      <description>推荐工程-画像</description>
-      <pubDate>Sat, 01 Nov 2025 04:49:29 GMT</pubDate>
-      <content:encoded><![CDATA[
-]]></content:encoded>
-    </item>
-    <item>
-      <title>推荐工程-粗排</title>
-      <link>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%B2%97%E6%8E%92.html</link>
-      <guid>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%B2%97%E6%8E%92.html</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">推荐工程-粗排</source>
-      <description>推荐工程-粗排</description>
-      <pubDate>Sat, 01 Nov 2025 04:49:29 GMT</pubDate>
-      <content:encoded><![CDATA[
-]]></content:encoded>
-    </item>
-    <item>
-      <title>推荐工程-精排</title>
-      <link>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%B2%BE%E6%8E%92.html</link>
-      <guid>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E5%B7%A5%E7%A8%8B-%E7%B2%BE%E6%8E%92.html</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">推荐工程-精排</source>
-      <description>推荐工程-精排</description>
-      <pubDate>Sat, 01 Nov 2025 04:49:29 GMT</pubDate>
-      <content:encoded><![CDATA[
-]]></content:encoded>
-    </item>
-    <item>
-      <title>推荐系统常用概念</title>
-      <link>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%B8%B8%E7%94%A8%E6%A6%82%E5%BF%B5.html</link>
-      <guid>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%B8%B8%E7%94%A8%E6%A6%82%E5%BF%B5.html</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">推荐系统常用概念</source>
-      <description>推荐系统常用概念 一、召回 二、特征 三、KV文件 四、商品标签 五、画像 用户画像是一种数据分析方法，通过对用户的行为、兴趣、偏好、属性等信息进行整合，形成一个全面的、数据化的用户模型。它在广告、推荐系统、精准营销等领域中广泛应用，目的是帮助系统更好地理解和预测用户行为，从而提供个性化服务。 用户画像通常包含以下几个方面的信息： 用户基本属性： 包括...</description>
-      <pubDate>Sat, 01 Nov 2025 04:49:29 GMT</pubDate>
-      <content:encoded><![CDATA[
-<h2>一、召回</h2>
-<h2>二、特征</h2>
-<h2>三、KV文件</h2>
-<h2>四、商品标签</h2>
-<h2>五、画像</h2>
-<p>用户画像是一种数据分析方法，通过对用户的行为、兴趣、偏好、属性等信息进行整合，形成一个全面的、数据化的用户模型。它在广告、推荐系统、精准营销等领域中广泛应用，目的是帮助系统更好地理解和预测用户行为，从而提供个性化服务。</p>
-<p>用户画像通常包含以下几个方面的信息：</p>
-<p>用户基本属性：
-包括用户的年龄、性别、职业、地域等。</p>
-<p>行为数据：
-用户的操作行为，比如点击、浏览、搜索、收藏、点赞、购买等。这些数据反映了用户的兴趣、习惯和需求。</p>
-<p>兴趣爱好：
-基于用户的行为日志，通过算法分析出用户的兴趣标签（如喜欢“电子产品”“美食”等）。</p>
-<p>消费习惯：
-如偏好的消费价格范围、购买频次、高峰时间点以及支付方式等。</p>
-<p>设备信息：
-用户所使用的设备类型（如手机/台式机）、操作系统版本等。</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -6534,6 +6447,633 @@ https://www.ibm.com/developerworks/cn/java/j-lo-lucene1/</p>
 <p>http://iamyida.iteye.com/blog/2205114</p>
 ]]></content:encoded>
       <enclosure url="https://github-images.wenzhihuai.com/images/lucenejoijfoaiwheifuwhifu.png" type="image/png"/>
+    </item>
+    <item>
+      <title>3.定时任务</title>
+      <link>https://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/3.%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1.html</link>
+      <guid>https://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/3.%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">3.定时任务</source>
+      <description>3.定时任务 先看一下Quartz的架构图： 一.特点： 强大的调度功能，例如支持丰富多样的调度方法，可以满足各种常规及特殊需求； 灵活的应用方式，例如支持任务和调度的多种组合方式，支持调度数据的多种存储方式； 分布式和集群能力。 二.主要组成部分 JobDetail：需实现该接口定义的人物，其中JobExecutionContext提供了上下文的各种...</description>
+      <pubDate>Tue, 21 Jan 2020 02:38:05 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>先看一下Quartz的架构图：</p>
+<p><img src="https://github-images.wenzhihuai.com/images/11627468_1438829844Zbz8.png" alt=""></p>
+<h3>一.特点：</h3>
+<ol>
+<li>强大的调度功能，例如支持丰富多样的调度方法，可以满足各种常规及特殊需求；</li>
+<li>灵活的应用方式，例如支持任务和调度的多种组合方式，支持调度数据的多种存储方式；</li>
+<li>分布式和集群能力。</li>
+</ol>
+<h3>二.主要组成部分</h3>
+<ol>
+<li>JobDetail：需实现该接口定义的人物，其中JobExecutionContext提供了上下文的各种信息。</li>
+<li>JobDetail：QUartz的执行任务的类，通过newInstance的反射机制实例化Job。</li>
+<li>Trigger： Job的时间触发规则。主要有SimpleTriggerImpl和CronTriggerImpl两个实现类。</li>
+<li>Calendar：org.quartz.Calendar和java.util.Calendar不同，它是一些日历特定时间点的集合（可以简单地将org.quartz.Calendar看作java.util.Calendar的集合——java.util.Calendar代表一个日历时间点，无特殊说明后面的Calendar即指org.quartz.Calendar）。</li>
+<li>Scheduler：由上图可以看出，Scheduler是Quartz独立运行的容器。其中，Trigger和JobDetail可以注册到Scheduler中。</li>
+<li>ThreadPool：Scheduler使用一个线程池作为任务运行的基础设施，任务通过共享线程池中的线程提高运行效率。</li>
+</ol>
+<h3>三、Quartz设计</h3>
+<ol>
+<li>properties file<br>
+<a href="http://www.quartz-scheduler.org/documentation/quartz-2.2.x/quick-start.html" target="_blank" rel="noopener noreferrer">官网</a>中表明：quartz中使用了quartz.properties来对quartz进行配置，并保留在其jar包中，如果没有定义则默认使用改文件。</li>
+<li></li>
+</ol>
+<h3>四、使用</h3>
+<ol>
+<li>hello world！代码<a href="">在这</a></li>
+<li>本网站中使用quartz来对数据库进行备份，与Spring结合
+（1）导入spring的拓展包，其协助spring集成第三方库：邮件服务、定时任务、缓存等。。。</li>
+</ol>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:white;--shiki-dark:#E06C75">dependency</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;</span><span style="--shiki-light:white;--shiki-dark:#E06C75">groupId</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;org.springframework&lt;/</span><span style="--shiki-light:white;--shiki-dark:#E06C75">groupId</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;</span><span style="--shiki-light:white;--shiki-dark:#E06C75">artifactId</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;spring-context-support&lt;/</span><span style="--shiki-light:white;--shiki-dark:#E06C75">artifactId</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;</span><span style="--shiki-light:white;--shiki-dark:#E06C75">version</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;4.2.6.RELEASE&lt;/</span><span style="--shiki-light:white;--shiki-dark:#E06C75">version</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;/</span><span style="--shiki-light:white;--shiki-dark:#E06C75">dependency</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>（2）导入quartz包</p>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:white;--shiki-dark:#E06C75">dependency</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;</span><span style="--shiki-light:white;--shiki-dark:#E06C75">groupId</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;org.quartz-scheduler&lt;/</span><span style="--shiki-light:white;--shiki-dark:#E06C75">groupId</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;</span><span style="--shiki-light:white;--shiki-dark:#E06C75">artifactId</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;quartz&lt;/</span><span style="--shiki-light:white;--shiki-dark:#E06C75">artifactId</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;</span><span style="--shiki-light:white;--shiki-dark:#E06C75">version</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;2.3.0&lt;/</span><span style="--shiki-light:white;--shiki-dark:#E06C75">version</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;/</span><span style="--shiki-light:white;--shiki-dark:#E06C75">dependency</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>（3）mysql远程备份
+使用命令行工具仅仅需要一行：</p>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">mysqldump -u [username] -p[password] -h [hostip] database &gt; file</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>但是java不能直接执行linux的命令，仍旧需要依赖第三方库ganymed</p>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:white;--shiki-dark:#E06C75">dependency</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;</span><span style="--shiki-light:white;--shiki-dark:#E06C75">groupId</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;ch.ethz.ganymed&lt;/</span><span style="--shiki-light:white;--shiki-dark:#E06C75">groupId</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;</span><span style="--shiki-light:white;--shiki-dark:#E06C75">artifactId</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;ganymed-ssh2&lt;/</span><span style="--shiki-light:white;--shiki-dark:#E06C75">artifactId</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;</span><span style="--shiki-light:white;--shiki-dark:#E06C75">version</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;262&lt;/</span><span style="--shiki-light:white;--shiki-dark:#E06C75">version</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;/</span><span style="--shiki-light:white;--shiki-dark:#E06C75">dependency</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>完整代码如下：</p>
+<div class="language-java line-numbers-mode" data-highlighter="shiki" data-ext="java" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-java"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">@</span><span style="--shiki-light:#A626A4;--shiki-dark:#E5C07B">Component</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"mysqlService"</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">)</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">//在spring中注册一个mysqlService的Bean</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">public</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> class</span><span style="--shiki-light:#C18401;--shiki-dark:#E5C07B"> MysqlUtil</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    ...</span></span>
+<span class="line"><span style="--shiki-light:#C18401;--shiki-dark:#E5C07B">    StringBuffer</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> sb </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> new</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> StringBuffer</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">()</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">    sb.</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">append</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"mysqldump -u "</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> + </span><span style="--shiki-light:#383A42;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">username</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> + </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">" -p"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> + </span><span style="--shiki-light:#383A42;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">password</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> + </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">" -h "</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> + </span><span style="--shiki-light:#383A42;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">host</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> + </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">" "</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> +</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">            database</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> + </span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">" &gt;"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> + </span><span style="--shiki-light:#383A42;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">file</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);</span></span>
+<span class="line"><span style="--shiki-light:#C18401;--shiki-dark:#E5C07B">    String</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> sql </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#E45649;--shiki-dark:#E5C07B"> sb</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">toString</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">();</span></span>
+<span class="line"><span style="--shiki-light:#C18401;--shiki-dark:#E5C07B">    Connection</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> connection </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> new</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> Connection</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">(s_host)</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">    connection.</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">connect</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">();</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    boolean</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> isAuth </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#E45649;--shiki-dark:#E5C07B"> connection</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">authenticateWithPassword</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(s_username, s_password);</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">//进行远程服务器登陆认证</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">    if</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> (!</span><span style="--shiki-light:#383A42;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">isAuth</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E5C07B">        logger</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">error</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"server login error"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    }</span></span>
+<span class="line"><span style="--shiki-light:#C18401;--shiki-dark:#E5C07B">    Session</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> session </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#E45649;--shiki-dark:#E5C07B"> connection</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">openSession</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">();</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#61AFEF">    session.</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">execCommand</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#383A42;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">sql</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);</span><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">//执行linux语句</span></span>
+<span class="line"><span style="--shiki-light:#C18401;--shiki-dark:#E5C07B">    InputStream</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> stdout </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> new</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> StreamGobbler</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">(</span><span style="--shiki-light:#E45649;--shiki-dark:#E5C07B">session</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">getStdout</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">()</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">)</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#C18401;--shiki-dark:#E5C07B">    BufferedReader</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> br </span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> new</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> BufferedReader</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">(</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">new</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> InputStreamReader</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">(stdout))</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    ...</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>（4）spring中配置quartz</p>
+<div class="language-xml line-numbers-mode" data-highlighter="shiki" data-ext="xml" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-xml"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">bean</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> id</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"jobDetail"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> class</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">property</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"targetObject"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> ref</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"mysqlService"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">/&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">property</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"targetMethod"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> value</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"exportDataBase"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">/&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">bean</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">&lt;!--定义触发时间  --&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">bean</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> id</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"myTrigger"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> class</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"org.springframework.scheduling.quartz.CronTriggerFactoryBean"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">property</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"jobDetail"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> ref</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"jobDetail"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">/&gt;</span></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">    &lt;!-- cron表达式，每周五2点59分运行--&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">property</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"cronExpression"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> value</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"0 59 2 ? * FRI"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">/&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">bean</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">&lt;!-- 总管理类 如果将lazy-init='false'那么容器启动就会执行调度程序 --&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">bean</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> id</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"scheduler"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> class</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"org.springframework.scheduling.quartz.SchedulerFactoryBean"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">property</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"triggers"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">list</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">            &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">ref</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> bean</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"myTrigger"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">/&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        &lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">list</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">property</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">bean</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>（5）java完整文件<a href="https://github.com/Zephery/newblog/blob/master/src/main/java/com/myblog/util/MysqlUtil.java" target="_blank" rel="noopener noreferrer">在这</a></p>
+<h2>Spring的高级特性之定时任务</h2>
+<p>java ee项目的定时任务中除了运行quartz之外，spring3+还提供了task，可以看做是一个轻量级的Quartz，而且使用起来比Quartz简单的多。</p>
+<p>（1）spring配置文件中配置：</p>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:white;--shiki-dark:#E06C75">task:annotation-driven</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">/&gt;</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>（2）最简单的例子，在所需要的函数上添加定时任务即可运行</p>
+<div class="language-java line-numbers-mode" data-highlighter="shiki" data-ext="java" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-java"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    @</span><span style="--shiki-light:#A626A4;--shiki-dark:#E5C07B">Scheduled</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">(</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">fixedRate</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 5000</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">)</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    public</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> void</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> reportCurrentTime</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">() {</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E5C07B">        System</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#E45649;--shiki-dark:#E5C07B">out</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">println</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"每隔5秒运行一次"</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2"> +</span><span style="--shiki-light:#E45649;--shiki-dark:#E5C07B"> sdf</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">format</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">new</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> Date</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">()));</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">    }</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>（3）运行的时候会报错：</p>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.scheduling.TaskScheduler] is defined</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:372)</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:332)</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.finishRegistration(ScheduledAnnotationBeanPostProcessor.java:192)</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.onApplicationEvent(ScheduledAnnotationBeanPostProcessor.java:171)</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.onApplicationEvent(ScheduledAnnotationBeanPostProcessor.java:86)</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:163)</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:136)</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:380)</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>参考：<br>
+1.<a href="http://blog.csdn.net/oarsman/article/details/52801877" target="_blank" rel="noopener noreferrer">http://blog.csdn.net/oarsman/article/details/52801877</a><br>
+2.<a href="http://stackoverflow.com/questions/31199888/spring-task-scheduler-no-qualifying-bean-of-type-org-springframework-scheduli" target="_blank" rel="noopener noreferrer">http://stackoverflow.com/questions/31199888/spring-task-scheduler-no-qualifying-bean-of-type-org-springframework-scheduli</a><br>
+Spring的定时任务调度器会尝试获取一个注册过的 task scheduler来做任务调度，它会尝试通过BeanFactory.getBean的方法来获取一个注册过的scheduler bean，获取的步骤如下：</p>
+<p>1.尝试从配置中找到一个TaskScheduler Bean</p>
+<p>2.寻找ScheduledExecutorService Bean</p>
+<p>3.使用默认的scheduler
+修改log4j.properties即可：
+log4j.logger.org.springframework.scheduling=INFO<br>
+其实这个功能不影响定时器的功能。
+（4）结果：</p>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">每隔5秒运行一次14:44:34</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">每隔5秒运行一次14:44:39</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">每隔5秒运行一次14:44:44</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+      <enclosure url="https://github-images.wenzhihuai.com/images/11627468_1438829844Zbz8.png" type="image/png"/>
+    </item>
+    <item>
+      <title>4.日志系统.md</title>
+      <link>https://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/4.%E6%97%A5%E5%BF%97%E7%B3%BB%E7%BB%9F.html</link>
+      <guid>https://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/4.%E6%97%A5%E5%BF%97%E7%B3%BB%E7%BB%9F.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">4.日志系统.md</source>
+      <description>4.日志系统.md 欢迎访问我的网站http://www.wenzhihuai.com/ 。感谢，如果可以，希望能在GitHub上给个star，GitHub地址https://github.com/Zephery/newblog 。 建立网站少不了日志系统，用来查看网站的访问次数、停留时间、抓取量、目录抓取统计、页面抓取统计等，其中，最常用的方法还是使...</description>
+      <pubDate>Tue, 21 Jan 2020 02:38:05 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>欢迎访问我的网站<a href="http://www.wenzhihuai.com/" target="_blank" rel="noopener noreferrer">http://www.wenzhihuai.com/</a> 。感谢，如果可以，希望能在GitHub上给个star，GitHub地址<a href="https://github.com/Zephery/newblog" target="_blank" rel="noopener noreferrer">https://github.com/Zephery/newblog</a> 。</p>
+<p>建立网站少不了日志系统，用来查看网站的访问次数、停留时间、抓取量、目录抓取统计、页面抓取统计等，其中，最常用的方法还是使用ELK，但是，本网站的服务器配置实在太低了（1GHZ、2G内存），压根就跑不起ELK，所以只能寻求其他方式，目前最常用的有<a href="https://tongji.baidu.com/web/welcome/login" target="_blank" rel="noopener noreferrer">百度统计</a>和<a href="https://www.umeng.com/" target="_blank" rel="noopener noreferrer">友盟</a>，这里，本人使用的是百度统计，提供了API给开发者使用，能够将自己所需要的图表移植到自己的网站上。日志是网站及其重要的文件，通过对日志进行统计、分析、综合，就能有效地掌握网站运行状况，发现和排除错误原因，了解客户访问分布等，更好的加强系统的维护和管理。下面是我的百度统计的概览页面：</p>
+<p><img src="https://github-images.wenzhihuai.com/images/300.png" alt=""></p>
+<p>企业级的网站日志不能公开，但是我的是个人网站，用来跟大家一起学习的，所以，需要将百度的统计页面展示出来，但是，百度并不提供日志的图像，只提供API给开发者调用，而且还限制访问次数，一天不能超过2000次，这个对于实时统计来说，确实不够，所以只能展示前几天的访问统计。这里的日志系统分为三个步骤：1.API获取数据；2.存储数据；3.展示数据。页面效果如下，也可以点开我的网站的<a href="http://www.wenzhihuai.com/log.html" target="_blank" rel="noopener noreferrer">日志系统</a>:</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20170918090524.png" alt=""></p>
+<p><img src="https://github-images.wenzhihuai.com/images/20170918090534.png" alt=""></p>
+<p><img src="https://github-images.wenzhihuai.com/images/20170918090546.png" alt=""></p>
+<p>百度统计提供了Tongji API的Java和Python版本，这两个版本及其复杂，可用性极低，所以，本人用Python写了个及其简单的通用版本，整体只有28行，代码在这，<a href="https://github.com/Zephery/baidutongji" target="_blank" rel="noopener noreferrer">https://github.com/Zephery/baidutongji</a>。下面是具体过程</p>
+<h2>1.网站代码安装</h2>
+<p>先在<a href="">百度统计</a>中注册登录之后，进入管理页面，新增网站，然后在代码管理中获取安装代码，大部分人的代码都是类似的，除了hm.js?后面的参数，是记录该网站的唯一标识。</p>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">script</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">var</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> _hmt</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> _hmt</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> ||</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> [];</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">function</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">() {</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">  var</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> hm</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E5C07B"> document</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">createElement</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"script"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E5C07B">  hm</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">src</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "https://hm.baidu.com/hm.js?code"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">  var</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75"> s</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> =</span><span style="--shiki-light:#383A42;--shiki-dark:#E5C07B"> document</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">getElementsByTagName</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"script"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)[</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">];</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#E5C07B">  s</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#E45649;--shiki-dark:#E5C07B">parentNode</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">insertBefore</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">hm</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75">s</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">})();</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">script</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>同时，需要在申请其他设置-&gt;数据导出服务中开通数据导出服务，百度统计Tongji API可以为网站接入者提供便捷的获取网站流量数据的通道。</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20170919090557.png" alt=""></p>
+<p>至此，我们获得了username、password、token，然后开始使用三个参数来获取数据。</p>
+<h2>2.根据API获取数据</h2>
+<p><a href="https://tongji.baidu.com/dataapi/file/TongjiApiFile.pdf" target="_blank" rel="noopener noreferrer">官网的API</a>详细的记录了接口的参数以及解释，
+链接：<a href="https://api.baidu.com/json/tongji/v1/ReportService/getData" target="_blank" rel="noopener noreferrer">https://api.baidu.com/json/tongji/v1/ReportService/getData</a>,详细的官方报告请访问官网<a href="https://tongji.baidu.com/dataapi/file/TongjiApiFile.pdf" title="百度统计" target="_blank" rel="noopener noreferrer">TongjiApi</a>
+所需参数（必须）：</p>
+<p>|  参数名称 | 参数类型  |描述   |
+|</p>
+]]></content:encoded>
+      <enclosure url="https://github-images.wenzhihuai.com/images/300.png" type="image/png"/>
+    </item>
+    <item>
+      <title>5.小集群部署.md</title>
+      <link>https://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/5.%E5%B0%8F%E9%9B%86%E7%BE%A4%E9%83%A8%E7%BD%B2.html</link>
+      <guid>https://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/5.%E5%B0%8F%E9%9B%86%E7%BE%A4%E9%83%A8%E7%BD%B2.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">5.小集群部署.md</source>
+      <description>5.小集群部署.md 欢迎访问我的个人网站O(∩_∩)O哈哈~希望大佬们能给个star，个人网站网址：http://www.wenzhihuai.com，个人网站代码地址：https://github.com/Zephery/newblog。 洋洋洒洒的买了两个服务器，用来学习分布式、集群之类的东西，整来整去，感觉分布式这种东西没人指导一下真的是太抽象...</description>
+      <pubDate>Tue, 21 Jan 2020 02:38:05 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>欢迎访问我的个人网站O(∩_∩)O哈哈~希望大佬们能给个star，个人网站网址：<a href="http://www.wenzhihuai.com" target="_blank" rel="noopener noreferrer">http://www.wenzhihuai.com</a>，个人网站代码地址：<a href="https://github.com/Zephery/newblog" target="_blank" rel="noopener noreferrer">https://github.com/Zephery/newblog</a>。<br>
+洋洋洒洒的买了两个服务器，用来学习分布式、集群之类的东西，整来整去，感觉分布式这种东西没人指导一下真的是太抽象了，先从网站的分布式部署一步一步学起来吧，虽然网站本身的访问量不大==。</p>
+<h1>nginx负载均衡</h1>
+<p>一般情况下，当单实例无法支撑起用户的请求时，就需要就行扩容，部署的服务器可以分机房、分地域。而分地域会导致请求分配到太远的地区，比如：深圳的用户却访问到了北京的节点，然后还得从北京返回处理之后的数据，光是来回就至少得30ms。这部分可以通过智能DNS（就近访问）解决。而分机房，需要将请求合理的分配到不同的服务器，这部分就是我们所需要处理的。
+通常，负载均衡分为硬件和软件两种，硬件层的比较牛逼,将4-7层负载均衡功能做到一个硬件里面,如F5,梭子鱼等。目前主流的软件负载均衡分为四层和七层，LVS属于四层负载均衡,工作在tcp/ip协议栈上,通过修改网络包的ip地址和端口来转发, 由于效率比七层高,一般放在架构的前端。七层的负载均衡有nginx, haproxy, apache等,虽然nginx自1.9.0版本后也开始支持四层的负载均衡，但是暂不讨论（我木有硬件条件）。下图来自<a href="http://jinnianshilongnian.iteye.com/" target="_blank" rel="noopener noreferrer">张开涛</a>的《亿级流量网站架构核心技术》</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171018044732.png" alt=""></p>
+<p>本站并没有那么多的服务器，目前只有两台，搭建不了那么大型的架构，就简陋的用两台服务器来模拟一下负载均衡的搭建。下图是本站的简单架构：</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171018051437.png" alt=""></p>
+<p>其中服务器A（119.23.46.71）为深圳节点，服务器B（47.95.10.139）为北京节点，搭建Nginx之后流量是这么走的：user-&gt;A-&gt;B-A-&gt;user或者user-&gt;A-&gt;user，第一条中A将请求转发给B，然后B返回的是其运行结果的静态资源。因为这里仅仅是用来学习，所以请不要考虑因为地域导致延时的问题。。。。下面是过程。</p>
+<h2>1.1 Nginx的安装</h2>
+<p>可以选择tar.gz、yum、rpm安装等，这里，由于编译、nginx配置比较复杂，要是没有把握还是使用rpm来安装吧，比较简单。从<a href="https://pkgs.org/download/nginx" target="_blank" rel="noopener noreferrer">https://pkgs.org/download/nginx</a>可以找到最新的rpm包，然后rpm -ivh 文件，然后在命令行中输入nginx即可启动，可以使用netstat检查一下端口。</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171103062512.png" alt=""></p>
+<p>启动后页面如下：</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171103063022.png" alt=""></p>
+<p>记一下常用命令</p>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">启动nginx，由于是采用rpm方式，所以环境变量什么的都配置好了。</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">[root@beijingali ~]# nginx          #启动nginx</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">[root@beijingali ~]# nginx -s reload         #重启nginx</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">[root@beijingali ~]# nginx -t           #校验nginx配置文件</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">nginx: the configuration file /etc/nginx/nginx.conf syntax is ok</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">nginx: configuration file /etc/nginx/nginx.conf test is successful</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>1.2 Nginx的配置</h2>
+<h4><strong>1.2.1 负载均衡算法</strong></h4>
+<p>Nginx常用的算法有：
+（1）round-robin：轮询，nginx默认的算法，从词语上可以看出，轮流访问服务器，也可以通过weight来控制访问次数。
+（2）ip_hash：根据访客的ip，一个ip地址对应一个服务器。
+（3）hash算法：hash算法常用的方式有根据uri、动态指定的consistent_key两种。
+使用hash算法的缺点是当添加服务器的时候，只有少部分的uri能够被重新分配到新的服务器。这里，本站使用的是hash uri的算法，将不同的uri分配到不同的服务器，但是由于是不同的服务器，tomcat中的session是不一致，解决办法是<a href="http://blog.csdn.net/qh_java/article/details/45955923" target="_blank" rel="noopener noreferrer">tomcat session</a>的共享。额。。。可惜本站目前没有什么能够涉及到登陆什么session的问题。</p>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">http{</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    ...</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    upstream backend {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        hash $uri;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        # 北京节点</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        server 47.95.10.139:8080;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        # 深圳节点</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        server 119.23.46.71:8080;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    }</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    server {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        ...</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        location / {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">            root   html;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">            index  index.html index.htm;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">            proxy_pass http://backend;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">            ...</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        }</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    ...</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4><strong>1.2.2 日志格式</strong></h4>
+<p>之前有使用过ELK来跟踪日志，所以将日志格式化成了json的格式，这里贴一下吧</p>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    ...</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    log_format main '{"@timestamp":"$time_iso8601",'</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">                    '"host":"$server_addr",'</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">                    '"clientip":"$remote_addr",'</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">                    '"size":$body_bytes_sent,'</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">                    '"responsetime":$request_time,'</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">                    '"upstreamtime":"$upstream_response_time",'</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">                    '"upstreamhost":"$upstream_addr",'</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">                    '"http_host":"$host",'</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">                    '"url":"$uri",'</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">                    '"xff":"$http_x_forwarded_for",'</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">                    '"referer":"$http_referer",'</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">                    '"agent":"$http_user_agent",'</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">                    '"status":"$status"}';</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    access_log  logs/access.log  main;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    ...</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4><strong>1.2.3 HTTP反向代理</strong></h4>
+<p>配置完上流服务器之后，需要配置Http的代理，将请求的端口转发到proxy_pass设定的上流服务器，即当我们访问http://wwww.wenzhihuai.com的时候，请求会被转发到backend中配置的服务器，此处为http://47.95.10.139:8080或者http://119.23.46.71:8080。但是，仔细注意之后，我们会发现，tomcat中的访问日志ip来源都是127.0.0.1，相当于本地访问自己的资源。由于后台中有处理ip的代码，对客户端的ip、访问uri等记录下来，所以需要设置nginx来获取用户的实际ip，参考<a href="http://blog.csdn.net/bao19901210/article/details/52537279" target="_blank" rel="noopener noreferrer">nginx 配置</a>。参考文中的一句话：经过反向代理后，由于在客户端和web服务器之间增加了中间层，因此web服务器无法直接拿到客户端的ip，通过$remote_addr变量拿到的将是反向代理服务器的ip地址”。nginx是可以获得用户的真实ip的，也就是说nginx使用$remote_addr变量时获得的是用户的真实ip，如果我们想要在web端获得用户的真实ip，就必须在nginx这里作一个赋值操作，如下：</p>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        location / {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">            root   html;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">            index  index.html index.htm;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">            proxy_pass http://backend;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">            proxy_set_header X-Real-IP $remote_addr;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">            proxy_set_header Host $host;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">            proxy_set_header REMOTE-HOST $remote_addr;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        }</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>（1）proxy_set_header            X-real-ip $remote_addr;</strong><br>
+其中这个X-real-ip是一个自定义的变量名，名字可以随意取，这样做完之后，用户的真实ip就被放在X-real-ip这个变量里了，然后，在web端可以这样获取：
+request.getAttribute("X-real-ip")</p>
+<p><strong>（2）proxy_set_header            X-Forwarded-For $proxy_add_x_forwarded_for;</strong></p>
+<p>X-Forwarded-For：squid开发的，用于识别通过HTTP代理或负载平衡器原始IP一个连接到Web服务器的客户机地址的非rfc标准，这个不是默认有的，其经过代理转发之后，格式为client1, proxy1, proxy2，如果想通过这个变量来获取用户的ip，那么需要和$proxy_add_x_forwarded_for一起使用。<br>
+$proxy_add_x_forwarded_for：现在的$proxy_add_x_forwarded_for变量，X-Forwarded-For部分包含的是用户的真实ip，$remote_addr部分的值是上一台nginx的ip地址，于是通过这个赋值以后现在的X-Forwarded-For的值就变成了“用户的真实ip，第一台nginx的ip”。</p>
+<h4><strong>1.2.4 HTTPS</strong></h4>
+<p><a href="https://baike.baidu.com/item/https/285356?fr=aladdin" target="_blank" rel="noopener noreferrer">HTTPS</a>（全称：Hyper Text Transfer Protocol over Secure Socket Layer），是以安全为目标的HTTP通道，简单讲是HTTP的安全版。即HTTP下加入SSL层，HTTPS的安全基础是SSL，因此加密的详细内容就需要SSL。一般情况下，能通过服务器的ssh来生成ssl证书，但是如果使用是自己的，一般浏览器（谷歌、360等）都会报证书不安全的错误，正常用户都不敢访问吧==，所以现在使用的是腾讯跟别的机构颁发的：</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171105024159.png" alt=""></p>
+<p>首先需要下载证书，放在nginx.conf相同目录下，nginx上的配置也需要有所改变，在nginx.conf中设置listen   443 ssl;开启https。然后配置证书和私钥：</p>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        ssl_certificate 1_www.wenzhihuai.com_bundle.crt;    #主要文件路径</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        ssl_certificate_key 2_www.wenzhihuai.com.key;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        ssl_session_timeout 5m;         # 超时时间</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        ssl_protocols TLSv1 TLSv1.1 TLSv1.2; #按照这个协议配置</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:HIGH:!aNULL:!MD5:!RC4:!DHE;#按照这个套件配置</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        ssl_prefer_server_ciphers on;</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>至此，可以使用https来访问了。https带来的安全性（保证信息安全、识别钓鱼网站等）是http远远不能比拟的，目前大部分网站都是实现全站https，还能将http自动重定向为https，此处，需要在server中添加rewrite ^(.*) https://$server_name$1 permanent;即可</p>
+<h4><strong>1.2.5 失败重试</strong></h4>
+<p>配置好了负载均衡之后，如果有一台服务器挂了怎么办？nginx中提供了可配置的服务器存活的识别，主要是通过max_fails失败请求次数，fail_timeout超时时间，weight为权重，下面的配置的意思是当服务器超时10秒，并失败了两次的时候，nginx将认为上游服务器不可用，将会摘掉上游服务器，fail_timeout时间后会再次将该服务器加入到存活上游服务器列表进行重试</p>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">upstream backend_server {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    server 10.23.46.71:8080 max_fails=2 fail_timeout=10s weight=1;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    server 47.95.10.139:8080 max_fails=2 fail_timeout=10s weight=1;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h1>session共享</h1>
+<p>分布式情况下难免会要解决session共享的问题，目前推荐的方法基本上都是使用redis，网上查找的方法目前流行的有下面四种，参考自<a href="http://blog.csdn.net/qh_java/article/details/45955923" target="_blank" rel="noopener noreferrer">tomcat 集群中 session 共</a>：
+1.使用 filter 方法存储。（推荐，因为它的服务器使用范围比较多，不仅限于tomcat ，而且实现的原理比较简单容易控制。）
+2.使用 tomcat sessionmanager 方法存储。（直接配置即可）
+3.使用 terracotta 服务器共享。（不知道，不了解）
+4.使用spring-session。（spring的一个小项目，其原理也和第一种基本一致）</p>
+<p>本站使用spring-session，毕竟是spring下的子项目，学习下还是挺好的。参考<a href="https://docs.spring.io/spring-session/docs/2.0.0.BUILD-SNAPSHOT/reference/html5/" target="_blank" rel="noopener noreferrer">Spring-Session官网</a>。官方文档提供了spring-boot、spring等例子，可以参考参考。目前最新版本是2.0.0，不同版本使用方式不同，建议看官网的文档吧。</p>
+<p>首先，添加相关依赖</p>
+<div class="language-xml line-numbers-mode" data-highlighter="shiki" data-ext="xml" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-xml"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">dependency</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">            &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">groupId</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;org.springframework.session&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">groupId</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">            &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">artifactId</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;spring-session-data-redis&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">artifactId</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">            &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">version</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;1.3.1.RELEASE&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">version</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">            &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">type</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;pom&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">type</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        &lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">dependency</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">dependency</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">            &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">groupId</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;redis.clients&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">groupId</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">            &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">artifactId</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;jedis&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">artifactId</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">            &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">version</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;${jedis.version}&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">version</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        &lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">dependency</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>新建一个session.xml，然后在spring的配置文件中添加该文件，然后在session.xml中添加：</p>
+<div class="language-xml line-numbers-mode" data-highlighter="shiki" data-ext="xml" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-xml"><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">    &lt;!-- redis --&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">bean</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> id</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"jedisPoolConfig"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> class</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"redis.clients.jedis.JedisPoolConfig"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">bean</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">bean</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> id</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"jedisConnectionFactory"</span></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-dark:#D19A66">          class</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"org.springframework.data.redis.connection.jedis.JedisConnectionFactory"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">property</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"hostName"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> value</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"${host}"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> /&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">property</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"port"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> value</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"${port}"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> /&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">property</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"password"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> value</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"${password}"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> /&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">property</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"timeout"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> value</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"${timeout}"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> /&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">property</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"poolConfig"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> ref</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"jedisPoolConfig"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> /&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">property</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"usePool"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> value</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"true"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> /&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">bean</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">bean</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> id</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"redisTemplate"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> class</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"org.springframework.data.redis.core.StringRedisTemplate"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">property</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"connectionFactory"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> ref</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"jedisConnectionFactory"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> /&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">bean</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">    &lt;!-- 将session放入redis --&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">bean</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> id</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"redisHttpSessionConfiguration"</span></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-dark:#D19A66">          class</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">property</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"maxInactiveIntervalInSeconds"</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> value</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"1800"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> /&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">bean</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>然后我们需要保证servlet容器（tomcat）针对每一个请求都使用springSessionRepositoryFilter来拦截</p>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:white;--shiki-dark:#E06C75">filter</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">filter-name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;springSessionRepositoryFilter&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">filter-name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">filter-class</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;org.springframework.web.filter.DelegatingFilterProxy&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">filter-class</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;/</span><span style="--shiki-light:white;--shiki-dark:#E06C75">filter</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">filter-mapping</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">filter-name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;springSessionRepositoryFilter&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">filter-name</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">url-pattern</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;/*&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">url-pattern</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;</span><span style="--shiki-light:white;--shiki-dark:#E06C75">dispatcher</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;REQUEST&lt;/</span><span style="--shiki-light:white;--shiki-dark:#E06C75">dispatcher</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    &lt;</span><span style="--shiki-light:white;--shiki-dark:#E06C75">dispatcher</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;ERROR&lt;/</span><span style="--shiki-light:white;--shiki-dark:#E06C75">dispatcher</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&lt;/</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">filter-mapping</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">&gt;</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>配置完成，使用RedisDesktopManager查看结果：</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171105045003.png" alt=""></p>
+<h2>测试：</h2>
+<p>访问http://www.wenzhihuai.com<br>
+tail -f localhost_access_log.2017-11-05.txt查看日志，然后清空一下当前记录</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171105050714.png" alt=""></p>
+<p>访问技术杂谈页面，此时nginx将请求转发到119.23.46.71服务器，session为28424f91-5bc5-4bba-99ec-f725401d7318。</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171105050757.png" alt=""></p>
+<p>点击生活笔记页面，转发到的服务器为47.95.10.139，session为28424f91-5bc5-4bba-99ec-f725401d7318，与上面相同。session已保持一致。</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171105050849.png" alt=""></p>
+<p><strong>值得注意的是：同一个浏览器，在没有关闭的情况下，即使通过域名访问和ip访问得到的session是不同的。</strong>
+欢迎访问我的个人网站O(∩_∩)O哈哈~希望能给个star
+个人网站网址：<a href="http://www.wenzhihuai.com" target="_blank" rel="noopener noreferrer">http://www.wenzhihuai.com</a><br>
+个人网站代码地址：<a href="https://github.com/Zephery/newblog" target="_blank" rel="noopener noreferrer">https://github.com/Zephery/newblog</a></p>
+]]></content:encoded>
+      <enclosure url="https://github-images.wenzhihuai.com/images/20171018044732.png" type="image/png"/>
+    </item>
+    <item>
+      <title>6.数据库备份</title>
+      <link>https://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/6.%E6%95%B0%E6%8D%AE%E5%BA%93%E5%A4%87%E4%BB%BD.html</link>
+      <guid>https://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/6.%E6%95%B0%E6%8D%AE%E5%BA%93%E5%A4%87%E4%BB%BD.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">6.数据库备份</source>
+      <description>6.数据库备份 先来回顾一下上一篇的小集群架构，tomcat集群，nginx进行反向代理，服务器异地： 由上一篇讲到，部署的时候，将war部署在不同的服务器里，通过spring-session实现了session共享，基本的分布式部署还算是完善了点，但是想了想数据库的访问会不会延迟太大，毕竟一个服务器在北京，一个在深圳，然后试着ping了一下： 果然，...</description>
+      <pubDate>Tue, 21 Jan 2020 02:38:05 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>先来回顾一下上一篇的小集群架构，tomcat集群，nginx进行反向代理，服务器异地：</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171018051437-20240126113709561.png" alt=""></p>
+<p>由上一篇讲到，部署的时候，将war部署在不同的服务器里，通过spring-session实现了session共享，基本的分布式部署还算是完善了点，但是想了想数据库的访问会不会延迟太大，毕竟一个服务器在北京，一个在深圳，然后试着ping了一下：</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171118033130.png" alt=""></p>
+<p>果然，36ms。。。看起来挺小的，但是对比一下sql执行语句的时间：</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171118034129.png" alt=""></p>
+<p>大部分都能在10ms内完成，而最长的语句是insert语句，可见，由于异地导致的36ms延时还是比较大的，捣鼓了一下，最后还是选择换个架构，每个服务器读取自己的数据库，然后数据库底层做一下主主复制，让数据同步。最终架构如下：</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171118035150.png" alt=""></p>
+<h1>一、MySql的复制</h1>
+<p>数据库复制的基本问题就是让一台服务器的数据与其他服务器保持同步。MySql目前支持两种复制方式：基于行的复制和基于语句的复制，这两者的基本过程都是在主库上记录二进制的日志、在备库上重放日志的方式来实现异步的数据复制。其过程分为三步：<br>
+(1)master将改变记录到二进制日志(binary log)中（这些记录叫做二进制日志事件，binary log events）；<br>
+(2)slave将master的binary log events拷贝到它的中继日志(relay log)；<br>
+(3)slave重做中继日志中的事件，将改变反映它自己的数据。</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171118040843.png" alt=""></p>
+<p>该过程的第一部分就是master记录二进制日志。在每个事务更新数据完成之前，master在二日志记录这些改变。MySQL将事务串行的写入二进制日志，即使事务中的语句都是交叉执行的。在事件写入二进制日志完成后，master通知存储引擎提交事务。
+下一步就是slave将master的binary log拷贝到它自己的中继日志。首先，slave开始一个工作线程——I/O线程。I/O线程在master上打开一个普通的连接，然后开始binlog dump process。Binlog dump process从master的二进制日志中读取事件，如果已经跟上master，它会睡眠并等待master产生新的事件。I/O线程将这些事件写入中继日志。
+SQL slave thread处理该过程的最后一步。SQL线程从中继日志读取事件，更新slave的数据，使其与master中的数据一致。只要该线程与I/O线程保持一致，中继日志通常会位于OS的缓存中，所以中继日志的开销很小。
+此外，在master中也有一个工作线程：和其它MySQL的连接一样，slave在master中打开一个连接也会使得master开始一个线程。复制过程有一个很重要的限制——复制在slave上是串行化的，也就是说master上的并行更新操作不能在slave上并行操作。
+MySql的基本复制方式有主从复制、主主复制，主主复制即把主从复制的配置倒过来再配置一遍即可，下面的配置则是主从复制的过程，到时候可自行改为主主复制。其他的架构如：一主库多备库、环形复制、树或者金字塔型都是基于这两种方式，可参考《高性能MySql》。</p>
+<h1>二、配置过程</h1>
+<h3>2.1 创建所用的复制账号</h3>
+<p>由于是个自己的小网站，就不做过多的操作了，直接使用root账号</p>
+<h3>2.2 配置master</h3>
+<p>接下来要对mysql的serverID，日志位置，复制方式等进行操作，使用vim打开my.cnf。</p>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">[client]</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">default-character-set=utf8</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">[mysqld]</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">character_set_server=utf8</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">init_connect= SET NAMES utf8</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">datadir=/var/lib/mysql</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">socket=/var/lib/mysql/mysql.sock</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">symbolic-links=0</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">log-error=/var/log/mysqld.log</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">pid-file=/var/run/mysqld/mysqld.pid</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"># master</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">log-bin=mysql-bin</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"># 设为基于行的复制</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">binlog-format=ROW</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"># 设置server的唯一id</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">server-id=2</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"># 忽略的数据库，不使用备份</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">binlog-ignore-db=information_schema</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">binlog-ignore-db=cluster</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">binlog-ignore-db=mysql</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"># 要进行备份的数据库</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">binlog-do-db=myblog</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>重启Mysql之后，查看主库状态，show master status。</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171118050128.png" alt=""></p>
+<p>其中，File为日志文件，指定Slave从哪个日志文件开始读复制数据，Position为偏移，从哪个POSITION号开始读，Binlog_Do_DB为要备份的数据库。</p>
+<h3>2.3 配置slave</h3>
+<p>从库的配置跟主库类似，vim /etc/my.cnf配置从库信息。</p>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">[client]</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">default-character-set=utf8</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">[mysqld]</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">character_set_server=utf8</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">init_connect= SET NAMES utf8</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">datadir=/var/lib/mysql</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">socket=/var/lib/mysql/mysql.sock</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">symbolic-links=0</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">log-error=/var/log/mysqld.log</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">pid-file=/var/run/mysqld/mysqld.pid</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"># slave</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">log-bin=mysql-bin</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"># 服务器唯一id</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">server-id=3</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"># 不备份的数据库</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">binlog-ignore-db=information_schema</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">binlog-ignore-db=cluster</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">binlog-ignore-db=mysql</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"># 需要备份的数据库</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">replicate-do-db=myblog</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"># 其他相关信息</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">slave-skip-errors=all</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">slave-net-timeout=60</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"># 开启中继日志</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">relay_log         = mysql-relay-bin</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"># </span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">log_slave_updates = 1</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"># 防止改变数据</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">read_only         = 1</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>重启slave，同时启动复制，还需要调整一下命令。</p>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">mysql&gt; CHANGE MASTER TO MASTER_HOST = '119.23.46.71', MASTER_USER = 'root', MASTER_PASSWORD = 'helloroot', MASTER_PORT = 3306, MASTER_LOG_FILE = 'mysql-bin.000009', MASTER_LOG_POS = 346180;</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>可以看见slave已经开始进行同步了。我们使用show slave status\G来查看slave的状态。</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171118051031.png" alt=""></p>
+<p>其中日志文件和POSITION不一致是合理的，配置好了的话，即使重启，也不会影响到主从复制的配置。</p>
+<p>某天在Github上漂游，发现了阿里的canal，同时才知道上面这个业务是叫异地跨机房同步，早期，阿里巴巴B2B公司因为存在杭州和美国双机房部署，存在跨机房同步的业务需求。不过早期的数据库同步业务，主要是基于trigger的方式获取增量变更，不过从2010年开始，阿里系公司开始逐步的尝试基于数据库的日志解析，获取增量变更进行同步，由此衍生出了增量订阅&amp;消费的业务。下面是基本的原理：</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171120094405.png" alt=""></p>
+<p>原理相对比较简单：</p>
+<p>1.canal模拟mysql slave的交互协议，伪装自己为mysql slave，向mysql master发送dump协议<br>
+2.mysql master收到dump请求，开始推送binary log给slave(也就是canal)<br>
+3.canal解析binary log对象(原始为byte流)</p>
+<p>其中，配置过程如下：<a href="https://github.com/alibaba/canal" target="_blank" rel="noopener noreferrer">https://github.com/alibaba/canal</a>，可以搭配Zookeeper使用。在ZKUI中能够查看到节点：</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171120100237.png" alt=""></p>
+<p>一般情况下，还要配合阿里的另一个开源产品使用<a href="https://github.com/alibaba/otter" target="_blank" rel="noopener noreferrer">otter</a>，相关文档还是找找GitHub吧，个人搭建完了之后，用起来还是不如直接使用mysql的主主复制，而且异地机房同步这种大企业才有的业务。</p>
+<p>公司又要996了，实在是忙不过来，感觉自己写的还是急躁了点，困==</p>
+]]></content:encoded>
+      <enclosure url="https://github-images.wenzhihuai.com/images/20171018051437-20240126113709561.png" type="image/png"/>
+    </item>
+    <item>
+      <title>7.那些牛逼的插件</title>
+      <link>https://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/7.%E9%82%A3%E4%BA%9B%E7%89%9B%E9%80%BC%E7%9A%84%E6%8F%92%E4%BB%B6.html</link>
+      <guid>https://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/7.%E9%82%A3%E4%BA%9B%E7%89%9B%E9%80%BC%E7%9A%84%E6%8F%92%E4%BB%B6.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">7.那些牛逼的插件</source>
+      <description>7.那些牛逼的插件 欢迎访问我的网站http://www.wenzhihuai.com/ 。感谢，如果可以，希望能在GitHub上给个star，GitHub地址https://github.com/Zephery/newblog 。 建站的一开始，我也想自己全部实现，各种布局，各种炫丽的效果，想做点能让大家佩服的UI出来，但是，事实上，自己作为专注Ja...</description>
+      <pubDate>Tue, 21 Jan 2020 02:38:05 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>欢迎访问我的网站<a href="http://www.wenzhihuai.com/" target="_blank" rel="noopener noreferrer">http://www.wenzhihuai.com/</a> 。感谢，如果可以，希望能在GitHub上给个star，GitHub地址<a href="https://github.com/Zephery/newblog" target="_blank" rel="noopener noreferrer">https://github.com/Zephery/newblog</a> 。<br>
+建站的一开始，我也想自己全部实现，各种布局，各种炫丽的效果，想做点能让大家佩服的UI出来，但是，事实上，自己作为专注Java的程序员，前端的东西一碰脑子就有“我又不是前端，浪费时间在这合适么？”这种想法，捣鼓来捣鼓去，做出的东西实在是没法看，我就觉得，如果自己的“产品”连自己都看不下去了，那还好意思给别人看？特别是留言板那块，初版的页面简直low的要死。所以，还是踏踏实实的“站在巨人的肩膀上”吧，改用别人的插件。但不要纯粹的使用别人的博客模板了，如hexo，wordpress这些，就算是自己拼凑过来的也比这些强。下面是本博客中所用到的插件，给大家介绍介绍，共同学习学习。<br>
+本站主要用到的插件有：<br>
+1.wowslider<br>
+2.畅言<br>
+3.Editor.md<br>
+4.highchart、echart
+5.百度分享<br>
+6.waterfall.js<br>
+7.心知天气<br>
+8.标签云</p>
+<h2>wowslider</h2>
+<p>可能是我这网站中最炫的东西了，图片能够自动像幻灯片一样自动滚动，让网站的首页一看起来就高大上，简直就是建站必备的东西，而且安装也及其简单，有兴趣可以点击<a href="http://wowslider.com/" target="_blank" rel="noopener noreferrer">官网</a>看看。GitHub里也开放了<a href="https://github.com/WOWSlider/WOWSlider" target="_blank" rel="noopener noreferrer">源代码</a>。安装过程：自己选择“幻灯片”切换效果，保存为html就行了，WORDPREESS中好像有集成这个插件的，做的还更好。感兴趣可以点击<a href="http://www.wenzhihuai.com" target="_blank" rel="noopener noreferrer">我的博客首页</a>看一看。</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171121023427.png" alt=""></p>
+<p><strong>不过还有个值得注意的问题，就是wowslider里面带有一个googleapis的服务，即https://fonts.googleapis.com/css?family=Arimo&amp;subset=latin,cyrillic,latin-ext，由于一般用户不能访问谷歌，会导致网页加载速度及其缓慢，所以，去掉为妙</strong></p>
+<h2>畅言</h2>
+<p>作为社交评论的工具，虽然说表示还是想念以前的多说，但是畅言现在做得还是好了，有评论审核，评论导出导入等功能，如果浏览量大的话，还能提供广告服务，让站长也能拿到一丢丢的广告费。本博客中使用了畅言的基本评论、获取某篇文章评论数的功能。可以到我这里<a href="http://www.wenzhihuai.com/board.html" target="_blank" rel="noopener noreferrer">留言</a>哈</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171121024358.png" alt=""></p>
+<h2>Editor.md</h2>
+<p>一款能将markdown解析为html的插件，国人的作品，博客的文章编辑器一开始想使用的是markdown，想法是：写文章、保存数据库都是markdown格式的，保存在数据库中，读取时有需要解析markdown，这个过程是有点耗时的，但是相比把html式的网页保存在数据库中友好点吧，因为如果一篇文章比较长的话，转成html的格式，光是大小估计也得超过几十kb？所以，还是本人选择的是一切都用源markdown。
+<a href="https://github.com/pandao/editor.md" target="_blank" rel="noopener noreferrer">editor.md</a>，是一款开源的、可嵌入的 Markdown 在线编辑器（组件），基于 CodeMirror、jQuery 和 Marked 构建。页面看起来还是美观的，相比WORDPRESS的那些牛逼插件还差那么一点点，不过从普通人的眼光来看，应该是可以的了。此处，我用它作为解析网页的利器，还有就是后台编辑也是用的这个。</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171122030819.png" alt=""></p>
+<p>代码样式，这一点是不如WORDPRESS的插件了，不过已经可以了。</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171122034349.png" alt=""></p>
+<h2>图表</h2>
+<p>目前最常用的是highcharts跟echart，目前个人博客中的日志系统主要还是采用了highcharts，主要还是颜色什么的格调比较相符吧，其次是因为对echarts印象不太友好，比如下面做这张，打开网页后，缩小浏览器，百度的地域图却不能自适应，出现了越界，而highcharts的全部都能自适应调整。想起有次面试，我说我用的highcharts，面试官一脸嫌弃。。。（网上这么多人鄙视百度是假的？）</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171121023342.png" alt=""></p>
+<p>不过地图确确实实是echarts的优势，毕竟还是自家的东西了解自家，不过前段时间去看了看echarts的官网，已经不提供下载了。如果有需要，还是去csdn上搜索吧，或者替换为highmap。</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171125122526.png" alt=""></p>
+<h2>百度分享</h2>
+<p>作为一个以博客为主的网站，免不了使用一些社会化分享的工具，目前主要是<a href="http://www.jiathis.com/" target="_blank" rel="noopener noreferrer">jiathis</a>和百度分享，这两者的ui都是相似的（丑爆了）。凭我个人的感觉，jiathis加载实在是太过于缓慢，这点是无法让人忍受的，只好投靠百度。百度分享类似于jiathis，安装也很简单，具体见官网<a href="http://share.baidu.com/code/advance#tools" target="_blank" rel="noopener noreferrer">http://share.baidu.com/code/advance#tools</a>。一直点点点，配置完之后，就是下图这种，丑爆了是不是？</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171121022116.png" alt=""></p>
+<p>好在对它的美观改变不是很难，此处参考了别人的UI设计，原作者我忘记怎么联系他了。其原理主要是使用图片来替换掉原本的东西。完整的源码可以点击<a href="https://github.com/Zephery/newblog/blob/master/src/main/webapp/board.jsp" target="_blank" rel="noopener noreferrer">此处</a>。</p>
+<div class="language-css line-numbers-mode" data-highlighter="shiki" data-ext="css" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-css"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">#share</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> a</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    width: </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">34</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">px</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    height: </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">34</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">px</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    padding: </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    margin: </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">6</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">px</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    border-radius: </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">25</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">px</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    transition: </span><span style="--shiki-light:#383A42;--shiki-dark:#D19A66">all</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> .4</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">s</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">/*主要的是替换掉backgound的背景图片*/</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">#share</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75"> a</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">.bds_qzone</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    background: </span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">url</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#383A42;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">http://image.wenzhihuai.com/t_QQZone.png</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">) </span><span style="--shiki-light:#383A42;--shiki-dark:#D19A66">no-repeat</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    background-size: </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">34</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">px</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 34</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">px</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>改完之后的效果。</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171127034920.png" alt=""></p>
+<h2>瀑布流</h2>
+<p>有段时间，瀑布流特别流行？还有段时间，瀑布流开始遭到各种抵制。。。<a href="https://www.zhihu.com/question/20653270" target="_blank" rel="noopener noreferrer">看看知乎的人怎么说</a>，大部分人不喜欢的原因是让人觉得视觉疲劳，不过瀑布流最大的好处还是有的：提高发现好图的效率以及图片列表页极强的视觉感染力。没错，我还是想把自己的网站弄得铉一些==，所以采用了瀑布流（不过效果不是很好，某些浏览器甚至加载出错），这个大bug有时间再改，毕竟花了很多时间做的这个，效果确实不咋地。目前主要的瀑布流有<a href="">waterfall.js</a>和<a href="">masory.js</a>。这一块目前还不是很完善，希望能得到各位大佬的指点。</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171125103716.png" alt=""></p>
+<h2>天气插件</h2>
+<p>此类咨询服务还是网上还是挺多的，这一块不知道是不是所谓的“画蛇添足”这部分，主要是我觉得网站右边这部分老是少了点什么，所以加上了天气插件。目前常用的天气插件有<a href="http://cj.weather.com.cn/" target="_blank" rel="noopener noreferrer">中国天气网</a>，<a href="https://www.seniverse.com/widget/intro" target="_blank" rel="noopener noreferrer">心知天气</a>等。安装方式见各自的官网，这里不再阐述，我使用的是心知天气。注意：心知天气限制流量的，一个小时内只能使用400次，如果超出了会失效，当然也可以付费使用。</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171125105127.png" alt=""></p>
+<h2>标签云</h2>
+<p>标签云，弄得好的话应该说是一个网站的点缀。现在好像比较流行3D的标签云？像下面这种。</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171127033202.png" alt=""></p>
+<p>从个人的网站风格来看，比较适应PHP形式的，有点颜色而又不绚丽的即可，之前用的跟分类的一样的样式，即双纵列的样式，美观度还行，虽然老是感觉有点怪怪的，如果某个标签的字数过长怎么办，岂不是要顶出div了。所以还是选择换另一种风格，最终偶然一次找到了下面这种，能够自适应宽度，颜色虽然鲜艳了点（以后有空再调一下吧），源码见<a href="https://github.com/Zephery/newblog/blob/master/src/main/webapp/css/newlypublished.css" target="_blank" rel="noopener noreferrer">style.css</a>。  下图为目前的标签页。</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20171127033945.png" alt=""></p>
+<h1>总结</h1>
+<p>作为一个后端人员，调css和js真是痛苦==，好在坚持下来了，虽然还是很多不足，以后有时间慢慢改。说了那么多，感觉自己还是菜的抠脚。
+题外话，搭建一个博客，对于一个新近程序员来说真的是锻炼自己的一个好机会，能够认识到从前端、java后台、linux、jvm等等知识，只是真的有点耗时间（还不如把时间耗在Spring源码），如果不采用别人的框架的话，付出的代价还是蛮大的（所以不要鄙视我啦）。没有什么能够一举两得，看自己的取舍吧。加油💪(ง •_•)ง</p>
+<p>欢迎访问我的网站<a href="http://www.wenzhihuai.com/" target="_blank" rel="noopener noreferrer">http://www.wenzhihuai.com/</a> 。感谢，如果可以，希望能在GitHub上给个star，GitHub地址<a href="https://github.com/Zephery/newblog" target="_blank" rel="noopener noreferrer">https://github.com/Zephery/newblog</a> 。</p>
+]]></content:encoded>
+      <enclosure url="https://github-images.wenzhihuai.com/images/20171121023427.png" type="image/png"/>
+    </item>
+    <item>
+      <title>一次jvm调优过程</title>
+      <link>https://www.wenzhihuai.com/java/JVM/%E4%B8%80%E6%AC%A1jvm%E8%B0%83%E4%BC%98%E8%BF%87%E7%A8%8B.html</link>
+      <guid>https://www.wenzhihuai.com/java/JVM/%E4%B8%80%E6%AC%A1jvm%E8%B0%83%E4%BC%98%E8%BF%87%E7%A8%8B.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">一次jvm调优过程</source>
+      <description>一次jvm调优过程 前端时间把公司的一个分布式定时调度的系统弄上了容器云，部署在kubernetes，在容器运行的动不动就出现问题，特别容易jvm溢出，导致程序不可用，终端无法进入，日志一直在刷错误，kubernetes也没有将该容器自动重启。业务方基本每天都在反馈task不稳定，后续就协助接手看了下，先主要讲下该程序的架构吧。 该程序task主要分为...</description>
+      <pubDate>Tue, 21 Jan 2020 02:28:56 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>前端时间把公司的一个分布式定时调度的系统弄上了容器云，部署在kubernetes，在容器运行的动不动就出现问题，特别容易jvm溢出，导致程序不可用，终端无法进入，日志一直在刷错误，kubernetes也没有将该容器自动重启。业务方基本每天都在反馈task不稳定，后续就协助接手看了下，先主要讲下该程序的架构吧。
+该程序task主要分为三个模块：
+console进行一些cron的配置（表达式、任务名称、任务组等）；
+schedule主要从数据库中读取配置然后装载到quartz再然后进行命令下发；
+client接收任务执行，然后向schedule返回运行的信息（成功、失败原因等）。
+整体架构跟github上开源的xxl-job类似，也可以参考一下。</p>
+<h2>1. 启用jmx和远程debug模式</h2>
+<p>容器的网络使用了BGP，打通了公司的内网，所以可以直接通过ip来进行程序的调试，主要是在启动的jvm参数中添加：</p>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">JAVA_DEBUG_OPTS</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">" -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,address=0.0.0.0:8000,server=y,suspend=n "</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">JAVA_JMX_OPTS</span><span style="--shiki-light:#383A42;--shiki-dark:#56B6C2">=</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">" -Dcom.sun.management.jmxremote.port=1099 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false "</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div></div></div><p>其中，调试模式的address最好加上0.0.0.0，有时候通过netstat查看端口的时候，该位置显示为127.0.0.1，导致无法正常debug，开启了jmx之后，可以初步观察堆内存的情况。</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20200121102100646998927.png" alt=""></p>
+<p><img src="https://github-images.wenzhihuai.com/images/20200121102112646209333.png" alt=""></p>
+<p>堆内存（特别是cms的old gen），初步看代码觉得是由于用了大量的map，本地缓存了大量数据，怀疑是每次定时调度的信息都进行了保存。</p>
+<h2>2. memory analyzer、jprofiler进行堆内存分析</h2>
+<p>先从容器中dump出堆内存</p>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">jmap</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -dump:live,format=b,file=heap.hprof</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 58</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p><img src="https://github-images.wenzhihuai.com/images/202001211021411245129253.png" alt=""></p>
+<p>由图片可以看出，这些大对象不过也就10M，并没有想象中的那么大，所以并不是大对象的问题，后续继续看了下代码，虽然每次请求都会把信息放进map里，如果能正常调通的话，就会移除map中保存的记录，由于是测试环境，执行端很多时候都没有正常运行，甚至说业务方关闭了程序，导致调度一直出现问题，所以map的只会保留大量的错误请求。不过相对于该程序的堆内存来说，不是主要问题。</p>
+<h2>3. netty的方面的考虑</h2>
+<p>另一个小伙伴一直怀疑的是netty这一块有错误，着重看了下。该程序用netty自己实现了一套rpc，调度端每次进行命令下发的时候都会通过netty的rpc来进行通信，整个过程逻辑写的很混乱，下面开始排查。
+首先是查看堆内存的中占比：</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20200121102201592637921.png" alt=""></p>
+<p>可以看出，io.netty.channel.nio.NioEventLoop的占比达到了40%左右，再然后是io.netty.buffer.PoolThreadCache，占比大概达到33%左右。猜想可能是传输的channel没有关闭，还是NioEventLoop没有关闭。再跑去看一下jmx的线程数：</p>
+<p><img src="https://github-images.wenzhihuai.com/images/202001211022191867685117.png" alt=""></p>
+<p>达到了惊人的1000个左右，而且一直在增长，没有过下降的趋势，再次猜想到可能是NioEventLoop没有关闭，在代码中全局搜索NioEventLoop，找到一处比较可疑的地方。</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20200121102239634803742.png" alt=""></p>
+<p>声明了一个NioEventLoopGroup的成员变量，通过构造方法进行了初始化，但是在执行syncRequest完之后并没有进行对group进行shutdownGracefully操作，外面对其的操作并没有对该类的group对象进行关闭，导致线程数一直在增长。</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20200121102251548240533.png" alt=""></p>
+<p>最终解决办法：
+在调用完syncRequest方法时，对ChannelBootStrap的group对象进行行shutdownGracefully</p>
+<p><img src="https://github-images.wenzhihuai.com/images/202001211023001796761285.png" alt=""></p>
+<p>提交代码，容器中继续测试，可以基本看出，线程基本处于稳定状态，并不会出现一直增长的情况了</p>
+<p><img src="https://github-images.wenzhihuai.com/images/202001211023141978405713.png" alt=""></p>
+<p>还原本以为基本解决了，到最后还是发现，堆内存还算稳定，但是，直接内存依旧打到了100%，虽然程序没有挂掉，所以，上面做的，可能仅仅是为这个程序续命了而已，感觉并没有彻底解决掉问题。</p>
+<p><img src="https://github-images.wenzhihuai.com/images/202001211023231033694109.png" alt=""></p>
+<h2>4. 直接内存排查</h2>
+<p>第一个想到的就是netty的直接内存，关掉，命令如下：</p>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">-Dio.netty.noPreferDirect</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">=</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">true</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -Dio.netty.leakDetectionLevel=advanced</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p><img src="https://github-images.wenzhihuai.com/images/202001211023381459531529.png" alt=""></p>
+<p>查看了一下java的nio直接内存，发现也就几十kb，然而直接内存还是慢慢往上涨。毫无头绪，然后开始了自己的从linux层面开始排查问题</p>
+<h2>5. 推荐的直接内存排查方法</h2>
+<h4>5.1 pmap</h4>
+<p>一般配合pmap使用，从内核中读取内存块，然后使用views 内存块来判断错误，我简单试了下，乱码，都是二进制的东西，看不出所以然来。</p>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">pmap</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -d</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 58</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  | </span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">sort</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -n</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -k2</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">pmap</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -x</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 58</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  | </span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">sort</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -n</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -k3</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">grep</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> rw-p</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> /proc/</span><span style="--shiki-light:#383A42;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">$1</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">/maps</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> | </span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">sed</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -n</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 's/^\([0-9a-f]*\)-\([0-9a-f]*\) .*$/\1 \2/p'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> | </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">while</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> read</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> start</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> stop</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">; </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">do</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> gdb</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> --batch</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> --pid</span><span style="--shiki-light:#383A42;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic"> $1</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> -ex</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "dump memory </span><span style="--shiki-light:#383A42;--shiki-light-font-style:inherit;--shiki-dark:#E06C75;--shiki-dark-font-style:italic">$1</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">-</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">$start</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">-</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">$stop</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">.dump 0x</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">$start</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 0x</span><span style="--shiki-light:#E45649;--shiki-dark:#E06C75">$stop</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">; </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">done</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>这个时候真的懵了，不知道从何入手了，难道是linux操作系统方面的问题？</p>
+<h4>5.2 [gperftools]（https://github.com/gperftools/gperftools）</h4>
+<p>起初，在网上看到有人说是因为linux自带的glibc版本太低了，导致的内存溢出，考虑一下。初步觉得也可能是因为这个问题，所以开始慢慢排查。oracle官方有一个jemalloc用来替换linux自带的，谷歌那边也有一个tcmalloc，据说性能比glibc、jemalloc都强，开始换一下。
+根据网上说的，在容器里装libunwind，然后再装perf-tools，然后各种捣鼓，到最后发现，执行不了，</p>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-bash"><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">pprof</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> --text</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> /usr/bin/java</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> java_58.0001.heap</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p><img src="https://github-images.wenzhihuai.com/images/202001211024021477267177.png" alt=""></p>
+<p>看着工具高大上的，似乎能找出linux的调用栈，</p>
+<h2>6. 意外的结果</h2>
+<p>毫无头绪的时候，回想到了linux的top命令以及日志情况，测试环境是由于太多执行端业务方都没有维护，导致调度系统一直会出错，一出错就会导致大量刷错误日志，平均一天一个容器大概就有3G的日志，cron一旦到准点，就会有大量的任务要同时执行，而且容器中是做了对io的限制，磁盘也限制为10G，导致大量的日志都堆积在buff/cache里面，最终直接内存一直在涨，这个时候，系统不会挂，但是先会一直显示内存使用率达到100%。
+修复后的结果如下图所示：</p>
+<p><img src="https://github-images.wenzhihuai.com/images/202001211024142482541.png" alt=""></p>
+<p><img src="https://github-images.wenzhihuai.com/images/202001211024261078778632.png" alt=""></p>
+<h2>总结</h2>
+<p>定时调度这个系统当时并没有考虑到公司的系统会用的这么多，设计的时候也仅仅是为了实现上千的量，没想到到最后变成了一天的调度都有几百万次。最初那批开发也就使用了大量的本地缓存map来临时存储数据，然后面向简历编程各种用netty自己实现了通信的方式，一堆坑都留给了后人。目前也算是解决掉了一个由于线程过多导致系统不可用的情况而已，但是由于存在大量的map，系统还是得偶尔重启一下比较好。</p>
+<p>参考：<br>
+1.<a href="https://www.cnblogs.com/testfan2019/p/11151008.html" target="_blank" rel="noopener noreferrer">记一次线上内存泄漏问题的排查过程</a><br>
+2.<a href="https://coldwalker.com/2018/08//troubleshooter_native_memory_increase/" target="_blank" rel="noopener noreferrer">Java堆外内存增长问题排查Case</a><br>
+3.<a href="https://static.rainfocus.com/oracle/oow18/sess/1524505564465001W0mS/PF/Troubleshooting_native_memory_leaks_1540301908390001k6DR.pdf" target="_blank" rel="noopener noreferrer">Troubleshooting Native Memory Leaks in Java Applications</a></p>
+]]></content:encoded>
+      <enclosure url="https://github-images.wenzhihuai.com/images/20200121102100646998927.png" type="image/png"/>
+    </item>
+    <item>
+      <title>Spark</title>
+      <link>https://www.wenzhihuai.com/bigdata/</link>
+      <guid>https://www.wenzhihuai.com/bigdata/</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">Spark</source>
+      <description>Spark</description>
+      <pubDate>Sun, 25 Aug 2019 08:27:20 GMT</pubDate>
+      <content:encoded><![CDATA[
+]]></content:encoded>
     </item>
   </channel>
 </rss>
