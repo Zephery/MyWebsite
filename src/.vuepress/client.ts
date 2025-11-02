@@ -1,7 +1,6 @@
 import {defineClientConfig} from "vuepress/client";
 import Layout from "./layouts/NormalPage.vue";
 import {setupRunningTimeFooter} from "vuepress-theme-hope/presets/footerRunningTime.js";
-import {setupTransparentNavbar} from "vuepress-theme-hope/presets/transparentNavbar.js";
 
 export default defineClientConfig({
     setup() {
@@ -12,7 +11,6 @@ export default defineClientConfig({
             },
             true,
         );
-        setupTransparentNavbar();
     },
     // 你可以在这里添加或覆盖布局
     layouts: {
