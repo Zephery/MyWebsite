@@ -9,6 +9,7 @@ export default hopeTheme({
         hostname: "https://www.wenzhihuai.com/",
         logo: "https://github-images.wenzhihuai.com/images/logo.png",
         favicon: "/favicon.ico",
+        sidebarSorter: ["order", "date-desc"],
         // iconAssets: "//at.alicdn.com/t/c/font_2922463_o9q9dxmps9.css",
         markdown: {
             align: true,
