@@ -6,21 +6,10 @@
     <link>https://www.wenzhihuai.com/</link>
     <description>个人博客</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 02 Nov 2025 09:55:16 GMT</pubDate>
-    <lastBuildDate>Sun, 02 Nov 2025 09:55:16 GMT</lastBuildDate>
+    <pubDate>Sun, 02 Nov 2025 10:13:01 GMT</pubDate>
+    <lastBuildDate>Sun, 02 Nov 2025 10:13:01 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <item>
-      <title>ShadowSocks安装</title>
-      <link>https://www.wenzhihuai.com/interesting/ShadowSocks%E5%AE%89%E8%A3%85.html</link>
-      <guid>https://www.wenzhihuai.com/interesting/ShadowSocks%E5%AE%89%E8%A3%85.html</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">ShadowSocks安装</source>
-      <description>ShadowSocks安装 https://www.v2ray.com/</description>
-      <pubDate>Sat, 01 Nov 2025 04:49:29 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>https://www.v2ray.com/</p>
-]]></content:encoded>
-    </item>
     <item>
       <title>监控指标上报Starrocks</title>
       <link>https://www.wenzhihuai.com/java/SpringBoot/%E7%9B%91%E6%8E%A7%E6%8C%87%E6%A0%87%E4%B8%8A%E6%8A%A5Starrocks.html</link>
@@ -7071,6 +7060,16 @@ client接收任务执行，然后向schedule返回运行的信息（成功、失
       <guid>https://www.wenzhihuai.com/bigdata/</guid>
       <source url="https://www.wenzhihuai.com/rss.xml">Spark</source>
       <description>Spark</description>
+      <pubDate>Sun, 25 Aug 2019 08:27:20 GMT</pubDate>
+      <content:encoded><![CDATA[
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>https://www.wenzhihuai.com/java/</link>
+      <guid>https://www.wenzhihuai.com/java/</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">Java</source>
+      <description>Java</description>
       <pubDate>Sun, 25 Aug 2019 08:27:20 GMT</pubDate>
       <content:encoded><![CDATA[
 ]]></content:encoded>
