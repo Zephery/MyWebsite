@@ -11,7 +11,10 @@ export default hopeTheme({
         favicon: "/favicon.ico",
         // iconAssets: "//at.alicdn.com/t/c/font_2922463_o9q9dxmps9.css",
         markdown: {
+            align: true,
             mermaid: true,
+            imgSize: true,
+            imgLazyload: true,
         },
         author: {
             name: "Zephery",

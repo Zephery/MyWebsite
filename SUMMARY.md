@@ -9,7 +9,7 @@
   * [1.4 【elasticsearch】搜索过程详解](src/database/elasticsearch/es8.0练习.md)
   * [1.5 基于kubernetes的分布式限流](src/java/基于kubernetes的分布式限流.md)
 * [二、大数据](src/bigdata/README.md)
-  * [3.1 elastic-spark.md](src/bigdata/spark/elastic-spark.md)
+  * [3.1 elastic-spark.md](src/database/elasticsearch/elastic-spark.md)
 * [三、个人网站](src/interesting/个人网站/README.md)
   * [3.1 历史与架构.md](src/interesting/个人网站/1.历史与架构.md)
   * [3.2 Lucene的使用.md](src/interesting/个人网站/2.Lucene的使用.md)
