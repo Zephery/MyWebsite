@@ -4,7 +4,7 @@
   <title>个人博客</title>
   <subtitle>个人博客</subtitle>
   <icon>https://www.wenzhihuai.com/favicon.ico</icon>
-  <updated>2025-11-03T14:23:18.762Z</updated>
+  <updated>2025-11-03T14:32:02.251Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://www.wenzhihuai.com/atom.xml"/>
   <link rel="alternate" href="https://www.wenzhihuai.com/"/>
@@ -5184,17 +5184,6 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
     <published>2024-01-24T10:30:22.000Z</published>
   </entry>
   <entry>
-    <title type="text">中间件</title>
-    <id>https://www.wenzhihuai.com/middleware/</id>
-    <link href="https://www.wenzhihuai.com/middleware/"/>
-    <updated>2025-11-01T04:49:29.000Z</updated>
-    <summary type="html"><![CDATA[
-]]></summary>
-    <content type="html"><![CDATA[
-]]></content>
-    <published>2024-01-24T03:35:40.000Z</published>
-  </entry>
-  <entry>
     <title type="text"></title>
     <id>https://www.wenzhihuai.com/interview/tiktok2023.html</id>
     <link href="https://www.wenzhihuai.com/interview/tiktok2023.html"/>
@@ -7532,19 +7521,6 @@ client接收任务执行，然后向schedule返回运行的信息（成功、失
 3.<a href="https://static.rainfocus.com/oracle/oow18/sess/1524505564465001W0mS/PF/Troubleshooting_native_memory_leaks_1540301908390001k6DR.pdf" target="_blank" rel="noopener noreferrer">Troubleshooting Native Memory Leaks in Java Applications</a></p>
 ]]></content>
     <published>2020-01-21T02:28:56.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">目录</title>
-    <id>https://www.wenzhihuai.com/kubernetes/</id>
-    <link href="https://www.wenzhihuai.com/kubernetes/"/>
-    <updated>2025-11-01T04:49:29.000Z</updated>
-    <summary type="html"><![CDATA[
-<p>包含CICD、Kubernetes</p>
-]]></summary>
-    <content type="html"><![CDATA[
-<p>包含CICD、Kubernetes</p>
-]]></content>
-    <published>2019-08-25T08:27:20.000Z</published>
   </entry>
   <entry>
     <title type="text">8.基于贝叶斯的情感分析</title>

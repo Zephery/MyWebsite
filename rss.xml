@@ -6,8 +6,8 @@
     <link>https://www.wenzhihuai.com/</link>
     <description>个人博客</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 03 Nov 2025 14:23:18 GMT</pubDate>
-    <lastBuildDate>Mon, 03 Nov 2025 14:23:18 GMT</lastBuildDate>
+    <pubDate>Mon, 03 Nov 2025 14:32:02 GMT</pubDate>
+    <lastBuildDate>Mon, 03 Nov 2025 14:32:02 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <item>
@@ -4717,16 +4717,6 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
 ]]></content:encoded>
     </item>
     <item>
-      <title>中间件</title>
-      <link>https://www.wenzhihuai.com/middleware/</link>
-      <guid>https://www.wenzhihuai.com/middleware/</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">中间件</source>
-      <description>中间件</description>
-      <pubDate>Wed, 24 Jan 2024 03:35:40 GMT</pubDate>
-      <content:encoded><![CDATA[
-]]></content:encoded>
-    </item>
-    <item>
       <title></title>
       <link>https://www.wenzhihuai.com/interview/tiktok2023.html</link>
       <guid>https://www.wenzhihuai.com/interview/tiktok2023.html</guid>
@@ -6951,17 +6941,6 @@ client接收任务执行，然后向schedule返回运行的信息（成功、失
 3.<a href="https://static.rainfocus.com/oracle/oow18/sess/1524505564465001W0mS/PF/Troubleshooting_native_memory_leaks_1540301908390001k6DR.pdf" target="_blank" rel="noopener noreferrer">Troubleshooting Native Memory Leaks in Java Applications</a></p>
 ]]></content:encoded>
       <enclosure url="https://github-images.wenzhihuai.com/images/20200121102100646998927.png" type="image/png"/>
-    </item>
-    <item>
-      <title>目录</title>
-      <link>https://www.wenzhihuai.com/kubernetes/</link>
-      <guid>https://www.wenzhihuai.com/kubernetes/</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">目录</source>
-      <description>目录 包含CICD、Kubernetes</description>
-      <pubDate>Sun, 25 Aug 2019 08:27:20 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>包含CICD、Kubernetes</p>
-]]></content:encoded>
     </item>
     <item>
       <title>8.基于贝叶斯的情感分析</title>
