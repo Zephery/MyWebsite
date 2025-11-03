@@ -6,8 +6,8 @@
     <link>https://www.wenzhihuai.com/</link>
     <description>个人博客</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 02 Nov 2025 17:06:09 GMT</pubDate>
-    <lastBuildDate>Sun, 02 Nov 2025 17:06:09 GMT</lastBuildDate>
+    <pubDate>Mon, 03 Nov 2025 14:23:18 GMT</pubDate>
+    <lastBuildDate>Mon, 03 Nov 2025 14:23:18 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <item>
@@ -3125,6 +3125,68 @@ lua脚本解释</p>
       <enclosure url="https://upyuncdn.wenzhihuai.com/20180316081203383746214.png" type="image/png"/>
     </item>
     <item>
+      <title>canal小记</title>
+      <link>https://www.wenzhihuai.com/middleware/canal/%E4%B8%AD%E9%97%B4%E4%BB%B6%E2%80%94%E2%80%94canal%E5%B0%8F%E8%AE%B0.html</link>
+      <guid>https://www.wenzhihuai.com/middleware/canal/%E4%B8%AD%E9%97%B4%E4%BB%B6%E2%80%94%E2%80%94canal%E5%B0%8F%E8%AE%B0.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">canal小记</source>
+      <description>canal小记 接到个小需求，将mysql的部分数据增量同步到es，但是不仅仅是使用canal而已，整体的流程是mysql&amp;gt;&amp;gt;canal&amp;gt;&amp;gt;flume&amp;gt;&amp;gt;kafka&amp;gt;&amp;gt;es，说难倒也不难，只是做起来碰到的坑实在太多，特别是中间套了那么多中间件，出了故障找起来真的特别麻烦。 先来了解一下MySQL的主从备份： 从上层来看，复制分成三步： master将改...</description>
+      <pubDate>Tue, 06 Feb 2024 07:22:35 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>接到个小需求，将mysql的部分数据增量同步到es，但是不仅仅是使用canal而已，整体的流程是mysql&gt;&gt;canal&gt;&gt;flume&gt;&gt;kafka&gt;&gt;es，说难倒也不难，只是做起来碰到的坑实在太多，特别是中间套了那么多中间件，出了故障找起来真的特别麻烦。</p>
+<p>先来了解一下MySQL的主从备份：</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20180421025107389573244.png" alt="" loading="lazy"></p>
+<p>从上层来看，复制分成三步：<br>
+master将改变记录到二进制日志(binary log)中（这些记录叫做二进制日志事件，binary log events，可以通过show binlog events进行查看）；
+slave将master的binary log events拷贝到它的中继日志(relay log)；
+slave重做中继日志中的事件，将改变反映它自己的数据。</p>
+<h2>问题一：测试环境一切正常，但是正式环境中，这几个字段全为0，不知道为什么</h2>
+<p>最后发现是沟通问题。。。</p>
+<p><img src="https://github-images.wenzhihuai.com/images/2018042101385616022393.png" alt="" loading="lazy"></p>
+<p>排查过程：</p>
+<ol>
+<li>起初，怀疑是es的问题，会不会是string转为long中出现了问题，PUT了个，无异常，这种情况排除。</li>
+<li>再然后以为是代码有问题，可是想了下，rowData.getAfterColumnsList().forEach(column -&gt; data.put(column.getName(), column.getValue()))这句不可能有什么其他的问题啊，而且测试环境中一切都是好好的。</li>
+<li>canal安装出错，重新查看了一次canal.properties和instance.properties，并没有发现配置错了啥，如果错了，那为什么只有那几个字段出现异常，其他的都是好好的，郁闷。而且，用测试环境的canal配置生产中的数据库，然后本地调试，结果依旧一样。可能问题出在mysql。</li>
+</ol>
+<p>最后发现，居然是沟通问题。。。。测试环境中是从正式环境导入的，用的insert，可是在正式环境里，用的确实insert后update字段，之后发现居然还用delete，，，，晕。。。。之前明确问过了只更新insert的，人与人之间的信任在哪里。。。。</p>
+<h2>问题二：canal.properties中四种模式的差别</h2>
+<p>简单的说，canal维护一份增量订阅和消费关系是依靠解析位点和消费位点的，目前提供了一下四种配置，一开始我也是懵的。</p>
+<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">#canal.instance.global.spring.xml = classpath:spring/local-instance.xml</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">#canal.instance.global.spring.xml = classpath:spring/memory-instance.xml</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">canal.instance.global.spring.xml = classpath:spring/file-instance.xml</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">#canal.instance.global.spring.xml = classpath:spring/default-instance.xml</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>local-instance</strong>
+我也不知道啥。。</p>
+<p><strong>memory-instance</strong>
+所有的组件(parser , sink , store)都选择了内存版模式，记录位点的都选择了memory模式，重启后又会回到初始位点进行解析
+特点：速度最快，依赖最少(不需要zookeeper)
+场景：一般应用在quickstart，或者是出现问题后，进行数据分析的场景，不应该将其应用于生产环境。
+个人建议是调试的时候使用该模式，即新增数据的时候，客户端能马上捕获到改日志，但是由于位点一直都是canal启动的时候最新的，不适用与生产环境。</p>
+<p><strong>file-instance</strong>
+所有的组件(parser , sink , store)都选择了基于file持久化模式，注意，不支持HA机制.
+特点：支持单机持久化
+场景：生产环境，无HA需求，简单可用.
+采用该模式的时候，如果关闭了canal，会在destination中生成一个meta.dat，用来记录关键信息。如果想要启动canal之后马上订阅最新的位点，需要把该文件删掉。
+<em>{"clientDatas":[{"clientIdentity":{"clientId":1001,"destination":"example","filter":".</em>\..<em>"},"cursor":{"identity":{"slaveId":-1,"sourceAddress":{"address":"192.168.6.71","port":3306}},"postion":{"included":false,"journalName":"binlog.008335","position":221691106,"serverId":88888,"timestamp":1524294834000}}}],"destination":"example"}</em></p>
+<p><strong>default-instance</strong>
+所有的组件(parser , sink , store)都选择了持久化模式，目前持久化的方式主要是写入zookeeper，保证数据集群共享。
+特点：支持HA
+场景：生产环境，集群化部署.
+该模式会记录集群中所有运行的节点，主要用与HA主备模式，节点中的数据如下，可以关闭某一个canal服务来查看running的变化信息。</p>
+<p><img src="https://github-images.wenzhihuai.com/images/201804210425561692361189.png" alt="" loading="lazy"></p>
+<h2>问题三：如果要订阅的是mysql的从库改怎么做？</h2>
+<p>生产环境中的主库是不能随便重启的，所以订阅的话必须订阅mysql主从的从库，而从库中是默认下只将主库的操作写进中继日志，并写到自己的二进制日志的，所以需要让其成为canal的主库，必须让其将日志也写到自己的二进制日志里面。处理方法：修改/etc/my.cnf，增加一行log_slave_updates=1，重启数据库后就可以了。</p>
+<p><img src="https://github-images.wenzhihuai.com/images/201804210451321357023546.png" alt="" loading="lazy"></p>
+<h2>问题四：部分字段没有更新</h2>
+<p>最终版本是以mysql的id为es的主键，用canal同步到flume，再由flume到kafka，然后再由一个中间件写到es里面去，结果发现，一天之中，会有那么一段时间得出的结果少一丢丢，甚至是骤降，如图。不得不从头开始排查情况，canal到flume，加了canal的重试，以及发送到flume的重试机制，没有报错，所有数据正常发送。flume到kafka不敢怀疑，毕竟公司一直在用，怎么可能有问题。kafka到es的中间件？组长写的，而且一直在用，不可能==最后确认的是flume到kafka，kafka的parition处理速度不同，</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20180428015132288764661.png" alt="" loading="lazy"></p>
+<p>check一下flume的文档，可以知道</p>
+<p>| Property Name  |   Description|
+|</p>
+]]></content:encoded>
+      <enclosure url="https://github-images.wenzhihuai.com/images/20180421025107389573244.png" type="image/png"/>
+    </item>
+    <item>
       <title>基于ZooKeeper的队列爬虫</title>
       <link>https://www.wenzhihuai.com/middleware/zookeeper/%E5%9F%BA%E4%BA%8EZooKeeper%E7%9A%84%E9%98%9F%E5%88%97%E7%88%AC%E8%99%AB.html</link>
       <guid>https://www.wenzhihuai.com/middleware/zookeeper/%E5%9F%BA%E4%BA%8EZooKeeper%E7%9A%84%E9%98%9F%E5%88%97%E7%88%AC%E8%99%AB.html</guid>
@@ -3384,68 +3446,6 @@ lua脚本解释</p>
 个人网站代码地址：<a href="https://github.com/Zephery/newblog" target="_blank" rel="noopener noreferrer">https://github.com/Zephery/newblog</a></p>
 ]]></content:encoded>
       <enclosure url="https://github-images.wenzhihuai.com/images/20171030102024.png" type="image/png"/>
-    </item>
-    <item>
-      <title>canal小记</title>
-      <link>https://www.wenzhihuai.com/middleware/canal/%E4%B8%AD%E9%97%B4%E4%BB%B6%E2%80%94%E2%80%94canal%E5%B0%8F%E8%AE%B0.html</link>
-      <guid>https://www.wenzhihuai.com/middleware/canal/%E4%B8%AD%E9%97%B4%E4%BB%B6%E2%80%94%E2%80%94canal%E5%B0%8F%E8%AE%B0.html</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">canal小记</source>
-      <description>canal小记 接到个小需求，将mysql的部分数据增量同步到es，但是不仅仅是使用canal而已，整体的流程是mysql&amp;gt;&amp;gt;canal&amp;gt;&amp;gt;flume&amp;gt;&amp;gt;kafka&amp;gt;&amp;gt;es，说难倒也不难，只是做起来碰到的坑实在太多，特别是中间套了那么多中间件，出了故障找起来真的特别麻烦。 先来了解一下MySQL的主从备份： 从上层来看，复制分成三步： master将改...</description>
-      <pubDate>Tue, 06 Feb 2024 07:22:35 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>接到个小需求，将mysql的部分数据增量同步到es，但是不仅仅是使用canal而已，整体的流程是mysql&gt;&gt;canal&gt;&gt;flume&gt;&gt;kafka&gt;&gt;es，说难倒也不难，只是做起来碰到的坑实在太多，特别是中间套了那么多中间件，出了故障找起来真的特别麻烦。</p>
-<p>先来了解一下MySQL的主从备份：</p>
-<p><img src="https://github-images.wenzhihuai.com/images/20180421025107389573244.png" alt="" loading="lazy"></p>
-<p>从上层来看，复制分成三步：<br>
-master将改变记录到二进制日志(binary log)中（这些记录叫做二进制日志事件，binary log events，可以通过show binlog events进行查看）；
-slave将master的binary log events拷贝到它的中继日志(relay log)；
-slave重做中继日志中的事件，将改变反映它自己的数据。</p>
-<h2>问题一：测试环境一切正常，但是正式环境中，这几个字段全为0，不知道为什么</h2>
-<p>最后发现是沟通问题。。。</p>
-<p><img src="https://github-images.wenzhihuai.com/images/2018042101385616022393.png" alt="" loading="lazy"></p>
-<p>排查过程：</p>
-<ol>
-<li>起初，怀疑是es的问题，会不会是string转为long中出现了问题，PUT了个，无异常，这种情况排除。</li>
-<li>再然后以为是代码有问题，可是想了下，rowData.getAfterColumnsList().forEach(column -&gt; data.put(column.getName(), column.getValue()))这句不可能有什么其他的问题啊，而且测试环境中一切都是好好的。</li>
-<li>canal安装出错，重新查看了一次canal.properties和instance.properties，并没有发现配置错了啥，如果错了，那为什么只有那几个字段出现异常，其他的都是好好的，郁闷。而且，用测试环境的canal配置生产中的数据库，然后本地调试，结果依旧一样。可能问题出在mysql。</li>
-</ol>
-<p>最后发现，居然是沟通问题。。。。测试环境中是从正式环境导入的，用的insert，可是在正式环境里，用的确实insert后update字段，之后发现居然还用delete，，，，晕。。。。之前明确问过了只更新insert的，人与人之间的信任在哪里。。。。</p>
-<h2>问题二：canal.properties中四种模式的差别</h2>
-<p>简单的说，canal维护一份增量订阅和消费关系是依靠解析位点和消费位点的，目前提供了一下四种配置，一开始我也是懵的。</p>
-<div class="language-html line-numbers-mode" data-highlighter="shiki" data-ext="html" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-html"><span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">#canal.instance.global.spring.xml = classpath:spring/local-instance.xml</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">#canal.instance.global.spring.xml = classpath:spring/memory-instance.xml</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">canal.instance.global.spring.xml = classpath:spring/file-instance.xml</span></span>
-<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">#canal.instance.global.spring.xml = classpath:spring/default-instance.xml</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>local-instance</strong>
-我也不知道啥。。</p>
-<p><strong>memory-instance</strong>
-所有的组件(parser , sink , store)都选择了内存版模式，记录位点的都选择了memory模式，重启后又会回到初始位点进行解析
-特点：速度最快，依赖最少(不需要zookeeper)
-场景：一般应用在quickstart，或者是出现问题后，进行数据分析的场景，不应该将其应用于生产环境。
-个人建议是调试的时候使用该模式，即新增数据的时候，客户端能马上捕获到改日志，但是由于位点一直都是canal启动的时候最新的，不适用与生产环境。</p>
-<p><strong>file-instance</strong>
-所有的组件(parser , sink , store)都选择了基于file持久化模式，注意，不支持HA机制.
-特点：支持单机持久化
-场景：生产环境，无HA需求，简单可用.
-采用该模式的时候，如果关闭了canal，会在destination中生成一个meta.dat，用来记录关键信息。如果想要启动canal之后马上订阅最新的位点，需要把该文件删掉。
-<em>{"clientDatas":[{"clientIdentity":{"clientId":1001,"destination":"example","filter":".</em>\..<em>"},"cursor":{"identity":{"slaveId":-1,"sourceAddress":{"address":"192.168.6.71","port":3306}},"postion":{"included":false,"journalName":"binlog.008335","position":221691106,"serverId":88888,"timestamp":1524294834000}}}],"destination":"example"}</em></p>
-<p><strong>default-instance</strong>
-所有的组件(parser , sink , store)都选择了持久化模式，目前持久化的方式主要是写入zookeeper，保证数据集群共享。
-特点：支持HA
-场景：生产环境，集群化部署.
-该模式会记录集群中所有运行的节点，主要用与HA主备模式，节点中的数据如下，可以关闭某一个canal服务来查看running的变化信息。</p>
-<p><img src="https://github-images.wenzhihuai.com/images/201804210425561692361189.png" alt="" loading="lazy"></p>
-<h2>问题三：如果要订阅的是mysql的从库改怎么做？</h2>
-<p>生产环境中的主库是不能随便重启的，所以订阅的话必须订阅mysql主从的从库，而从库中是默认下只将主库的操作写进中继日志，并写到自己的二进制日志的，所以需要让其成为canal的主库，必须让其将日志也写到自己的二进制日志里面。处理方法：修改/etc/my.cnf，增加一行log_slave_updates=1，重启数据库后就可以了。</p>
-<p><img src="https://github-images.wenzhihuai.com/images/201804210451321357023546.png" alt="" loading="lazy"></p>
-<h2>问题四：部分字段没有更新</h2>
-<p>最终版本是以mysql的id为es的主键，用canal同步到flume，再由flume到kafka，然后再由一个中间件写到es里面去，结果发现，一天之中，会有那么一段时间得出的结果少一丢丢，甚至是骤降，如图。不得不从头开始排查情况，canal到flume，加了canal的重试，以及发送到flume的重试机制，没有报错，所有数据正常发送。flume到kafka不敢怀疑，毕竟公司一直在用，怎么可能有问题。kafka到es的中间件？组长写的，而且一直在用，不可能==最后确认的是flume到kafka，kafka的parition处理速度不同，</p>
-<p><img src="https://github-images.wenzhihuai.com/images/20180428015132288764661.png" alt="" loading="lazy"></p>
-<p>check一下flume的文档，可以知道</p>
-<p>| Property Name  |   Description|
-|</p>
-]]></content:encoded>
-      <enclosure url="https://github-images.wenzhihuai.com/images/20180421025107389573244.png" type="image/png"/>
     </item>
     <item>
       <title>TCP/IP、HTTP、HTTPS、HTTP2.0</title>
@@ -4560,17 +4560,6 @@ https://community.eschamp.com/t/simple-starcraft-2-bot-template-to-get-started/1
 <img src="https://github-images.wenzhihuai.com/images/755525-20220124160657219-1269826381.png" alt="image" loading="lazy"></p>
 ]]></content:encoded>
       <enclosure url="https://github-images.wenzhihuai.com/images/755525-20220124160719006-851383635.png" type="image/png"/>
-    </item>
-    <item>
-      <title>Database</title>
-      <link>https://www.wenzhihuai.com/database/</link>
-      <guid>https://www.wenzhihuai.com/database/</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">Database</source>
-      <description>Database 目录留空</description>
-      <pubDate>Thu, 25 Jan 2024 11:42:16 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>目录留空</p>
-]]></content:encoded>
     </item>
     <item>
       <title>微信支付</title>
@@ -6964,16 +6953,6 @@ client接收任务执行，然后向schedule返回运行的信息（成功、失
       <enclosure url="https://github-images.wenzhihuai.com/images/20200121102100646998927.png" type="image/png"/>
     </item>
     <item>
-      <title>Java</title>
-      <link>https://www.wenzhihuai.com/java/</link>
-      <guid>https://www.wenzhihuai.com/java/</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">Java</source>
-      <description>Java</description>
-      <pubDate>Sun, 25 Aug 2019 08:27:20 GMT</pubDate>
-      <content:encoded><![CDATA[
-]]></content:encoded>
-    </item>
-    <item>
       <title>目录</title>
       <link>https://www.wenzhihuai.com/kubernetes/</link>
       <guid>https://www.wenzhihuai.com/kubernetes/</guid>
@@ -7003,6 +6982,320 @@ client接收任务执行，然后向schedule返回运行的信息（成功、失
       <pubDate>Sun, 25 Aug 2019 08:27:20 GMT</pubDate>
       <content:encoded><![CDATA[
 ]]></content:encoded>
+    </item>
+    <item>
+      <title>DevOps平台.md</title>
+      <link>https://www.wenzhihuai.com/kubernetes/devops/devops-ping-tai.html</link>
+      <guid>https://www.wenzhihuai.com/kubernetes/devops/devops-ping-tai.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">DevOps平台.md</source>
+      <description>DevOps平台.md DevOps定义（来自维基百科）： DevOps（Development和Operations的组合词）是一种重视“软件开发人员（Dev）”和“IT运维技术人员（Ops）”之间沟通合作的文化、运动或惯例。透过自动化“软件交付”和“架构变更”的流程，来使得构建、测试、发布软件能够更加地快捷、频繁和可靠。 公司技术部目前几百人左右吧...</description>
+      <pubDate>Thu, 22 Aug 2019 01:35:46 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>DevOps定义（来自维基百科）： DevOps（Development和Operations的组合词）是一种重视“软件开发人员（Dev）”和“IT运维技术人员（Ops）”之间沟通合作的文化、运动或惯例。透过自动化“软件交付”和“架构变更”的流程，来使得构建、测试、发布软件能够更加地快捷、频繁和可靠。</p>
+<p>公司技术部目前几百人左右吧，但是整个技术栈还是比较落后的，尤其是DevOps、容器这一块，需要将全线打通，当时进来也主要是负责DevOps这一块的工作，应该说也是没怎么做好，其中也走了不少弯路，下面主要是自己踩过的坑吧。</p>
+<h2>一、自由风格的软件项目</h2>
+<p>主要还是基于jenkins里面构建一个自由风格的软件项目，当时参考的是阿里的codepipeline，就是对jenkins封装一层，包括创建job、立即构建、获取构建进度等都进行封装，并将需要的东西进行存库，没有想到码代码的时候，一堆的坑，比如： 1.连续点击立即构建，jenkins是不按顺序返回的，（分布式锁解决） 2.跨域调用，csrf，这个还好，不过容易把jenkins搞的无法登录（注意配置，具体可以点击<a href="https://www.cnblogs.com/w1570631036/p/9861473.html" target="_blank" rel="noopener noreferrer">这里</a>） 3.创建job的时候只支持xml格式，还要转换一下，超级坑（xstream强行转换） 4.docker构建的时候，需要挂载宿主机的docker（想过用远程的，但效率不高） 5.数据库与jenkins的job一致性问题，任务创建失败，批量删除太慢（目前没想好怎么解决） 6.由于使用了数据库，需要检测job是否构建完成，为了自定义参数，我们自写了个通知插件，将构建状态返回到kafka，然后管理平台在进行消息处理。</p>
+<p>完成了以上的东西，不过由于太过于简单，导致只能进行单条线的CICD，而且CI仅仅实现了打包，没有将CD的过程一同串行起来。简单来说就是，用户点击了构建只是能够打出一个镜像，但是如果要部署到kubernetes，还是需要在应用里手动更换一下镜像版本。总体而言，这个版本的jenkins我们使用的还是单点的，不足以支撑构建量比较大的情况，甚至如果当前服务挂了，断网了，整一块的构建功能都不能用。</p>
+<div class="language-markup line-numbers-mode" data-highlighter="shiki" data-ext="markup" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-markup"><span class="line"><span>&lt;project&gt;</span></span>
+<span class="line"><span>    &lt;actions/&gt;</span></span>
+<span class="line"><span>    &lt;description&gt;xxx&lt;/description&gt;</span></span>
+<span class="line"><span>    &lt;properties&gt;</span></span>
+<span class="line"><span>        &lt;hudson.model.ParametersDefinitionProperty&gt;</span></span>
+<span class="line"><span>            &lt;parameterDefinitions&gt;</span></span>
+<span class="line"><span>                &lt;hudson.model.TextParameterDefinition&gt;</span></span>
+<span class="line"><span>                    &lt;name&gt;buildParam&lt;/name&gt;</span></span>
+<span class="line"><span>                    &lt;defaultValue&gt;v1&lt;/defaultValue&gt;</span></span>
+<span class="line"><span>                &lt;/hudson.model.TextParameterDefinition&gt;</span></span>
+<span class="line"><span>                &lt;hudson.model.TextParameterDefinition&gt;</span></span>
+<span class="line"><span>                    &lt;name&gt;codeBranch&lt;/name&gt;</span></span>
+<span class="line"><span>                    &lt;defaultValue&gt;master&lt;/defaultValue&gt;</span></span>
+<span class="line"><span>                &lt;/hudson.model.TextParameterDefinition&gt;</span></span>
+<span class="line"><span>            &lt;/parameterDefinitions&gt;</span></span>
+<span class="line"><span>        &lt;/hudson.model.ParametersDefinitionProperty&gt;</span></span>
+<span class="line"><span>    &lt;/properties&gt;</span></span>
+<span class="line"><span>    &lt;scm class="hudson.plugins.git.GitSCM"&gt;</span></span>
+<span class="line"><span>        &lt;configVersion&gt;2&lt;/configVersion&gt;</span></span>
+<span class="line"><span>        &lt;userRemoteConfigs&gt;</span></span>
+<span class="line"><span>            &lt;hudson.plugins.git.UserRemoteConfig&gt;</span></span>
+<span class="line"><span>                &lt;url&gt;http://xxxxx.git&lt;/url&gt;</span></span>
+<span class="line"><span>                &lt;credentialsId&gt;002367566a4eb4bb016a4eb723550054&lt;/credentialsId&gt;</span></span>
+<span class="line"><span>            &lt;/hudson.plugins.git.UserRemoteConfig&gt;</span></span>
+<span class="line"><span>        &lt;/userRemoteConfigs&gt;</span></span>
+<span class="line"><span>        &lt;branches&gt;</span></span>
+<span class="line"><span>            &lt;hudson.plugins.git.BranchSpec&gt;</span></span>
+<span class="line"><span>                &lt;name&gt;${codeBranch}&lt;/name&gt;</span></span>
+<span class="line"><span>            &lt;/hudson.plugins.git.BranchSpec&gt;</span></span>
+<span class="line"><span>        &lt;/branches&gt;</span></span>
+<span class="line"><span>        &lt;doGenerateSubmoduleConfigurations&gt;false&lt;/doGenerateSubmoduleConfigurations&gt;</span></span>
+<span class="line"><span>        &lt;extensions/&gt;</span></span>
+<span class="line"><span>    &lt;/scm&gt;</span></span>
+<span class="line"><span>    &lt;builders&gt;</span></span>
+<span class="line"><span>        &lt;hudson.tasks.Shell&gt;</span></span>
+<span class="line"><span>            &lt;command&gt;ls&lt;/command&gt;</span></span>
+<span class="line"><span>        &lt;/hudson.tasks.Shell&gt;</span></span>
+<span class="line"><span>        &lt;hudson.tasks.Maven&gt;</span></span>
+<span class="line"><span>            &lt;targets&gt;clean package install -Dmaven.test.skip=true&lt;/targets&gt;</span></span>
+<span class="line"><span>            &lt;mavenName&gt;mvn3.5.4&lt;/mavenName&gt;</span></span>
+<span class="line"><span>        &lt;/hudson.tasks.Maven&gt;</span></span>
+<span class="line"><span>        &lt;com.cloudbees.dockerpublish.DockerBuilder&gt;</span></span>
+<span class="line"><span>            &lt;server&gt;</span></span>
+<span class="line"><span>                &lt;uri&gt;unix:///var/run/docker.sock&lt;/uri&gt;</span></span>
+<span class="line"><span>            &lt;/server&gt;</span></span>
+<span class="line"><span>            &lt;registry&gt;</span></span>
+<span class="line"><span>                &lt;url&gt;http://xxxx&lt;/url&gt;</span></span>
+<span class="line"><span>            &lt;/registry&gt;</span></span>
+<span class="line"><span>            &lt;repoName&gt;xxx/xx&lt;/repoName&gt;</span></span>
+<span class="line"><span>            &lt;forcePull&gt;true&lt;/forcePull&gt;</span></span>
+<span class="line"><span>            &lt;dockerfilePath&gt;Dockerfile&lt;/dockerfilePath&gt;</span></span>
+<span class="line"><span>            &lt;repoTag&gt;${buildParam}&lt;/repoTag&gt;</span></span>
+<span class="line"><span>            &lt;skipTagLatest&gt;true&lt;/skipTagLatest&gt;</span></span>
+<span class="line"><span>        &lt;/com.cloudbees.dockerpublish.DockerBuilder&gt;</span></span>
+<span class="line"><span>    &lt;/builders&gt;</span></span>
+<span class="line"><span>    &lt;publishers&gt;</span></span>
+<span class="line"><span>        &lt;com.xxxx.notifications.Notifier/&gt;</span></span>
+<span class="line"><span>    &lt;/publishers&gt;</span></span>
+<span class="line"><span>&lt;/project&gt;</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>二、优化之后的CICD</h2>
+<p>上面的过程也仍然没有没住DevOps的流程，人工干预的东西依旧很多，由于上级急需产出，所以只能将就着继续下去。我们将构建、部署每个当做一个小块，一个CICD的过程可以选择构建、部署，花了很大的精力，完成了串行化的别样的CICD。 以下图为例，整个流程的底层为：paas平台-jenkins-kakfa-管理平台（选择cicd的下一步）-kafka-cicd组件调用管理平台触发构建-jenkins-kafka-管理平台（选择cicd的下一步）-kafka-cicd组件调用管理平台触发部署。</p>
+<p><img src="https://github-images.wenzhihuai.com/images/201908111044201770944400.png" alt="" loading="lazy"></p>
+<p>目前实现了串行化的CICD构建部署，之后考虑实现多个CICD并行，并且一个CICD能够调用另一个CICD，实际运行中，出现了一大堆问题。由于经过的组件太多，一次cicd的运行报错，却很难排查到问题出现的原因，业务方的投诉也开始慢慢多了起来，只能说劝导他们不要用这个功能。</p>
+<p>没有CICD，就无法帮助公司上容器云，无法合理的利用容器云的特性，更无法走上云原生的道路。于是，我们决定另谋出路。</p>
+<h2>三、调研期</h2>
+<p>由于之前的CICD问题太多，特别是经过的组件太多了，导致出现问题的时候无法正常排查，为了能够更加稳定可靠，还是决定了要更换一下底层。 我们重新审视了下pipeline，觉得这才是正确的做法，可惜不知道如果做成一个产品样子的东西，用户方Dockerfile都不怎么会写，你让他写一个Jenkinsfile？不合理！在此之外，我们看到了serverless jenkins、谷歌的tekton。 <strong>GitLab-CICD</strong> Gitlab中自带了cicd的工具，需要配置一下runner，然后配置一下.gitlab-ci.yml写一下程序的cicd过程即可，构建镜像的时候我们使用的是kaniko，整个gitlab的cicd在我们公司小项目中大范围使用，但是学习成本过高，尤其是引入了kaniko之后，还是寻找一个产品化的CICD方案。</p>
+<p><strong>分布式构建jenkins x</strong> 首先要解决的是多个构建同时运行的问题，很久之前就调研过jenkins x，它必须要使用在kubernetes上，由于当时官方文档不全，而且我们的DevOps项目处于初始期，所有没有使用。jenkins的master slave结构就不多说了。jenkins x应该说是个全家桶，包含了helm仓库、nexus仓库、docker registry等，代码是<a href="https://github.com/jenkins-x/jenkins-x-image" target="_blank" rel="noopener noreferrer">jenkins-x-image</a>。</p>
+<p><img src="https://github-images.wenzhihuai.com/images/201908170612301464716259.png" alt="" loading="lazy"></p>
+<p><strong>serverless jenkins</strong> 好像跟谷歌的tekton相关，用了下，没调通，只能用于GitHub。感觉还不如直接使用tekton。</p>
+<p><strong>阿里云云效</strong> 提供了图形化配置DevOps流程，支持定时触发，可惜没有跟gitlab触发结合，如果需要个公司级的DevOps，需要将公司的jira、gitlab、jenkins等集合起来，但是图形化jenkins pipeline是个特别好的参考方向，可以结合阿里云云效来做一个自己的DevOps产品。</p>
+<p><strong>微软Pipeline</strong> 微软也是提供了DevOps解决方案的，也是提供了yaml格式的写法，即：在右边填写完之后会转化成yaml。如果想把DevOps打造成一款产品，这样的设计显然不是最好的。</p>
+<p><img src="https://github-images.wenzhihuai.com/images/201908100346011648784131.png" alt="" loading="lazy"></p>
+<p><strong>谷歌tekton</strong> kubernetes的官方cicd，目前已用于kubernetes的release发版过程，目前也仅仅是与GitHub相结合，gitlab无法使用，全过程可使用yaml文件来创建，跑起来就是类似kubernetes的job一样，用完即销毁，可惜目前比较新，依旧处于alpha版本，无法用于生产。有兴趣可以参考下：<a href="https://www.jianshu.com/p/8871b7ea7d6e" target="_blank" rel="noopener noreferrer">Knative 初体验：CICD 极速入门 </a></p>
+<h2>四、产品化后的DevOps平台</h2>
+<p>在调研DockOne以及各个产商的DevOps产品时，发现，真的只有阿里云的云效才是真正比较完美的DevOps产品，用户不需要知道pipeline的语法，也不需要掌握kubernetes的相关知识，甚至不用写yaml文件，对于开发、测试来说简直就是神一样的存在了。云效对小公司（创业公司）免费，但是有一定的量之后，就要开始收费了。在调研了一番云效的东西之后，发现云效也是基于jenkins x改造的，不过阿里毕竟人多，虽然能约莫看出是pipeline的语法，但是阿里彻底改造成了能够使用yaml来与后台交互。 下面是以阿里云的云效界面以及配合jenkins的pipeline语法来讲解：</p>
+<h3>4.1 Java代码扫描</h3>
+<p>PMD是一款可拓展的静态代码分析器它不仅可以对代码分析器，它不仅可以对代码风格进行检查，还可以检查设计、多线程、性能等方面的问题。阿里云的是简单的集成了一下而已，对于我们来说，底层使用了sonar来接入，所有的代码扫描结果都接入了sonar。</p>
+<p><img src="https://github-images.wenzhihuai.com/images/201908100429061448084424.png" alt="" loading="lazy"></p>
+<div class="language-text line-numbers-mode" data-highlighter="shiki" data-ext="text" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-text"><span class="line"><span>stage('Clone') {</span></span>
+<span class="line"><span>    steps{</span></span>
+<span class="line"><span>        git branch: 'master', credentialsId: 'xxxx', url: "xxx"</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span>stage('check') {</span></span>
+<span class="line"><span>    steps{</span></span>
+<span class="line"><span>        container('maven') {</span></span>
+<span class="line"><span>            echo "mvn pmd:pmd"</span></span>
+<span class="line"><span>        }</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3>4.2 Java单元测试</h3>
+<p>Java的单元测试一般用的是Junit，在阿里云中，使用了surefire插件，用来在maven构建生命周期的test phase执行一个应用的单元测试。它会产生两种不同形式的测试结果报告。我这里就简单的过一下，使用"mvn test"命令来代替。</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20190915082632234251996.png" alt="" loading="lazy"></p>
+<div class="language-text line-numbers-mode" data-highlighter="shiki" data-ext="text" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-text"><span class="line"><span></span></span>
+<span class="line"><span>stage('Clone') {</span></span>
+<span class="line"><span>    steps{</span></span>
+<span class="line"><span>        echo "1.Clone Stage"</span></span>
+<span class="line"><span>        git branch: 'master', credentialsId: 'xxxxx', url: "xxxxxx"</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span>stage('test') {</span></span>
+<span class="line"><span>    steps{</span></span>
+<span class="line"><span>        container('maven') {</span></span>
+<span class="line"><span>            sh "mvn test"</span></span>
+<span class="line"><span>        }</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3>4.3 Java构建并上传镜像</h3>
+<p>镜像的构建比较想使用kaniko，尝试找了不少方法，到最后还是只能使用dind(docker in docker)，挂载宿主机的docker来进行构建，如果能有其他方案，希望能提醒下。目前jenkins x使用的是dind，挂载的时候需要配置一下config.json，然后挂载到容器的/root/.docker目录，才能在容器中使用docker。</p>
+<blockquote>
+<blockquote>
+<p>为什么不推荐dind：挂载了宿主机的docker，就可以使用docker ps查看正在运行的容器，也就意味着可以使用docker stop、docker rm来控制宿主机的容器，虽然kubernetes会重新调度起来，但是这一段的重启时间极大的影响业务。</p>
+</blockquote>
+</blockquote>
+<div class="language-text line-numbers-mode" data-highlighter="shiki" data-ext="text" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-text"><span class="line"><span></span></span>
+<span class="line"><span>stage('下载代码') {</span></span>
+<span class="line"><span>    steps{</span></span>
+<span class="line"><span>        echo "1.Clone Stage"</span></span>
+<span class="line"><span>        git branch: 'master', credentialsId: 'xxxxx', url: "xxxxxx"</span></span>
+<span class="line"><span>        script {</span></span>
+<span class="line"><span>            build_tag = sh(returnStdout: true, script: 'git rev-parse --short HEAD').trim()</span></span>
+<span class="line"><span>        }</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span>stage('打包并构建镜像') {</span></span>
+<span class="line"><span>    steps{</span></span>
+<span class="line"><span>        container('maven') {</span></span>
+<span class="line"><span>            echo "3.Build Docker Image Stage"</span></span>
+<span class="line"><span>            sh "mvn clean install -Dmaven.test.skip=true"</span></span>
+<span class="line"><span>            sh "docker build -f xxx/Dockerfile -t xxxxxx:${build_tag} ."</span></span>
+<span class="line"><span>            sh "docker push xxxxxx:${build_tag}"</span></span>
+<span class="line"><span>        }</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3>4.4 部署到阿里云k8s</h3>
+<p>CD过程有点困难，由于我们的kubernetes平台是图形化的，类似于阿里云，用户根本不需要自己写deployment，只需要在图形化界面做一下操作即可部署。对于CD过程来说，如果应用存在的话，就可以直接替换掉镜像版本即可，如果没有应用，就提供个简单的界面让用户新建应用。当然，在容器最初推行的时候，对于用户来说，一下子需要接受docker、kubernetes、helm等概念是十分困难的，不能一个一个帮他们写deployment这些yaml文件，只能用helm创建一个通用的spring boot或者其他的模板，然后让业务方修改自己的配置，每次构建的时候只需要替换镜像即可。</p>
+<div class="language-text line-numbers-mode" data-highlighter="shiki" data-ext="text" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-text"><span class="line"><span>def tmp = sh (</span></span>
+<span class="line"><span>    returnStdout: true,</span></span>
+<span class="line"><span>    script: "kubectl get deployment -n ${namespace} | grep ${JOB_NAME} | awk '{print \$1}'"</span></span>
+<span class="line"><span>)</span></span>
+<span class="line"><span>//如果是第一次，则使用helm模板创建，创建完后需要去epaas修改pod的配置</span></span>
+<span class="line"><span>if(tmp.equals('')){</span></span>
+<span class="line"><span>    sh "helm init --client-only"</span></span>
+<span class="line"><span>    sh """helm repo add mychartmuseum http://xxxxxx \</span></span>
+<span class="line"><span>                       --username myuser \</span></span>
+<span class="line"><span>                       --password=mypass"""</span></span>
+<span class="line"><span>    sh """helm install --set name=${JOB_NAME} \</span></span>
+<span class="line"><span>                       --set namespace=${namespace} \</span></span>
+<span class="line"><span>                       --set deployment.image=${image} \</span></span>
+<span class="line"><span>                       --set deployment.imagePullSecrets=${harborProject} \</span></span>
+<span class="line"><span>                       --name ${namespace}-${JOB_NAME} \</span></span>
+<span class="line"><span>                       mychartmuseum/soa-template"""</span></span>
+<span class="line"><span>}else{</span></span>
+<span class="line"><span>    println "已经存在，替换镜像"</span></span>
+<span class="line"><span>    //epaas中一个pod的容器名称需要带上"-0"来区分</span></span>
+<span class="line"><span>    sh "kubectl set image deployment/${JOB_NAME} ${JOB_NAME}-0=${image} -n ${namespace}"</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3>4.5 整体流程</h3>
+<p>代码扫描，单元测试，构建镜像三个并行运行，等三个完成之后，在进行部署</p>
+<p><img src="https://github-images.wenzhihuai.com/images/201908100428501805517052.png" alt="" loading="lazy"></p>
+<p>pipeline：</p>
+<div class="language-text line-numbers-mode" data-highlighter="shiki" data-ext="text" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-text"><span class="line"><span>pipeline {</span></span>
+<span class="line"><span>    agent {</span></span>
+<span class="line"><span>        label "jenkins-maven"</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>    stages{</span></span>
+<span class="line"><span>        stage('代码扫描，单元测试，镜像构建'){</span></span>
+<span class="line"><span>            parallel {</span></span>
+<span class="line"><span>                stage('并行任务一') {</span></span>
+<span class="line"><span>                    agent {</span></span>
+<span class="line"><span>                        label "jenkins-maven"</span></span>
+<span class="line"><span>                    }</span></span>
+<span class="line"><span>                    stages('Java代码扫描') {</span></span>
+<span class="line"><span>                        stage('Clone') {</span></span>
+<span class="line"><span>                            steps{</span></span>
+<span class="line"><span>                                git branch: 'master', credentialsId: 'xxxxxxx', url: "xxxxxxx"</span></span>
+<span class="line"><span>                            }</span></span>
+<span class="line"><span>                        }</span></span>
+<span class="line"><span>                        stage('check') {</span></span>
+<span class="line"><span>                            steps{</span></span>
+<span class="line"><span>                                container('maven') {</span></span>
+<span class="line"><span>                                    echo "$BUILD_NUMBER"</span></span>
+<span class="line"><span>                                }</span></span>
+<span class="line"><span>                            }</span></span>
+<span class="line"><span>                        }</span></span>
+<span class="line"><span>                    }</span></span>
+<span class="line"><span>                }</span></span>
+<span class="line"><span>                stage('并行任务二') {</span></span>
+<span class="line"><span>                    agent {</span></span>
+<span class="line"><span>                        label "jenkins-maven"</span></span>
+<span class="line"><span>                    }</span></span>
+<span class="line"><span>                    stages('Java单元测试') {</span></span>
+<span class="line"><span>                        stage('Clone') {</span></span>
+<span class="line"><span>                            steps{</span></span>
+<span class="line"><span>                                echo "1.Clone Stage"</span></span>
+<span class="line"><span>                                git branch: 'master', credentialsId: 'xxxxxxx', url: "xxxxxxx"</span></span>
+<span class="line"><span>                            }</span></span>
+<span class="line"><span>                        }</span></span>
+<span class="line"><span>                        stage('test') {</span></span>
+<span class="line"><span>                            steps{</span></span>
+<span class="line"><span>                                container('maven') {</span></span>
+<span class="line"><span>                                    echo "3.Build Docker Image Stage"</span></span>
+<span class="line"><span>                                    sh "mvn -v"</span></span>
+<span class="line"><span>                                }</span></span>
+<span class="line"><span>                            }</span></span>
+<span class="line"><span>                        }</span></span>
+<span class="line"><span>                    }</span></span>
+<span class="line"><span>                }</span></span>
+<span class="line"><span>                stage('并行任务三') {</span></span>
+<span class="line"><span>                    agent {</span></span>
+<span class="line"><span>                        label "jenkins-maven"</span></span>
+<span class="line"><span>                    }</span></span>
+<span class="line"><span>                    stages('java构建镜像') {</span></span>
+<span class="line"><span>                        stage('Clone') {</span></span>
+<span class="line"><span>                            steps{</span></span>
+<span class="line"><span>                                echo "1.Clone Stage"</span></span>
+<span class="line"><span>                                git branch: 'master', credentialsId: 'xxxxxxx', url: "xxxxxxx"</span></span>
+<span class="line"><span>                                script {</span></span>
+<span class="line"><span>                                    build_tag = sh(returnStdout: true, script: 'git rev-parse --short HEAD').trim()</span></span>
+<span class="line"><span>                                }</span></span>
+<span class="line"><span>                            }</span></span>
+<span class="line"><span>                        }</span></span>
+<span class="line"><span>                        stage('Build') {</span></span>
+<span class="line"><span>                            steps{</span></span>
+<span class="line"><span>                                container('maven') {</span></span>
+<span class="line"><span>                                    echo "3.Build Docker Image Stage"</span></span>
+<span class="line"><span>                                    sh "mvn clean install -Dmaven.test.skip=true"</span></span>
+<span class="line"><span>                                    sh "docker build -f epaas-portal/Dockerfile -t hub.gcloud.lab/rongqiyun/epaas:${build_tag} ."</span></span>
+<span class="line"><span>                                    sh "docker push hub.gcloud.lab/rongqiyun/epaas:${build_tag}"</span></span>
+<span class="line"><span>                                }</span></span>
+<span class="line"><span>                            }</span></span>
+<span class="line"><span>                        }</span></span>
+<span class="line"><span>                    }</span></span>
+<span class="line"><span>                }</span></span>
+<span class="line"><span>            }</span></span>
+<span class="line"><span>        }</span></span>
+<span class="line"><span>        stage('部署'){</span></span>
+<span class="line"><span>            stages('部署到容器云') {</span></span>
+<span class="line"><span>                stage('check') {</span></span>
+<span class="line"><span>                    steps{</span></span>
+<span class="line"><span>                        container('maven') {</span></span>
+<span class="line"><span>                            script{</span></span>
+<span class="line"><span>                                if (deploy_app == "true"){</span></span>
+<span class="line"><span>                                    def tmp = sh (</span></span>
+<span class="line"><span>                                        returnStdout: true,</span></span>
+<span class="line"><span>                                        script: "kubectl get deployment -n ${namespace} | grep ${JOB_NAME} | awk '{print \$1}'"</span></span>
+<span class="line"><span>                                    )</span></span>
+<span class="line"><span>                                    //如果是第一次，则使用helm模板创建，创建完后需要去epaas修改pod的配置</span></span>
+<span class="line"><span>                                    if(tmp.equals('')){</span></span>
+<span class="line"><span>                                        sh "helm init --client-only"</span></span>
+<span class="line"><span>                                        sh """helm repo add mychartmuseum http://xxxxxx \</span></span>
+<span class="line"><span>                                                           --username myuser \</span></span>
+<span class="line"><span>                                                           --password=mypass"""</span></span>
+<span class="line"><span>                                        sh """helm install --set name=${JOB_NAME} \</span></span>
+<span class="line"><span>                                                           --set namespace=${namespace} \</span></span>
+<span class="line"><span>                                                           --set deployment.image=${image} \</span></span>
+<span class="line"><span>                                                           --set deployment.imagePullSecrets=${harborProject} \</span></span>
+<span class="line"><span>                                                           --name ${namespace}-${JOB_NAME} \</span></span>
+<span class="line"><span>                                                           mychartmuseum/soa-template"""</span></span>
+<span class="line"><span>                                    }else{</span></span>
+<span class="line"><span>                                        println "已经存在，替换镜像"</span></span>
+<span class="line"><span>                                        //epaas中一个pod的容器名称需要带上"-0"来区分</span></span>
+<span class="line"><span>                                        sh "kubectl set image deployment/${JOB_NAME} ${JOB_NAME}-0=${image} -n ${namespace}"</span></span>
+<span class="line"><span>                                    }</span></span>
+<span class="line"><span>                                }else{</span></span>
+<span class="line"><span>                                    println "用户选择不部署代码"</span></span>
+<span class="line"><span>                                }</span></span>
+<span class="line"><span>                            }</span></span>
+<span class="line"><span>                        }</span></span>
+<span class="line"><span>                    }</span></span>
+<span class="line"><span>                }</span></span>
+<span class="line"><span>            }</span></span>
+<span class="line"><span>        }</span></span>
+<span class="line"><span>    }</span></span>
+<span class="line"><span>}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>在jenkins x中查看：</p>
+<p><img src="https://github-images.wenzhihuai.com/images/20190810043129475121819.png" alt="" loading="lazy"></p>
+<h3>4.4 日志</h3>
+<p>jenkins blue ocean步骤日志：</p>
+<p><img src="https://github-images.wenzhihuai.com/images/201908100431461365428934.png" alt="" loading="lazy"></p>
+<p>云效中的日志：</p>
+<p><img src="https://github-images.wenzhihuai.com/images/2019081004491578636427.png" alt="" loading="lazy"></p>
+<h3>4.5 定时触发</h3>
+<p><img src="https://github-images.wenzhihuai.com/images/201908100524291184838290.png" alt="" loading="lazy"></p>
+<div class="language-text line-numbers-mode" data-highlighter="shiki" data-ext="text" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-text"><span class="line"><span>    triggers {</span></span>
+<span class="line"><span>        cron('H H * * *') //每天</span></span>
+<span class="line"><span>    }</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>五、其他</h2>
+<h3>5.1 Gitlab触发</h3>
+<p>pipeline中除了有对于时间的trigger，还支持了gitlab的触发，需要各种配置，不过如果真的对于gitlab的cicd有要求，直接使用gitlab-ci会更好，我们同时也对gitlab进行了runner的配置来支持gitlab的cicd。gitlab的cicd也提供了构建完后即销毁的过程。</p>
+<h2>六、总结</h2>
+<p>功能最强大的过程莫过于自己使用pipeline脚本实现，选取最适合自己的，但是对于一个公司来说，如果要求业务方来掌握这些，特别是IT流动性大的时候，既需要重新培训，同个问题又会被问多遍，所以，只能将DevOps实现成一个图形化的东西，方便，简单，相对来说功能还算强大。</p>
+<p>DevOps最难的可能都不是以上这些，关键是让用户接受，容器云最初推行时，公司原本传统的很多发版方式都需要进行改变，有些业务方不愿意改，或者有些代码把持久化的东西存到了代码中而不是分布式存储里，甚至有些用户方都不愿意维护老代码，看都不想看然后想上容器，一个公司在做技术架构的时候，过于混乱到最后填坑要么需要耗费太多精力甚至大换血。</p>
+<p>最后，DevOps是云原生的必经之路！！！</p>
+<p>文章同步：<br>
+博客园：https://www.cnblogs.com/w1570631036/p/11524673.html<br>
+个人网站：http://www.wenzhihuai.com/getblogdetail.html?blogid=663<br>
+gitbook：https://gitbook.wenzhihuai.com/devops/devops-ping-tai</p>
+]]></content:encoded>
+      <enclosure url="https://github-images.wenzhihuai.com/images/201908111044201770944400.png" type="image/png"/>
     </item>
   </channel>
 </rss>
