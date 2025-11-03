@@ -1,7 +1,0 @@
----
-index: false
----
-
-# Java
-
-<Catalog/>

@@ -20,7 +20,6 @@ export default sidebar({
     "/": [
         {
             text: "首页",
-            icon: "home",
             collapsible: false,
             children: "structure"
         },

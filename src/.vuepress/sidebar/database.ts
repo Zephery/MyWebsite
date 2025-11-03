@@ -4,29 +4,20 @@ export const database = arraySidebar([
     {
         text: "MySQL",
         prefix: "mysql/",
-        icon: "mysql",
-        collapsible: false,
+        collapsible: true,
         children: "structure"
     },
     {
         text: "Redis",
         prefix: "redis/",
-        icon: "redis",
-        collapsible: false,
+        collapsible: true,
         children: "structure"
     },
     {
         text: "Elasticsearch",
         prefix: "elasticsearch/",
-        icon: "elasticsearch",
-        collapsible: false,
+        collapsible: true,
+        expanded: true,
         children: "structure"
-    },
-    {
-        text: "MongoDB",
-        prefix: "mongodb/",
-        icon: "mongodb",
-        collapsible: false,
-        children: "structure"
-    },
+    }
 ]);
