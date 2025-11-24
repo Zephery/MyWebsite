@@ -4,7 +4,7 @@
   <title>个人博客</title>
   <subtitle>个人博客</subtitle>
   <icon>https://www.wenzhihuai.com/favicon.ico</icon>
-  <updated>2025-11-03T14:32:02.251Z</updated>
+  <updated>2025-11-24T14:29:10.133Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://www.wenzhihuai.com/atom.xml"/>
   <link rel="alternate" href="https://www.wenzhihuai.com/"/>
@@ -1936,10 +1936,32 @@ http://fls.itxe.net</p>
     <published>2024-03-10T14:39:30.000Z</published>
   </entry>
   <entry>
+    <title type="text">JAVA NIO</title>
+    <id>https://www.wenzhihuai.com/java/io/nio.html</id>
+    <link href="https://www.wenzhihuai.com/java/io/nio.html"/>
+    <updated>2025-11-01T04:49:29.000Z</updated>
+    <summary type="html"><![CDATA[
+<h2>一、简介</h2>
+<p>1）Java BIO ： 同步并阻塞(传统阻塞型)，服务器实现模式为一个连接一个线程，即客户端有连接请求时服务器端就需要启动一个线程进行处理，如果这个连接不做任何事情会造成不必要的线程开销。</p>
+<p>2）Java NIO ： 同步非阻塞，服务器实现模式为一个线程处理多个请求(连接)，即客户端发送的连接请求都会注册到多路复用器上，多路复用器轮询到连接有I/O请求就进行处理。</p>
+<p>3）Java AIO：异步非阻塞，在AIO模型中，当我们发起一个I/O操作（如读或写）时，我们不需要等待它完成，我们的代码会立即返回，可以继续执行其他任务。当I/O操作完成时，我们之前注册的回调函数会被自动调用，我们可以在这个回调函数中处理I/O操作的结果。</p>]]></summary>
+    <content type="html"><![CDATA[
+<h2>一、简介</h2>
+<p>1）Java BIO ： 同步并阻塞(传统阻塞型)，服务器实现模式为一个连接一个线程，即客户端有连接请求时服务器端就需要启动一个线程进行处理，如果这个连接不做任何事情会造成不必要的线程开销。</p>
+<p>2）Java NIO ： 同步非阻塞，服务器实现模式为一个线程处理多个请求(连接)，即客户端发送的连接请求都会注册到多路复用器上，多路复用器轮询到连接有I/O请求就进行处理。</p>
+<p>3）Java AIO：异步非阻塞，在AIO模型中，当我们发起一个I/O操作（如读或写）时，我们不需要等待它完成，我们的代码会立即返回，可以继续执行其他任务。当I/O操作完成时，我们之前注册的回调函数会被自动调用，我们可以在这个回调函数中处理I/O操作的结果。</p>
+<h3>1.1典型的多路复用IO实现</h3>
+<p>目前流程的多路复用IO实现主要包括四种: <code>select</code>、<code>poll</code>、<code>epoll</code>、<code>kqueue</code>。下表是他们的一些重要特性的比较:</p>
+<p>| IO模型 | 相对性能 | 数据结构     | 关键思路         | 操作系统      | JAVA支持情况                                                 |
+|</p>
+]]></content>
+    <published>2024-03-10T14:39:30.000Z</published>
+  </entry>
+  <entry>
     <title type="text">JVM(java虚拟机)</title>
     <id>https://www.wenzhihuai.com/java/JVM/jvm(java%E8%99%9A%E6%8B%9F%E6%9C%BA).html</id>
     <link href="https://www.wenzhihuai.com/java/JVM/jvm(java%E8%99%9A%E6%8B%9F%E6%9C%BA).html"/>
-    <updated>2025-11-01T04:49:29.000Z</updated>
+    <updated>2025-11-24T14:26:52.000Z</updated>
     <summary type="html"><![CDATA[<h2>一、了解JVM</h2>
 <h4>1、什么是JVM</h4>
 <p>JVM是Java Virtual Machine（Java虚拟机）的缩写，是一个虚构出来的计算机，是通过在实际的计算机上仿真模拟计算机功能来实现的，JVM屏蔽了与具体操作系统平台相关的信息，Java程序只需生成在Java虚拟机上运行的字节码，就可以在多种平台上不加修改的运行。JVM在执行字节码时，实际上最终还是把字节码解释成具体平台上的机器指令执行。</p>
@@ -2046,28 +2068,6 @@ GC 过程：新生成的对象在Eden区分配（大对象除外，大对象直�
 2）方法区空间不足：系统当中需要加载的类，调用的方法很多，同时方法区当中没有足够的          空间，就出触发一次Full GC
 3）老年代最大可用连续空间小于Minor GC历次晋升到老年代对象的平均大小
 4）调用System.gc()时（系统建议执行Full GC，但是不必然执行）</p>
-]]></content>
-    <published>2024-03-10T14:39:30.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">JAVA NIO</title>
-    <id>https://www.wenzhihuai.com/java/io/nio.html</id>
-    <link href="https://www.wenzhihuai.com/java/io/nio.html"/>
-    <updated>2025-11-01T04:49:29.000Z</updated>
-    <summary type="html"><![CDATA[
-<h2>一、简介</h2>
-<p>1）Java BIO ： 同步并阻塞(传统阻塞型)，服务器实现模式为一个连接一个线程，即客户端有连接请求时服务器端就需要启动一个线程进行处理，如果这个连接不做任何事情会造成不必要的线程开销。</p>
-<p>2）Java NIO ： 同步非阻塞，服务器实现模式为一个线程处理多个请求(连接)，即客户端发送的连接请求都会注册到多路复用器上，多路复用器轮询到连接有I/O请求就进行处理。</p>
-<p>3）Java AIO：异步非阻塞，在AIO模型中，当我们发起一个I/O操作（如读或写）时，我们不需要等待它完成，我们的代码会立即返回，可以继续执行其他任务。当I/O操作完成时，我们之前注册的回调函数会被自动调用，我们可以在这个回调函数中处理I/O操作的结果。</p>]]></summary>
-    <content type="html"><![CDATA[
-<h2>一、简介</h2>
-<p>1）Java BIO ： 同步并阻塞(传统阻塞型)，服务器实现模式为一个连接一个线程，即客户端有连接请求时服务器端就需要启动一个线程进行处理，如果这个连接不做任何事情会造成不必要的线程开销。</p>
-<p>2）Java NIO ： 同步非阻塞，服务器实现模式为一个线程处理多个请求(连接)，即客户端发送的连接请求都会注册到多路复用器上，多路复用器轮询到连接有I/O请求就进行处理。</p>
-<p>3）Java AIO：异步非阻塞，在AIO模型中，当我们发起一个I/O操作（如读或写）时，我们不需要等待它完成，我们的代码会立即返回，可以继续执行其他任务。当I/O操作完成时，我们之前注册的回调函数会被自动调用，我们可以在这个回调函数中处理I/O操作的结果。</p>
-<h3>1.1典型的多路复用IO实现</h3>
-<p>目前流程的多路复用IO实现主要包括四种: <code>select</code>、<code>poll</code>、<code>epoll</code>、<code>kqueue</code>。下表是他们的一些重要特性的比较:</p>
-<p>| IO模型 | 相对性能 | 数据结构     | 关键思路         | 操作系统      | JAVA支持情况                                                 |
-|</p>
 ]]></content>
     <published>2024-03-10T14:39:30.000Z</published>
   </entry>
@@ -2939,14 +2939,14 @@ synchronized的特点：
     <title type="text">mini主机</title>
     <id>https://www.wenzhihuai.com/interesting/mini%E4%B8%BB%E6%9C%BA/</id>
     <link href="https://www.wenzhihuai.com/interesting/mini%E4%B8%BB%E6%9C%BA/"/>
-    <updated>2025-11-01T04:49:29.000Z</updated>
+    <updated>2025-11-24T14:26:52.000Z</updated>
     <published>2024-02-16T04:00:26.000Z</published>
   </entry>
   <entry>
     <title type="text">个人网站</title>
     <id>https://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/</id>
     <link href="https://www.wenzhihuai.com/interesting/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/"/>
-    <updated>2025-11-01T04:49:29.000Z</updated>
+    <updated>2025-11-24T14:26:52.000Z</updated>
     <summary type="html"><![CDATA[<p>jofjweoiaejof</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>jofjweoiaejof</p>
@@ -2954,10 +2954,24 @@ synchronized的特点：
     <published>2024-02-16T04:00:26.000Z</published>
   </entry>
   <entry>
+    <title type="text">SpringBoot</title>
+    <id>https://www.wenzhihuai.com/java/SpringBoot/</id>
+    <link href="https://www.wenzhihuai.com/java/SpringBoot/"/>
+    <updated>2025-11-24T14:26:52.000Z</updated>
+    <published>2024-02-16T04:00:26.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">I/O</title>
+    <id>https://www.wenzhihuai.com/java/io/</id>
+    <link href="https://www.wenzhihuai.com/java/io/"/>
+    <updated>2025-11-24T14:26:52.000Z</updated>
+    <published>2024-02-16T04:00:26.000Z</published>
+  </entry>
+  <entry>
     <title type="text">JVM</title>
     <id>https://www.wenzhihuai.com/java/JVM/</id>
     <link href="https://www.wenzhihuai.com/java/JVM/"/>
-    <updated>2025-11-01T04:49:29.000Z</updated>
+    <updated>2025-11-24T14:26:52.000Z</updated>
     <published>2024-02-16T04:00:26.000Z</published>
   </entry>
   <entry>
@@ -3162,24 +3176,10 @@ synchronized的特点：
     <published>2024-02-16T04:00:26.000Z</published>
   </entry>
   <entry>
-    <title type="text">SpringBoot</title>
-    <id>https://www.wenzhihuai.com/java/SpringBoot/</id>
-    <link href="https://www.wenzhihuai.com/java/SpringBoot/"/>
-    <updated>2025-11-01T04:49:29.000Z</updated>
-    <published>2024-02-16T04:00:26.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">I/O</title>
-    <id>https://www.wenzhihuai.com/java/io/</id>
-    <link href="https://www.wenzhihuai.com/java/io/"/>
-    <updated>2025-11-01T04:49:29.000Z</updated>
-    <published>2024-02-16T04:00:26.000Z</published>
-  </entry>
-  <entry>
     <title type="text">线程</title>
     <id>https://www.wenzhihuai.com/java/%E7%BA%BF%E7%A8%8B/</id>
     <link href="https://www.wenzhihuai.com/java/%E7%BA%BF%E7%A8%8B/"/>
-    <updated>2025-11-01T04:49:29.000Z</updated>
+    <updated>2025-11-24T14:26:52.000Z</updated>
     <published>2024-02-16T04:00:26.000Z</published>
   </entry>
   <entry>
@@ -3201,14 +3201,14 @@ synchronized的特点：
     <title type="text">网络</title>
     <id>https://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/</id>
     <link href="https://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/"/>
-    <updated>2025-11-01T04:49:29.000Z</updated>
+    <updated>2025-11-24T14:26:52.000Z</updated>
     <published>2024-02-16T04:00:26.000Z</published>
   </entry>
   <entry>
     <title type="text">DevOps</title>
     <id>https://www.wenzhihuai.com/kubernetes/devops/</id>
     <link href="https://www.wenzhihuai.com/kubernetes/devops/"/>
-    <updated>2025-11-01T04:49:29.000Z</updated>
+    <updated>2025-11-24T14:26:52.000Z</updated>
     <summary type="html"><![CDATA[<p>jofjweoiaejof</p>
 ]]></summary>
     <content type="html"><![CDATA[<p>jofjweoiaejof</p>
