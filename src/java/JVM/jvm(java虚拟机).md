@@ -1,6 +1,5 @@
 ---
 title: JVM(java虚拟机)
-icon: pen
 dir:
   collapsible: true
   order: 100

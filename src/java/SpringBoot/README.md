@@ -1,6 +1,5 @@
 ---
 title: SpringBoot
-icon: pen
 dir:
   collapsible: true
   order: 100

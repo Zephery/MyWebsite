@@ -2,7 +2,6 @@ import {sidebar} from "vuepress-theme-hope";
 
 import {aboutTheAuthor} from "./about-the-author.js";
 import {books} from "./books.js";
-import {highQualityTechnicalArticles} from "./high-quality-technical-articles.js";
 import {database} from "./database.js";
 import {donate} from "./donate.js";
 import {bigdata} from "./bigdata.js";
@@ -38,7 +37,6 @@ export default sidebar({
     "/donate/": donate,
     "/life/": life,
     "/about-the-author/": aboutTheAuthor,
-    "/high-quality-technical-articles/": highQualityTechnicalArticles,
     "/zhuanlan/": [
         "java-mian-shi-zhi-bei",
         "back-end-interview-high-frequency-system-design-and-scenario-questions",

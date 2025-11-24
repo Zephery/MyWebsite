@@ -1,8 +1,8 @@
 import {hopeTheme} from "vuepress-theme-hope";
 
 import navbar from "./navbar.js";
-import sidebar from "./sidebar/index.js";
 import {dateSorter} from "@vuepress/helper";
+import sidebar from "./sidebar/index.js";
 
 
 export default hopeTheme({
@@ -50,7 +50,11 @@ export default hopeTheme({
                 Github: "https://github.com/Zephery",
                 Gitee: "https://gitee.com/zephery.com.cn",
                 BiliBili: "https://space.bilibili.com/3118581",
-                WechatPay: "https://wenzhihuai.com/donate"
+                WechatPay: "https://wenzhihuai.com/donate",
+                VuePressThemeHope: {
+                    icon: "https://theme-hope-assets.vuejs.press/logo.svg",
+                    link: "https://theme-hope.vuejs.press",
+                },
             },
         },
         plugins: {
@@ -67,6 +71,9 @@ export default hopeTheme({
                     "SiteInfo",
                     "BiliBili"
                 ]
+            },
+            icon: {
+                prefix: "fa6-solid:",
             },
             blog: {
                 excerptLength: 50,
