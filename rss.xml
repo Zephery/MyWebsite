@@ -6,10 +6,21 @@
     <link>https://www.wenzhihuai.com/</link>
     <description>个人博客</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 24 Nov 2025 14:29:10 GMT</pubDate>
-    <lastBuildDate>Mon, 24 Nov 2025 14:29:10 GMT</lastBuildDate>
+    <pubDate>Thu, 27 Nov 2025 14:07:43 GMT</pubDate>
+    <lastBuildDate>Thu, 27 Nov 2025 14:07:43 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <item>
+      <title></title>
+      <link>https://www.wenzhihuai.com/java/SpringBoot/Micrometer%E7%9B%91%E6%8E%A7%E6%8C%87%E6%A0%87%E4%B8%8A%E6%8A%A5Starrocks.html</link>
+      <guid>https://www.wenzhihuai.com/java/SpringBoot/Micrometer%E7%9B%91%E6%8E%A7%E6%8C%87%E6%A0%87%E4%B8%8A%E6%8A%A5Starrocks.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml"></source>
+      <description>一、 背景与目标 监控最主要还是上报到Prometheus，可惜成本实在是高昂，特别是存储时间要求得越久，我们这里探索了下micrometer转换成json，然后存储到starrocks这类mpp olap引擎，通过starrocks的存算分离架构，降低成本。 二、 总体架构 三、Spring Boot MeterRegister 发送至kafka 在...</description>
+      <pubDate>Thu, 27 Nov 2025 14:06:41 GMT</pubDate>
+      <content:encoded><![CDATA[<h2>一、 背景与目标</h2>
+<p>监控最主要还是上报到Prometheus，可惜成本实在是高昂，特别是存储时间要求得越久，我们这里探索了下micrometer转换成json，然后存储到starrocks这类mpp olap引擎，通过starrocks的存算分离架构，降低成本。</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>2025-10-06海南自驾游</title>
       <link>https://www.wenzhihuai.com/life/2025-10-06%E6%B5%B7%E5%8D%97%E8%87%AA%E9%A9%BE%E6%B8%B8.html</link>
@@ -32,18 +43,6 @@
 <p><img src="https://github-images.wenzhihuai.com/images/DJI_0894.JPG" alt="DJI_0894" loading="lazy"></p>
 ]]></content:encoded>
       <enclosure url="https://github-images.wenzhihuai.com/images/IMG_20251007_132710.jpg" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>监控指标上报Starrocks</title>
-      <link>https://www.wenzhihuai.com/java/SpringBoot/%E7%9B%91%E6%8E%A7%E6%8C%87%E6%A0%87%E4%B8%8A%E6%8A%A5Starrocks.html</link>
-      <guid>https://www.wenzhihuai.com/java/SpringBoot/%E7%9B%91%E6%8E%A7%E6%8C%87%E6%A0%87%E4%B8%8A%E6%8A%A5Starrocks.html</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">监控指标上报Starrocks</source>
-      <description>监控指标上报Starrocks 一、 背景与目标 监控最主要还是上报到Prometheus，可惜成本实在是高昂，特别是存储时间要求得越久，我们这里探索了下micrometer转换成json，然后存储到starrocks这类mpp olap引擎，通过starrocks的存算分离架构，降低成本。 二、 总体架构 三、 存储方案对比 我们以一串json为例 ...</description>
-      <pubDate>Sat, 01 Nov 2025 04:49:29 GMT</pubDate>
-      <content:encoded><![CDATA[
-<h2>一、 背景与目标</h2>
-<p>监控最主要还是上报到Prometheus，可惜成本实在是高昂，特别是存储时间要求得越久，我们这里探索了下micrometer转换成json，然后存储到starrocks这类mpp olap引擎，通过starrocks的存算分离架构，降低成本。</p>
-]]></content:encoded>
     </item>
     <item>
       <title>商品推荐系统-FAISS召回</title>
@@ -1664,24 +1663,6 @@ http://fls.itxe.net</p>
 ]]></content:encoded>
     </item>
     <item>
-      <title>JAVA NIO</title>
-      <link>https://www.wenzhihuai.com/java/io/nio.html</link>
-      <guid>https://www.wenzhihuai.com/java/io/nio.html</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">JAVA NIO</source>
-      <description>JAVA NIO 一、简介 1）Java BIO ： 同步并阻塞(传统阻塞型)，服务器实现模式为一个连接一个线程，即客户端有连接请求时服务器端就需要启动一个线程进行处理，如果这个连接不做任何事情会造成不必要的线程开销。 2）Java NIO ： 同步非阻塞，服务器实现模式为一个线程处理多个请求(连接)，即客户端发送的连接请求都会注册到多路复用器上，多路...</description>
-      <pubDate>Sun, 10 Mar 2024 14:39:30 GMT</pubDate>
-      <content:encoded><![CDATA[
-<h2>一、简介</h2>
-<p>1）Java BIO ： 同步并阻塞(传统阻塞型)，服务器实现模式为一个连接一个线程，即客户端有连接请求时服务器端就需要启动一个线程进行处理，如果这个连接不做任何事情会造成不必要的线程开销。</p>
-<p>2）Java NIO ： 同步非阻塞，服务器实现模式为一个线程处理多个请求(连接)，即客户端发送的连接请求都会注册到多路复用器上，多路复用器轮询到连接有I/O请求就进行处理。</p>
-<p>3）Java AIO：异步非阻塞，在AIO模型中，当我们发起一个I/O操作（如读或写）时，我们不需要等待它完成，我们的代码会立即返回，可以继续执行其他任务。当I/O操作完成时，我们之前注册的回调函数会被自动调用，我们可以在这个回调函数中处理I/O操作的结果。</p>
-<h3>1.1典型的多路复用IO实现</h3>
-<p>目前流程的多路复用IO实现主要包括四种: <code>select</code>、<code>poll</code>、<code>epoll</code>、<code>kqueue</code>。下表是他们的一些重要特性的比较:</p>
-<p>| IO模型 | 相对性能 | 数据结构     | 关键思路         | 操作系统      | JAVA支持情况                                                 |
-|</p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>JVM(java虚拟机)</title>
       <link>https://www.wenzhihuai.com/java/JVM/jvm(java%E8%99%9A%E6%8B%9F%E6%9C%BA).html</link>
       <guid>https://www.wenzhihuai.com/java/JVM/jvm(java%E8%99%9A%E6%8B%9F%E6%9C%BA).html</guid>
@@ -1792,6 +1773,24 @@ GC 过程：新生成的对象在Eden区分配（大对象除外，大对象直�
 4）调用System.gc()时（系统建议执行Full GC，但是不必然执行）</p>
 ]]></content:encoded>
       <enclosure url="https://github-images.wenzhihuai.com/images/31584f04c69f4fdaa922c5bd1517cc97.png" type="image/png"/>
+    </item>
+    <item>
+      <title>JAVA NIO</title>
+      <link>https://www.wenzhihuai.com/java/io/nio.html</link>
+      <guid>https://www.wenzhihuai.com/java/io/nio.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">JAVA NIO</source>
+      <description>JAVA NIO 一、简介 1）Java BIO ： 同步并阻塞(传统阻塞型)，服务器实现模式为一个连接一个线程，即客户端有连接请求时服务器端就需要启动一个线程进行处理，如果这个连接不做任何事情会造成不必要的线程开销。 2）Java NIO ： 同步非阻塞，服务器实现模式为一个线程处理多个请求(连接)，即客户端发送的连接请求都会注册到多路复用器上，多路...</description>
+      <pubDate>Sun, 10 Mar 2024 14:39:30 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2>一、简介</h2>
+<p>1）Java BIO ： 同步并阻塞(传统阻塞型)，服务器实现模式为一个连接一个线程，即客户端有连接请求时服务器端就需要启动一个线程进行处理，如果这个连接不做任何事情会造成不必要的线程开销。</p>
+<p>2）Java NIO ： 同步非阻塞，服务器实现模式为一个线程处理多个请求(连接)，即客户端发送的连接请求都会注册到多路复用器上，多路复用器轮询到连接有I/O请求就进行处理。</p>
+<p>3）Java AIO：异步非阻塞，在AIO模型中，当我们发起一个I/O操作（如读或写）时，我们不需要等待它完成，我们的代码会立即返回，可以继续执行其他任务。当I/O操作完成时，我们之前注册的回调函数会被自动调用，我们可以在这个回调函数中处理I/O操作的结果。</p>
+<h3>1.1典型的多路复用IO实现</h3>
+<p>目前流程的多路复用IO实现主要包括四种: <code>select</code>、<code>poll</code>、<code>epoll</code>、<code>kqueue</code>。下表是他们的一些重要特性的比较:</p>
+<p>| IO模型 | 相对性能 | 数据结构     | 关键思路         | 操作系统      | JAVA支持情况                                                 |
+|</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Spring Cloud Sentinel</title>
@@ -2573,20 +2572,6 @@ synchronized的特点：
 ]]></content:encoded>
     </item>
     <item>
-      <title>SpringBoot</title>
-      <link>https://www.wenzhihuai.com/java/SpringBoot/</link>
-      <guid>https://www.wenzhihuai.com/java/SpringBoot/</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">SpringBoot</source>
-      <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>I/O</title>
-      <link>https://www.wenzhihuai.com/java/io/</link>
-      <guid>https://www.wenzhihuai.com/java/io/</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">I/O</source>
-      <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
-    </item>
-    <item>
       <title>JVM</title>
       <link>https://www.wenzhihuai.com/java/JVM/</link>
       <guid>https://www.wenzhihuai.com/java/JVM/</guid>
@@ -2779,6 +2764,20 @@ synchronized的特点：
 <p>9.<a href="https://link.zhihu.com/?target=https%3A//www.jianshu.com/p/12544c0ad5c1" target="_blank" rel="noopener noreferrer">https://www.jianshu.com/p/12544c0ad</a></p>
 ]]></content:encoded>
       <enclosure url="https://github-images.wenzhihuai.com/images/v2-62257a68cd5fa063d16cb4c30bd75ac0_1440w.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>SpringBoot</title>
+      <link>https://www.wenzhihuai.com/java/SpringBoot/</link>
+      <guid>https://www.wenzhihuai.com/java/SpringBoot/</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">SpringBoot</source>
+      <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>I/O</title>
+      <link>https://www.wenzhihuai.com/java/io/</link>
+      <guid>https://www.wenzhihuai.com/java/io/</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">I/O</source>
+      <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
     </item>
     <item>
       <title>线程</title>
