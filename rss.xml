@@ -6,18 +6,19 @@
     <link>https://www.wenzhihuai.com/</link>
     <description>个人博客</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 27 Nov 2025 14:07:43 GMT</pubDate>
-    <lastBuildDate>Thu, 27 Nov 2025 14:07:43 GMT</lastBuildDate>
+    <pubDate>Thu, 27 Nov 2025 14:11:31 GMT</pubDate>
+    <lastBuildDate>Thu, 27 Nov 2025 14:11:31 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <item>
-      <title></title>
+      <title>Micrometer监控指标上报Starrocks</title>
       <link>https://www.wenzhihuai.com/java/SpringBoot/Micrometer%E7%9B%91%E6%8E%A7%E6%8C%87%E6%A0%87%E4%B8%8A%E6%8A%A5Starrocks.html</link>
       <guid>https://www.wenzhihuai.com/java/SpringBoot/Micrometer%E7%9B%91%E6%8E%A7%E6%8C%87%E6%A0%87%E4%B8%8A%E6%8A%A5Starrocks.html</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml"></source>
-      <description>一、 背景与目标 监控最主要还是上报到Prometheus，可惜成本实在是高昂，特别是存储时间要求得越久，我们这里探索了下micrometer转换成json，然后存储到starrocks这类mpp olap引擎，通过starrocks的存算分离架构，降低成本。 二、 总体架构 三、Spring Boot MeterRegister 发送至kafka 在...</description>
+      <source url="https://www.wenzhihuai.com/rss.xml">Micrometer监控指标上报Starrocks</source>
+      <description>Micrometer监控指标上报Starrocks 一、 背景与目标 监控最主要还是上报到Prometheus，可惜成本实在是高昂，特别是存储时间要求得越久，我们这里探索了下micrometer转换成json，然后存储到starrocks这类mpp olap引擎，通过starrocks的存算分离架构，降低成本。 二、 总体架构 三、Spring Boo...</description>
       <pubDate>Thu, 27 Nov 2025 14:06:41 GMT</pubDate>
-      <content:encoded><![CDATA[<h2>一、 背景与目标</h2>
+      <content:encoded><![CDATA[
+<h2>一、 背景与目标</h2>
 <p>监控最主要还是上报到Prometheus，可惜成本实在是高昂，特别是存储时间要求得越久，我们这里探索了下micrometer转换成json，然后存储到starrocks这类mpp olap引擎，通过starrocks的存算分离架构，降低成本。</p>
 ]]></content:encoded>
     </item>
@@ -593,6 +594,19 @@ LiteFlow 具有高度的扩展性，开发者可以根据自身业务的特殊�
       <enclosure url="https://github-images.wenzhihuai.com/images/1.svg" type="image/svg+xml"/>
     </item>
     <item>
+      <title>计算广告基本概念入门总结</title>
+      <link>https://www.wenzhihuai.com/system-design/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E5%85%A5%E9%97%A8%E6%80%BB%E7%BB%93.html</link>
+      <guid>https://www.wenzhihuai.com/system-design/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E5%85%A5%E9%97%A8%E6%80%BB%E7%BB%93.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">计算广告基本概念入门总结</source>
+      <description>计算广告基本概念入门总结 广告业务是各大互联网公司主要的商业化变现营收来源。近年来随着互联网和移动端技术的普及，使得广告的用户触达成本大大降低，而广告的形态和内涵也逐渐变得复杂。广告不再是单纯的展示和计费，而是结合了推荐、大数据等各类计算技术，以达到广告的精准受众定向，计算广告概念由此诞生。 本文基于《计算广告》及互联网内容，整理了计算广告核心概念及入...</description>
+      <pubDate>Sun, 01 Sep 2024 13:54:44 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>广告业务是各大互联网公司主要的商业化变现营收来源。近年来随着互联网和移动端技术的普及，使得广告的用户触达成本大大降低，而广告的形态和内涵也逐渐变得复杂。广告不再是单纯的展示和计费，而是结合了推荐、大数据等各类计算技术，以达到广告的精准受众定向，计算广告概念由此诞生。</p>
+<p>本文基于《计算广告》及互联网内容，整理了计算广告核心概念及入门知识，希望对入行广告行业的RD和非技术同学有所帮助。</p>
+]]></content:encoded>
+      <enclosure url="https://github-images.wenzhihuai.com/test/70353957ecb1660b1ca67b4c8aea852b.png" type="image/png"/>
+    </item>
+    <item>
       <title>推荐系统入门</title>
       <link>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%85%A5%E9%97%A8.html</link>
       <guid>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%85%A5%E9%97%A8.html</guid>
@@ -850,19 +864,6 @@ LiteFlow 具有高度的扩展性，开发者可以根据自身业务的特殊�
 <p>AI 时代，算法会更加复杂和完善，推荐的效果也会越来越好，特别是随着 OpenAI ChatGPT 横空出现，推荐系统最有条件和最适合 GPT 模型去结合使用，当然也会更加高效和智能。期待我们智能版推荐系统早日面世。</p>
 ]]></content:encoded>
       <enclosure url="https://github-images.wenzhihuai.com/test/9cd60b43b0f590e54ff8fd2de18b16a2.png" type="image/png"/>
-    </item>
-    <item>
-      <title>计算广告基本概念入门总结</title>
-      <link>https://www.wenzhihuai.com/system-design/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E5%85%A5%E9%97%A8%E6%80%BB%E7%BB%93.html</link>
-      <guid>https://www.wenzhihuai.com/system-design/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E5%85%A5%E9%97%A8%E6%80%BB%E7%BB%93.html</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">计算广告基本概念入门总结</source>
-      <description>计算广告基本概念入门总结 广告业务是各大互联网公司主要的商业化变现营收来源。近年来随着互联网和移动端技术的普及，使得广告的用户触达成本大大降低，而广告的形态和内涵也逐渐变得复杂。广告不再是单纯的展示和计费，而是结合了推荐、大数据等各类计算技术，以达到广告的精准受众定向，计算广告概念由此诞生。 本文基于《计算广告》及互联网内容，整理了计算广告核心概念及入...</description>
-      <pubDate>Sun, 01 Sep 2024 13:54:44 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>广告业务是各大互联网公司主要的商业化变现营收来源。近年来随着互联网和移动端技术的普及，使得广告的用户触达成本大大降低，而广告的形态和内涵也逐渐变得复杂。广告不再是单纯的展示和计费，而是结合了推荐、大数据等各类计算技术，以达到广告的精准受众定向，计算广告概念由此诞生。</p>
-<p>本文基于《计算广告》及互联网内容，整理了计算广告核心概念及入门知识，希望对入行广告行业的RD和非技术同学有所帮助。</p>
-]]></content:encoded>
-      <enclosure url="https://github-images.wenzhihuai.com/test/70353957ecb1660b1ca67b4c8aea852b.png" type="image/png"/>
     </item>
     <item>
       <title>程序员副业探索之电商</title>
@@ -2766,17 +2767,17 @@ synchronized的特点：
       <enclosure url="https://github-images.wenzhihuai.com/images/v2-62257a68cd5fa063d16cb4c30bd75ac0_1440w.webp" type="image/webp"/>
     </item>
     <item>
-      <title>SpringBoot</title>
-      <link>https://www.wenzhihuai.com/java/SpringBoot/</link>
-      <guid>https://www.wenzhihuai.com/java/SpringBoot/</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">SpringBoot</source>
-      <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
-    </item>
-    <item>
       <title>I/O</title>
       <link>https://www.wenzhihuai.com/java/io/</link>
       <guid>https://www.wenzhihuai.com/java/io/</guid>
       <source url="https://www.wenzhihuai.com/rss.xml">I/O</source>
+      <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>SpringBoot</title>
+      <link>https://www.wenzhihuai.com/java/SpringBoot/</link>
+      <guid>https://www.wenzhihuai.com/java/SpringBoot/</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">SpringBoot</source>
       <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
     </item>
     <item>

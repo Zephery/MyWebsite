@@ -4,22 +4,24 @@
   <title>个人博客</title>
   <subtitle>个人博客</subtitle>
   <icon>https://www.wenzhihuai.com/favicon.ico</icon>
-  <updated>2025-11-27T14:07:43.525Z</updated>
+  <updated>2025-11-27T14:11:31.694Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://www.wenzhihuai.com/atom.xml"/>
   <link rel="alternate" href="https://www.wenzhihuai.com/"/>
   <entry>
-    <title type="text"></title>
+    <title type="text">Micrometer监控指标上报Starrocks</title>
     <id>https://www.wenzhihuai.com/java/SpringBoot/Micrometer%E7%9B%91%E6%8E%A7%E6%8C%87%E6%A0%87%E4%B8%8A%E6%8A%A5Starrocks.html</id>
     <link href="https://www.wenzhihuai.com/java/SpringBoot/Micrometer%E7%9B%91%E6%8E%A7%E6%8C%87%E6%A0%87%E4%B8%8A%E6%8A%A5Starrocks.html"/>
-    <updated>2025-11-27T14:06:41.000Z</updated>
-    <summary type="html"><![CDATA[<h2>一、 背景与目标</h2>
+    <updated>2025-11-27T14:10:42.000Z</updated>
+    <summary type="html"><![CDATA[
+<h2>一、 背景与目标</h2>
 <p>监控最主要还是上报到Prometheus，可惜成本实在是高昂，特别是存储时间要求得越久，我们这里探索了下micrometer转换成json，然后存储到starrocks这类mpp olap引擎，通过starrocks的存算分离架构，降低成本。</p>
 <hr>
 <h2>二、 总体架构</h2>
 <div class="language-text line-numbers-mode" data-highlighter="shiki" data-ext="text" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code class="language-text"><span class="line"><span>Spring Boot + Micrometer --指标采集--&gt; Kafka --消息流--&gt; Flink --清洗/聚合/分流--&gt; StarRocks (metric_data / metric_series)</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div>]]></summary>
-    <content type="html"><![CDATA[<h2>一、 背景与目标</h2>
+    <content type="html"><![CDATA[
+<h2>一、 背景与目标</h2>
 <p>监控最主要还是上报到Prometheus，可惜成本实在是高昂，特别是存储时间要求得越久，我们这里探索了下micrometer转换成json，然后存储到starrocks这类mpp olap引擎，通过starrocks的存算分离架构，降低成本。</p>
 ]]></content>
     <published>2025-11-27T14:06:41.000Z</published>
@@ -628,6 +630,24 @@ LiteFlow 具有高度的扩展性，开发者可以根据自身业务的特殊�
     <published>2024-09-08T16:55:53.000Z</published>
   </entry>
   <entry>
+    <title type="text">计算广告基本概念入门总结</title>
+    <id>https://www.wenzhihuai.com/system-design/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E5%85%A5%E9%97%A8%E6%80%BB%E7%BB%93.html</id>
+    <link href="https://www.wenzhihuai.com/system-design/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E5%85%A5%E9%97%A8%E6%80%BB%E7%BB%93.html"/>
+    <updated>2025-11-01T04:49:29.000Z</updated>
+    <summary type="html"><![CDATA[
+<p>广告业务是各大互联网公司主要的商业化变现营收来源。近年来随着互联网和移动端技术的普及，使得广告的用户触达成本大大降低，而广告的形态和内涵也逐渐变得复杂。广告不再是单纯的展示和计费，而是结合了推荐、大数据等各类计算技术，以达到广告的精准受众定向，计算广告概念由此诞生。</p>
+<p>本文基于《计算广告》及互联网内容，整理了计算广告核心概念及入门知识，希望对入行广告行业的RD和非技术同学有所帮助。</p>
+<hr>
+<h2>一、计算广告入门</h2>
+<h3>1.1 什么是计算广告</h3>
+<p>首先要理解广告的概念，广告指的是由已确定的出资人通过各类媒介进行有关产品、观点和服务的、通常是有偿的、有组织的、综合的、劝服性的非人员信息传播活动。</p>]]></summary>
+    <content type="html"><![CDATA[
+<p>广告业务是各大互联网公司主要的商业化变现营收来源。近年来随着互联网和移动端技术的普及，使得广告的用户触达成本大大降低，而广告的形态和内涵也逐渐变得复杂。广告不再是单纯的展示和计费，而是结合了推荐、大数据等各类计算技术，以达到广告的精准受众定向，计算广告概念由此诞生。</p>
+<p>本文基于《计算广告》及互联网内容，整理了计算广告核心概念及入门知识，希望对入行广告行业的RD和非技术同学有所帮助。</p>
+]]></content>
+    <published>2024-09-01T13:54:44.000Z</published>
+  </entry>
+  <entry>
     <title type="text">推荐系统入门</title>
     <id>https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%85%A5%E9%97%A8.html</id>
     <link href="https://www.wenzhihuai.com/system-design/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E5%85%A5%E9%97%A8.html"/>
@@ -886,24 +906,6 @@ LiteFlow 具有高度的扩展性，开发者可以根据自身业务的特殊�
 </ol>
 <p><strong>展望：</strong></p>
 <p>AI 时代，算法会更加复杂和完善，推荐的效果也会越来越好，特别是随着 OpenAI ChatGPT 横空出现，推荐系统最有条件和最适合 GPT 模型去结合使用，当然也会更加高效和智能。期待我们智能版推荐系统早日面世。</p>
-]]></content>
-    <published>2024-09-01T13:54:44.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">计算广告基本概念入门总结</title>
-    <id>https://www.wenzhihuai.com/system-design/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E5%85%A5%E9%97%A8%E6%80%BB%E7%BB%93.html</id>
-    <link href="https://www.wenzhihuai.com/system-design/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A/%E8%AE%A1%E7%AE%97%E5%B9%BF%E5%91%8A%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5%E5%85%A5%E9%97%A8%E6%80%BB%E7%BB%93.html"/>
-    <updated>2025-11-01T04:49:29.000Z</updated>
-    <summary type="html"><![CDATA[
-<p>广告业务是各大互联网公司主要的商业化变现营收来源。近年来随着互联网和移动端技术的普及，使得广告的用户触达成本大大降低，而广告的形态和内涵也逐渐变得复杂。广告不再是单纯的展示和计费，而是结合了推荐、大数据等各类计算技术，以达到广告的精准受众定向，计算广告概念由此诞生。</p>
-<p>本文基于《计算广告》及互联网内容，整理了计算广告核心概念及入门知识，希望对入行广告行业的RD和非技术同学有所帮助。</p>
-<hr>
-<h2>一、计算广告入门</h2>
-<h3>1.1 什么是计算广告</h3>
-<p>首先要理解广告的概念，广告指的是由已确定的出资人通过各类媒介进行有关产品、观点和服务的、通常是有偿的、有组织的、综合的、劝服性的非人员信息传播活动。</p>]]></summary>
-    <content type="html"><![CDATA[
-<p>广告业务是各大互联网公司主要的商业化变现营收来源。近年来随着互联网和移动端技术的普及，使得广告的用户触达成本大大降低，而广告的形态和内涵也逐渐变得复杂。广告不再是单纯的展示和计费，而是结合了推荐、大数据等各类计算技术，以达到广告的精准受众定向，计算广告概念由此诞生。</p>
-<p>本文基于《计算广告》及互联网内容，整理了计算广告核心概念及入门知识，希望对入行广告行业的RD和非技术同学有所帮助。</p>
 ]]></content>
     <published>2024-09-01T13:54:44.000Z</published>
   </entry>
@@ -3160,16 +3162,16 @@ synchronized的特点：
     <published>2024-02-16T04:00:26.000Z</published>
   </entry>
   <entry>
-    <title type="text">SpringBoot</title>
-    <id>https://www.wenzhihuai.com/java/SpringBoot/</id>
-    <link href="https://www.wenzhihuai.com/java/SpringBoot/"/>
+    <title type="text">I/O</title>
+    <id>https://www.wenzhihuai.com/java/io/</id>
+    <link href="https://www.wenzhihuai.com/java/io/"/>
     <updated>2025-11-24T14:26:52.000Z</updated>
     <published>2024-02-16T04:00:26.000Z</published>
   </entry>
   <entry>
-    <title type="text">I/O</title>
-    <id>https://www.wenzhihuai.com/java/io/</id>
-    <link href="https://www.wenzhihuai.com/java/io/"/>
+    <title type="text">SpringBoot</title>
+    <id>https://www.wenzhihuai.com/java/SpringBoot/</id>
+    <link href="https://www.wenzhihuai.com/java/SpringBoot/"/>
     <updated>2025-11-24T14:26:52.000Z</updated>
     <published>2024-02-16T04:00:26.000Z</published>
   </entry>
