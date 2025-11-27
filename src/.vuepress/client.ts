@@ -4,10 +4,17 @@ import {setupRunningTimeFooter} from "vuepress-theme-hope/presets/footerRunningT
 
 export default defineClientConfig({
     setup() {
+        const startDate = new Date("2017-04-01");
+        const now = new Date();
+        const diffTime = Math.abs(now.getTime() - startDate.getTime());
+        const diffYears = Math.floor(diffTime / (1000 * 60 * 60 * 24 * 365));
+        const diffDays = Math.floor((diffTime % (1000 * 60 * 60 * 24 * 365)) / (1000 * 60 * 60 * 24));
+
+
         setupRunningTimeFooter(
-            new Date("2017-04-01"),
+            startDate,
             {
-                "/": "已运行 :day 天 :hour 小时 :minute 分钟 :second 秒"
+                "/": "已运行 " + diffYears + "年 " + diffDays + " 天 :hour 小时 :minute 分钟 :second 秒"
             },
             true,
         );
