@@ -4,60 +4,10 @@
   <title>个人博客</title>
   <subtitle>个人博客</subtitle>
   <icon>https://www.wenzhihuai.com/favicon.ico</icon>
-  <updated>2025-11-29T10:47:48.017Z</updated>
+  <updated>2025-11-29T11:01:01.103Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://www.wenzhihuai.com/atom.xml"/>
   <link rel="alternate" href="https://www.wenzhihuai.com/"/>
-  <entry>
-    <title type="text">小程序</title>
-    <id>https://www.wenzhihuai.com/about-the-author/works/%E5%B0%8F%E7%A8%8B%E5%BA%8F.html</id>
-    <link href="https://www.wenzhihuai.com/about-the-author/works/%E5%B0%8F%E7%A8%8B%E5%BA%8F.html"/>
-    <updated>2025-11-29T10:46:51.000Z</updated>
-    <summary type="html"><![CDATA[
-<div style="text-align:center">
-<p><img src="https://github-images.wenzhihuai.com/github/gh_89030789780b_344.jpg" alt="助眠风扇" loading="lazy"></p>
-</div>
-<h2>助眠风扇</h2>
-<p>原型是app store里的sleepaidfan，主要是睡觉的时候通过白噪音掩盖马路的各种声音</p>
-<div style="text-align:center">
-<p><img src="https://github-images.wenzhihuai.com/github/gh_068db871b3fd_344.jpg" alt="MyTesMate" loading="lazy"></p>
-</div>]]></summary>
-    <content type="html"><![CDATA[
-<div style="text-align:center">
-<p><img src="https://github-images.wenzhihuai.com/github/gh_89030789780b_344.jpg" alt="助眠风扇" loading="lazy"></p>
-</div>
-<h2>助眠风扇</h2>
-<p>原型是app store里的sleepaidfan，主要是睡觉的时候通过白噪音掩盖马路的各种声音</p>
-<div style="text-align:center">
-<p><img src="https://github-images.wenzhihuai.com/github/gh_068db871b3fd_344.jpg" alt="MyTesMate" loading="lazy"></p>
-</div>
-<h2>MyTesMate</h2>
-<p>通过调用testla api，兼容tesla app，同时，集成teslamate，可查阅汽车过往行驶数据、能耗等</p>
-<h2>妆点时光专营店</h2>
-<p>小程序商城，原型是crmeb-java，打通了微信支付等各种，卖化妆品，不知道怎么运营下去，可惜了</p>
-]]></content>
-    <published>2025-11-29T10:01:14.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">网站</title>
-    <id>https://www.wenzhihuai.com/about-the-author/works/%E7%BD%91%E7%AB%99.html</id>
-    <link href="https://www.wenzhihuai.com/about-the-author/works/%E7%BD%91%E7%AB%99.html"/>
-    <updated>2025-11-29T10:46:51.000Z</updated>
-    <summary type="html"><![CDATA[
-<p><img src="https://github-images.wenzhihuai.com/images/image-20251129175453184.png" alt="image-20251129175453184" loading="lazy"></p>
-<h2>推荐系统</h2>
-<p>https://rec.wenzhihuai.com 数据来源amazon的商品，还有向量召回、粗排、精排、重排，可能优化的不太好，关注流程就行</p>
-<p><img src="https://github-images.wenzhihuai.com/images/image-20251129175515717.png" alt="image-20251129175515717" loading="lazy"></p>]]></summary>
-    <content type="html"><![CDATA[
-<p><img src="https://github-images.wenzhihuai.com/images/image-20251129175453184.png" alt="image-20251129175453184" loading="lazy"></p>
-<h2>推荐系统</h2>
-<p>https://rec.wenzhihuai.com 数据来源amazon的商品，还有向量召回、粗排、精排、重排，可能优化的不太好，关注流程就行</p>
-<p><img src="https://github-images.wenzhihuai.com/images/image-20251129175515717.png" alt="image-20251129175515717" loading="lazy"></p>
-<h2>个人网站</h2>
-<p>https://wenzhihuai.com 最初是Spring Boot+Jsp（10年前的了），然后经历了很多次迭代，最终因技术太落后没法维护了，所以切换到了vuepress-theme-hope这个框架里去</p>
-]]></content>
-    <published>2025-11-29T10:01:14.000Z</published>
-  </entry>
   <entry>
     <title type="text">Micrometer监控指标上报Starrocks</title>
     <id>https://www.wenzhihuai.com/java/SpringBoot/Micrometer%E7%9B%91%E6%8E%A7%E6%8C%87%E6%A0%87%E4%B8%8A%E6%8A%A5Starrocks.html</id>
@@ -3067,16 +3017,16 @@ synchronized的特点：
     <published>2024-02-16T04:00:26.000Z</published>
   </entry>
   <entry>
-    <title type="text">I/O</title>
-    <id>https://www.wenzhihuai.com/java/io/</id>
-    <link href="https://www.wenzhihuai.com/java/io/"/>
+    <title type="text">SpringBoot</title>
+    <id>https://www.wenzhihuai.com/java/SpringBoot/</id>
+    <link href="https://www.wenzhihuai.com/java/SpringBoot/"/>
     <updated>2025-11-24T14:26:52.000Z</updated>
     <published>2024-02-16T04:00:26.000Z</published>
   </entry>
   <entry>
-    <title type="text">SpringBoot</title>
-    <id>https://www.wenzhihuai.com/java/SpringBoot/</id>
-    <link href="https://www.wenzhihuai.com/java/SpringBoot/"/>
+    <title type="text">I/O</title>
+    <id>https://www.wenzhihuai.com/java/io/</id>
+    <link href="https://www.wenzhihuai.com/java/io/"/>
     <updated>2025-11-24T14:26:52.000Z</updated>
     <published>2024-02-16T04:00:26.000Z</published>
   </entry>

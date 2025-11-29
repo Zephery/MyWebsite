@@ -6,50 +6,10 @@
     <link>https://www.wenzhihuai.com/</link>
     <description>个人博客</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 29 Nov 2025 10:47:48 GMT</pubDate>
-    <lastBuildDate>Sat, 29 Nov 2025 10:47:48 GMT</lastBuildDate>
+    <pubDate>Sat, 29 Nov 2025 11:01:01 GMT</pubDate>
+    <lastBuildDate>Sat, 29 Nov 2025 11:01:01 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <item>
-      <title>小程序</title>
-      <link>https://www.wenzhihuai.com/about-the-author/works/%E5%B0%8F%E7%A8%8B%E5%BA%8F.html</link>
-      <guid>https://www.wenzhihuai.com/about-the-author/works/%E5%B0%8F%E7%A8%8B%E5%BA%8F.html</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">小程序</source>
-      <description>小程序 助眠风扇 助眠风扇 原型是app store里的sleepaidfan，主要是睡觉的时候通过白噪音掩盖马路的各种声音 MyTesMate MyTesMate 通过调用testla api，兼容tesla app，同时，集成teslamate，可查阅汽车过往行驶数据、能耗等 妆点时光专营店 小程序商城，原型是crmeb-java，打通了微信支付等...</description>
-      <pubDate>Sat, 29 Nov 2025 10:01:14 GMT</pubDate>
-      <content:encoded><![CDATA[
-<div style="text-align:center">
-<p><img src="https://github-images.wenzhihuai.com/github/gh_89030789780b_344.jpg" alt="助眠风扇" loading="lazy"></p>
-</div>
-<h2>助眠风扇</h2>
-<p>原型是app store里的sleepaidfan，主要是睡觉的时候通过白噪音掩盖马路的各种声音</p>
-<div style="text-align:center">
-<p><img src="https://github-images.wenzhihuai.com/github/gh_068db871b3fd_344.jpg" alt="MyTesMate" loading="lazy"></p>
-</div>
-<h2>MyTesMate</h2>
-<p>通过调用testla api，兼容tesla app，同时，集成teslamate，可查阅汽车过往行驶数据、能耗等</p>
-<h2>妆点时光专营店</h2>
-<p>小程序商城，原型是crmeb-java，打通了微信支付等各种，卖化妆品，不知道怎么运营下去，可惜了</p>
-]]></content:encoded>
-      <enclosure url="https://github-images.wenzhihuai.com/github/gh_89030789780b_344.jpg" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>网站</title>
-      <link>https://www.wenzhihuai.com/about-the-author/works/%E7%BD%91%E7%AB%99.html</link>
-      <guid>https://www.wenzhihuai.com/about-the-author/works/%E7%BD%91%E7%AB%99.html</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">网站</source>
-      <description>网站 image-20251129175453184 推荐系统 https://rec.wenzhihuai.com 数据来源amazon的商品，还有向量召回、粗排、精排、重排，可能优化的不太好，关注流程就行 image-20251129175515717 个人网站 https://wenzhihuai.com 最初是Spring Boot+Jsp（1...</description>
-      <pubDate>Sat, 29 Nov 2025 10:01:14 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p><img src="https://github-images.wenzhihuai.com/images/image-20251129175453184.png" alt="image-20251129175453184" loading="lazy"></p>
-<h2>推荐系统</h2>
-<p>https://rec.wenzhihuai.com 数据来源amazon的商品，还有向量召回、粗排、精排、重排，可能优化的不太好，关注流程就行</p>
-<p><img src="https://github-images.wenzhihuai.com/images/image-20251129175515717.png" alt="image-20251129175515717" loading="lazy"></p>
-<h2>个人网站</h2>
-<p>https://wenzhihuai.com 最初是Spring Boot+Jsp（10年前的了），然后经历了很多次迭代，最终因技术太落后没法维护了，所以切换到了vuepress-theme-hope这个框架里去</p>
-]]></content:encoded>
-      <enclosure url="https://github-images.wenzhihuai.com/images/image-20251129175453184.png" type="image/png"/>
-    </item>
     <item>
       <title>Micrometer监控指标上报Starrocks</title>
       <link>https://www.wenzhihuai.com/java/SpringBoot/Micrometer%E7%9B%91%E6%8E%A7%E6%8C%87%E6%A0%87%E4%B8%8A%E6%8A%A5Starrocks.html</link>
@@ -2744,17 +2704,17 @@ synchronized的特点：
       <enclosure url="https://github-images.wenzhihuai.com/images/v2-62257a68cd5fa063d16cb4c30bd75ac0_1440w.webp" type="image/webp"/>
     </item>
     <item>
-      <title>I/O</title>
-      <link>https://www.wenzhihuai.com/java/io/</link>
-      <guid>https://www.wenzhihuai.com/java/io/</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">I/O</source>
-      <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
-    </item>
-    <item>
       <title>SpringBoot</title>
       <link>https://www.wenzhihuai.com/java/SpringBoot/</link>
       <guid>https://www.wenzhihuai.com/java/SpringBoot/</guid>
       <source url="https://www.wenzhihuai.com/rss.xml">SpringBoot</source>
+      <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>I/O</title>
+      <link>https://www.wenzhihuai.com/java/io/</link>
+      <guid>https://www.wenzhihuai.com/java/io/</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">I/O</source>
       <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
     </item>
     <item>
