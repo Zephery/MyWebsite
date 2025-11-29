@@ -4,7 +4,7 @@
   <title>个人博客</title>
   <subtitle>个人博客</subtitle>
   <icon>https://www.wenzhihuai.com/favicon.ico</icon>
-  <updated>2025-11-29T02:55:54.913Z</updated>
+  <updated>2025-11-29T03:16:21.815Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://www.wenzhihuai.com/atom.xml"/>
   <link rel="alternate" href="https://www.wenzhihuai.com/"/>
@@ -2797,13 +2797,6 @@ synchronized的特点：
     <published>2024-02-16T04:00:26.000Z</published>
   </entry>
   <entry>
-    <title type="text">SpringBoot</title>
-    <id>https://www.wenzhihuai.com/java/SpringBoot/</id>
-    <link href="https://www.wenzhihuai.com/java/SpringBoot/"/>
-    <updated>2025-11-24T14:26:52.000Z</updated>
-    <published>2024-02-16T04:00:26.000Z</published>
-  </entry>
-  <entry>
     <title type="text">JVM</title>
     <id>https://www.wenzhihuai.com/java/JVM/</id>
     <link href="https://www.wenzhihuai.com/java/JVM/"/>
@@ -3015,6 +3008,13 @@ synchronized的特点：
     <title type="text">I/O</title>
     <id>https://www.wenzhihuai.com/java/io/</id>
     <link href="https://www.wenzhihuai.com/java/io/"/>
+    <updated>2025-11-24T14:26:52.000Z</updated>
+    <published>2024-02-16T04:00:26.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">SpringBoot</title>
+    <id>https://www.wenzhihuai.com/java/SpringBoot/</id>
+    <link href="https://www.wenzhihuai.com/java/SpringBoot/"/>
     <updated>2025-11-24T14:26:52.000Z</updated>
     <published>2024-02-16T04:00:26.000Z</published>
   </entry>

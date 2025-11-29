@@ -489,16 +489,6 @@
       "tags": []
     },
     {
-      "title": "SpringBoot",
-      "url": "https://www.wenzhihuai.com/java/SpringBoot/",
-      "id": "https://www.wenzhihuai.com/java/SpringBoot/",
-      "content_html": "",
-      "date_published": "2024-02-16T04:00:26.000Z",
-      "date_modified": "2025-11-24T14:26:52.000Z",
-      "authors": [],
-      "tags": []
-    },
-    {
       "title": "JVM",
       "url": "https://www.wenzhihuai.com/java/JVM/",
       "id": "https://www.wenzhihuai.com/java/JVM/",
@@ -547,6 +537,16 @@
       "title": "I/O",
       "url": "https://www.wenzhihuai.com/java/io/",
       "id": "https://www.wenzhihuai.com/java/io/",
+      "content_html": "",
+      "date_published": "2024-02-16T04:00:26.000Z",
+      "date_modified": "2025-11-24T14:26:52.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "SpringBoot",
+      "url": "https://www.wenzhihuai.com/java/SpringBoot/",
+      "id": "https://www.wenzhihuai.com/java/SpringBoot/",
       "content_html": "",
       "date_published": "2024-02-16T04:00:26.000Z",
       "date_modified": "2025-11-24T14:26:52.000Z",
