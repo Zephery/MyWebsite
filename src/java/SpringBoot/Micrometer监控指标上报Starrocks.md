@@ -2,8 +2,8 @@
 ## 一、 背景与目标
 
 监控最主要还是上报到Prometheus，可惜成本实在是高昂，特别是存储时间要求得越久，我们这里探索了下micrometer转换成json，然后存储到starrocks这类mpp olap引擎，通过starrocks的存算分离架构，降低成本。
-  
----  
+
+---
 
 ## 二、 总体架构
 
@@ -11,7 +11,7 @@
 Spring Boot + Micrometer --指标采集--> Kafka --消息流--> Flink --清洗/聚合/分流--> StarRocks (metric_data / metric_series)
 ```
 
----  
+---
 
 ## 三、Spring Boot MeterRegister 发送至kafka
 
@@ -115,7 +115,8 @@ public class MetricsConfig {
 
 目前，核心疑问点在于是如何清零的？是否有丢数据的可能？
 在 Micrometer 中，**步长周期（Step Interval）**的处理逻辑主要由 `StepMeterRegistry` 完成，这类 Registry（例如 `DatadogMeterRegistry`、`AtlasMeterRegistry`）会确保每个时间窗口的指标值是**该窗口的增量数据**，而不是自应用启动以来的累计值。
-![[Pasted image 20251126164809.png]]
+
+![Pasted image 20251126164809](https://github-images.wenzhihuai.com/images/Pasted%20image%2020251126164809.png)
 
 ```plaintext  
 ┌─ StepMeterRegistry.publish()  ← 定时任务  
@@ -191,7 +192,7 @@ flowchart LR
     C --> E[StarRocks metric_series]  
     E -->|倒排索引| F[标签快速检索]  
     D --> F  
-```  
+```
 这种主要是想把指标和labels拆出来放到不同的两个表里，同时使用一个唯一id关联为一批数据，一开始有点豁然开朗，后来一想，（1）维度如果很多，但是只查一个维度的数据，这种关联不准确；（2）如果要关联查询，特别是维度多的情况下，sql复杂度翻好几倍，维护性大大降低。
 
 
@@ -225,7 +226,7 @@ PROPERTIES (
 );
 ```
 
----  
+---
 
 
 ## 五、Flink入库
