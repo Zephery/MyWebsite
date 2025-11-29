@@ -57,6 +57,7 @@ export default hopeTheme({
             },
         },
         plugins: {
+            git: true,
             comment: {
                 provider: "Giscus",
                 comment: true, //启用评论功能
