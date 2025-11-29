@@ -6,10 +6,50 @@
     <link>https://www.wenzhihuai.com/</link>
     <description>个人博客</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 29 Nov 2025 03:16:21 GMT</pubDate>
-    <lastBuildDate>Sat, 29 Nov 2025 03:16:21 GMT</lastBuildDate>
+    <pubDate>Sat, 29 Nov 2025 10:02:08 GMT</pubDate>
+    <lastBuildDate>Sat, 29 Nov 2025 10:02:08 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <item>
+      <title>小程序</title>
+      <link>https://www.wenzhihuai.com/about-the-author/works/%E5%B0%8F%E7%A8%8B%E5%BA%8F.html</link>
+      <guid>https://www.wenzhihuai.com/about-the-author/works/%E5%B0%8F%E7%A8%8B%E5%BA%8F.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">小程序</source>
+      <description>小程序 助眠风扇 助眠风扇 原型是app store里的sleepaidfan，主要是睡觉的时候通过白噪音掩盖马路的各种声音 MyTesMate MyTesMate 通过调用testla api，兼容tesla app，同时，集成teslamate，可查阅汽车过往行驶数据、能耗等 妆点时光专营店 小程序商城，原型是crmeb-java，打通了微信支付等...</description>
+      <pubDate>Sat, 29 Nov 2025 10:01:14 GMT</pubDate>
+      <content:encoded><![CDATA[
+<div style="text-align:center">
+<p><img src="https://github-images.wenzhihuai.com/github/gh_89030789780b_344.jpg" alt="助眠风扇" loading="lazy"></p>
+</div>
+<h2>助眠风扇</h2>
+<p>原型是app store里的sleepaidfan，主要是睡觉的时候通过白噪音掩盖马路的各种声音</p>
+<div style="text-align:center">
+<p><img src="https://github-images.wenzhihuai.com/github/gh_068db871b3fd_344.jpg" alt="MyTesMate" loading="lazy"></p>
+</div>
+<h2>MyTesMate</h2>
+<p>通过调用testla api，兼容tesla app，同时，集成teslamate，可查阅汽车过往行驶数据、能耗等</p>
+<h2>妆点时光专营店</h2>
+<p>小程序商城，原型是crmeb-java，打通了微信支付等各种，卖化妆品，不知道怎么运营下去，可惜了</p>
+]]></content:encoded>
+      <enclosure url="https://github-images.wenzhihuai.com/github/gh_89030789780b_344.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>网站</title>
+      <link>https://www.wenzhihuai.com/about-the-author/works/%E7%BD%91%E7%AB%99.html</link>
+      <guid>https://www.wenzhihuai.com/about-the-author/works/%E7%BD%91%E7%AB%99.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">网站</source>
+      <description>网站 image-20251129175453184 推荐系统 https://rec.wenzhihuai.com 数据来源amazon的商品，还有向量召回、粗排、精排、重排，可能优化的不太好，关注流程就行 image-20251129175515717 个人网站 https://wenzhihuai.com 最初是Spring Boot+Jsp（1...</description>
+      <pubDate>Sat, 29 Nov 2025 10:01:14 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p><img src="https://github-images.wenzhihuai.com/images/image-20251129175453184.png" alt="image-20251129175453184" loading="lazy"></p>
+<h2>推荐系统</h2>
+<p>https://rec.wenzhihuai.com 数据来源amazon的商品，还有向量召回、粗排、精排、重排，可能优化的不太好，关注流程就行</p>
+<p><img src="https://github-images.wenzhihuai.com/images/image-20251129175515717.png" alt="image-20251129175515717" loading="lazy"></p>
+<h2>个人网站</h2>
+<p>https://wenzhihuai.com 最初是Spring Boot+Jsp（10年前的了），然后经历了很多次迭代，最终因技术太落后没法维护了，所以切换到了vuepress-theme-hope这个框架里去</p>
+]]></content:encoded>
+      <enclosure url="https://github-images.wenzhihuai.com/images/image-20251129175453184.png" type="image/png"/>
+    </item>
     <item>
       <title>Micrometer监控指标上报Starrocks</title>
       <link>https://www.wenzhihuai.com/java/SpringBoot/Micrometer%E7%9B%91%E6%8E%A7%E6%8C%87%E6%A0%87%E4%B8%8A%E6%8A%A5Starrocks.html</link>
@@ -24,12 +64,12 @@
       <enclosure url="https://github-images.wenzhihuai.com/images/Pasted%20image%2020251126164809.png" type="image/png"/>
     </item>
     <item>
-      <title>2025-10-06海南自驾游</title>
+      <title>2025-10-06 海南自驾游</title>
       <link>https://www.wenzhihuai.com/life/2025-10-06%E6%B5%B7%E5%8D%97%E8%87%AA%E9%A9%BE%E6%B8%B8.html</link>
       <guid>https://www.wenzhihuai.com/life/2025-10-06%E6%B5%B7%E5%8D%97%E8%87%AA%E9%A9%BE%E6%B8%B8.html</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">2025-10-06海南自驾游</source>
-      <description>2025-10-06海南自驾游 终于实现了环岛自驾了，可惜的是台风天，只能在不多的时间里多走走，海口-东方-三亚-陵水-文昌-海口，有一说一，感觉文昌的海估计会很好看，可惜去到那里已经是下午6点了（路过了文昌航天中心），有机会再去一次吧，话不多说，直接看图 IMG_20251007_132710 image-20251103003243928 imag...</description>
-      <pubDate>Sun, 02 Nov 2025 16:54:30 GMT</pubDate>
+      <source url="https://www.wenzhihuai.com/rss.xml">2025-10-06 海南自驾游</source>
+      <description>2025-10-06 海南自驾游 终于实现了环岛自驾了，可惜的是台风天，只能在不多的时间里多走走，海口-东方-三亚-陵水-文昌-海口，有一说一，感觉文昌的海估计会很好看，可惜去到那里已经是下午6点了（路过了文昌航天中心），有机会再去一次吧，话不多说，直接看图 IMG_20251007_132710 image-20251103003243928 ima...</description>
+      <pubDate>Mon, 06 Oct 2025 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>终于实现了环岛自驾了，可惜的是台风天，只能在不多的时间里多走走，海口-东方-三亚-陵水-文昌-海口，有一说一，感觉文昌的海估计会很好看，可惜去到那里已经是下午6点了（路过了文昌航天中心），有机会再去一次吧，话不多说，直接看图</p>
 <p><img src="https://github-images.wenzhihuai.com/images/IMG_20251007_132710.jpg" alt="IMG_20251007_132710" loading="lazy"></p>
@@ -231,12 +271,12 @@
       <enclosure url="https://github-images.wenzhihuai.com/images/image-20241130000406534.png" type="image/png"/>
     </item>
     <item>
-      <title>2024-11-09上海迪斯尼</title>
+      <title>2024-11-09 上海迪斯尼</title>
       <link>https://www.wenzhihuai.com/life/2024-11-09%E4%B8%8A%E6%B5%B7%E8%BF%AA%E6%96%AF%E5%B0%BC.html</link>
       <guid>https://www.wenzhihuai.com/life/2024-11-09%E4%B8%8A%E6%B5%B7%E8%BF%AA%E6%96%AF%E5%B0%BC.html</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">2024-11-09上海迪斯尼</source>
-      <description>2024-11-09上海迪斯尼</description>
-      <pubDate>Sun, 10 Nov 2024 15:55:36 GMT</pubDate>
+      <source url="https://www.wenzhihuai.com/rss.xml">2024-11-09 上海迪斯尼</source>
+      <description>2024-11-09 上海迪斯尼</description>
+      <pubDate>Sat, 09 Nov 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 ]]></content:encoded>
     </item>
@@ -941,22 +981,31 @@ LiteFlow 具有高度的扩展性，开发者可以根据自身业务的特殊�
       <enclosure url="https://github-images.wenzhihuai.com/test/QQ_1722269773245.png" type="image/png"/>
     </item>
     <item>
-      <title>2024-07-24</title>
+      <title>2024-07-24 Macbook Air</title>
       <link>https://www.wenzhihuai.com/life/2024-07-24.html</link>
       <guid>https://www.wenzhihuai.com/life/2024-07-24.html</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">2024-07-24</source>
-      <description>2024-07-24 新买了台air m3，午夜色的，心心念念了好久 IMG_20240723_235443 读写速度 c6c117ff1f5f6371b3ab682621369c1f 和以前的m1 pro对比了下，感觉差了半截，使用上没有区别吧 096e891a0278263d0c790e74f32ef911_720 非果粉，但好多苹果设备 0742...</description>
-      <pubDate>Wed, 24 Jul 2024 15:52:12 GMT</pubDate>
+      <source url="https://www.wenzhihuai.com/rss.xml">2024-07-24 Macbook Air</source>
+      <description>2024-07-24 Macbook Air 新买了台air m3，午夜色的，心心念念了好久 读写速度 和以前的m1 pro对比了下，感觉差了半截，使用上没有区别吧 非果粉，但好多苹果设备</description>
+      <pubDate>Wed, 24 Jul 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>新买了台air m3，午夜色的，心心念念了好久</p>
-<img src="https://github-images.wenzhihuai.com/test/IMG_20240723_235443.jpg" alt="IMG_20240723_235443" style="zoom: 10%;">
+<div style="text-align:center">
+<p><img src="https://github-images.wenzhihuai.com/test/IMG_20240723_235443.jpg" alt="" height="600" loading="lazy"></p>
+</div>
 <p>读写速度</p>
-<img src="https://github-images.wenzhihuai.com/test/c6c117ff1f5f6371b3ab682621369c1f.png" alt="c6c117ff1f5f6371b3ab682621369c1f" style="zoom:25%;">
+<div style="text-align:center">
+<p><img src="https://github-images.wenzhihuai.com/test/c6c117ff1f5f6371b3ab682621369c1f.png" alt="" height="300" loading="lazy"></p>
+</div>
 <p>和以前的m1 pro对比了下，感觉差了半截，使用上没有区别吧</p>
-<img src="https://github-images.wenzhihuai.com/test/096e891a0278263d0c790e74f32ef911_720.png" alt="096e891a0278263d0c790e74f32ef911_720" style="zoom:25%;">
+<div style="text-align:center">
+<p><img src="https://github-images.wenzhihuai.com/test/096e891a0278263d0c790e74f32ef911_720.png" alt="" height="300" loading="lazy"></p>
+</div>
 <p>非果粉，但好多苹果设备</p>
-<img src="https://github-images.wenzhihuai.com/test/0742e82ab0ba499dea8b267f958cdada.png" alt="0742e82ab0ba499dea8b267f958cdada" style="zoom:33%;">
+<div style="text-align:center">
+<p><img src="https://github-images.wenzhihuai.com/test/0742e82ab0ba499dea8b267f958cdada.png" alt="" height="500" loading="lazy"></p>
+</div>
 ]]></content:encoded>
+      <enclosure url="https://github-images.wenzhihuai.com/test/IMG_20240723_235443.jpg" type="image/jpeg"/>
     </item>
     <item>
       <title>股票预测</title>
@@ -1572,21 +1621,21 @@ http://fls.itxe.net</p>
 ]]></content:encoded>
     </item>
     <item>
-      <title>行锁，表锁，意向锁</title>
-      <link>https://www.wenzhihuai.com/database/mysql/%E8%A1%8C%E9%94%81%EF%BC%8C%E8%A1%A8%E9%94%81%EF%BC%8C%E6%84%8F%E5%90%91%E9%94%81.html</link>
-      <guid>https://www.wenzhihuai.com/database/mysql/%E8%A1%8C%E9%94%81%EF%BC%8C%E8%A1%A8%E9%94%81%EF%BC%8C%E6%84%8F%E5%90%91%E9%94%81.html</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">行锁，表锁，意向锁</source>
-      <description>行锁，表锁，意向锁</description>
-      <pubDate>Sun, 10 Mar 2024 14:39:30 GMT</pubDate>
-      <content:encoded><![CDATA[
-]]></content:encoded>
-    </item>
-    <item>
       <title>一致性hash算法和哈希槽</title>
       <link>https://www.wenzhihuai.com/database/redis/%E4%B8%80%E8%87%B4%E6%80%A7hash%E7%AE%97%E6%B3%95%E5%92%8C%E5%93%88%E5%B8%8C%E6%A7%BD.html</link>
       <guid>https://www.wenzhihuai.com/database/redis/%E4%B8%80%E8%87%B4%E6%80%A7hash%E7%AE%97%E6%B3%95%E5%92%8C%E5%93%88%E5%B8%8C%E6%A7%BD.html</guid>
       <source url="https://www.wenzhihuai.com/rss.xml">一致性hash算法和哈希槽</source>
       <description>一致性hash算法和哈希槽</description>
+      <pubDate>Sun, 10 Mar 2024 14:39:30 GMT</pubDate>
+      <content:encoded><![CDATA[
+]]></content:encoded>
+    </item>
+    <item>
+      <title>行锁，表锁，意向锁</title>
+      <link>https://www.wenzhihuai.com/database/mysql/%E8%A1%8C%E9%94%81%EF%BC%8C%E8%A1%A8%E9%94%81%EF%BC%8C%E6%84%8F%E5%90%91%E9%94%81.html</link>
+      <guid>https://www.wenzhihuai.com/database/mysql/%E8%A1%8C%E9%94%81%EF%BC%8C%E8%A1%A8%E9%94%81%EF%BC%8C%E6%84%8F%E5%90%91%E9%94%81.html</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">行锁，表锁，意向锁</source>
+      <description>行锁，表锁，意向锁</description>
       <pubDate>Sun, 10 Mar 2024 14:39:30 GMT</pubDate>
       <content:encoded><![CDATA[
 ]]></content:encoded>
@@ -2695,6 +2744,13 @@ synchronized的特点：
       <enclosure url="https://github-images.wenzhihuai.com/images/v2-62257a68cd5fa063d16cb4c30bd75ac0_1440w.webp" type="image/webp"/>
     </item>
     <item>
+      <title>SpringBoot</title>
+      <link>https://www.wenzhihuai.com/java/SpringBoot/</link>
+      <guid>https://www.wenzhihuai.com/java/SpringBoot/</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">SpringBoot</source>
+      <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
+    </item>
+    <item>
       <title>I/O</title>
       <link>https://www.wenzhihuai.com/java/io/</link>
       <guid>https://www.wenzhihuai.com/java/io/</guid>
@@ -2702,10 +2758,10 @@ synchronized的特点：
       <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
     </item>
     <item>
-      <title>SpringBoot</title>
-      <link>https://www.wenzhihuai.com/java/SpringBoot/</link>
-      <guid>https://www.wenzhihuai.com/java/SpringBoot/</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">SpringBoot</source>
+      <title>网络</title>
+      <link>https://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/</link>
+      <guid>https://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/</guid>
+      <source url="https://www.wenzhihuai.com/rss.xml">网络</source>
       <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
     </item>
     <item>
@@ -2729,13 +2785,6 @@ synchronized的特点：
 <h2>有序性</h2>
 ]]></content:encoded>
       <enclosure url="https://github-images.wenzhihuai.com/images/image-20240217004404932.png" type="image/png"/>
-    </item>
-    <item>
-      <title>网络</title>
-      <link>https://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/</link>
-      <guid>https://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">网络</source>
-      <pubDate>Fri, 16 Feb 2024 04:00:26 GMT</pubDate>
     </item>
     <item>
       <title>DevOps</title>
@@ -3926,19 +3975,6 @@ TLS(Transport Layer Security)，简称安全传输层协议，该协议由两层
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>也可以通过抓包来查看，以及在push-gateway上看到。</p>
 ]]></content:encoded>
       <enclosure url="https://github-images.wenzhihuai.com/images/image-20240127202704612.png" type="image/png"/>
-    </item>
-    <item>
-      <title>小程序</title>
-      <link>https://www.wenzhihuai.com/about-the-author/works/%E4%B8%AA%E4%BA%BA%E4%BD%9C%E5%93%81.html</link>
-      <guid>https://www.wenzhihuai.com/about-the-author/works/%E4%B8%AA%E4%BA%BA%E4%BD%9C%E5%93%81.html</guid>
-      <source url="https://www.wenzhihuai.com/rss.xml">小程序</source>
-      <description>小程序 助眠风扇 MyTesMate</description>
-      <pubDate>Sat, 27 Jan 2024 09:51:43 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p><img src="https://github-images.wenzhihuai.com/github/gh_89030789780b_344.jpg" alt="助眠风扇" loading="lazy"></p>
-<p><img src="https://github-images.wenzhihuai.com/github/gh_068db871b3fd_344.jpg" alt="MyTesMate" loading="lazy"></p>
-]]></content:encoded>
-      <enclosure url="https://github-images.wenzhihuai.com/github/gh_89030789780b_344.jpg" type="image/jpeg"/>
     </item>
     <item>
       <title>Webflux</title>

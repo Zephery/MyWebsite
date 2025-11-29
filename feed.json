@@ -7,6 +7,30 @@
   "favicon": "https://www.wenzhihuai.com/favicon.ico",
   "items": [
     {
+      "title": "小程序",
+      "url": "https://www.wenzhihuai.com/about-the-author/works/%E5%B0%8F%E7%A8%8B%E5%BA%8F.html",
+      "id": "https://www.wenzhihuai.com/about-the-author/works/%E5%B0%8F%E7%A8%8B%E5%BA%8F.html",
+      "summary": "小程序 助眠风扇 助眠风扇 原型是app store里的sleepaidfan，主要是睡觉的时候通过白噪音掩盖马路的各种声音 MyTesMate MyTesMate 通过调用testla api，兼容tesla app，同时，集成teslamate，可查阅汽车过往行驶数据、能耗等 妆点时光专营店 小程序商城，原型是crmeb-java，打通了微信支付等...",
+      "content_html": "\n<div style=\"text-align:center\">\n<p><img src=\"https://github-images.wenzhihuai.com/github/gh_89030789780b_344.jpg\" alt=\"助眠风扇\" loading=\"lazy\"></p>\n</div>\n<h2>助眠风扇</h2>\n<p>原型是app store里的sleepaidfan，主要是睡觉的时候通过白噪音掩盖马路的各种声音</p>\n<div style=\"text-align:center\">\n<p><img src=\"https://github-images.wenzhihuai.com/github/gh_068db871b3fd_344.jpg\" alt=\"MyTesMate\" loading=\"lazy\"></p>\n</div>\n<h2>MyTesMate</h2>\n<p>通过调用testla api，兼容tesla app，同时，集成teslamate，可查阅汽车过往行驶数据、能耗等</p>\n<h2>妆点时光专营店</h2>\n<p>小程序商城，原型是crmeb-java，打通了微信支付等各种，卖化妆品，不知道怎么运营下去，可惜了</p>\n",
+      "image": "https://github-images.wenzhihuai.com/github/gh_89030789780b_344.jpg",
+      "date_published": "2025-11-29T10:01:14.000Z",
+      "date_modified": "2025-11-29T10:01:14.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "网站",
+      "url": "https://www.wenzhihuai.com/about-the-author/works/%E7%BD%91%E7%AB%99.html",
+      "id": "https://www.wenzhihuai.com/about-the-author/works/%E7%BD%91%E7%AB%99.html",
+      "summary": "网站 image-20251129175453184 推荐系统 https://rec.wenzhihuai.com 数据来源amazon的商品，还有向量召回、粗排、精排、重排，可能优化的不太好，关注流程就行 image-20251129175515717 个人网站 https://wenzhihuai.com 最初是Spring Boot+Jsp（1...",
+      "content_html": "\n<p><img src=\"https://github-images.wenzhihuai.com/images/image-20251129175453184.png\" alt=\"image-20251129175453184\" loading=\"lazy\"></p>\n<h2>推荐系统</h2>\n<p>https://rec.wenzhihuai.com 数据来源amazon的商品，还有向量召回、粗排、精排、重排，可能优化的不太好，关注流程就行</p>\n<p><img src=\"https://github-images.wenzhihuai.com/images/image-20251129175515717.png\" alt=\"image-20251129175515717\" loading=\"lazy\"></p>\n<h2>个人网站</h2>\n<p>https://wenzhihuai.com 最初是Spring Boot+Jsp（10年前的了），然后经历了很多次迭代，最终因技术太落后没法维护了，所以切换到了vuepress-theme-hope这个框架里去</p>\n",
+      "image": "https://github-images.wenzhihuai.com/images/image-20251129175453184.png",
+      "date_published": "2025-11-29T10:01:14.000Z",
+      "date_modified": "2025-11-29T10:01:14.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
       "title": "Micrometer监控指标上报Starrocks",
       "url": "https://www.wenzhihuai.com/java/SpringBoot/Micrometer%E7%9B%91%E6%8E%A7%E6%8C%87%E6%A0%87%E4%B8%8A%E6%8A%A5Starrocks.html",
       "id": "https://www.wenzhihuai.com/java/SpringBoot/Micrometer%E7%9B%91%E6%8E%A7%E6%8C%87%E6%A0%87%E4%B8%8A%E6%8A%A5Starrocks.html",
@@ -19,14 +43,14 @@
       "tags": []
     },
     {
-      "title": "2025-10-06海南自驾游",
+      "title": "2025-10-06 海南自驾游",
       "url": "https://www.wenzhihuai.com/life/2025-10-06%E6%B5%B7%E5%8D%97%E8%87%AA%E9%A9%BE%E6%B8%B8.html",
       "id": "https://www.wenzhihuai.com/life/2025-10-06%E6%B5%B7%E5%8D%97%E8%87%AA%E9%A9%BE%E6%B8%B8.html",
-      "summary": "2025-10-06海南自驾游 终于实现了环岛自驾了，可惜的是台风天，只能在不多的时间里多走走，海口-东方-三亚-陵水-文昌-海口，有一说一，感觉文昌的海估计会很好看，可惜去到那里已经是下午6点了（路过了文昌航天中心），有机会再去一次吧，话不多说，直接看图 IMG_20251007_132710 image-20251103003243928 imag...",
+      "summary": "2025-10-06 海南自驾游 终于实现了环岛自驾了，可惜的是台风天，只能在不多的时间里多走走，海口-东方-三亚-陵水-文昌-海口，有一说一，感觉文昌的海估计会很好看，可惜去到那里已经是下午6点了（路过了文昌航天中心），有机会再去一次吧，话不多说，直接看图 IMG_20251007_132710 image-20251103003243928 ima...",
       "content_html": "\n<p>终于实现了环岛自驾了，可惜的是台风天，只能在不多的时间里多走走，海口-东方-三亚-陵水-文昌-海口，有一说一，感觉文昌的海估计会很好看，可惜去到那里已经是下午6点了（路过了文昌航天中心），有机会再去一次吧，话不多说，直接看图</p>\n<p><img src=\"https://github-images.wenzhihuai.com/images/IMG_20251007_132710.jpg\" alt=\"IMG_20251007_132710\" loading=\"lazy\"></p>\n<p><img src=\"https://github-images.wenzhihuai.com/images/image-20251103003243928.png\" alt=\"image-20251103003243928\" loading=\"lazy\"></p>\n<p><img src=\"https://github-images.wenzhihuai.com/images/image-20251103003351886.png\" alt=\"image-20251103003351886\" loading=\"lazy\"></p>\n<p>三亚的晚霞，台风前的</p>\n<p><img src=\"https://github-images.wenzhihuai.com/images/image-20251103003940684.png\" alt=\"image-20251103003940684\" loading=\"lazy\"></p>\n<p><img src=\"https://github-images.wenzhihuai.com/images/image-20251103004237295.png\" alt=\"image-20251103004237295\" loading=\"lazy\"></p>\n<p><img src=\"https://github-images.wenzhihuai.com/images/image-20251103004353868.png\" alt=\"image-20251103004353868\" loading=\"lazy\"></p>\n<p><img src=\"https://github-images.wenzhihuai.com/images/image-20251103004541839.png\" alt=\"image-20251103004541839\" loading=\"lazy\"></p>\n<p><img src=\"https://github-images.wenzhihuai.com/images/image-20251103004615131.png\" alt=\"image-20251103004615131\" loading=\"lazy\"></p>\n<p><img src=\"https://github-images.wenzhihuai.com/images/image-20251103004658999.png\" alt=\"image-20251103004658999\" loading=\"lazy\"></p>\n<p><img src=\"https://github-images.wenzhihuai.com/images/DJI_0894.JPG\" alt=\"DJI_0894\" loading=\"lazy\"></p>\n",
       "image": "https://github-images.wenzhihuai.com/images/IMG_20251007_132710.jpg",
-      "date_published": "2025-11-02T16:54:30.000Z",
-      "date_modified": "2025-11-02T17:00:57.000Z",
+      "date_published": "2025-10-06T00:00:00.000Z",
+      "date_modified": "2025-11-29T10:01:14.000Z",
       "authors": [],
       "tags": []
     },
@@ -90,13 +114,13 @@
       "tags": []
     },
     {
-      "title": "2024-11-09上海迪斯尼",
+      "title": "2024-11-09 上海迪斯尼",
       "url": "https://www.wenzhihuai.com/life/2024-11-09%E4%B8%8A%E6%B5%B7%E8%BF%AA%E6%96%AF%E5%B0%BC.html",
       "id": "https://www.wenzhihuai.com/life/2024-11-09%E4%B8%8A%E6%B5%B7%E8%BF%AA%E6%96%AF%E5%B0%BC.html",
-      "summary": "2024-11-09上海迪斯尼",
+      "summary": "2024-11-09 上海迪斯尼",
       "content_html": "\n",
-      "date_published": "2024-11-10T15:55:36.000Z",
-      "date_modified": "2025-11-02T16:54:30.000Z",
+      "date_published": "2024-11-09T00:00:00.000Z",
+      "date_modified": "2025-11-29T10:01:14.000Z",
       "authors": [],
       "tags": []
     },
@@ -161,13 +185,14 @@
       "tags": []
     },
     {
-      "title": "2024-07-24",
+      "title": "2024-07-24 Macbook Air",
       "url": "https://www.wenzhihuai.com/life/2024-07-24.html",
       "id": "https://www.wenzhihuai.com/life/2024-07-24.html",
-      "summary": "2024-07-24 新买了台air m3，午夜色的，心心念念了好久 IMG_20240723_235443 读写速度 c6c117ff1f5f6371b3ab682621369c1f 和以前的m1 pro对比了下，感觉差了半截，使用上没有区别吧 096e891a0278263d0c790e74f32ef911_720 非果粉，但好多苹果设备 0742...",
-      "content_html": "\n<p>新买了台air m3，午夜色的，心心念念了好久</p>\n<img src=\"https://github-images.wenzhihuai.com/test/IMG_20240723_235443.jpg\" alt=\"IMG_20240723_235443\" style=\"zoom: 10%;\">\n<p>读写速度</p>\n<img src=\"https://github-images.wenzhihuai.com/test/c6c117ff1f5f6371b3ab682621369c1f.png\" alt=\"c6c117ff1f5f6371b3ab682621369c1f\" style=\"zoom:25%;\">\n<p>和以前的m1 pro对比了下，感觉差了半截，使用上没有区别吧</p>\n<img src=\"https://github-images.wenzhihuai.com/test/096e891a0278263d0c790e74f32ef911_720.png\" alt=\"096e891a0278263d0c790e74f32ef911_720\" style=\"zoom:25%;\">\n<p>非果粉，但好多苹果设备</p>\n<img src=\"https://github-images.wenzhihuai.com/test/0742e82ab0ba499dea8b267f958cdada.png\" alt=\"0742e82ab0ba499dea8b267f958cdada\" style=\"zoom:33%;\">\n",
-      "date_published": "2024-07-24T15:52:12.000Z",
-      "date_modified": "2025-11-02T16:54:30.000Z",
+      "summary": "2024-07-24 Macbook Air 新买了台air m3，午夜色的，心心念念了好久 读写速度 和以前的m1 pro对比了下，感觉差了半截，使用上没有区别吧 非果粉，但好多苹果设备",
+      "content_html": "\n<p>新买了台air m3，午夜色的，心心念念了好久</p>\n<div style=\"text-align:center\">\n<p><img src=\"https://github-images.wenzhihuai.com/test/IMG_20240723_235443.jpg\" alt=\"\" height=\"600\" loading=\"lazy\"></p>\n</div>\n<p>读写速度</p>\n<div style=\"text-align:center\">\n<p><img src=\"https://github-images.wenzhihuai.com/test/c6c117ff1f5f6371b3ab682621369c1f.png\" alt=\"\" height=\"300\" loading=\"lazy\"></p>\n</div>\n<p>和以前的m1 pro对比了下，感觉差了半截，使用上没有区别吧</p>\n<div style=\"text-align:center\">\n<p><img src=\"https://github-images.wenzhihuai.com/test/096e891a0278263d0c790e74f32ef911_720.png\" alt=\"\" height=\"300\" loading=\"lazy\"></p>\n</div>\n<p>非果粉，但好多苹果设备</p>\n<div style=\"text-align:center\">\n<p><img src=\"https://github-images.wenzhihuai.com/test/0742e82ab0ba499dea8b267f958cdada.png\" alt=\"\" height=\"500\" loading=\"lazy\"></p>\n</div>\n",
+      "image": "https://github-images.wenzhihuai.com/test/IMG_20240723_235443.jpg",
+      "date_published": "2024-07-24T00:00:00.000Z",
+      "date_modified": "2025-11-29T10:01:14.000Z",
       "authors": [],
       "tags": []
     },
@@ -285,10 +310,10 @@
       "tags": []
     },
     {
-      "title": "行锁，表锁，意向锁",
-      "url": "https://www.wenzhihuai.com/database/mysql/%E8%A1%8C%E9%94%81%EF%BC%8C%E8%A1%A8%E9%94%81%EF%BC%8C%E6%84%8F%E5%90%91%E9%94%81.html",
-      "id": "https://www.wenzhihuai.com/database/mysql/%E8%A1%8C%E9%94%81%EF%BC%8C%E8%A1%A8%E9%94%81%EF%BC%8C%E6%84%8F%E5%90%91%E9%94%81.html",
-      "summary": "行锁，表锁，意向锁",
+      "title": "一致性hash算法和哈希槽",
+      "url": "https://www.wenzhihuai.com/database/redis/%E4%B8%80%E8%87%B4%E6%80%A7hash%E7%AE%97%E6%B3%95%E5%92%8C%E5%93%88%E5%B8%8C%E6%A7%BD.html",
+      "id": "https://www.wenzhihuai.com/database/redis/%E4%B8%80%E8%87%B4%E6%80%A7hash%E7%AE%97%E6%B3%95%E5%92%8C%E5%93%88%E5%B8%8C%E6%A7%BD.html",
+      "summary": "一致性hash算法和哈希槽",
       "content_html": "\n",
       "date_published": "2024-03-10T14:39:30.000Z",
       "date_modified": "2025-11-01T04:49:29.000Z",
@@ -296,10 +321,10 @@
       "tags": []
     },
     {
-      "title": "一致性hash算法和哈希槽",
-      "url": "https://www.wenzhihuai.com/database/redis/%E4%B8%80%E8%87%B4%E6%80%A7hash%E7%AE%97%E6%B3%95%E5%92%8C%E5%93%88%E5%B8%8C%E6%A7%BD.html",
-      "id": "https://www.wenzhihuai.com/database/redis/%E4%B8%80%E8%87%B4%E6%80%A7hash%E7%AE%97%E6%B3%95%E5%92%8C%E5%93%88%E5%B8%8C%E6%A7%BD.html",
-      "summary": "一致性hash算法和哈希槽",
+      "title": "行锁，表锁，意向锁",
+      "url": "https://www.wenzhihuai.com/database/mysql/%E8%A1%8C%E9%94%81%EF%BC%8C%E8%A1%A8%E9%94%81%EF%BC%8C%E6%84%8F%E5%90%91%E9%94%81.html",
+      "id": "https://www.wenzhihuai.com/database/mysql/%E8%A1%8C%E9%94%81%EF%BC%8C%E8%A1%A8%E9%94%81%EF%BC%8C%E6%84%8F%E5%90%91%E9%94%81.html",
+      "summary": "行锁，表锁，意向锁",
       "content_html": "\n",
       "date_published": "2024-03-10T14:39:30.000Z",
       "date_modified": "2025-11-01T04:49:29.000Z",
@@ -534,6 +559,16 @@
       "tags": []
     },
     {
+      "title": "SpringBoot",
+      "url": "https://www.wenzhihuai.com/java/SpringBoot/",
+      "id": "https://www.wenzhihuai.com/java/SpringBoot/",
+      "content_html": "",
+      "date_published": "2024-02-16T04:00:26.000Z",
+      "date_modified": "2025-11-24T14:26:52.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
       "title": "I/O",
       "url": "https://www.wenzhihuai.com/java/io/",
       "id": "https://www.wenzhihuai.com/java/io/",
@@ -544,9 +579,9 @@
       "tags": []
     },
     {
-      "title": "SpringBoot",
-      "url": "https://www.wenzhihuai.com/java/SpringBoot/",
-      "id": "https://www.wenzhihuai.com/java/SpringBoot/",
+      "title": "网络",
+      "url": "https://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/",
+      "id": "https://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/",
       "content_html": "",
       "date_published": "2024-02-16T04:00:26.000Z",
       "date_modified": "2025-11-24T14:26:52.000Z",
@@ -572,16 +607,6 @@
       "image": "https://github-images.wenzhihuai.com/images/image-20240217004404932.png",
       "date_published": "2024-02-16T04:00:26.000Z",
       "date_modified": "2025-11-01T04:49:29.000Z",
-      "authors": [],
-      "tags": []
-    },
-    {
-      "title": "网络",
-      "url": "https://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/",
-      "id": "https://www.wenzhihuai.com/java/%E7%BD%91%E7%BB%9C/",
-      "content_html": "",
-      "date_published": "2024-02-16T04:00:26.000Z",
-      "date_modified": "2025-11-24T14:26:52.000Z",
       "authors": [],
       "tags": []
     },
@@ -687,18 +712,6 @@
       "content_html": "\n<h1>一、基本原理</h1>\n<p>Prometheus的基本原理是通过HTTP协议周期性抓取被监控组件的状态，任意组件只要提供对应的HTTP接口就可以接入监控。不需要任何SDK或者其他的集成过程。这样做非常适合做虚拟化环境监控系统，比如VM、Docker、Kubernetes等。输出被监控组件信息的HTTP接口被叫做exporter 。目前互联网公司常用的组件大部分都有exporter可以直接使用，比如Varnish、Haproxy、Nginx、MySQL、Linux系统信息(包括磁盘、内存、CPU、网络等等)。</p>\n<p><img src=\"https://github-images.wenzhihuai.com/images/image-20240127202704612.png\" alt=\"image-20240127202704612\" loading=\"lazy\"></p>\n<h1>二、具体过程</h1>\n<ul>\n<li>Prometheus Daemon负责定时去目标上抓取metrics(指标)数据，每个抓取目标需要暴露一个http服务的接口给它定时抓取。Prometheus支持通过配置文件、文本文件、Zookeeper、Consul、DNS SRV Lookup等方式指定抓取目标。Prometheus采用PULL的方式进行监控，即服务器可以直接通过目标PULL数据或者间接地通过中间网关来Push数据。</li>\n<li>Prometheus在本地存储抓取的所有数据，并通过一定规则进行清理和整理数据，并把得到的结果存储到新的时间序列中。</li>\n<li>Prometheus通过PromQL和其他API可视化地展示收集的数据。Prometheus支持很多方式的图表可视化，例如Grafana、自带的Promdash以及自身提供的模版引擎等等。Prometheus还提供HTTP API的查询方式，自定义所需要的输出。</li>\n<li>PushGateway支持Client主动推送metrics到PushGateway，而Prometheus只是定时去Gateway上抓取数据。</li>\n<li>Alertmanager是独立于Prometheus的一个组件，可以支持Prometheus的查询语句，提供十分灵活的报警方式。</li>\n</ul>\n<h1>三、pull模式（prometheus主动拉取）</h1>\n<div class=\"language- line-numbers-mode\" data-highlighter=\"shiki\" data-ext=\"\" style=\"--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34\"><pre class=\"shiki shiki-themes one-light one-dark-pro vp-code\"><code class=\"language-\"><span class=\"line\"><span>&lt;dependency&gt;</span></span>\n<span class=\"line\"><span>    &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;</span></span>\n<span class=\"line\"><span>    &lt;artifactId&gt;spring-boot-starter-actuator&lt;/artifactId&gt;</span></span>\n<span class=\"line\"><span>&lt;/dependency&gt;</span></span>\n<span class=\"line\"><span>&lt;dependency&gt;</span></span>\n<span class=\"line\"><span>    &lt;groupId&gt;io.micrometer&lt;/groupId&gt;</span></span>\n<span class=\"line\"><span>    &lt;artifactId&gt;micrometer-registry-prometheus&lt;/artifactId&gt;</span></span>\n<span class=\"line\"><span>&lt;/dependency&gt;</span></span></code></pre>\n<div class=\"line-numbers\" aria-hidden=\"true\" style=\"counter-reset:line-number 0\"><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div></div></div><div class=\"language-yaml line-numbers-mode\" data-highlighter=\"shiki\" data-ext=\"yaml\" style=\"--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34\"><pre class=\"shiki shiki-themes one-light one-dark-pro vp-code\"><code class=\"language-yaml\"><span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">management</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">:</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">  endpoints</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">:</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">    web</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">:</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">      exposure</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">:</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">        include</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">: </span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">prometheus</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">  metrics</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">:</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">    tags</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">:</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">      application</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">: </span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">${spring.application.name}</span></span></code></pre>\n<div class=\"line-numbers\" aria-hidden=\"true\" style=\"counter-reset:line-number 0\"><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div></div></div><p>之后查看/actuator/prometheus就可以看到</p>\n<p><img src=\"https://github-images.wenzhihuai.com/images/image-20240127202722776.png\" alt=\"image-20240127202722776\" loading=\"lazy\"></p>\n<p>腾讯云上面有个prometheus的服务，接入云原生监控还要配置一个Servicemonitor、PodMonitor等，详细的可以访问腾讯云的官方文档（https://cloud.tencent.com/document/product/1416/56031）</p>\n<h1>四、主动上报(pushgateway)</h1>\n<p>大部分现实场景中，如果每增加一个服务，都需要开发去配置的话，不仅沟通成本高，也导致因配错而起的运维成本很高，采用主动上报方式比较简单，方便规避一些问题。</p>\n<h2>（1）引入库</h2>\n<p>主动上报除了需要引入spring-boot-starter-actuator、micrometer-registry-prometheus，还要引入simpleclient_pushgateway，三个都是必须的，少一个都不行。</p>\n<div class=\"language-xml line-numbers-mode\" data-highlighter=\"shiki\" data-ext=\"xml\" style=\"--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34\"><pre class=\"shiki shiki-themes one-light one-dark-pro vp-code\"><code class=\"language-xml\"><span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">        &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">dependency</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">            &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">groupId</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;org.springframework.boot&lt;/</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">groupId</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">            &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">artifactId</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;spring-boot-starter-actuator&lt;/</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">artifactId</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">        &lt;/</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">dependency</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">        &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">dependency</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">            &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">groupId</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;io.micrometer&lt;/</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">groupId</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">            &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">artifactId</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;micrometer-registry-prometheus&lt;/</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">artifactId</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">        &lt;/</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">dependency</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">        &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">dependency</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">            &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">groupId</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;io.prometheus&lt;/</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">groupId</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">            &lt;</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">artifactId</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;simpleclient_pushgateway&lt;/</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">artifactId</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">        &lt;/</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">dependency</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">&gt;</span></span></code></pre>\n<div class=\"line-numbers\" aria-hidden=\"true\" style=\"counter-reset:line-number 0\"><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div></div></div><h2>（2）修改配置文件</h2>\n<p>之后，为了安全考虑，需要把endpoints的所有信息都关闭掉，免得被泄露出去。</p>\n<div class=\"language-yaml line-numbers-mode\" data-highlighter=\"shiki\" data-ext=\"yaml\" style=\"--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34\"><pre class=\"shiki shiki-themes one-light one-dark-pro vp-code\"><code class=\"language-yaml\"><span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">management</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">:</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">  endpoints</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">:</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic\">    #一定要设为false，防止不小心暴露/actuator相关接口触发安全工单</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">    enabled-by-default</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">: </span><span style=\"--shiki-light:#986801;--shiki-dark:#D19A66\">false</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">  metrics</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">:</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">    tags</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">:</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic\">      #要设置应用的名称，否则会聚合到别的项目里面去</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">      application</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">: </span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">${spring.application.name}</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">    export</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">:</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">      prometheus</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">:</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">        pushgateway</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">:</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">          base-url</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">: </span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">http://xxxxx</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">          push-rate</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">: </span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">20s</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">          job</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">: </span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">${spring.application.name}</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">          enabled</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">: </span><span style=\"--shiki-light:#986801;--shiki-dark:#D19A66\">true</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">          username</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">: </span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">xxxx</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">          password</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">: </span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">xxx</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">          grouping-key</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">:</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\">            instance</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">: </span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">${HOSTNAME}</span></span></code></pre>\n<div class=\"line-numbers\" aria-hidden=\"true\" style=\"counter-reset:line-number 0\"><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div></div></div><p>最好多看一眼/actuator，确认一下是否已经关闭endpoints</p>\n<p><img src=\"https://github-images.wenzhihuai.com/images/image-20240127202830908.png\" alt=\"image-20240127202830908\" loading=\"lazy\"></p>\n<h2>（3）抓包看一下metrics（可跳过）</h2>\n<p>大致看了下 simpleclient_pushgateway和spring-boot-starter-actuator的源码，并没有对http的请求发起日志，调试的时候都不知道是不是正常上报过去了，只能采取抓包来研究下。</p>\n<p><img src=\"https://github-images.wenzhihuai.com/images/image-20240127202853218.png\" alt=\"image-20240127202853218\" loading=\"lazy\"></p>\n<p><img src=\"https://github-images.wenzhihuai.com/images/image-20240127202944264.png\" alt=\"image-20240127202944264\" loading=\"lazy\"></p>\n<p>平均间隔5s左右，符合配置文件里的设置。</p>\n<p><img src=\"https://github-images.wenzhihuai.com/images/image-20240127203001776.png\" alt=\"image-20240127203001776\" loading=\"lazy\"></p>\n<h1>五、Grafana</h1>\n<p>对于java来说，常用的dashboard是https://grafana.com/grafana/dashboards/4701，也可以用spring boot的https://grafana.com/grafana/dashboards/6756</p>\n<p><img src=\"https://github-images.wenzhihuai.com/images/image-20240127203024477.png\" alt=\"image-20240127203024477\" loading=\"lazy\"></p>\n<h1>六、自定义监控上报</h1>\n<p>除了通用的封装好的指标之外，也可以自定义prometheus的监控。对于Spring Boot来说，只要如下代码即可实现：</p>\n<div class=\"language-java line-numbers-mode\" data-highlighter=\"shiki\" data-ext=\"java\" style=\"--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34\"><pre class=\"shiki shiki-themes one-light one-dark-pro vp-code\"><code class=\"language-java\"><span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">    @</span><span style=\"--shiki-light:#A626A4;--shiki-dark:#E5C07B\">Resource</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#A626A4;--shiki-dark:#C678DD\">    private</span><span style=\"--shiki-light:#C18401;--shiki-dark:#E5C07B\"> MeterRegistry</span><span style=\"--shiki-light:#E45649;--shiki-dark:#E06C75\"> meterRegistry</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">;</span></span>\n<span class=\"line\"></span>\n<span class=\"line\"><span style=\"--shiki-light:#A626A4;--shiki-dark:#C678DD\">    public</span><span style=\"--shiki-light:#A626A4;--shiki-dark:#C678DD\"> void</span><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\"> report</span><span style=\"--shiki-light:#383A42;--shiki-dark:#E06C75\">() {</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#E45649;--shiki-dark:#E5C07B\">        meterRegistry</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">.</span><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">counter</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">(</span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">\"指标\"</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">, </span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">\"tag的名称\"</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">, </span><span style=\"--shiki-light:#50A14F;--shiki-dark:#98C379\">\"tag的值\"</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">).</span><span style=\"--shiki-light:#4078F2;--shiki-dark:#61AFEF\">increment</span><span style=\"--shiki-light:#383A42;--shiki-dark:#ABB2BF\">();</span></span>\n<span class=\"line\"><span style=\"--shiki-light:#383A42;--shiki-dark:#E06C75\">    }</span></span></code></pre>\n<div class=\"line-numbers\" aria-hidden=\"true\" style=\"counter-reset:line-number 0\"><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div></div></div><p>也可以通过抓包来查看，以及在push-gateway上看到。</p>\n",
       "image": "https://github-images.wenzhihuai.com/images/image-20240127202704612.png",
       "date_published": "2024-01-27T13:52:01.000Z",
-      "date_modified": "2025-11-01T04:49:29.000Z",
-      "authors": [],
-      "tags": []
-    },
-    {
-      "title": "小程序",
-      "url": "https://www.wenzhihuai.com/about-the-author/works/%E4%B8%AA%E4%BA%BA%E4%BD%9C%E5%93%81.html",
-      "id": "https://www.wenzhihuai.com/about-the-author/works/%E4%B8%AA%E4%BA%BA%E4%BD%9C%E5%93%81.html",
-      "summary": "小程序 助眠风扇 MyTesMate",
-      "content_html": "\n<p><img src=\"https://github-images.wenzhihuai.com/github/gh_89030789780b_344.jpg\" alt=\"助眠风扇\" loading=\"lazy\"></p>\n<p><img src=\"https://github-images.wenzhihuai.com/github/gh_068db871b3fd_344.jpg\" alt=\"MyTesMate\" loading=\"lazy\"></p>\n",
-      "image": "https://github-images.wenzhihuai.com/github/gh_89030789780b_344.jpg",
-      "date_published": "2024-01-27T09:51:43.000Z",
       "date_modified": "2025-11-01T04:49:29.000Z",
       "authors": [],
       "tags": []
