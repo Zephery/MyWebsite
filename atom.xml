@@ -4,7 +4,7 @@
   <title>个人博客</title>
   <subtitle>个人博客</subtitle>
   <icon>https://www.wenzhihuai.com/favicon.ico</icon>
-  <updated>2025-11-29T10:36:19.376Z</updated>
+  <updated>2025-11-29T10:47:48.017Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://www.wenzhihuai.com/atom.xml"/>
   <link rel="alternate" href="https://www.wenzhihuai.com/"/>
@@ -12,7 +12,7 @@
     <title type="text">小程序</title>
     <id>https://www.wenzhihuai.com/about-the-author/works/%E5%B0%8F%E7%A8%8B%E5%BA%8F.html</id>
     <link href="https://www.wenzhihuai.com/about-the-author/works/%E5%B0%8F%E7%A8%8B%E5%BA%8F.html"/>
-    <updated>2025-11-29T10:35:23.000Z</updated>
+    <updated>2025-11-29T10:46:51.000Z</updated>
     <summary type="html"><![CDATA[
 <div style="text-align:center">
 <p><img src="https://github-images.wenzhihuai.com/github/gh_89030789780b_344.jpg" alt="助眠风扇" loading="lazy"></p>
@@ -42,7 +42,7 @@
     <title type="text">网站</title>
     <id>https://www.wenzhihuai.com/about-the-author/works/%E7%BD%91%E7%AB%99.html</id>
     <link href="https://www.wenzhihuai.com/about-the-author/works/%E7%BD%91%E7%AB%99.html"/>
-    <updated>2025-11-29T10:35:23.000Z</updated>
+    <updated>2025-11-29T10:46:51.000Z</updated>
     <summary type="html"><![CDATA[
 <p><img src="https://github-images.wenzhihuai.com/images/image-20251129175453184.png" alt="image-20251129175453184" loading="lazy"></p>
 <h2>推荐系统</h2>
@@ -3067,16 +3067,16 @@ synchronized的特点：
     <published>2024-02-16T04:00:26.000Z</published>
   </entry>
   <entry>
-    <title type="text">SpringBoot</title>
-    <id>https://www.wenzhihuai.com/java/SpringBoot/</id>
-    <link href="https://www.wenzhihuai.com/java/SpringBoot/"/>
+    <title type="text">I/O</title>
+    <id>https://www.wenzhihuai.com/java/io/</id>
+    <link href="https://www.wenzhihuai.com/java/io/"/>
     <updated>2025-11-24T14:26:52.000Z</updated>
     <published>2024-02-16T04:00:26.000Z</published>
   </entry>
   <entry>
-    <title type="text">I/O</title>
-    <id>https://www.wenzhihuai.com/java/io/</id>
-    <link href="https://www.wenzhihuai.com/java/io/"/>
+    <title type="text">SpringBoot</title>
+    <id>https://www.wenzhihuai.com/java/SpringBoot/</id>
+    <link href="https://www.wenzhihuai.com/java/SpringBoot/"/>
     <updated>2025-11-24T14:26:52.000Z</updated>
     <published>2024-02-16T04:00:26.000Z</published>
   </entry>
