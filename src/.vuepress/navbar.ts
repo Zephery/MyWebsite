@@ -4,7 +4,7 @@ export default navbar([
     {text: "主页", link: "/"},
     {text: "好玩的", link: "/interesting/"},
     {text: "Java", link: "/java/"},
-    {text: "中间件", link: "/middleware/"},
+    {text: "人工智能", link: "/ai/"},
     {text: "数据", link: "/database/"},
     {text: "生活", link: "/life/"},
     {text: "Kubernetes", link: "/kubernetes/"},

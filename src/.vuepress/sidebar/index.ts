@@ -7,7 +7,7 @@ import {donate} from "./donate.js";
 import {bigdata} from "./bigdata.js";
 import {kubernetes} from "./kubernetes.js";
 import {interesting} from "./interesting.js";
-import {middleware} from "./middleware.js";
+import {ai} from "./ai.js";
 import {life} from "./life.js";
 import {link} from "./link.js";
 import {systemDesign} from "./system-design.js";
@@ -29,7 +29,7 @@ export default sidebar({
     "/database/": database,
     "/link/": link,
     "/bigdata/": bigdata,
-    "/middleware/": middleware,
+    "/ai/": ai,
     "/kubernetes/": kubernetes,
     "/books/": books,
     "/stock/": stock,
