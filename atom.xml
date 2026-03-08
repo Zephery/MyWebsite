@@ -4,10 +4,30 @@
   <title>个人博客</title>
   <subtitle>个人博客</subtitle>
   <icon>https://www.wenzhihuai.com/favicon.ico</icon>
-  <updated>2026-03-05T16:16:01.724Z</updated>
+  <updated>2026-03-08T06:59:53.345Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://www.wenzhihuai.com/atom.xml"/>
   <link rel="alternate" href="https://www.wenzhihuai.com/"/>
+  <entry>
+    <title type="text">openclaw开启量化炒股之路</title>
+    <id>https://www.wenzhihuai.com/interesting/openclaw%E5%BC%80%E5%90%AF%E9%87%8F%E5%8C%96%E7%82%92%E8%82%A1%E4%B9%8B%E8%B7%AF.html</id>
+    <link href="https://www.wenzhihuai.com/interesting/openclaw%E5%BC%80%E5%90%AF%E9%87%8F%E5%8C%96%E7%82%92%E8%82%A1%E4%B9%8B%E8%B7%AF.html"/>
+    <updated>2026-03-08T06:58:46.000Z</updated>
+    <summary type="html"><![CDATA[
+<p>准备用openclaw开始炒股试试了，前期估计还是得找一些skills，结合自己交易策略来搞下，毕竟量化炒股的核心还是策略，工具只是辅助，openclaw的优势在于它的开源和社区支持，可以让我们更灵活地定制和优化我们的交易策略。</p>
+<p>顺便打个广告：</p>
+<p>🚀 速来拼好模，智谱 GLM Coding 超值订阅，邀你一起薅羊毛！Claude Code、Cline 等 20+ 大编程工具无缝支持，“码力”全开，越拼越爽！立即开拼，享限时惊喜价！
+链接：https://www.bigmodel.cn/glm-coding?ic=ZAPUYQIM4E</p>
+<p><img src="https://github-images.wenzhihuai.com/images/image-20260308145433272.png" alt="image-20260308145433272" loading="lazy"></p>]]></summary>
+    <content type="html"><![CDATA[
+<p>准备用openclaw开始炒股试试了，前期估计还是得找一些skills，结合自己交易策略来搞下，毕竟量化炒股的核心还是策略，工具只是辅助，openclaw的优势在于它的开源和社区支持，可以让我们更灵活地定制和优化我们的交易策略。</p>
+<p>顺便打个广告：</p>
+<p>🚀 速来拼好模，智谱 GLM Coding 超值订阅，邀你一起薅羊毛！Claude Code、Cline 等 20+ 大编程工具无缝支持，“码力”全开，越拼越爽！立即开拼，享限时惊喜价！
+链接：https://www.bigmodel.cn/glm-coding?ic=ZAPUYQIM4E</p>
+<p><img src="https://github-images.wenzhihuai.com/images/image-20260308145433272.png" alt="image-20260308145433272" loading="lazy"></p>
+]]></content>
+    <published>2026-03-08T06:58:46.000Z</published>
+  </entry>
   <entry>
     <title type="text">openclaw有点超乎我的想象</title>
     <id>https://www.wenzhihuai.com/interesting/openclaw%E6%9C%89%E7%82%B9%E8%B6%85%E4%B9%8E%E6%88%91%E7%9A%84%E6%83%B3%E8%B1%A1.html</id>
@@ -2822,6 +2842,13 @@ synchronized的特点：
     <published>2024-02-16T04:00:26.000Z</published>
   </entry>
   <entry>
+    <title type="text">SpringBoot</title>
+    <id>https://www.wenzhihuai.com/java/SpringBoot/</id>
+    <link href="https://www.wenzhihuai.com/java/SpringBoot/"/>
+    <updated>2025-11-24T14:26:52.000Z</updated>
+    <published>2024-02-16T04:00:26.000Z</published>
+  </entry>
+  <entry>
     <title type="text">JVM</title>
     <id>https://www.wenzhihuai.com/java/JVM/</id>
     <link href="https://www.wenzhihuai.com/java/JVM/"/>
@@ -3027,13 +3054,6 @@ synchronized的特点：
 <p>8.<a href="https://link.zhihu.com/?target=https%3A//www.cnblogs.com/jimoer/p/13170249.html" target="_blank" rel="noopener noreferrer">https://www.cnblogs.com/jimoer/p/13170249.html</a></p>
 <p>9.<a href="https://link.zhihu.com/?target=https%3A//www.jianshu.com/p/12544c0ad5c1" target="_blank" rel="noopener noreferrer">https://www.jianshu.com/p/12544c0ad</a></p>
 ]]></content>
-    <published>2024-02-16T04:00:26.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">SpringBoot</title>
-    <id>https://www.wenzhihuai.com/java/SpringBoot/</id>
-    <link href="https://www.wenzhihuai.com/java/SpringBoot/"/>
-    <updated>2025-11-24T14:26:52.000Z</updated>
     <published>2024-02-16T04:00:26.000Z</published>
   </entry>
   <entry>
