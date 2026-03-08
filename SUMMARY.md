@@ -35,7 +35,7 @@
   
   * [算法](src/interview/算法.md)
   * [jvm](src/interview/jvm.md)
-  * [kafka](src/middleware/kafka/kafka.md)
+  * [kafka](src/java/kafka/kafka.md)
   * [mysql](src/interview/mysql.md)
   * [kubernetes](src/interview/kubernetes.md)
 * [生活](src/life/README.md)
