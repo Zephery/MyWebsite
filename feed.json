@@ -7,13 +7,24 @@
   "favicon": "https://www.wenzhihuai.com/favicon.ico",
   "items": [
     {
-      "title": "无聊随便发",
-      "url": "https://www.wenzhihuai.com/about-the-author/talking/1212.html",
-      "id": "https://www.wenzhihuai.com/about-the-author/talking/1212.html",
-      "summary": "无聊随便发 无聊随便发",
-      "content_html": "\n<p>无聊随便发</p>\n",
-      "date_published": "2026-03-08T07:10:15.000Z",
-      "date_modified": "2026-03-08T07:10:15.000Z",
+      "title": "开启AI之路",
+      "url": "https://www.wenzhihuai.com/ai/%E5%BC%80%E5%90%AFAI%E4%B9%8B%E8%B7%AF.html",
+      "id": "https://www.wenzhihuai.com/ai/%E5%BC%80%E5%90%AFAI%E4%B9%8B%E8%B7%AF.html",
+      "summary": "开启AI之路",
+      "content_html": "\n",
+      "date_published": "2026-03-09T16:19:21.000Z",
+      "date_modified": "2026-03-09T16:19:21.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "OpenClaw安装问题",
+      "url": "https://www.wenzhihuai.com/ai/openclaw/OpenClaw%E5%AE%89%E8%A3%85%E9%97%AE%E9%A2%98.html",
+      "id": "https://www.wenzhihuai.com/ai/openclaw/OpenClaw%E5%AE%89%E8%A3%85%E9%97%AE%E9%A2%98.html",
+      "summary": "OpenClaw安装问题 1.OpenClaw配置千问Qwen免费大模型教程 https://www.beizigen.com/post/openclaw-configuration-qwen/ ollama run qwen3.5 https://zhuanlan.zhihu.com/p/2013328075006444391",
+      "content_html": "\n<h2>1.OpenClaw配置千问Qwen免费大模型教程</h2>\n<p>https://www.beizigen.com/post/openclaw-configuration-qwen/</p>\n<p>ollama run qwen3.5\nhttps://zhuanlan.zhihu.com/p/2013328075006444391</p>\n",
+      "date_published": "2026-03-09T16:19:21.000Z",
+      "date_modified": "2026-03-09T16:19:21.000Z",
       "authors": [],
       "tags": []
     },
@@ -30,13 +41,13 @@
     },
     {
       "title": "openclaw开启量化炒股之路",
-      "url": "https://www.wenzhihuai.com/interesting/openclaw%E5%BC%80%E5%90%AF%E9%87%8F%E5%8C%96%E7%82%92%E8%82%A1%E4%B9%8B%E8%B7%AF.html",
-      "id": "https://www.wenzhihuai.com/interesting/openclaw%E5%BC%80%E5%90%AF%E9%87%8F%E5%8C%96%E7%82%92%E8%82%A1%E4%B9%8B%E8%B7%AF.html",
+      "url": "https://www.wenzhihuai.com/ai/openclaw/openclaw%E5%BC%80%E5%90%AF%E9%87%8F%E5%8C%96%E7%82%92%E8%82%A1%E4%B9%8B%E8%B7%AF.html",
+      "id": "https://www.wenzhihuai.com/ai/openclaw/openclaw%E5%BC%80%E5%90%AF%E9%87%8F%E5%8C%96%E7%82%92%E8%82%A1%E4%B9%8B%E8%B7%AF.html",
       "summary": "openclaw开启量化炒股之路 准备用openclaw开始炒股试试了，前期估计还是得找一些skills，结合自己交易策略来搞下，毕竟量化炒股的核心还是策略，工具只是辅助，openclaw的优势在于它的开源和社区支持，可以让我们更灵活地定制和优化我们的交易策略。 顺便打个广告： 🚀 速来拼好模，智谱 GLM Coding 超值订阅，邀你一起薅羊毛！C...",
       "content_html": "\n<p>准备用openclaw开始炒股试试了，前期估计还是得找一些skills，结合自己交易策略来搞下，毕竟量化炒股的核心还是策略，工具只是辅助，openclaw的优势在于它的开源和社区支持，可以让我们更灵活地定制和优化我们的交易策略。</p>\n<p>顺便打个广告：</p>\n<p>🚀 速来拼好模，智谱 GLM Coding 超值订阅，邀你一起薅羊毛！Claude Code、Cline 等 20+ 大编程工具无缝支持，“码力”全开，越拼越爽！立即开拼，享限时惊喜价！\n链接：https://www.bigmodel.cn/glm-coding?ic=ZAPUYQIM4E</p>\n<p><img src=\"https://github-images.wenzhihuai.com/images/image-20260308145433272.png\" alt=\"image-20260308145433272\" loading=\"lazy\"></p>\n",
       "image": "https://github-images.wenzhihuai.com/images/image-20260308145433272.png",
       "date_published": "2026-03-08T06:58:46.000Z",
-      "date_modified": "2026-03-08T06:58:46.000Z",
+      "date_modified": "2026-03-09T16:19:21.000Z",
       "authors": [],
       "tags": []
     },
@@ -354,17 +365,6 @@
       "tags": []
     },
     {
-      "title": "JAVA NIO",
-      "url": "https://www.wenzhihuai.com/java/io/nio.html",
-      "id": "https://www.wenzhihuai.com/java/io/nio.html",
-      "summary": "JAVA NIO 一、简介 1）Java BIO ： 同步并阻塞(传统阻塞型)，服务器实现模式为一个连接一个线程，即客户端有连接请求时服务器端就需要启动一个线程进行处理，如果这个连接不做任何事情会造成不必要的线程开销。 2）Java NIO ： 同步非阻塞，服务器实现模式为一个线程处理多个请求(连接)，即客户端发送的连接请求都会注册到多路复用器上，多路...",
-      "content_html": "\n<h2>一、简介</h2>\n<p>1）Java BIO ： 同步并阻塞(传统阻塞型)，服务器实现模式为一个连接一个线程，即客户端有连接请求时服务器端就需要启动一个线程进行处理，如果这个连接不做任何事情会造成不必要的线程开销。</p>\n<p>2）Java NIO ： 同步非阻塞，服务器实现模式为一个线程处理多个请求(连接)，即客户端发送的连接请求都会注册到多路复用器上，多路复用器轮询到连接有I/O请求就进行处理。</p>\n<p>3）Java AIO：异步非阻塞，在AIO模型中，当我们发起一个I/O操作（如读或写）时，我们不需要等待它完成，我们的代码会立即返回，可以继续执行其他任务。当I/O操作完成时，我们之前注册的回调函数会被自动调用，我们可以在这个回调函数中处理I/O操作的结果。</p>\n<h3>1.1典型的多路复用IO实现</h3>\n<p>目前流程的多路复用IO实现主要包括四种: <code>select</code>、<code>poll</code>、<code>epoll</code>、<code>kqueue</code>。下表是他们的一些重要特性的比较:</p>\n<p>| IO模型 | 相对性能 | 数据结构     | 关键思路         | 操作系统      | JAVA支持情况                                                 |\n|</p>\n",
-      "date_published": "2024-03-10T14:39:30.000Z",
-      "date_modified": "2025-11-01T04:49:29.000Z",
-      "authors": [],
-      "tags": []
-    },
-    {
       "title": "Spring Cloud Sentinel",
       "url": "https://www.wenzhihuai.com/java/sentinel/springcloud_sentinel.html",
       "id": "https://www.wenzhihuai.com/java/sentinel/springcloud_sentinel.html",
@@ -383,6 +383,17 @@
       "content_html": "\n<h2>参考</h2>\n<p>1.<a href=\"https://blog.csdn.net/weixin_41835916/article/details/125922301\" target=\"_blank\" rel=\"noopener noreferrer\">Sentinel入门（干货版）</a></p>\n",
       "date_published": "2024-03-10T14:39:30.000Z",
       "date_modified": "2026-03-08T07:04:06.000Z",
+      "authors": [],
+      "tags": []
+    },
+    {
+      "title": "JAVA NIO",
+      "url": "https://www.wenzhihuai.com/java/io/nio.html",
+      "id": "https://www.wenzhihuai.com/java/io/nio.html",
+      "summary": "JAVA NIO 一、简介 1）Java BIO ： 同步并阻塞(传统阻塞型)，服务器实现模式为一个连接一个线程，即客户端有连接请求时服务器端就需要启动一个线程进行处理，如果这个连接不做任何事情会造成不必要的线程开销。 2）Java NIO ： 同步非阻塞，服务器实现模式为一个线程处理多个请求(连接)，即客户端发送的连接请求都会注册到多路复用器上，多路...",
+      "content_html": "\n<h2>一、简介</h2>\n<p>1）Java BIO ： 同步并阻塞(传统阻塞型)，服务器实现模式为一个连接一个线程，即客户端有连接请求时服务器端就需要启动一个线程进行处理，如果这个连接不做任何事情会造成不必要的线程开销。</p>\n<p>2）Java NIO ： 同步非阻塞，服务器实现模式为一个线程处理多个请求(连接)，即客户端发送的连接请求都会注册到多路复用器上，多路复用器轮询到连接有I/O请求就进行处理。</p>\n<p>3）Java AIO：异步非阻塞，在AIO模型中，当我们发起一个I/O操作（如读或写）时，我们不需要等待它完成，我们的代码会立即返回，可以继续执行其他任务。当I/O操作完成时，我们之前注册的回调函数会被自动调用，我们可以在这个回调函数中处理I/O操作的结果。</p>\n<h3>1.1典型的多路复用IO实现</h3>\n<p>目前流程的多路复用IO实现主要包括四种: <code>select</code>、<code>poll</code>、<code>epoll</code>、<code>kqueue</code>。下表是他们的一些重要特性的比较:</p>\n<p>| IO模型 | 相对性能 | 数据结构     | 关键思路         | 操作系统      | JAVA支持情况                                                 |\n|</p>\n",
+      "date_published": "2024-03-10T14:39:30.000Z",
+      "date_modified": "2025-11-01T04:49:29.000Z",
       "authors": [],
       "tags": []
     },
