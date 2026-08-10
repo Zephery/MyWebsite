@@ -1,3 +1,5 @@
+
+
 # 个人博客
 
 不知不觉，自建站[https://www.wenzhihuai.com](https://www.wenzhihuai.com)已经接近8年了，大二的时候开启使用ssh+jsp框架来做了一个自己的网站，完全自写前后端，过程中不断进化，改用ssm，整合es做文章搜索，加kafka，加redis缓存，整体上对个人来说还是学习到了不少东西。但是随之而来的问题也不少，被挖矿攻击、服务器被黑等等。有时候因为要用服务器搞一些别的东西，直接没有备份数据库就重装，导致不少文章丢失，虽然别的平台可能零散分布。
@@ -7,7 +9,7 @@
 总体而言，自建站对学习知识，了解整个建站的原理能够起到非常重要的作用，但是维护成本实在是太高了，每个月要支付服务器的费用，而且一旦想拿服务器来做点什么，都得提防一下会不会造成破坏。最终还是选择采用vuepress2来重构一下自建站，毕竟把markdown放到github，把图片放到cos里减少了不少的维护量。下面是使用vuepress2建站的[代码地址](https://github.com/Zephery/MyWebsite)。
 ## 一、博客的安装
 
-具体[vuepress2官网](https://v2.vuepress.vuejs.org/zh/)讲解的很详细了，不用再处理什么，按照步骤创建一个项目即可，为了网站的美观，个人使用了[theme hope](https://theme-hope.vuejs.press/zh/)这款主题。
+具体[vuepress2官网](https://v2.vuepress.vuejs.org/zh/)讲解的很详细了，不用再处理什么，按照步骤创建一个项目即可，为了网站的美观，个人使用了[theme hope](https://theme-hope.vuejs.press/zh/)这款主题。注意：本项目源码位于 `src` 目录，使用 `vuepress-vite` 构建，本地开发请使用 `pnpm docs:dev`，构建请使用 `pnpm docs:build`。
 
 
 
